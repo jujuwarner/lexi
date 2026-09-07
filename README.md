@@ -71,6 +71,7 @@ Everything lives in `vocab.json`, a flat array of entries:
   "source_sentence": "Le chat semblait s'égarer dans les couloirs sombres du vieux manoir",
   "source_title": "Le Comte de Monte-Cristo",
   "date_added": "2026-09-07",
+  "tags": [],
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
@@ -87,6 +88,25 @@ language actually populated. Mandarin entries will eventually need additional
 fields (character, pinyin, tone) that don't apply to alphabetic languages —
 that extension is intentionally deferred until the Mandarin-specific project
 work is further along, rather than guessed at now.
+
+## Not everything gets added
+
+A lesson from an old Quizlet habit: recording every unknown word regardless
+of how useful it actually is to practice leads to spending real review time
+on things like the name of a specific tree species that will probably never
+come up again. Lexi is built to avoid repeating that.
+
+Two things enforce this:
+- **Asking about a word and adding it to the pool are different actions.**
+  Asking Claude what something means, in conversation, never touches
+  `vocab.json` on its own — only an explicit request to add it does.
+- **The add-word skill flags words that look rare, narrowly technical, or
+  archaic/dated before adding them**, and asks whether it's actually worth
+  active practice or just worth understanding right now. Words added despite
+  the flag (common for archaic terms in older texts — worth recognizing, not
+  necessarily worth being able to produce) get tagged (`"archaic"`, `"rare"`,
+  `"technical"`) rather than blending in indistinguishably with everyday
+  vocabulary, so the pool stays legible even as it grows.
 
 ## Why this design (the pedagogy behind it)
 

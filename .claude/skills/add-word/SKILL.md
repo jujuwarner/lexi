@@ -32,7 +32,26 @@ properly-formatted entry to `vocab.json` in this project.
    guess as settled fact — she can sanity-check it later, but shouldn't have
    to guess which entries need double-checking.
 
-4. **Read the current `vocab.json`**, find the highest existing `id`, and
+4. **Before adding, flag low-value words rather than adding automatically.**
+   Julia's explicit goal is *not* to repeat a mistake from her old Quizlet
+   habit, where every unknown word got recorded regardless of how useful it
+   actually was to practice. If a word seems rare, highly technical/narrow
+   (e.g. a specific plant or animal species, a niche professional term), or
+   archaic/dated and unlikely to come up in modern usage, say so and ask a
+   quick one-line question — something like *"This one's pretty rare/dated —
+   want it in your active practice pool, or just explained for now?"* — before
+   writing it to the file. If she says "just explain it," give the
+   explanation in conversation and stop there; don't write anything to
+   `vocab.json`. Common, everyday words don't need this check — only flag
+   words where frequency or usefulness is genuinely in question.
+
+5. **If she does want a flagged word added anyway** (common for archaic terms
+   in older texts she wants to recognize but not necessarily produce), tag it
+   in the entry's `tags` array — e.g. `["archaic"]`, `["rare"]`,
+   `["technical"]` — so it's marked as different from everyday vocabulary
+   rather than blending in indistinguishably. Everyday words get `tags: []`.
+
+6. **Read the current `vocab.json`**, find the highest existing `id`, and
    append a new entry with `id` one higher (start at `1` if the file is
    empty). Use this exact shape:
 
@@ -46,6 +65,7 @@ properly-formatted entry to `vocab.json` in this project.
      "source_sentence": "the sentence it appeared in, if given",
      "source_title": "book/article title, if given",
      "date_added": "YYYY-MM-DD (today's date)",
+     "tags": [],
      "srs": {
        "repetitions": 0,
        "easiness": 2.5,
@@ -81,6 +101,7 @@ You would append:
   "source_sentence": "Le chat semblait s'égarer dans les couloirs sombres du vieux manoir",
   "source_title": "Le Comte de Monte-Cristo",
   "date_added": "2026-09-07",
+  "tags": [],
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
