@@ -113,6 +113,8 @@ def review_card(entry):
         print(f"\nFrom: \"{entry['source_sentence']}\"")
         if entry.get("source_title"):
             print(f"  — {entry['source_title']}")
+    if entry.get("cultural_note"):
+        print(f"\n📌 {entry['cultural_note']}")
 
     while True:
         answer = input(

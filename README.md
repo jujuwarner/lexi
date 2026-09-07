@@ -72,6 +72,7 @@ Everything lives in `vocab.json`, a flat array of entries:
   "source_title": "Le Comte de Monte-Cristo",
   "date_added": "2026-09-07",
   "tags": [],
+  "cultural_note": "",
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
@@ -81,6 +82,17 @@ Everything lives in `vocab.json`, a flat array of entries:
   }
 }
 ```
+
+`cultural_note` is populated only when a word carries real cultural or
+historical weight — a period-specific term, an idiom with a documented
+origin, a word whose meaning is tied to a specific historical institution or
+event. Most everyday words leave it empty; it's a bonus, not an obligation on
+every entry. When present, it also surfaces during review — a story or
+historical hook tends to make a word stick better than a bare definition
+alone. Finding further reading (articles, deeper history) is intentionally
+*not* automated here — it stays an on-demand ask ("find me an article about
+this") rather than a step baked into every word capture, so the core
+add-a-word flow stays fast for the common case.
 
 `language` is a short code (`fr`, `ru`, `zh`) — the schema is designed to
 support Russian and Mandarin from the start, even though French is the first

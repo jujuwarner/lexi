@@ -51,6 +51,18 @@ properly-formatted entry to `vocab.json` in this project.
    `["technical"]` — so it's marked as different from everyday vocabulary
    rather than blending in indistinguishably. Everyday words get `tags: []`.
 
+5a. **Add a cultural/historical note when a word genuinely has one — not for
+    every word.** If a word connects to real cultural or historical context
+    (a period-specific term, an idiom with a real historical origin, a word
+    whose meaning shifted for a specific historical reason), write 2-3
+    sentences about it in `cultural_note`. Most everyday words won't have
+    anything interesting to say here — leave it as an empty string rather
+    than stretching for a note that isn't genuinely there. This is a bonus,
+    not an obligation on every entry. Don't search the web for this — use
+    what you already know; if she wants to go deeper on something, she'll
+    ask you to find an article, which is a separate, on-demand request, not
+    part of this flow.
+
 6. **Read the current `vocab.json`**, find the highest existing `id`, and
    append a new entry with `id` one higher (start at `1` if the file is
    empty). Use this exact shape:
@@ -66,6 +78,7 @@ properly-formatted entry to `vocab.json` in this project.
      "source_title": "book/article title, if given",
      "date_added": "YYYY-MM-DD (today's date)",
      "tags": [],
+     "cultural_note": "",
      "srs": {
        "repetitions": 0,
        "easiness": 2.5,
@@ -81,10 +94,13 @@ properly-formatted entry to `vocab.json` in this project.
    didn't provide them — don't invent a source.
 
 5. **Confirm back to her** in one or two lines: the word, your English
-   translation, and the language-native definition — so she can catch an
-   error immediately rather than discovering it at review time.
+   translation, and the language-native definition — plus the cultural note,
+   when there is one — so she can catch an error immediately rather than
+   discovering it at review time.
 
-## Example
+## Examples
+
+**A word with no special cultural weight** — most entries look like this:
 
 Julia says: *"Add 's'égarer' — from 'Le chat semblait s'égarer dans les
 couloirs sombres du vieux manoir', from Le Comte de Monte-Cristo."*
@@ -102,6 +118,33 @@ You would append:
   "source_title": "Le Comte de Monte-Cristo",
   "date_added": "2026-09-07",
   "tags": [],
+  "cultural_note": "",
+  "srs": {
+    "repetitions": 0,
+    "easiness": 2.5,
+    "interval": 0,
+    "next_review": "2026-09-07",
+    "last_reviewed": null
+  }
+}
+```
+
+**A word that genuinely does carry cultural/historical weight:**
+
+Julia says: *"Add 'bagne' from the same book."*
+
+```json
+{
+  "id": 5,
+  "word": "bagne",
+  "language": "fr",
+  "translation_en": "penal colony, forced-labor prison",
+  "definition_in_language": "Établissement où étaient détenus et forcés au travail les condamnés aux peines les plus lourdes.",
+  "source_sentence": "",
+  "source_title": "Le Comte de Monte-Cristo",
+  "date_added": "2026-09-07",
+  "tags": [],
+  "cultural_note": "France operated real penal colonies (bagnes) — most famously at Toulon, Brest, and later French Guiana — where convicts sentenced to \"travaux forcés\" (hard labor) were held, often for life. The word carries the specific historical weight of that system, not just \"prison\" generically — worth keeping in mind since it shows up constantly in 19th-century French literature dealing with crime and punishment.",
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
