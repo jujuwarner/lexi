@@ -358,5 +358,85 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 19,
+    "word": "baldaquin",
+    "language": "fr",
+    "translation_en": "a canopy (an ornamental covering, often over a bed, throne, or altar — 'lit à baldaquin' = a four-poster canopy bed); here, a camp awning/canopy",
+    "definition_in_language": "Structure ornementale en tissu suspendue ou soutenue par des colonnes, utilisée comme couverture décorative (lit, trône, autel).",
+    "source_sentence": "À l'entrée du camp, ils longèrent une rangée de baldaquins sous lesquels des femmes épaisses et frisées, vêtues de longues robes de brocart et les seins nus, les accueillirent par de vilains rires et des cris.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Comes from 'Baldacco', the old Italian/French name for Baghdad, once famous for producing rich, ornate silk fabric — the canopies took the city's name, the same way English 'damask' comes from Damascus. A nice parallel pattern between the two languages for luxury-textile words.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 20,
+    "word": "épais",
+    "language": "fr",
+    "translation_en": "thick; (describing a person) stout, heavyset, thickset",
+    "definition_in_language": "Qui a une grande dimension dans le sens de l'épaisseur ; en parlant d'une personne, de forte carrure.",
+    "source_sentence": "À l'entrée du camp, ils longèrent une rangée de baldaquins sous lesquels des femmes épaisses et frisées, vêtues de longues robes de brocart et les seins nus, les accueillirent par de vilains rires et des cris.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 21,
+    "word": "frisé",
+    "language": "fr",
+    "translation_en": "curly (hair); curly-haired",
+    "definition_in_language": "Qui forme des boucles, en parlant des cheveux.",
+    "source_sentence": "À l'entrée du camp, ils longèrent une rangée de baldaquins sous lesquels des femmes épaisses et frisées, vêtues de longues robes de brocart et les seins nus, les accueillirent par de vilains rires et des cris.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 22,
+    "word": "brocart",
+    "language": "fr",
+    "translation_en": "brocade (a rich, ornate fabric woven with raised decorative patterns, often with gold or silver thread)",
+    "definition_in_language": "Tissu de soie richement décoré de motifs en relief, souvent rehaussés de fils d'or ou d'argent.",
+    "source_sentence": "À l'entrée du camp, ils longèrent une rangée de baldaquins sous lesquels des femmes épaisses et frisées, vêtues de longues robes de brocart et les seins nus, les accueillirent par de vilains rires et des cris.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Historically associated with wealth and nobility — brocade was expensive, labor-intensive to weave, and often used for aristocratic garments and ecclesiastical vestments. Worth noticing the irony in this scene: luxury fabric on camp women greeting soldiers with 'vilains rires', not exactly a noble setting.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
