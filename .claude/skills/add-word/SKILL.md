@@ -79,6 +79,7 @@ properly-formatted entry to `vocab.json` in this project.
      "date_added": "YYYY-MM-DD (today's date)",
      "tags": [],
      "cultural_note": "",
+     "gender": "m or f — omit / use null for verbs, adjectives, adverbs, etc.",
      "srs": {
        "repetitions": 0,
        "easiness": 2.5,
@@ -88,6 +89,12 @@ properly-formatted entry to `vocab.json` in this project.
      }
    }
    ```
+
+   **For nouns, always set `gender`** (`"m"` or `"f"` — French has only two).
+   This isn't optional metadata; review.py displays the word with its article
+   (e.g. "la cigogne") so gender gets practiced as part of recalling the word
+   itself, not as separate trivia. For non-nouns (verbs, adjectives, adverbs),
+   leave `gender` as `null` — there's nothing to track.
 
    `language` is a short code: `fr` for French, `ru` for Russian, `zh` for
    Mandarin. Leave `source_sentence` / `source_title` as empty strings if she
@@ -119,6 +126,7 @@ You would append:
   "date_added": "2026-09-07",
   "tags": [],
   "cultural_note": "",
+  "gender": null,
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
@@ -128,6 +136,8 @@ You would append:
   }
 }
 ```
+
+(`gender` is `null` here — "s'égarer" is a verb, not a noun.)
 
 **A word that genuinely does carry cultural/historical weight:**
 
@@ -145,6 +155,7 @@ Julia says: *"Add 'bagne' from the same book."*
   "date_added": "2026-09-07",
   "tags": [],
   "cultural_note": "France operated real penal colonies (bagnes) — most famously at Toulon, Brest, and later French Guiana — where convicts sentenced to \"travaux forcés\" (hard labor) were held, often for life. The word carries the specific historical weight of that system, not just \"prison\" generically — worth keeping in mind since it shows up constantly in 19th-century French literature dealing with crime and punishment.",
+  "gender": "m",
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,

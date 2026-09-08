@@ -73,6 +73,7 @@ Everything lives in `vocab.json`, a flat array of entries:
   "date_added": "2026-09-07",
   "tags": [],
   "cultural_note": "",
+  "gender": null,
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
@@ -82,6 +83,13 @@ Everything lives in `vocab.json`, a flat array of entries:
   }
 }
 ```
+
+`gender` is `"m"` or `"f"` for nouns (French has only two), and `null` for
+everything else (verbs, adjectives, adverbs). This isn't just metadata —
+`review.py` displays nouns with their article (e.g. "la cigogne") rather than
+the bare word, so gender gets practiced as part of recalling the word itself,
+the same way it actually gets used, instead of being a separate fact to
+memorize on the side.
 
 `cultural_note` is populated only when a word carries real cultural or
 historical weight — a period-specific term, an idiom with a documented

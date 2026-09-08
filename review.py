@@ -100,10 +100,34 @@ def due_today(entries):
     return [e for e in entries if e["srs"]["next_review"] <= today]
 
 
+VOWEL_START = "aàâeéèêëiîïoôuùûü"
+
+
+def display_word(entry):
+    """For nouns, show the word with its article (e.g. 'la cigogne') so
+    gender gets practiced as part of the same recall as the word itself —
+    that's how gender actually gets used, not as separate trivia. Non-nouns
+    (verbs, adjectives — anything with no 'gender' field) just show the
+    bare word.
+
+    Note: this only checks for a leading vowel to decide on "l'" elision.
+    French also elides before a silent 'h' (l'homme) but not an aspirate
+    'h' (le hibou), and there's no reliable rule-based way to tell those
+    apart — it's memorized per word. Not handled here; none of the words
+    added so far start with 'h', so it hasn't come up yet."""
+    gender = entry.get("gender")
+    word = entry["word"]
+    if not gender:
+        return word
+    if word[0].lower() in VOWEL_START:
+        return f"l'{word}"
+    return f"{'le' if gender == 'm' else 'la'} {word}"
+
+
 def review_card(entry):
     """Show one card, take a rating, and return the updated entry."""
     print("\n" + "=" * 50)
-    print(f"  {entry['word']}")
+    print(f"  {display_word(entry)}")
     print("=" * 50)
     input("Press Enter to reveal...")
 

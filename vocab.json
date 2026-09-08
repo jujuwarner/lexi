@@ -1,1 +1,202 @@
-[]
+[
+  {
+    "id": 1,
+    "word": "chevaucher",
+    "language": "fr",
+    "translation_en": "to ride (a horse), to be on horseback",
+    "definition_in_language": "Être assis sur un cheval en mouvement ; se déplacer à cheval.",
+    "source_sentence": "Le vicomte Médard de Terralba, mon oncle, chevauchait à travers les plaines de Bohème.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 2,
+    "word": "écuyer",
+    "language": "fr",
+    "translation_en": "squire (a knight's attendant); also, an equestrian/horseman",
+    "definition_in_language": "Jeune noble au service d'un chevalier, qu'il accompagnait et assistait, notamment à la guerre.",
+    "source_sentence": "Il était suivi d'un écuyer appelé Kurt.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "A squire (écuyer) was a young nobleman training to become a knight, serving and accompanying one in combat and daily life. The word comes from 'écu' (shield), since a squire originally carried his lord's shield. Today 'écuyer' also refers to an accomplished horseman or riding master — most famously the écuyers of the Cadre Noir in Saumur, France's elite classical riding academy.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 3,
+    "word": "cigogne",
+    "language": "fr",
+    "translation_en": "stork (bird)",
+    "definition_in_language": "Grand oiseau migrateur au long bec et aux longues pattes, connu pour nicher sur les toits et les cheminées.",
+    "source_sentence": "De blancs vols de cigognes traversaient, près de terre, l'air opaque et figé.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Storks carry real folklore weight across Europe — the \"storks bring babies\" legend is pan-European, and in Alsace (France) the stork is a beloved regional symbol, with a real conservation effort after the population nearly disappeared there in the mid-20th century. They're also strongly associated with Central and Eastern Europe generally, fitting for a book with scenes set in Bohemia.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 4,
+    "word": "figé",
+    "language": "fr",
+    "translation_en": "frozen, still, motionless, fixed (adjective, from the verb 'figer' — to freeze/congeal)",
+    "definition_in_language": "Qui est devenu immobile, sans mouvement ; qui s'est comme solidifié.",
+    "source_sentence": "De blancs vols de cigognes traversaient, près de terre, l'air opaque et figé.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 5,
+    "word": "échassier",
+    "language": "fr",
+    "translation_en": "wading bird (a long-legged bird adapted to shallow water — storks, herons, cranes, flamingos, etc.)",
+    "definition_in_language": "Oiseau caractérisé par de longues pattes, adapté à la vie dans les zones humides et marécageuses.",
+    "source_sentence": "Qu'est-ce qui peut bien attirer ces échassiers sur les champs de bataille, Kurt?",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 6,
+    "word": "tarir",
+    "language": "fr",
+    "translation_en": "to dry up, to run dry (of a water source — a river, a spring, a well)",
+    "definition_in_language": "S'assécher complètement, ne plus avoir d'eau ; se dit d'un cours d'eau ou d'une source.",
+    "source_sentence": "Eux aussi se nourrissent de chair humaine, répondit l'écuyer, maintenant que la famine a rendu la campagne aride et que la sécheresse a tari les fleuves.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 7,
+    "word": "phénicoptère",
+    "language": "fr",
+    "translation_en": "flamingo (formal/literary register — the everyday word is 'flamant' or 'flamant rose')",
+    "definition_in_language": "Grand échassier au plumage rose ; terme littéraire ou scientifique pour \"flamant\".",
+    "source_sentence": "Là où il y a des cadavres, les cigognes, les phénicoptères et les grues remplacent les vautours et les corbeaux.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": ["literary"],
+    "cultural_note": "The word comes from Greek — 'phoinix' (crimson/purple-red) + 'pteron' (wing), literally \"purple-winged.\" It's also the actual scientific genus name (Phoenicopterus). Dumas-and-Calvino-era literary French reaches for this kind of Greek-rooted term where everyday French would just say 'flamant.'",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 8,
+    "word": "grue",
+    "language": "fr",
+    "translation_en": "crane (bird)",
+    "definition_in_language": "Grand oiseau échassier migrateur, au long cou et aux longues pattes.",
+    "source_sentence": "Là où il y a des cadavres, les cigognes, les phénicoptères et les grues remplacent les vautours et les corbeaux.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Worth knowing the idiom \"faire le pied de grue\" — literally \"to do the crane's foot\" — meaning to wait around for a long time, standing about. Comes from a crane's habit of standing motionless on one leg for long stretches.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 9,
+    "word": "corbeau",
+    "language": "fr",
+    "translation_en": "crow, raven",
+    "definition_in_language": "Grand oiseau noir, souvent associé à la mort ou aux mauvais présages.",
+    "source_sentence": "Là où il y a des cadavres, les cigognes, les phénicoptères et les grues remplacent les vautours et les corbeaux.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "In French, 'corbeau' also refers to someone who sends anonymous poison-pen letters — a meaning popularized by the 1943 French film Le Corbeau. More broadly, crows and ravens carry strong death/carrion symbolism across many cultures, directly relevant to this battlefield scene.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 10,
+    "word": "trépidant",
+    "language": "fr",
+    "translation_en": "vibrant, thrilling, exciting, hectic, pulsating with energy — NOT 'trembling with fear' despite resembling English 'trepidation'",
+    "definition_in_language": "Qui est plein d'agitation et d'énergie intense ; palpitant, exaltant.",
+    "source_sentence": "Mon oncle était alors dans sa première jeunesse, âge où les sentiments n'ont qu'un élan confus dans lequel le bien et le mal ne sont point encore distincts, âge où l'amour de la vie rend chaude et trépidante toute expérience nouvelle, même inhumaine et macabre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  }
+]
