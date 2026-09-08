@@ -578,5 +578,145 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 30,
+    "word": "mouche",
+    "language": "fr",
+    "translation_en": "fly (the insect)",
+    "definition_in_language": "Petit insecte volant, souvent attiré par la nourriture ou les déchets.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Worth knowing the idiom 'prendre la mouche' — literally 'to take the fly' — meaning to suddenly take offense or get huffy over something minor.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 31,
+    "word": "rapetasser",
+    "language": "fr",
+    "translation_en": "to patch up crudely/hastily, to mend roughly — informal, carries a sense of a makeshift, quick-fix repair rather than careful work",
+    "definition_in_language": "Réparer sommairement et grossièrement, comme avec des pièces rapportées.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 32,
+    "word": "couture",
+    "language": "fr",
+    "translation_en": "seam, stitch, stitching (sewing term); here, medical/veterinary sense: sutures. Also the broader word for sewing/dressmaking (cf. 'haute couture')",
+    "definition_in_language": "Assemblage de deux pièces de tissu (ou de peau) par des points de fil ; ici, au sens médical, des points de suture.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Same root as 'haute couture' — literally 'high sewing' — the globally recognized French term for the most exclusive tier of custom-made fashion. Sutures and Paris runway fashion share a word.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 33,
+    "word": "emplâtre",
+    "language": "fr",
+    "translation_en": "a plaster, poultice (a medicinal paste/dressing applied to skin — an older medical technique); informally, also used to call someone useless or inept, like a 'dead weight'",
+    "definition_in_language": "Préparation en pommade épaisse appliquée sur la peau à des fins médicinales, souvent étalée sur un tissu ; familièrement, personne incapable ou peu dégourdie.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 34,
+    "word": "bitume",
+    "language": "fr",
+    "translation_en": "tar, bitumen, asphalt",
+    "definition_in_language": "Substance noire et visqueuse, dérivée du pétrole, utilisée notamment pour le revêtement des routes.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Boiling tar/pitch on wounds isn't just a grim literary flourish — it reflects a real historical practice in pre-modern veterinary and battlefield medicine, used to seal and cauterize wounds before better methods existed. Brutal, but historically accurate.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 35,
+    "word": "hennir",
+    "language": "fr",
+    "translation_en": "to neigh, to whinny (the sound a horse makes)",
+    "definition_in_language": "Pousser le cri caractéristique du cheval.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 36,
+    "word": "ruer",
+    "language": "fr",
+    "translation_en": "to kick out, to buck (of a horse or other animal — kicking with the hind legs). NOTE: the reflexive form 'se ruer (sur)' means something different — 'to rush, to hurl oneself (at)'",
+    "definition_in_language": "Donner des coups de pattes arrière, en parlant d'un animal, notamment un cheval.",
+    "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
