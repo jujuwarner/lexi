@@ -758,5 +758,45 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 39,
+    "word": "pelote",
+    "language": "fr",
+    "translation_en": "a ball (of yarn, thread, wool); also short for 'pelote à épingles' — a pincushion, which the context here (things being taken from it, plural) suggests is the intended sense",
+    "definition_in_language": "Petite boule de fil ou de laine enroulée ; par extension, coussinet destiné à recevoir des épingles ('pelote à épingles').",
+    "source_sentence": "Il les prenait sur une pelote que lui tendait un de ses maréchaux.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 40,
+    "word": "maréchal",
+    "language": "fr",
+    "translation_en": "marshal (a senior military rank — 'Maréchal de France' is the highest military distinction in the French army)",
+    "definition_in_language": "Officier du plus haut grade militaire, titre honorifique accordé pour des services exceptionnels.",
+    "source_sentence": "Il les prenait sur une pelote que lui tendait un de ses maréchaux.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "A remarkable semantic climb: 'maréchal' comes from Frankish roots meaning roughly 'horse servant' (marh = horse + skalk = servant). The same root survives literally in 'maréchal-ferrant' — a farrier, someone who shoes horses. Over centuries the word rose from a lowly stable-hand's title to the highest military rank in France ('Maréchal de France'), most famously held by Napoleon's marshals (Ney, Murat, and others).",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
