@@ -538,5 +538,45 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 28,
+    "word": "tamiser",
+    "language": "fr",
+    "translation_en": "to sift, to sieve (pass through a sieve to separate fine from coarse material); also figuratively 'to filter, to soften/dim' — 'une lumière tamisée' = a soft, dim, filtered light",
+    "definition_in_language": "Faire passer une matière à travers un tamis pour séparer les éléments fins des plus gros ; au sens figuré, filtrer ou adoucir (la lumière).",
+    "source_sentence": "Il arrivait des chariots pleins de terre que les soldats tamisaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 29,
+    "word": "se donner la peine (de faire quelque chose)",
+    "language": "fr",
+    "translation_en": "to take the trouble (to do something), to bother, to make the effort",
+    "definition_in_language": "Faire l'effort nécessaire pour accomplir quelque chose, malgré la difficulté ou la contrainte.",
+    "source_sentence": "La poudre à canon commence déjà à manquer, expliqua Kurt, mais la terre des champs de bataille en est tellement imprégnée qu'en s'en donnant la peine, on peut récupérer quelques charges.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "The noun 'peine' at the root of this phrase is richly multi-purpose in French — it also means 'sorrow/grief', and 'sentence/punishment' (as in 'peine de prison', a prison sentence). Two other common expressions from the same root: 'ça vaut la peine' (it's worth it/worth the trouble) and 'à peine' (barely, hardly).",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
