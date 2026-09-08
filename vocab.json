@@ -798,5 +798,105 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 41,
+    "word": "au garde-à-vous",
+    "language": "fr",
+    "translation_en": "at attention (military stance — standing rigidly upright, heels together, a sign of respect to a superior)",
+    "definition_in_language": "Position militaire rigide, debout, talons joints, en signe de respect ou de discipline.",
+    "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Literally breaks down as 'garde' (guard) + 'à vous' (to/for you) — an old command form, roughly 'guard, for you,' that fused into a fixed noun phrase over time.",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 42,
+    "word": "talon",
+    "language": "fr",
+    "translation_en": "heel (of the foot, or of a shoe/boot)",
+    "definition_in_language": "Partie arrière du pied, ou partie correspondante d'une chaussure.",
+    "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 43,
+    "word": "éperon",
+    "language": "fr",
+    "translation_en": "spur (the metal device worn on a rider's boot heel, used to signal or urge on a horse)",
+    "definition_in_language": "Pièce métallique fixée au talon d'une botte de cavalier, utilisée pour stimuler le cheval.",
+    "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 44,
+    "word": "s'enrouler",
+    "language": "fr",
+    "translation_en": "to roll up, to coil (around itself/oneself) — 's'enrouler sur elle-même/elles-mêmes' = to roll up on itself/themselves",
+    "definition_in_language": "S'entortiller ou se replier en spirale sur soi-même.",
+    "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 45,
+    "word": "dégringoler",
+    "language": "fr",
+    "translation_en": "to tumble down, to fall rapidly (often noisily or clumsily) — informal register; figuratively, to plummet/decline rapidly (prices, fortunes, reputation)",
+    "definition_in_language": "Tomber ou descendre rapidement et de façon désordonnée ; au sens figuré, décliner brusquement.",
+    "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
