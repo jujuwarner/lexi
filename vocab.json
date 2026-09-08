@@ -198,5 +198,165 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 11,
+    "word": "rapace",
+    "language": "fr",
+    "translation_en": "bird of prey, raptor (eagle, hawk, falcon, vulture, owl); as an adjective, also 'rapacious, greedy, grasping'",
+    "definition_in_language": "Oiseau carnivore qui chasse et se nourrit d'autres animaux, souvent muni de serres et d'un bec crochu.",
+    "source_sentence": "Et les autres rapaces?",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Unlike 'trépidant', this one's a genuine, helpful cognate rather than a false friend — the adjective sense (greedy, grasping) is a direct match with English 'rapacious.' Same root, same idea, and worth leaning on to help it stick.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 12,
+    "word": "épave",
+    "language": "fr",
+    "translation_en": "wreck, wreckage, debris (originally of a ship; broadly, the remains of anything destroyed — also used for a ruined/broken person)",
+    "definition_in_language": "À l'origine, ce qui reste d'un navire naufragé ; par extension, les débris ou restes de toute chose détruite.",
+    "source_sentence": "De nombreuses épaves de combats parsemaient déjà le terrain.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Originally specifically a shipwreck's remains (still the primary legal/nautical sense — salvage law is called 'droit des épaves'). It extends naturally to describe a person completely worn down or broken — 'une épave' or 'il est devenu une épave' means someone reduced to a shell of themselves, by grief, exhaustion, addiction, etc. A genuinely common figurative use beyond the literal battlefield sense here.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 13,
+    "word": "se cabrer",
+    "language": "fr",
+    "translation_en": "to rear up (of a horse) — to stand up on the hind legs",
+    "definition_in_language": "Se dresser sur les pattes arrière, en parlant d'un cheval, souvent par peur ou refus d'avancer.",
+    "source_sentence": "L'allure des deux hommes devenait plus lente, parce que les deux chevaux se cabraient et faisaient des écarts.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 14,
+    "word": "écart",
+    "language": "fr",
+    "translation_en": "a swerve, a shy, a sudden sideways movement (equestrian: a horse spooking sideways); more broadly, 'a gap, a deviation, a discrepancy'",
+    "definition_in_language": "Mouvement brusque de côté, notamment quand un cheval s'écarte soudainement par peur ; plus largement, une différence ou un décalage.",
+    "source_sentence": "L'allure des deux hommes devenait plus lente, parce que les deux chevaux se cabraient et faisaient des écarts.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 15,
+    "word": "ensevelir",
+    "language": "fr",
+    "translation_en": "to bury, to inter (more formal/literary than the everyday 'enterrer' — often used for burying the dead solemnly, or figuratively: 'buried under snow', 'to bury a memory')",
+    "definition_in_language": "Enterrer, mettre en terre ; terme plus solennel ou littéraire que \"enterrer\", souvent employé pour les morts ou au sens figuré.",
+    "source_sentence": "Galopant de l'avant, ils s'aperçurent que les morts de la dernière bataille avaient été presque tous enlevés et ensevelis.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": ["literary"],
+    "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 16,
+    "word": "chaume",
+    "language": "fr",
+    "translation_en": "stubble (the cut stalks left in a field after harvest); also 'thatch' (the same material used for roofing — cf. 'chaumière', a thatched cottage)",
+    "definition_in_language": "Tiges de céréales coupées qui restent sur le sol après la moisson ; par extension, ce même matériau utilisé pour couvrir un toit.",
+    "source_sentence": "On n'apercevait plus que quelques membres épars, en particulier des doigts posés sur les chaumes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "This word also gives us 'chaumière' — a thatched cottage, a classic, almost iconic image in French rural/pastoral imagery and literature (a humble, cozy country home). Here, though, the word is doing dark double duty: the same material that evokes a rustic cottage is, in this passage, just cut field stalks with scattered human remains resting on them.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 17,
+    "word": "capote",
+    "language": "fr",
+    "translation_en": "a soldier's greatcoat/overcoat (military sense — the standard heavy coat of French infantry across several eras, most famously WWI's pale blue-grey 'capote bleu horizon'). Note: this word has unrelated other senses too — a convertible car's soft top, or, informally, a condom — context is everything with this one.",
+    "definition_in_language": "Long manteau militaire porté par les soldats, notamment pour se protéger du froid.",
+    "source_sentence": "Qui va là? leur demanda une sentinelle dont la capote était couverte de mousses et de moisissures comme l'écorce d'un arbre exposé au vent du Nord.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "The military greatcoat sense is the one most associated in French cultural memory with WWI infantry ('les poilus'), whose pale blue-grey capotes are an iconic wartime image — though the word itself applies to soldiers' coats across many periods, not just WWI, which fits this book's less specific, more fable-like war setting.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 18,
+    "word": "moisissure",
+    "language": "fr",
+    "translation_en": "mold, mildew (fungal growth)",
+    "definition_in_language": "Champignon microscopique qui se développe sur une surface humide, formant un dépôt verdâtre ou noirâtre.",
+    "source_sentence": "Qui va là? leur demanda une sentinelle dont la capote était couverte de mousses et de moisissures comme l'écorce d'un arbre exposé au vent du Nord.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
