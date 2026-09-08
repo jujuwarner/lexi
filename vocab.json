@@ -718,5 +718,45 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 37,
+    "word": "poudre de riz",
+    "language": "fr",
+    "translation_en": "rice powder — a fine cosmetic powder, historically used on the face, neck, or body, similar to talcum powder",
+    "definition_in_language": "Poudre cosmétique fine, historiquement utilisée sur le visage ou le corps.",
+    "source_sentence": "Dans des tentes plus hautes drapées en forme de kiosque, les officiers se poudre-de-rizaient les aisselles et s'éventaient avec des éventails de dentelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "In this sentence Calvino playfully turns this noun phrase into an improvised verb — 'se poudre-de-rizaient' (roughly 'were rice-powdering themselves') — which isn't a real dictionary verb, just a one-off literary flourish built on the spot from the common noun phrase, similar to jokingly saying 'he Windexed the counter' in English. The real, standing vocabulary here is the noun phrase itself, not the invented conjugation.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 38,
+    "word": "s'éventer",
+    "language": "fr",
+    "translation_en": "to fan oneself (with a fan) — from 'éventail' (a fan, the object)",
+    "definition_in_language": "Se rafraîchir en agitant un éventail ou un objet similaire pour créer un courant d'air.",
+    "source_sentence": "Dans des tentes plus hautes drapées en forme de kiosque, les officiers se poudre-de-rizaient les aisselles et s'éventaient avec des éventails de dentelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
