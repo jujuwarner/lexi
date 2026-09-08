@@ -898,5 +898,25 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 46,
+    "word": "acharnement",
+    "language": "fr",
+    "translation_en": "fury, relentlessness, fierce/ruthless determination (intense, unrelenting zeal or aggression — from the verb 's'acharner', to go at something relentlessly, viciously)",
+    "definition_in_language": "Ardeur violente et opiniâtre, souvent teintée de cruauté, mise à faire quelque chose ou à combattre.",
+    "source_sentence": "Il sentait le sang de cette guerre cruelle répandu sur la terre en milliers de ruisseaux affluer jusqu'à lui — et s'en laissait lécher — sans ressentir d'acharnement, ni de pitié.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "Beyond literary use, this word shows up in a specific modern context worth knowing: 'acharnement thérapeutique' — roughly 'medical futility' or 'therapeutic obstinacy' in English — refers to relentlessly pursuing aggressive treatment for a dying patient beyond reasonable hope, a real term used in French bioethics and end-of-life care debates.",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
