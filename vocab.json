@@ -438,5 +438,105 @@
       "next_review": "2026-09-07",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 23,
+    "word": "tique",
+    "language": "fr",
+    "translation_en": "tick (the parasitic insect/arachnid)",
+    "definition_in_language": "Petit acarien parasite qui se nourrit du sang des mammifères en s'accrochant à leur peau.",
+    "source_sentence": "Maintenant elles ne sont plus seulement couvertes de tiques, de punaises et de morpions ; les scorpions et les lézards verts font leurs nids sur elles.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 24,
+    "word": "punaise",
+    "language": "fr",
+    "translation_en": "bedbug (insect); unrelated other senses: a thumbtack/drawing pin, and a mild exclamation ('Punaise!' ≈ 'Darn it!')",
+    "definition_in_language": "Petit insecte parasite qui se nourrit de sang, souvent trouvé dans les literies infestées.",
+    "source_sentence": "Maintenant elles ne sont plus seulement couvertes de tiques, de punaises et de morpions ; les scorpions et les lézards verts font leurs nids sur elles.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 25,
+    "word": "morpion",
+    "language": "fr",
+    "translation_en": "pubic louse, crab louse (parasitic insect); informally also an insult for an annoying child or pest ('sale morpion!' ≈ 'you little pest!')",
+    "definition_in_language": "Insecte parasite qui vit dans les poils pubiens ; familièrement, terme d'insulte pour désigner un enfant ou une personne agaçante.",
+    "source_sentence": "Maintenant elles ne sont plus seulement couvertes de tiques, de punaises et de morpions ; les scorpions et les lézards verts font leurs nids sur elles.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 26,
+    "word": "rave",
+    "language": "fr",
+    "translation_en": "turnip (root vegetable, related to the radish/kohlrabi family). Note: modern French has separately borrowed English 'rave' for a dance party — same spelling, unrelated meaning; context makes it obvious which is meant here.",
+    "definition_in_language": "Légume racine, proche du navet, souvent consommé cuit.",
+    "source_sentence": "Le soir, les artilleurs faisaient cuire leur ration de raves à l'eau sur le bronze des espingoles et des canons, rouge à force d'avoir tiré dans la journée.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 27,
+    "word": "espingole",
+    "language": "fr",
+    "translation_en": "blunderbuss (an old short firearm with a flared, wide muzzle, historically used for close-range volley fire)",
+    "definition_in_language": "Ancienne arme à feu courte au canon évasé, utilisée autrefois pour tirer à courte distance.",
+    "source_sentence": "Le soir, les artilleurs faisaient cuire leur ration de raves à l'eau sur le bronze des espingoles et des canons, rouge à force d'avoir tiré dans la journée.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-07",
+    "tags": ["rare", "historical"],
+    "cultural_note": "A genuinely obscure, specialized term even to most native French speakers — this is period military-firearms vocabulary, not everyday language. Blunderbusses were largely obsolete by the 19th century, replaced by more accurate rifled firearms, which is part of why the word itself has faded from common use along with the object.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-07",
+      "last_reviewed": null
+    }
   }
 ]
