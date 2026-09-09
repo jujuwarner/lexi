@@ -3,7 +3,7 @@
   --card-bg: #ffffff;
   --text: #22201d;
   --muted: #6b6560;
-  --accent: #2c5f6f;
+  --accent: #c2185b;
   --accent-text: #ffffff;
   --border: #f2cdd9;
   --good: #3a7d5c;
@@ -34,9 +34,12 @@ header {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-family: "Snell Roundhand", "Apple Chancery", "Brush Script MT", cursive;
+  font-size: 2.6em;
+  font-weight: 400;
   margin: 0 0 4px;
   letter-spacing: 0.02em;
+  color: var(--accent);
 }
 
 #progress {
@@ -157,10 +160,6 @@ button.primary {
 .result.exact { background: rgba(58, 125, 92, 0.12); color: var(--good); }
 .result.close { background: rgba(212, 160, 23, 0.15); color: #a67c00; }
 .result.wrong { background: rgba(179, 69, 47, 0.12); color: var(--bad); }
-
-@media (prefers-color-scheme: dark) {
-  .result.close { color: #e0c25a; }
-}
 
 .reveal {
   margin-top: 16px;
