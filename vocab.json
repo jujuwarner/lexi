@@ -947,5 +947,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 48,
+    "word": "grade",
+    "language": "fr",
+    "translation_en": "rank (military or professional level) — a false-friend trap for English speakers, since English 'grade' usually means a school grade or quality level, not rank",
+    "definition_in_language": "Niveau hiérarchique occupé par une personne, notamment dans une organisation militaire ou professionnelle.",
+    "source_sentence": "Non, ne vous retournez pas, seigneur ! s'écria Kurt, qui se tenait à son côté, avec le grade de sergent.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
