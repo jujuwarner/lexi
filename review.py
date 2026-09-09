@@ -14,6 +14,8 @@ Run with:
 """
 
 import json
+import re
+import unicodedata
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -125,7 +127,8 @@ def display_word(entry):
 
 
 def review_card(entry):
-    """Show one card, take a rating, and return the updated entry."""
+    """'Recognize' mode: show the word, self-rate how well you recalled its
+    meaning before revealing. Return the updated entry."""
     print("\n" + "=" * 50)
     print(f"  {display_word(entry)}")
     print("=" * 50)
@@ -140,16 +143,101 @@ def review_card(entry):
     if entry.get("cultural_note"):
         print(f"\n📌 {entry['cultural_note']}")
 
-    while True:
-        answer = input(
-            "\nHow well did you remember it?\n"
-            "  1) Again   2) Hard   3) Good   4) Easy\n> "
-        ).strip()
-        if answer in QUALITY_MAP:
-            break
-        print("Please enter 1, 2, 3, or 4.")
+    quality = ask_quality(["1", "2", "3", "4"])
+    entry["srs"] = apply_sm2(entry["srs"], quality)
+    return entry
 
-    quality = QUALITY_MAP[answer]
+
+# ---------------------------------------------------------------------------
+# "Write" mode — see the English meaning, type the French word
+# ---------------------------------------------------------------------------
+# A stronger recall test than Recognize mode: production (typing the word
+# from memory) rather than recognition (seeing the word and just judging
+# whether you knew it). The typed answer is checked against the word's
+# canonical display form (article included, for nouns — same gender-
+# practice principle as Recognize mode), with some leeway for accent typos
+# and missing/wrong articles, since those are judgment calls about whether
+# something counts as "remembered," not clean rights or wrongs.
+
+ARTICLE_RE = re.compile(r"^(le|la)\s+|^l['’]")
+
+
+def _normalize_text(s):
+    return " ".join(s.strip().lower().split())
+
+
+def _strip_accents(s):
+    return "".join(
+        c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c)
+    )
+
+
+def _strip_article(s):
+    return ARTICLE_RE.sub("", s, count=1)
+
+
+def check_answer(typed, expected):
+    """Compare a typed answer against the expected (canonical) form.
+    Returns "exact", "close" (right word, but an accent slip and/or a
+    missing/wrong article), or "wrong"."""
+    norm_typed = _normalize_text(typed)
+    norm_expected = _normalize_text(expected)
+
+    if norm_typed == norm_expected:
+        return "exact"
+
+    stripped_typed = _strip_accents(_strip_article(norm_typed))
+    stripped_expected = _strip_accents(_strip_article(norm_expected))
+    if stripped_typed == stripped_expected:
+        return "close"
+
+    return "wrong"
+
+
+QUALITY_LABELS = {"1": "Again", "2": "Hard", "3": "Good", "4": "Easy"}
+
+
+def ask_quality(allowed_keys, header="How well did you remember it?"):
+    """Prompt for a quality rating, restricted to `allowed_keys` (a subset
+    of "1"-"4"). Used so, e.g., an exact-match answer can't be rated
+    "Again" — you clearly did remember it."""
+    menu = "   ".join(f"{k}) {QUALITY_LABELS[k]}" for k in allowed_keys)
+    while True:
+        answer = input(f"\n{header}\n  {menu}\n> ").strip()
+        if answer in allowed_keys:
+            return QUALITY_MAP[answer]
+        print(f"Please enter one of: {', '.join(allowed_keys)}.")
+
+
+def review_card_write(entry):
+    """'Write' mode: show the English meaning, type the French word, get it
+    checked. Return the updated entry."""
+    print("\n" + "=" * 50)
+    print(f"  {entry['translation_en']}")
+    print("=" * 50)
+
+    expected = display_word(entry)
+    typed = input("Type the word (with le/la/l' if it's a noun): ").strip()
+    result = check_answer(typed, expected)
+
+    if result == "exact":
+        print(f"\n✓ Correct! {expected}")
+        quality = ask_quality(["2", "3", "4"])  # can't be "Again" — you got it
+    elif result == "close":
+        print(f'\n~ Close — you wrote "{typed}", correct is "{expected}"')
+        quality = ask_quality(["1", "2", "3", "4"])
+    else:
+        print(f'\n✗ Not quite — the answer is: {expected}')
+        quality = 0  # Again — wrong answers reset the streak automatically
+
+    print(f"\n{entry['language'].upper()} definition:  {entry['definition_in_language']}")
+    if entry.get("source_sentence"):
+        print(f"\nFrom: \"{entry['source_sentence']}\"")
+        if entry.get("source_title"):
+            print(f"  — {entry['source_title']}")
+    if entry.get("cultural_note"):
+        print(f"\n📌 {entry['cultural_note']}")
+
     entry["srs"] = apply_sm2(entry["srs"], quality)
     return entry
 
@@ -163,10 +251,15 @@ def run_review():
         return
 
     print(f"{len(cards)} card(s) due today.\n")
+    print("How do you want to review today? (Enter for Write, the default)")
+    print("  1) Recognize — see the word, recall the meaning yourself")
+    print("  2) Write — see the meaning, type the word  [default]")
+    mode = input("> ").strip()
+    card_fn = review_card if mode == "1" else review_card_write
 
     reviewed = 0
     for entry in cards:
-        entry = review_card(entry)
+        entry = card_fn(entry)
         save_vocab(entries)  # save after every card, not just at the end
         reviewed += 1
 

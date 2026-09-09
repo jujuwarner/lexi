@@ -38,9 +38,25 @@ English.
 python3 review.py
 ```
 
-It shows whatever cards are due today, one at a time. You rate how well you
-remembered each one (Again / Hard / Good / Easy), and the script schedules
-the next review date using SM-2.
+It shows whatever cards are due today, one at a time, in one of two modes:
+
+- **Write (the default)** — you're shown the English meaning and type the
+  French word from memory, article included for nouns (e.g. "la cigogne").
+  Typed answers get checked against the correct form, with some leeway for
+  accent typos and missing/wrong articles — those get flagged as "close"
+  rather than marked wrong outright, and you rate honestly from there.
+  Anything that doesn't match at all auto-rates as "Again."
+- **Recognize** — the original mode: you see the word, recall the meaning
+  yourself, then reveal and self-rate.
+
+Write mode is the default because production (typing a word from memory) is
+a meaningfully stronger recall test than recognition (seeing a word and
+judging whether you knew it) — the same reasoning behind the "no AI during
+composition" principle elsewhere in the learning roadmap. Recognize mode is
+still there for days that call for something lighter.
+
+Either way, you rate how well you remembered each card (Again / Hard / Good
+/ Easy), and the script schedules the next review date using SM-2.
 
 ## The SM-2 algorithm
 
