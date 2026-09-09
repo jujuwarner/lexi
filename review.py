@@ -141,7 +141,7 @@ def review_card(entry):
         if entry.get("source_title"):
             print(f"  — {entry['source_title']}")
     if entry.get("cultural_note"):
-        print(f"\n📌 {entry['cultural_note']}")
+        print(f"\n🌿 {entry['cultural_note']}")
 
     quality = ask_quality(["1", "2", "3", "4"])
     entry["srs"] = apply_sm2(entry["srs"], quality)
@@ -217,7 +217,7 @@ def review_card_write(entry):
     print("=" * 50)
 
     expected = display_word(entry)
-    typed = input("Type the word (with le/la/l' if it's a noun): ").strip()
+    typed = input("Type the word (with le/la/l' if it's a noun, or just press Enter if you don't know it): ").strip()
     result = check_answer(typed, expected)
 
     if result == "exact":
@@ -226,6 +226,9 @@ def review_card_write(entry):
     elif result == "close":
         print(f'\n~ Close — you wrote "{typed}", correct is "{expected}"')
         quality = ask_quality(["1", "2", "3", "4"])
+    elif typed == "":
+        print(f"\nNo worries — the answer is: {expected}")
+        quality = 0  # Again — same as a wrong guess, just a gentler message
     else:
         print(f'\n✗ Not quite — the answer is: {expected}')
         quality = 0  # Again — wrong answers reset the streak automatically
@@ -236,7 +239,7 @@ def review_card_write(entry):
         if entry.get("source_title"):
             print(f"  — {entry['source_title']}")
     if entry.get("cultural_note"):
-        print(f"\n📌 {entry['cultural_note']}")
+        print(f"\n🌿 {entry['cultural_note']}")
 
     entry["srs"] = apply_sm2(entry["srs"], quality)
     return entry

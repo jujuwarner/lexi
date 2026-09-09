@@ -36,7 +36,7 @@ function renderRevealHtml(data) {
     html += `<p class="field-label">From</p><blockquote>"${data.source_sentence}"${data.source_title ? ` — ${data.source_title}` : ""}</blockquote>`;
   }
   if (data.cultural_note) {
-    html += `<div class="cultural-note">📌 ${data.cultural_note}</div>`;
+    html += `<div class="cultural-note">🌿 ${data.cultural_note}</div>`;
   }
   return html;
 }
@@ -91,7 +91,9 @@ function renderWriteCard() {
 async function handleWriteSubmit(e) {
   e.preventDefault();
   const typed = el("write-input").value.trim();
-  if (!typed) return;
+  // An empty submission ("I don't know, just show me") is a valid way to
+  // give up on a card rather than getting stuck -- checked normally, an
+  // empty string never matches, so it resolves as "wrong" on its own.
 
   const entry = cards[index];
   const data = await api("/api/check", {
@@ -107,6 +109,8 @@ async function handleWriteSubmit(e) {
     resultBox.textContent = `✓ Correct! ${data.expected}`;
   } else if (data.result === "close") {
     resultBox.textContent = `~ Close — you wrote "${typed}", correct is "${data.expected}"`;
+  } else if (typed === "") {
+    resultBox.textContent = `No worries — the answer is: ${data.expected}`;
   } else {
     resultBox.textContent = `✗ Not quite — the answer is: ${data.expected}`;
   }

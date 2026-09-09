@@ -72,11 +72,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -93,10 +93,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -113,10 +113,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -135,10 +135,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -155,10 +155,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -174,11 +174,11 @@
     "cultural_note": "In French, 'corbeau' also refers to someone who sends anonymous poison-pen letters — a meaning popularized by the 1943 French film Le Corbeau. More broadly, crows and ravens carry strong death/carrion symbolism across many cultures, directly relevant to this battlefield scene.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -194,11 +194,11 @@
     "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -215,10 +215,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -235,10 +235,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -254,11 +254,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -275,10 +275,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -296,11 +296,11 @@
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -316,11 +316,11 @@
     "cultural_note": "This word also gives us 'chaumière' — a thatched cottage, a classic, almost iconic image in French rural/pastoral imagery and literature (a humble, cozy country home). Here, though, the word is doing dark double duty: the same material that evokes a rustic cottage is, in this passage, just cut field stalks with scattered human remains resting on them.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -337,10 +337,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
