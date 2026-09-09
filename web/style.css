@@ -224,7 +224,9 @@ button.primary {
 .reveal .field-label:first-child { margin-top: 0; }
 
 .reveal blockquote {
-  margin: 4px 0 0;
+  margin: 10px 0 6px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
   font-style: italic;
   color: var(--muted);
 }

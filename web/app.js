@@ -169,6 +169,8 @@ function startSession(chosenMode) {
 }
 
 async function init() {
+  el("restart-btn").addEventListener("click", () => location.reload());
+
   cards = await api("/api/due");
 
   if (cards.length === 0) {

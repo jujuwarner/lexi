@@ -205,7 +205,7 @@
     "id": 11,
     "word": "rapace",
     "language": "fr",
-    "translation_en": "bird of prey, raptor (eagle, hawk, falcon, vulture, owl); as an adjective, also 'rapacious, greedy, grasping'",
+    "translation_en": "bird of prey, raptor (eagle, hawk, falcon, vulture, owl); as an adjective, also 'greedy, grasping, predatory'",
     "definition_in_language": "Oiseau carnivore qui chasse et se nourrit d'autres animaux, souvent muni de serres et d'un bec crochu.",
     "source_sentence": "Et les autres rapaces?",
     "source_title": "Le Vicomte pourfendu",
@@ -307,7 +307,7 @@
     "id": 16,
     "word": "chaume",
     "language": "fr",
-    "translation_en": "stubble (the cut stalks left in a field after harvest); also 'thatch' (the same material used for roofing — cf. 'chaumière', a thatched cottage)",
+    "translation_en": "stubble (the cut stalks left in a field after harvest); also 'thatch' (the same material used for roofing)",
     "definition_in_language": "Tiges de céréales coupées qui restent sur le sol après la moisson ; par extension, ce même matériau utilisé pour couvrir un toit.",
     "source_sentence": "On n'apercevait plus que quelques membres épars, en particulier des doigts posés sur les chaumes.",
     "source_title": "Le Vicomte pourfendu",
@@ -327,7 +327,7 @@
     "id": 17,
     "word": "capote",
     "language": "fr",
-    "translation_en": "a soldier's greatcoat/overcoat (military sense — the standard heavy coat of French infantry across several eras, most famously WWI's pale blue-grey 'capote bleu horizon'). Note: this word has unrelated other senses too — a convertible car's soft top, or, informally, a condom — context is everything with this one.",
+    "translation_en": "a soldier's greatcoat/overcoat (military sense — the standard heavy coat of French infantry across several eras, most famously WWI's pale blue-grey infantry coat). Note: this word has unrelated other senses too — a convertible car's soft top, or, informally, a condom — context is everything with this one.",
     "definition_in_language": "Long manteau militaire porté par les soldats, notamment pour se protéger du froid.",
     "source_sentence": "Qui va là? leur demanda une sentinelle dont la capote était couverte de mousses et de moisissures comme l'écorce d'un arbre exposé au vent du Nord.",
     "source_title": "Le Vicomte pourfendu",
@@ -357,10 +357,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -377,10 +377,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -397,10 +397,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -416,11 +416,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -437,10 +437,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -457,10 +457,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -477,10 +477,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -497,17 +497,17 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
     "id": 26,
     "word": "rave",
     "language": "fr",
-    "translation_en": "turnip (root vegetable, related to the radish/kohlrabi family). Note: modern French has separately borrowed English 'rave' for a dance party — same spelling, unrelated meaning; context makes it obvious which is meant here.",
+    "translation_en": "turnip (root vegetable, related to the radish/kohlrabi family). Note: modern French has also separately borrowed the English word for an all-night electronic dance party, spelled identically — same spelling, unrelated meaning; context makes it obvious which is meant here.",
     "definition_in_language": "Légume racine, proche du navet, souvent consommé cuit.",
     "source_sentence": "Le soir, les artilleurs faisaient cuire leur ration de raves à l'eau sur le bronze des espingoles et des canons, rouge à force d'avoir tiré dans la journée.",
     "source_title": "Le Vicomte pourfendu",
@@ -517,10 +517,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -540,10 +540,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -560,10 +560,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -580,10 +580,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -599,11 +599,11 @@
     "cultural_note": "Worth knowing the idiom 'prendre la mouche' — literally 'to take the fly' — meaning to suddenly take offense or get huffy over something minor.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -620,10 +620,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -640,10 +640,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -660,10 +660,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -680,10 +680,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -700,30 +700,30 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
     "id": 36,
     "word": "ruer",
     "language": "fr",
-    "translation_en": "to kick out, to buck (of a horse or other animal — kicking with the hind legs). NOTE: the reflexive form 'se ruer (sur)' means something different — 'to rush, to hurl oneself (at)'",
+    "translation_en": "to kick out, to buck (of a horse or other animal — kicking with the hind legs)",
     "definition_in_language": "Donner des coups de pattes arrière, en parlant d'un animal, notamment un cheval.",
     "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-07",
     "tags": [],
-    "cultural_note": "",
+    "cultural_note": "The reflexive form ‘se ruer (sur)’ means something different — ‘to rush, to hurl oneself (at).’ Same spelling, unrelated meaning once it's reflexive.",
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -740,10 +740,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -760,10 +760,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -780,10 +780,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -800,10 +800,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -820,10 +820,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -840,10 +840,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -859,18 +859,18 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
     "id": 44,
     "word": "s'enrouler",
     "language": "fr",
-    "translation_en": "to roll up, to coil (around itself/oneself) — 's'enrouler sur elle-même/elles-mêmes' = to roll up on itself/themselves",
+    "translation_en": "to roll up, to coil (around itself/oneself)",
     "definition_in_language": "S'entortiller ou se replier en spirale sur soi-même.",
     "source_sentence": "Mon oncle, au garde-à-vous, joignit les talons en cognant ses éperons, tandis que l'empereur faisait un vaste geste royal et que toutes les cartes géographiques s'enroulaient sur elles-mêmes et dégringolaient.",
     "source_title": "Le Vicomte pourfendu",
@@ -880,10 +880,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -900,10 +900,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -920,10 +920,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   }
 ]
