@@ -10,20 +10,6 @@
   --bad: #b3452f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #2b1c22;
-    --card-bg: #362530;
-    --text: #ece8e2;
-    --muted: #b8a2ac;
-    --accent: #6fb8cc;
-    --accent-text: #12292f;
-    --border: #4a3540;
-    --good: #7cc9a0;
-    --bad: #e08a70;
-  }
-}
-
 * { box-sizing: border-box; }
 
 body {
