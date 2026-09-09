@@ -35,7 +35,7 @@ body::before {
   left: 50%;
   width: 380px;
   height: 517px;
-  transform: translateX(-50%);
+  transform: translateX(90px);
   background: url("assets/rosa_centifolia.png") no-repeat center bottom;
   background-size: contain;
   opacity: 0.5;
