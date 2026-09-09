@@ -39,10 +39,10 @@ body {
 }
 
 #deco-bottom-right {
-  bottom: -44px;
-  left: -53px;
-  width: 413px;
-  height: 562px;
+  bottom: -51px;
+  left: -61px;
+  width: 475px;
+  height: 646px;
   background-image: url("assets/rosa_centifolia.png");
   background-position: center bottom;
   opacity: 0.5;
