@@ -925,5 +925,27 @@
       "next_review": "2026-09-10",
       "last_reviewed": "2026-09-09"
     }
+  },
+  {
+    "id": 47,
+    "word": "balle",
+    "language": "fr",
+    "translation_en": "chaff, husk (of grain) — note: this word is a homonym of the everyday word for 'ball' or 'bullet,' but this specific sense refers to the papery husks separated from grain during threshing",
+    "definition_in_language": "Enveloppe légère et sèche qui entoure le grain et qu'on sépare de celui-ci par le battage.",
+    "source_sentence": "Du haut de sa selle, le lieutenant Médard contemplait le vaste déploiement de l'armée chrétienne prête à attaquer, et tendait le visage à ce vent de Bohême qui soulevait une odeur de balle de blé comme s'il passait sur une aire poussiéreuse.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [
+      "technical"
+    ],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
