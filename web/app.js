@@ -21,7 +21,7 @@ async function api(path, options) {
 
 function updateProgress() {
   if (!cards.length) return;
-  el("progress").textContent = `${Math.min(index + 1, cards.length)} of ${cards.length} due today`;
+  el("progress").textContent = `${Math.min(index + 1, cards.length)} of ${cards.length} recommended`;
 }
 
 function showSection(id) {
@@ -178,7 +178,7 @@ async function init() {
   el("write-form").addEventListener("submit", handleWriteSubmit);
   el("recognize-reveal-btn").addEventListener("click", handleRecognizeReveal);
 
-  el("progress").textContent = `${cards.length} card(s) due today`;
+  el("progress").textContent = `${cards.length} word${cards.length === 1 ? "" : "s"} recommended for today`;
   showSection("mode-picker");
 }
 

@@ -247,10 +247,10 @@ def run_review():
     cards = due_today(entries)
 
     if not cards:
-        print("Nothing due for review right now. Nice work staying caught up!")
+        print("Nothing recommended right now. Nice work staying caught up!")
         return
 
-    print(f"{len(cards)} card(s) due today.\n")
+    print(f"{len(cards)} word(s) recommended for today.\n")
     print("How do you want to review today? (Enter for Write, the default)")
     print("  1) Recognize — see the word, recall the meaning yourself")
     print("  2) Write — see the meaning, type the word  [default]")
