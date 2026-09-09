@@ -21,6 +21,13 @@ properly-formatted entry to `vocab.json` in this project.
 
 2. **Write two definitions:**
    - `translation_en` — a natural, concise English translation or gloss.
+     **Keep this field free of any French (or other target-language) text**
+     — no related words, no etymology, no "from the verb 'X'" asides, even
+     when genuinely interesting. `review.py`'s Write mode shows this field
+     as the prompt and has Julia type the target-language word from memory,
+     so anything here that shares a root with the answer gives it away
+     before she's had to recall it. If the etymology is worth knowing, it
+     belongs in `cultural_note` instead — never in `translation_en`.
    - `definition_in_language` — a definition written *in the target
      language itself* (French, Russian, etc.), not translated from English.
      This is deliberate: reading a definition in the language you're

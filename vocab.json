@@ -12,11 +12,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -33,10 +33,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
@@ -52,18 +52,18 @@
     "cultural_note": "Storks carry real folklore weight across Europe — the \"storks bring babies\" legend is pan-European, and in Alsace (France) the stork is a beloved regional symbol, with a real conservation effort after the population nearly disappeared there in the mid-20th century. They're also strongly associated with Central and Eastern Europe generally, fitting for a book with scenes set in Bohemia.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-10",
+      "last_reviewed": "2026-09-09"
     }
   },
   {
     "id": 4,
     "word": "figé",
     "language": "fr",
-    "translation_en": "frozen, still, motionless, fixed (adjective, from the verb 'figer' — to freeze/congeal)",
+    "translation_en": "frozen, still, motionless, fixed",
     "definition_in_language": "Qui est devenu immobile, sans mouvement ; qui s'est comme solidifié.",
     "source_sentence": "De blancs vols de cigognes traversaient, près de terre, l'air opaque et figé.",
     "source_title": "Le Vicomte pourfendu",
@@ -128,7 +128,9 @@
     "source_sentence": "Là où il y a des cadavres, les cigognes, les phénicoptères et les grues remplacent les vautours et les corbeaux.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-07",
-    "tags": ["literary"],
+    "tags": [
+      "literary"
+    ],
     "cultural_note": "The word comes from Greek — 'phoinix' (crimson/purple-red) + 'pteron' (wing), literally \"purple-winged.\" It's also the actual scientific genus name (Phoenicopterus). Dumas-and-Calvino-era literary French reaches for this kind of Greek-rooted term where everyday French would just say 'flamant.'",
     "gender": "m",
     "srs": {
@@ -288,7 +290,9 @@
     "source_sentence": "Galopant de l'avant, ils s'aperçurent que les morts de la dernière bataille avaient été presque tous enlevés et ensevelis.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-07",
-    "tags": ["literary"],
+    "tags": [
+      "literary"
+    ],
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
@@ -528,7 +532,10 @@
     "source_sentence": "Le soir, les artilleurs faisaient cuire leur ration de raves à l'eau sur le bronze des espingoles et des canons, rouge à force d'avoir tiré dans la journée.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-07",
-    "tags": ["rare", "historical"],
+    "tags": [
+      "rare",
+      "historical"
+    ],
     "cultural_note": "A genuinely obscure, specialized term even to most native French speakers — this is period military-firearms vocabulary, not everyday language. Blunderbusses were largely obsolete by the 19th century, replaced by more accurate rifled firearms, which is part of why the word itself has faded from common use along with the object.",
     "gender": "f",
     "srs": {
@@ -543,7 +550,7 @@
     "id": 28,
     "word": "tamiser",
     "language": "fr",
-    "translation_en": "to sift, to sieve (pass through a sieve to separate fine from coarse material); also figuratively 'to filter, to soften/dim' — 'une lumière tamisée' = a soft, dim, filtered light",
+    "translation_en": "to sift, to sieve (pass through a sieve to separate fine from coarse material); also figuratively, to filter or soften/dim, as in soft, dim, filtered light",
     "definition_in_language": "Faire passer une matière à travers un tamis pour séparer les éléments fins des plus gros ; au sens figuré, filtrer ou adoucir (la lumière).",
     "source_sentence": "Il arrivait des chariots pleins de terre que les soldats tamisaient.",
     "source_title": "Le Vicomte pourfendu",
@@ -743,7 +750,7 @@
     "id": 38,
     "word": "s'éventer",
     "language": "fr",
-    "translation_en": "to fan oneself (with a fan) — from 'éventail' (a fan, the object)",
+    "translation_en": "to fan oneself (with a hand-held fan)",
     "definition_in_language": "Se rafraîchir en agitant un éventail ou un objet similaire pour créer un courant d'air.",
     "source_sentence": "Dans des tentes plus hautes drapées en forme de kiosque, les officiers se poudre-de-rizaient les aisselles et s'éventaient avec des éventails de dentelle.",
     "source_title": "Le Vicomte pourfendu",
@@ -763,7 +770,7 @@
     "id": 39,
     "word": "pelote",
     "language": "fr",
-    "translation_en": "a ball (of yarn, thread, wool); also short for 'pelote à épingles' — a pincushion, which the context here (things being taken from it, plural) suggests is the intended sense",
+    "translation_en": "a ball (of yarn, thread, wool); in context here (something being taken from it, plural), likely refers to a pincushion",
     "definition_in_language": "Petite boule de fil ou de laine enroulée ; par extension, coussinet destiné à recevoir des épingles ('pelote à épingles').",
     "source_sentence": "Il les prenait sur une pelote que lui tendait un de ses maréchaux.",
     "source_title": "Le Vicomte pourfendu",
@@ -903,7 +910,7 @@
     "id": 46,
     "word": "acharnement",
     "language": "fr",
-    "translation_en": "fury, relentlessness, fierce/ruthless determination (intense, unrelenting zeal or aggression — from the verb 's'acharner', to go at something relentlessly, viciously)",
+    "translation_en": "fury, relentlessness, fierce/ruthless determination — intense, unrelenting zeal or aggression",
     "definition_in_language": "Ardeur violente et opiniâtre, souvent teintée de cruauté, mise à faire quelque chose ou à combattre.",
     "source_sentence": "Il sentait le sang de cette guerre cruelle répandu sur la terre en milliers de ruisseaux affluer jusqu'à lui — et s'en laissait lécher — sans ressentir d'acharnement, ni de pitié.",
     "source_title": "Le Vicomte pourfendu",
