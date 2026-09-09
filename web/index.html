@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lexi</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <h1>Lexi</h1>
+    <p id="progress"></p>
+  </header>
+
+  <!-- Mode picker: shown once at the start of a session -->
+  <section id="mode-picker" class="card">
+    <h2>How do you want to review today?</h2>
+    <div class="mode-buttons">
+      <button id="mode-write" class="primary">Write<br /><span>see the meaning, type the word</span></button>
+      <button id="mode-recognize">Recognize<br /><span>see the word, recall the meaning</span></button>
+    </div>
+  </section>
+
+  <!-- Nothing due -->
+  <section id="empty-state" class="card hidden">
+    <p>Nothing due for review right now. Nice work staying caught up!</p>
+  </section>
+
+  <!-- Write mode -->
+  <section id="write-card" class="card hidden">
+    <p class="prompt-label">English</p>
+    <p id="write-prompt" class="prompt"></p>
+    <form id="write-form">
+      <input id="write-input" type="text" autocomplete="off" autocapitalize="off"
+             spellcheck="false" placeholder="Type the word (le/la/l' if it's a noun)…" />
+      <button type="submit" class="primary">Check</button>
+    </form>
+    <div id="write-result" class="result hidden"></div>
+    <div id="write-reveal" class="reveal hidden"></div>
+    <div id="write-quality" class="quality-buttons hidden"></div>
+  </section>
+
+  <!-- Recognize mode -->
+  <section id="recognize-card" class="card hidden">
+    <p class="prompt-label">French</p>
+    <p id="recognize-word" class="prompt"></p>
+    <button id="recognize-reveal-btn" class="primary">Reveal</button>
+    <div id="recognize-reveal" class="reveal hidden"></div>
+    <div id="recognize-quality" class="quality-buttons hidden"></div>
+  </section>
+
+  <!-- Session done -->
+  <section id="done-state" class="card hidden">
+    <p id="done-message"></p>
+  </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -32,10 +32,19 @@ learning is a stronger comprehension exercise than a translation gloss — it
 keeps you thinking in the language rather than just mapping words back to
 English.
 
-**Reviewing** happens with `review.py`, a small CLI script:
+**Reviewing** happens either in the terminal or in a browser — same review
+logic and same `vocab.json` either way, just two interfaces on top of it.
+
+CLI:
 
 ```bash
 python3 review.py
+```
+
+Web UI:
+
+```bash
+python3 run_ui.py
 ```
 
 It shows whatever cards are due today, one at a time, in one of two modes:
@@ -157,10 +166,37 @@ having the answer available the whole time. Lexi doesn't quiz you *while*
 you're reading — it captures the word, then makes you actually retrieve it
 later, on a schedule designed to hit right before you'd naturally forget it.
 
+## The web UI
+
+`run_ui.py` starts a small local server (`api.py`, built with FastAPI) and
+opens the review interface in your browser. It's a thin wrapper, not a
+second implementation — `api.py` imports `review.py` directly and reuses its
+SM-2 logic, word display, and answer-checking as-is. The only new code is
+the API layer (a handful of endpoints: what's due, check an answer, submit a
+rating) and the browser page itself (`web/`) that calls them.
+
+Runs entirely on `127.0.0.1` (your own machine) — nothing is reachable from
+the internet, there's no account, and there's nothing to pay for. Stop it
+any time with Ctrl+C.
+
+This also fixes something the CLI genuinely couldn't: typing accented
+characters. Terminal apps don't support macOS's press-and-hold accent
+popup, so getting é/è/ê/ç into a terminal review session meant memorizing
+Option-key dead-key combos. A browser text field is a normal Cocoa text
+input, so the built-in accent popup just works.
+
+The API/frontend split is also intentional groundwork, not just how FastAPI
+happens to work: if this ever becomes a phone-installable app (a PWA), it
+would talk to this same API rather than needing its own copy of the review
+logic. Nothing about that is built yet — this is browser-only, at your own
+desk, for now — but the separation means it wouldn't require a rebuild.
+
 ## Status
 
 v1 — manual definitions via Claude (no API calls from the tool itself), JSON
-storage, CLI review. See the author's broader
+storage, CLI and browser-based review (Write and Recognize modes, both). See
+the author's broader
 [language + AI learning roadmap](../career-agent/learning_roadmap.md) for
 what's next (auto-fetched definitions, character-aware scheduling for
-Mandarin, semantic search across entries).
+Mandarin, semantic search across entries, possibly a PWA if the web UI gets
+real daily use).

@@ -1,0 +1,226 @@
+:root {
+  --bg: #f6f4f0;
+  --card-bg: #ffffff;
+  --text: #22201d;
+  --muted: #6b6560;
+  --accent: #2c5f6f;
+  --accent-text: #ffffff;
+  --border: #e2ddd4;
+  --good: #3a7d5c;
+  --bad: #b3452f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1a18;
+    --card-bg: #262421;
+    --text: #ece8e2;
+    --muted: #a6a09a;
+    --accent: #6fb8cc;
+    --accent-text: #12292f;
+    --border: #3a3733;
+    --good: #7cc9a0;
+    --bad: #e08a70;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+#app {
+  width: 100%;
+  max-width: 480px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0 0 4px;
+  letter-spacing: 0.02em;
+}
+
+#progress {
+  color: var(--muted);
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.hidden { display: none !important; }
+
+h2 {
+  font-size: 1.05em;
+  margin: 0 0 18px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.mode-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.mode-buttons button {
+  flex: 1;
+  padding: 16px 10px;
+  line-height: 1.5;
+}
+
+.mode-buttons span {
+  display: block;
+  font-size: 0.78em;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: transform 0.05s ease, opacity 0.15s ease;
+}
+
+button:hover { opacity: 0.85; }
+button:active { transform: scale(0.98); }
+
+button.primary {
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent);
+}
+
+.prompt-label {
+  text-transform: uppercase;
+  font-size: 0.72em;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 6px;
+  text-align: center;
+}
+
+.prompt {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 24px;
+  line-height: 1.35;
+}
+
+#write-form {
+  display: flex;
+  gap: 10px;
+}
+
+#write-input {
+  flex: 1;
+  font-family: inherit;
+  font-size: 1.1em;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+#write-input:focus, #recognize-reveal-btn:focus {
+  outline: 2px solid var(--accent);
+}
+
+#recognize-reveal-btn {
+  display: block;
+  width: 100%;
+}
+
+.result {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.result.exact { background: rgba(58, 125, 92, 0.12); color: var(--good); }
+.result.close { background: rgba(212, 160, 23, 0.15); color: #a67c00; }
+.result.wrong { background: rgba(179, 69, 47, 0.12); color: var(--bad); }
+
+@media (prefers-color-scheme: dark) {
+  .result.close { color: #e0c25a; }
+}
+
+.reveal {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.95em;
+  color: var(--text);
+}
+
+.reveal .field-label {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 12px 0 2px;
+}
+
+.reveal .field-label:first-child { margin-top: 0; }
+
+.reveal blockquote {
+  margin: 4px 0 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.reveal .cultural-note {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border-radius: 8px;
+  font-size: 0.92em;
+}
+
+.quality-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.quality-buttons button[data-quality="1"] { border-color: var(--bad); color: var(--bad); }
+.quality-buttons button[data-quality="4"] { border-color: var(--good); color: var(--good); }
+
+#done-state p, #empty-state p {
+  text-align: center;
+  color: var(--muted);
+  font-size: 1.05em;
+  margin: 0;
+}
