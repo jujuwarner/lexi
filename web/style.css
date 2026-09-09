@@ -16,26 +16,44 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: var(--bg);
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNDAiIGhlaWdodD0iMzQwIiB2aWV3Qm94PSIwIDAgMzQwIDM0MCI+CiAgPGRlZnM+CiAgICA8ZmlsdGVyIGlkPSJzb2Z0IiB4PSItNjAlIiB5PSItNjAlIiB3aWR0aD0iMjIwJSIgaGVpZ2h0PSIyMjAlIj4KICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMi4yIi8+CiAgICA8L2ZpbHRlcj4KICA8L2RlZnM+CiAgPGcgZmlsdGVyPSJ1cmwoI3NvZnQpIj4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcwLDYwKSByb3RhdGUoOCkiPgogICAgICA8ZWxsaXBzZSBjeD0iLTciIGN5PSItNCIgcng9IjEwIiByeT0iMTMiIGZpbGw9IiNkYmEzYjciIG9wYWNpdHk9IjAuMTYiLz4KICAgICAgPGVsbGlwc2UgY3g9IjciIGN5PSItMyIgcng9IjEwIiByeT0iMTMiIGZpbGw9IiNkYmEzYjciIG9wYWNpdHk9IjAuMTYiIHRyYW5zZm9ybT0icm90YXRlKDcwKSIvPgogICAgICA8ZWxsaXBzZSBjeD0iMSIgY3k9IjgiIHJ4PSIxMCIgcnk9IjEzIiBmaWxsPSIjZGJhM2I3IiBvcGFjaXR5PSIwLjE2IiB0cmFuc2Zvcm09InJvdGF0ZSgxNTApIi8+CiAgICAgIDxlbGxpcHNlIGN4PSItNCIgY3k9IjYiIHJ4PSI5IiByeT0iMTIiIGZpbGw9IiNkYmEzYjciIG9wYWNpdHk9IjAuMTQiIHRyYW5zZm9ybT0icm90YXRlKC0xMDApIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIzIiBmaWxsPSIjYzk4YWEzIiBvcGFjaXR5PSIwLjIiLz4KICAgIDwvZz4KICA8L2c+CiAgPGcgZmlsdGVyPSJ1cmwoI3NvZnQpIj4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI1MCwyMzUpIHJvdGF0ZSgtMTUpIHNjYWxlKDAuODUpIj4KICAgICAgPGVsbGlwc2UgY3g9Ii03IiBjeT0iLTQiIHJ4PSIxMCIgcnk9IjEzIiBmaWxsPSIjYTliOThmIiBvcGFjaXR5PSIwLjE1Ii8+CiAgICAgIDxlbGxpcHNlIGN4PSI3IiBjeT0iLTMiIHJ4PSIxMCIgcnk9IjEzIiBmaWxsPSIjYTliOThmIiBvcGFjaXR5PSIwLjE1IiB0cmFuc2Zvcm09InJvdGF0ZSg3MCkiLz4KICAgICAgPGVsbGlwc2UgY3g9IjEiIGN5PSI4IiByeD0iMTAiIHJ5PSIxMyIgZmlsbD0iI2E5Yjk4ZiIgb3BhY2l0eT0iMC4xMyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwKSIvPgogICAgICA8ZWxsaXBzZSBjeD0iLTQiIGN5PSI2IiByeD0iOSIgcnk9IjEyIiBmaWxsPSIjYTliOThmIiBvcGFjaXR5PSIwLjEzIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTAwKSIvPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMyIgZmlsbD0iI2M5OGFhMyIgb3BhY2l0eT0iMC4xOCIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+");
-  background-repeat: repeat;
-  background-size: 340px 340px;
   color: var(--text);
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding: 40px 20px;
+  padding: 40px 20px 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* A real Redouté rose engraving (1817-24, public domain), anchored to the
+   bottom of the page behind everything else. Subtle on purpose -- this is
+   a decorative flourish, not the main content. */
+body::before {
+  content: "";
+  position: fixed;
+  bottom: -40px;
+  left: 50%;
+  width: 380px;
+  height: 517px;
+  transform: translateX(-50%);
+  background: url("assets/rosa_centifolia.png") no-repeat center bottom;
+  background-size: contain;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
 }
 
 #app {
   width: 100%;
   max-width: 480px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 40px;
 }
 
 header {
   text-align: center;
-  margin: -40px -20px 24px;
-  padding: 40px 20px 16px;
-  background-color: var(--bg);
+  margin-bottom: 24px;
 }
 
 h1 {
