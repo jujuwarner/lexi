@@ -25,21 +25,37 @@ body {
   overflow-x: hidden;
 }
 
-/* A real Redouté rose engraving (1817-24, public domain), anchored to the
-   bottom of the page behind everything else. Subtle on purpose -- this is
-   a decorative flourish, not the main content. */
-body::before {
-  content: "";
+/* Real Redouté rose engravings (1817-24, public domain), anchored to
+   opposite corners behind everything else. Subtle on purpose -- these are
+   decorative flourishes, not the main content. Plain elements rather than
+   ::before/::after so a third illustration can be added later without
+   running out of pseudo-elements. */
+.decoration {
   position: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#deco-bottom-right {
   bottom: -44px;
   left: -53px;
   width: 413px;
   height: 562px;
-  background: url("assets/rosa_centifolia.png") no-repeat center bottom;
-  background-size: contain;
+  background-image: url("assets/rosa_centifolia.png");
+  background-position: center bottom;
   opacity: 0.5;
-  pointer-events: none;
-  z-index: 0;
+}
+
+#deco-top-left {
+  top: -30px;
+  left: -40px;
+  width: 300px;
+  height: 391px;
+  background-image: url("assets/rosa_gallica.png");
+  background-position: center top;
+  opacity: 0.4;
 }
 
 #app {

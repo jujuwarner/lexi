@@ -191,15 +191,20 @@ would talk to this same API rather than needing its own copy of the review
 logic. Nothing about that is built yet — this is browser-only, at your own
 desk, for now — but the separation means it wouldn't require a rebuild.
 
-## Image credit
+## Image credits
 
-The rose illustration in the web UI's background is *Rosa centifolia
-foliacea*, a hand-colored engraving by Pierre-Joseph Redouté from *Les
-Roses* (1817-1824), via
-[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_centifolia_foliacea.jpg).
-Public domain (Redouté died in 1840) — no attribution legally required,
-but credited here anyway since it's good practice. Background removed and
-cropped locally; original file untouched.
+Both rose illustrations in the web UI's background are hand-colored
+engravings by Pierre-Joseph Redouté from *Les Roses* (1817-1824), via
+Wikimedia Commons:
+
+- *Rosa centifolia foliacea* (bottom right) —
+  [source](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_centifolia_foliacea.jpg)
+- *Rosa gallica flore giganteo* (top left) —
+  [source](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_gallica_flore_giganteo.jpg)
+
+Both public domain (Redouté died in 1840) — no attribution legally
+required, but credited here anyway since it's good practice. Backgrounds
+removed and images cropped locally; original files untouched.
 
 ## Status
 
