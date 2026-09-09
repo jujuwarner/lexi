@@ -50,9 +50,9 @@ body {
 
 #deco-top-left {
   top: 20px;
-  left: -35px;
-  width: 320px;
-  height: 349px;
+  left: -25px;
+  width: 250px;
+  height: 272px;
   background-image: url("assets/seguy_butterfly.png");
   background-position: center top;
   opacity: 0.38;
