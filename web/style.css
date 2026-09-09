@@ -31,11 +31,10 @@ body {
 body::before {
   content: "";
   position: fixed;
-  bottom: -40px;
-  left: 50%;
-  width: 380px;
-  height: 517px;
-  transform: translateX(90px);
+  bottom: -58px;
+  left: -70px;
+  width: 551px;
+  height: 750px;
   background: url("assets/rosa_centifolia.png") no-repeat center bottom;
   background-size: contain;
   opacity: 0.5;
