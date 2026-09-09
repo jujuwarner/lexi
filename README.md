@@ -193,18 +193,19 @@ desk, for now — but the separation means it wouldn't require a rebuild.
 
 ## Image credits
 
-Both rose illustrations in the web UI's background are hand-colored
-engravings by Pierre-Joseph Redouté from *Les Roses* (1817-1824), via
-Wikimedia Commons:
+- **Rose** (bottom right) — *Rosa centifolia foliacea*, a hand-colored
+  engraving by Pierre-Joseph Redouté from *Les Roses* (1817-1824), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_centifolia_foliacea.jpg).
+  Public domain (Redouté died 1840).
+- **Butterfly** (top left) — one specimen cropped from Plate 12 of
+  *Papillons* (1925) by Émile-Allain Séguy, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Papillons_(Pl._12)_BHL48852969.jpg)
+  (digitized by Smithsonian Libraries via BHL). Public domain (published
+  1925, author died 1951).
 
-- *Rosa centifolia foliacea* (bottom right) —
-  [source](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_centifolia_foliacea.jpg)
-- *Rosa gallica flore giganteo* (top left) —
-  [source](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_gallica_flore_giganteo.jpg)
-
-Both public domain (Redouté died in 1840) — no attribution legally
-required, but credited here anyway since it's good practice. Backgrounds
-removed and images cropped locally; original files untouched.
+No attribution legally required for either, but credited here anyway
+since it's good practice. Backgrounds removed and images cropped/isolated
+locally; original files untouched.
 
 ## Status
 

@@ -49,13 +49,13 @@ body {
 }
 
 #deco-top-left {
-  top: -30px;
-  left: -40px;
-  width: 300px;
-  height: 391px;
-  background-image: url("assets/rosa_gallica.png");
+  top: -25px;
+  left: -35px;
+  width: 320px;
+  height: 349px;
+  background-image: url("assets/seguy_butterfly.png");
   background-position: center top;
-  opacity: 0.28;
+  opacity: 0.38;
 }
 
 #app {
