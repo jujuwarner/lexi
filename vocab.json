@@ -1347,5 +1347,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 68,
+    "word": "gémir",
+    "language": "fr",
+    "translation_en": "to moan, to groan, to whimper (from pain or suffering)",
+    "definition_in_language": "Exprimer une douleur ou une souffrance par un son plaintif, sans parler.",
+    "source_sentence": "Kurt ! cria le vicomte en s'approchant de son écuyer qui gémissait à terre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
