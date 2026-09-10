@@ -1027,5 +1027,65 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 52,
+    "word": "chiquer",
+    "language": "fr",
+    "translation_en": "to chew (tobacco) — this verb specifically means chewing tobacco (forming a quid/chaw in the cheek), not chewing in general and not smoking",
+    "definition_in_language": "Mâcher du tabac sans l'avaler, en le gardant contre la joue.",
+    "source_sentence": "Ce nuage, ce sont les Turcs, de vrais Turcs, et ceux qui sont à mes côtés en train de chiquer du tabac, ce sont les vétérans de la chrétienté, et cette trompette qui sonne en ce moment c'est l'attaque, la première attaque de ma vie, et ce grondement et cette secousse, et ce bolide qui s'enfonce en terre et que les vétérans et les chevaux regardent avec un air blasé, c'est un boulet de canon, le premier boulet de canon ennemi que je rencontre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 53,
+    "word": "secousse",
+    "language": "fr",
+    "translation_en": "jolt, shock, tremor (a sudden shaking or jarring movement)",
+    "definition_in_language": "Mouvement brusque et soudain, souvent causé par un choc ou une vibration.",
+    "source_sentence": "Ce nuage, ce sont les Turcs, de vrais Turcs, et ceux qui sont à mes côtés en train de chiquer du tabac, ce sont les vétérans de la chrétienté, et cette trompette qui sonne en ce moment c'est l'attaque, la première attaque de ma vie, et ce grondement et cette secousse, et ce bolide qui s'enfonce en terre et que les vétérans et les chevaux regardent avec un air blasé, c'est un boulet de canon, le premier boulet de canon ennemi que je rencontre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 54,
+    "word": "bolide",
+    "language": "fr",
+    "translation_en": "a blazing projectile, fireball, meteor — in modern everyday French this word much more commonly just means 'a very fast car,' but here it's used in its older, more literal sense of something hurtling and blazing through the air",
+    "definition_in_language": "Objet qui se déplace très rapidement dans les airs, comme un météore ou un projectile enflammé ; par extension, en français moderne, une voiture très rapide.",
+    "source_sentence": "Ce nuage, ce sont les Turcs, de vrais Turcs, et ceux qui sont à mes côtés en train de chiquer du tabac, ce sont les vétérans de la chrétienté, et cette trompette qui sonne en ce moment c'est l'attaque, la première attaque de ma vie, et ce grondement et cette secousse, et ce bolide qui s'enfonce en terre et que les vétérans et les chevaux regardent avec un air blasé, c'est un boulet de canon, le premier boulet de canon ennemi que je rencontre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
