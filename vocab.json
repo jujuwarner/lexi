@@ -1187,5 +1187,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 60,
+    "word": "arme blanche",
+    "language": "fr",
+    "translation_en": "a bladed/edged weapon (sword, knife, bayonet) — as opposed to a firearm; 'combat à l'arme blanche' means hand-to-hand or close combat with cold steel",
+    "definition_in_language": "Arme tranchante ou pointue (épée, couteau, baïonnette), par opposition à une arme à feu.",
+    "source_sentence": "Mais il en arriva Dieu sait combien et ce fut le combat à l'arme blanche.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
