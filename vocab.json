@@ -1567,5 +1567,105 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 79,
+    "word": "sévir",
+    "language": "fr",
+    "translation_en": "to rage, to wreak havoc, to run rampant (used for disasters, epidemics); also 'to act ruthlessly, to deal harshly/severely' — here conveying the doctors working amid brutal, chaotic intensity",
+    "definition_in_language": "Se manifester avec violence et de façon destructrice (en parlant d'un fléau, d'une catastrophe) ; agir avec sévérité ou dureté.",
+    "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 80,
+    "word": "s'arracher",
+    "language": "fr",
+    "translation_en": "to snatch away from each other, to grab out of one another's hands (reciprocal/reflexive); 's'arracher quelque chose des mains' = to snatch something from each other's hands, often implying frantic competition or high demand",
+    "definition_in_language": "Se disputer un objet en se l'arrachant des mains l'un à l'autre, souvent par urgence ou grande demande.",
+    "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 81,
+    "word": "pince",
+    "language": "fr",
+    "translation_en": "pincers, forceps, tongs, pliers (a gripping/clamping tool); in a medical context specifically, surgical forceps",
+    "definition_in_language": "Outil ou instrument servant à saisir, serrer ou tenir un objet grâce à deux branches mobiles.",
+    "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 82,
+    "word": "scie",
+    "language": "fr",
+    "translation_en": "saw (the tool); in a medical/surgical context, specifically a bone saw used for amputations",
+    "definition_in_language": "Outil denté servant à couper des matières dures (bois, métal, os) par un mouvement de va-et-vient.",
+    "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 83,
+    "word": "ficelle",
+    "language": "fr",
+    "translation_en": "string, twine (thin cord)",
+    "definition_in_language": "Fil ou corde fine, souvent utilisée pour attacher, lier ou emballer quelque chose.",
+    "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
