@@ -1547,5 +1547,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 78,
+    "word": "abonder dans le sens de",
+    "language": "fr",
+    "translation_en": "to lean toward, to favor, to decide in favor of (a particular side or opinion) — literally 'to abound in the direction of'; the bare verb 'abonder' on its own just means 'to abound, to be plentiful'",
+    "definition_in_language": "Se ranger du côté de, pencher en faveur de quelqu'un ou quelque chose, dans un cas incertain ou litigieux.",
+    "source_sentence": "Au cours de ces jours-là, vu l'abondance des pertes, on avait donné ordre d'abonder plutôt dans le sens des blessés.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
