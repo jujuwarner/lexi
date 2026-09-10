@@ -1447,5 +1447,45 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 73,
+    "word": "trêve",
+    "language": "fr",
+    "translation_en": "truce, ceasefire (a temporary halt to fighting or conflict)",
+    "definition_in_language": "Suspension temporaire des combats ou d'un conflit, décidée d'un commun accord.",
+    "source_sentence": "Le soir, au moment de la trêve, deux chars passèrent ramasser les corps des chrétiens sur le champ de bataille.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 74,
+    "word": "char",
+    "language": "fr",
+    "translation_en": "a cart, wagon (an older/literary sense, as used here); in modern French, 'char' most commonly means 'tank' (military armored vehicle) instead — context determines which is meant",
+    "definition_in_language": "Véhicule tiré par des chevaux ou des bœufs, utilisé pour transporter des personnes ou des marchandises ; en français moderne, désigne le plus souvent un char d'assaut (véhicule militaire blindé).",
+    "source_sentence": "Le soir, au moment de la trêve, deux chars passèrent ramasser les corps des chrétiens sur le champ de bataille.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
