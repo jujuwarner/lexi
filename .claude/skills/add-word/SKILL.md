@@ -87,6 +87,18 @@ properly-formatted entry to `vocab.json` in this project.
    append a new entry with `id` one higher (start at `1` if the file is
    empty). Use this exact shape:
 
+   **`word` must be exactly what she should type in Write mode — nothing
+   more.** A real mistake this has already caused: `word` was once set to
+   `"se donner la peine (de faire quelque chose)"`, with a grammatical
+   annotation (showing the phrase takes an infinitive complement) baked
+   directly into the field `display_word()` and `check_answer()` treat as
+   the literal expected answer — meaning she was being marked wrong for
+   typing the phrase correctly without that annotation. Any usage note like
+   that belongs in `translation_en` (e.g. "to take the trouble **(to do
+   something)**") or `cultural_note`, never appended onto `word` itself.
+   Before saving, read `word` back and ask: is every character in here
+   something she should actually type? If not, it doesn't belong in `word`.
+
    ```json
    {
      "id": 1,
