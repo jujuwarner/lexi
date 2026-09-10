@@ -28,6 +28,19 @@ properly-formatted entry to `vocab.json` in this project.
      so anything here that shares a root with the answer gives it away
      before she's had to recall it. If the etymology is worth knowing, it
      belongs in `cultural_note` instead — never in `translation_en`.
+
+     **This also applies to illustrative example phrases, not just
+     etymology** — a recurring mistake worth naming explicitly since it's
+     happened repeatedly: adding something like "used in the phrase 'arme
+     blanche'" or "cf. 'en lambeaux'" to show how a word is used in context
+     leaks the exact spelling just as badly as etymology does, even though
+     it doesn't *feel* like the same category of hint while writing it.
+     Before finalizing `translation_en`, scan it for the target word's own
+     spelling (or a close inflection of it — plurals, conjugations,
+     feminine forms) anywhere inside quotes or parens, and cut it if found.
+     Describe the usage pattern in plain English instead (e.g. "often used
+     in the plural, as in the expression for something being in tatters")
+     rather than quoting the actual French.
    - `definition_in_language` — a definition written *in the target
      language itself* (French, Russian, etc.), not translated from English.
      This is deliberate: reading a definition in the language you're

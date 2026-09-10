@@ -134,11 +134,11 @@
     "cultural_note": "The word comes from Greek — 'phoinix' (crimson/purple-red) + 'pteron' (wing), literally \"purple-winged.\" It's also the actual scientific genus name (Phoenicopterus). Dumas-and-Calvino-era literary French reaches for this kind of Greek-rooted term where everyday French would just say 'flamant.'",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -155,10 +155,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -174,11 +174,11 @@
     "cultural_note": "In French, 'corbeau' also refers to someone who sends anonymous poison-pen letters — a meaning popularized by the 1943 French film Le Corbeau. More broadly, crows and ravens carry strong death/carrion symbolism across many cultures, directly relevant to this battlefield scene.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -194,11 +194,11 @@
     "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -214,11 +214,11 @@
     "cultural_note": "Unlike 'trépidant', this one's a genuine, helpful cognate rather than a false friend — the adjective sense (greedy, grasping) is a direct match with English 'rapacious.' Same root, same idea, and worth leaning on to help it stick.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -235,10 +235,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -254,11 +254,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -274,11 +274,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -296,11 +296,11 @@
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
+      "repetitions": 2,
       "easiness": 2.5,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -316,11 +316,11 @@
     "cultural_note": "This word also gives us 'chaumière' — a thatched cottage, a classic, almost iconic image in French rural/pastoral imagery and literature (a humble, cozy country home). Here, though, the word is doing dark double duty: the same material that evokes a rustic cottage is, in this passage, just cut field stalks with scattered human remains resting on them.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.6,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -337,10 +337,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -357,17 +357,17 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
     "id": 19,
     "word": "baldaquin",
     "language": "fr",
-    "translation_en": "a canopy (an ornamental covering, often over a bed, throne, or altar — 'lit à baldaquin' = a four-poster canopy bed); here, a camp awning/canopy",
+    "translation_en": "a canopy (an ornamental covering, often over a bed, throne, or altar); here, a camp awning/canopy",
     "definition_in_language": "Structure ornementale en tissu suspendue ou soutenue par des colonnes, utilisée comme couverture décorative (lit, trône, autel).",
     "source_sentence": "À l'entrée du camp, ils longèrent une rangée de baldaquins sous lesquels des femmes épaisses et frisées, vêtues de longues robes de brocart et les seins nus, les accueillirent par de vilains rires et des cris.",
     "source_title": "Le Vicomte pourfendu",
@@ -376,11 +376,11 @@
     "cultural_note": "Comes from 'Baldacco', the old Italian/French name for Baghdad, once famous for producing rich, ornate silk fabric — the canopies took the city's name, the same way English 'damask' comes from Damascus. A nice parallel pattern between the two languages for luxury-textile words.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -397,10 +397,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -416,11 +416,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -436,11 +436,11 @@
     "cultural_note": "Historically associated with wealth and nobility — brocade was expensive, labor-intensive to weave, and often used for aristocratic garments and ecclesiastical vestments. Worth noticing the irony in this scene: luxury fabric on camp women greeting soldiers with 'vilains rires', not exactly a noble setting.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -457,17 +457,17 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
     "id": 24,
     "word": "punaise",
     "language": "fr",
-    "translation_en": "bedbug (insect); unrelated other senses: a thumbtack/drawing pin, and a mild exclamation ('Punaise!' ≈ 'Darn it!')",
+    "translation_en": "bedbug (insect); unrelated other senses: a thumbtack/drawing pin, and a mild exclamation similar to 'darn it!'",
     "definition_in_language": "Petit insecte parasite qui se nourrit de sang, souvent trouvé dans les literies infestées.",
     "source_sentence": "Maintenant elles ne sont plus seulement couvertes de tiques, de punaises et de morpions ; les scorpions et les lézards verts font leurs nids sur elles.",
     "source_title": "Le Vicomte pourfendu",
@@ -477,17 +477,17 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
     "id": 25,
     "word": "morpion",
     "language": "fr",
-    "translation_en": "pubic louse, crab louse (parasitic insect); informally also an insult for an annoying child or pest ('sale morpion!' ≈ 'you little pest!')",
+    "translation_en": "pubic louse, crab louse (parasitic insect); informally also an insult for an annoying child or pest — like calling someone a little pest or brat",
     "definition_in_language": "Insecte parasite qui vit dans les poils pubiens ; familièrement, terme d'insulte pour désigner un enfant ou une personne agaçante.",
     "source_sentence": "Maintenant elles ne sont plus seulement couvertes de tiques, de punaises et de morpions ; les scorpions et les lézards verts font leurs nids sur elles.",
     "source_title": "Le Vicomte pourfendu",
@@ -630,7 +630,7 @@
     "id": 32,
     "word": "couture",
     "language": "fr",
-    "translation_en": "seam, stitch, stitching (sewing term); here, medical/veterinary sense: sutures. Also the broader word for sewing/dressmaking (cf. 'haute couture')",
+    "translation_en": "seam, stitch, stitching (sewing term); here, medical/veterinary sense: sutures. Also the broader word for sewing, dressmaking, and fashion design",
     "definition_in_language": "Assemblage de deux pièces de tissu (ou de peau) par des points de fil ; ici, au sens médical, des points de suture.",
     "source_sentence": "Au milieu des mouches, sans arrêt, les vétérinaires rapetassaient la peau des montures, à l'aide de coutures, de bandages et d'emplâtres de bitume bouillant qui faisaient hennir et ruer tout le monde, même les docteurs.",
     "source_title": "Le Vicomte pourfendu",
@@ -790,7 +790,7 @@
     "id": 40,
     "word": "maréchal",
     "language": "fr",
-    "translation_en": "marshal (a senior military rank — 'Maréchal de France' is the highest military distinction in the French army)",
+    "translation_en": "marshal (a senior military rank) — the highest military distinction in the French army",
     "definition_in_language": "Officier du plus haut grade militaire, titre honorifique accordé pour des services exceptionnels.",
     "source_sentence": "Il les prenait sur une pelote que lui tendait un de ses maréchaux.",
     "source_title": "Le Vicomte pourfendu",
@@ -952,7 +952,7 @@
     "id": 48,
     "word": "grade",
     "language": "fr",
-    "translation_en": "rank (military or professional level) — a false-friend trap for English speakers, since English 'grade' usually means a school grade or quality level, not rank",
+    "translation_en": "rank (military or professional level) — a false-friend trap for English speakers, since the far more common English meaning (a school grade, a quality level) doesn't apply here",
     "definition_in_language": "Niveau hiérarchique occupé par une personne, notamment dans une organisation militaire ou professionnelle.",
     "source_sentence": "Non, ne vous retournez pas, seigneur ! s'écria Kurt, qui se tenait à son côté, avec le grade de sergent.",
     "source_title": "Le Vicomte pourfendu",
@@ -1192,7 +1192,7 @@
     "id": 60,
     "word": "arme blanche",
     "language": "fr",
-    "translation_en": "a bladed/edged weapon (sword, knife, bayonet) — as opposed to a firearm; 'combat à l'arme blanche' means hand-to-hand or close combat with cold steel",
+    "translation_en": "a bladed/edged weapon (sword, knife, bayonet) — as opposed to a firearm; used in a common military phrase for hand-to-hand or close combat with cold steel",
     "definition_in_language": "Arme tranchante ou pointue (épée, couteau, baïonnette), par opposition à une arme à feu.",
     "source_sentence": "Mais il en arriva Dieu sait combien et ce fut le combat à l'arme blanche.",
     "source_title": "Le Vicomte pourfendu",
@@ -1472,7 +1472,7 @@
     "id": 74,
     "word": "char",
     "language": "fr",
-    "translation_en": "a cart, wagon (an older/literary sense, as used here); in modern French, 'char' most commonly means 'tank' (military armored vehicle) instead — context determines which is meant",
+    "translation_en": "a cart, wagon (an older/literary sense, as used here); in modern French, most commonly means a tank (military armored vehicle) instead — context determines which is meant",
     "definition_in_language": "Véhicule tiré par des chevaux ou des bœufs, utilisé pour transporter des personnes ou des marchandises ; en français moderne, désigne le plus souvent un char d'assaut (véhicule militaire blindé).",
     "source_sentence": "Le soir, au moment de la trêve, deux chars passèrent ramasser les corps des chrétiens sur le champ de bataille.",
     "source_title": "Le Vicomte pourfendu",
@@ -1532,7 +1532,7 @@
     "id": 77,
     "word": "lambeau",
     "language": "fr",
-    "translation_en": "a shred, tatter, scrap (of torn fabric, flesh, paper, etc.) — often used in the plural, 'en lambeaux' = 'in tatters, shredded'",
+    "translation_en": "a shred, tatter, scrap (of torn fabric, flesh, paper, etc.) — often used in the plural, as in the common expression for something being in tatters, shredded",
     "definition_in_language": "Morceau déchiré, informe, d'une chose (tissu, chair, papier) qui a été mise en pièces.",
     "source_sentence": "Ceux chez qui il semblait qu'il y eût encore quelque chose à sauver, on les mettait sur le char des blessés, ceux qui n'étaient plus que quartiers et lambeaux allaient sur le char des morts pour avoir une sépulture bénie ; ce qui n'était même plus un cadavre, on le laissait en pâture aux cigognes.",
     "source_title": "Le Vicomte pourfendu",
@@ -1592,7 +1592,7 @@
     "id": 80,
     "word": "s'arracher",
     "language": "fr",
-    "translation_en": "to snatch away from each other, to grab out of one another's hands (reciprocal/reflexive); 's'arracher quelque chose des mains' = to snatch something from each other's hands, often implying frantic competition or high demand",
+    "translation_en": "to snatch away from each other, to grab out of one another's hands (reciprocal/reflexive) — often used for snatching something out of each other's hands, implying frantic competition or high demand",
     "definition_in_language": "Se disputer un objet en se l'arrachant des mains l'un à l'autre, souvent par urgence ou grande demande.",
     "source_sentence": "Par terre, c'était la longue file des civières de malheureux, et tout autour les docteurs sévissaient, s'arrachant des mains les pinces, les scies, les aiguilles, les membres amputés et les pelotes de ficelle.",
     "source_title": "Le Vicomte pourfendu",
@@ -1812,7 +1812,7 @@
     "id": 91,
     "word": "miette",
     "language": "fr",
-    "translation_en": "a crumb (a tiny fragment, especially of bread); 'réduit en miettes' = 'smashed to bits, reduced to crumbs/smithereens' — a common figurative expression for something utterly destroyed",
+    "translation_en": "a crumb (a tiny fragment, especially of bread); often used figuratively to mean 'smashed to bits, reduced to crumbs/smithereens' — a common expression for something utterly destroyed",
     "definition_in_language": "Petit fragment tombé d'un aliment, notamment du pain ; au figuré, très petit morceau d'une chose brisée.",
     "source_sentence": "Pour résumer, il ne demeurait plus qu'une moitié de lui, la moitié droite, du reste parfaitement conservée, sans une égratignure, à part l'énorme déchirure qui l'avait séparée de la moitié gauche réduite en miettes.",
     "source_title": "Le Vicomte pourfendu",
