@@ -1407,5 +1407,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 71,
+    "word": "emmitouflé",
+    "language": "fr",
+    "translation_en": "bundled up, wrapped up warmly (in layers of warm clothing)",
+    "definition_in_language": "Enveloppé dans des vêtements chauds et épais, souvent de façon à ne laisser voir que le visage.",
+    "source_sentence": "Lents comme ils étaient, barbus, emmitouflés jusqu'aux pieds, ils avaient l'air de deux astronomes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
