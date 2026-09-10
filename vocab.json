@@ -1387,5 +1387,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 70,
+    "word": "prendre le dessus",
+    "language": "fr",
+    "translation_en": "to gain the upper hand, to get on top (in a struggle or conflict)",
+    "definition_in_language": "Reprendre l'avantage dans une lutte, une compétition ou une situation difficile.",
+    "source_sentence": "Dans ce désordre, les chrétiens semblaient prendre le dessus.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
