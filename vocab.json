@@ -1247,5 +1247,45 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 63,
+    "word": "caille",
+    "language": "fr",
+    "translation_en": "quail (the bird)",
+    "definition_in_language": "Petit oiseau migrateur, plus petit que la perdrix, souvent chassé pendant sa migration.",
+    "source_sentence": "Il aurait pu rentrer chez nous, à Terralba, juste à temps pour le passage des cailles.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 64,
+    "word": "pour ce qui est de",
+    "language": "fr",
+    "translation_en": "as for, as far as ... is/was concerned — a formal way of returning to or picking up a topic",
+    "definition_in_language": "Locution servant à introduire ou reprendre un sujet, équivalente à « en ce qui concerne ».",
+    "source_sentence": "Pour ce qui était de les avoir vus, maintenant Médard les avait vus.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
