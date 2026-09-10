@@ -1527,5 +1527,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 77,
+    "word": "lambeau",
+    "language": "fr",
+    "translation_en": "a shred, tatter, scrap (of torn fabric, flesh, paper, etc.) — often used in the plural, 'en lambeaux' = 'in tatters, shredded'",
+    "definition_in_language": "Morceau déchiré, informe, d'une chose (tissu, chair, papier) qui a été mise en pièces.",
+    "source_sentence": "Ceux chez qui il semblait qu'il y eût encore quelque chose à sauver, on les mettait sur le char des blessés, ceux qui n'étaient plus que quartiers et lambeaux allaient sur le char des morts pour avoir une sépulture bénie ; ce qui n'était même plus un cadavre, on le laissait en pâture aux cigognes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
