@@ -245,6 +245,20 @@ def review_card_write(entry):
     if entry.get("cultural_note"):
         print(f"\n🌿 {entry['cultural_note']}")
 
+    if quality == 0:
+        # A miss (skip or wrong guess) already auto-rates as "Again," so
+        # there's nothing left to grade -- but make her type the correct
+        # word once before moving on anyway. Purely informational (doesn't
+        # touch the SM-2 rating), just production practice on the thing she
+        # missed, the same reinforcement step Quizlet uses.
+        retyped = input("\nType it once more to help it stick: ").strip()
+        if check_answer(retyped, expected) == "exact":
+            print("✓ Got it.")
+        elif retyped == "":
+            print(f"The answer was: {expected}")
+        else:
+            print(f"Close enough — the answer was: {expected}")
+
     entry["srs"] = apply_sm2(entry["srs"], quality)
     return entry
 

@@ -12,11 +12,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.6,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -33,10 +33,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -52,11 +52,11 @@
     "cultural_note": "Storks carry real folklore weight across Europe — the \"storks bring babies\" legend is pan-European, and in Alsace (France) the stork is a beloved regional symbol, with a real conservation effort after the population nearly disappeared there in the mid-20th century. They're also strongly associated with Central and Eastern Europe generally, fitting for a book with scenes set in Bohemia.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -72,11 +72,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -93,10 +93,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -112,11 +112,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {

@@ -223,6 +223,46 @@ button.primary {
 
 .reveal .field-label:first-child { margin-top: 0; }
 
+#write-retype {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+#write-retype .field-label {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+#retype-form {
+  display: flex;
+  gap: 10px;
+}
+
+#retype-input {
+  flex: 1;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+#retype-input:focus {
+  outline: 2px solid var(--accent);
+}
+
+#retype-feedback {
+  margin: 10px 0 0;
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
 .reveal blockquote {
   margin: 10px 0 6px;
   line-height: 1.7;

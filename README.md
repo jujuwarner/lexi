@@ -54,7 +54,11 @@ It shows whatever cards are due today, one at a time, in one of two modes:
   Typed answers get checked against the correct form, with some leeway for
   accent typos and missing/wrong articles — those get flagged as "close"
   rather than marked wrong outright, and you rate honestly from there.
-  Anything that doesn't match at all auto-rates as "Again."
+  Anything that doesn't match at all — including pressing Enter with nothing
+  typed, a legitimate way to give up on a card — auto-rates as "Again," then
+  prompts you to type the correct word once more before moving on. That
+  retype is purely for practice; it doesn't touch the rating, which is
+  already locked in.
 - **Recognize** — the original mode: you see the word, recall the meaning
   yourself, then reveal and self-rate.
 

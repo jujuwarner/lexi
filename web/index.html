@@ -48,6 +48,15 @@
     </form>
     <div id="write-result" class="result hidden"></div>
     <div id="write-reveal" class="reveal hidden"></div>
+    <div id="write-retype" class="hidden">
+      <p class="field-label">Type it once more to help it stick</p>
+      <form id="retype-form">
+        <input id="retype-input" type="text" autocomplete="off" autocapitalize="off"
+               spellcheck="false" placeholder="Type it…" />
+        <button type="submit" class="primary">Continue</button>
+      </form>
+      <p id="retype-feedback"></p>
+    </div>
     <div id="write-quality" class="quality-buttons hidden"></div>
   </section>
 

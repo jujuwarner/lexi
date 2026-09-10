@@ -86,6 +86,9 @@ function renderWriteCard() {
   el("write-result").classList.add("hidden");
   el("write-reveal").classList.add("hidden");
   el("write-quality").classList.add("hidden");
+  el("write-retype").classList.add("hidden");
+  el("retype-input").value = "";
+  el("retype-feedback").textContent = "";
   el("write-form").classList.remove("hidden");
   setTimeout(() => el("write-input").focus(), 0);
 }
@@ -128,15 +131,40 @@ async function handleWriteSubmit(e) {
       submitReview(entry.id, key)
     );
   } else {
-    // Wrong answer — auto-rates as "Again", just needs a way to move on.
-    qualityBox.innerHTML = "";
-    const btn = document.createElement("button");
-    btn.className = "primary";
-    btn.textContent = "Continue";
-    btn.addEventListener("click", () => submitReview(entry.id, "1"));
-    qualityBox.appendChild(btn);
-    qualityBox.classList.remove("hidden");
+    // Wrong answer (or a skip) — already auto-rates as "Again", so there's
+    // nothing left to grade. Instead of just moving on, make her type the
+    // correct word once before advancing -- production practice on the
+    // thing she just missed, the same reinforcement step Quizlet uses.
+    el("retype-feedback").textContent = "";
+    el("write-retype").classList.remove("hidden");
+    setTimeout(() => el("retype-input").focus(), 0);
+
+    const onRetypeSubmit = (ev) => {
+      ev.preventDefault();
+      const retyped = el("retype-input").value.trim();
+      const feedback = el("retype-feedback");
+      if (check_answer_client(retyped, data.expected)) {
+        feedback.textContent = "✓ Got it.";
+      } else if (retyped === "") {
+        feedback.textContent = `The answer was: ${data.expected}`;
+      } else {
+        feedback.textContent = `Close enough — the answer was: ${data.expected}`;
+      }
+      el("retype-form").removeEventListener("submit", onRetypeSubmit);
+      // Give a beat to see the feedback before moving on.
+      setTimeout(() => submitReview(entry.id, "1"), 500);
+    };
+    el("retype-form").addEventListener("submit", onRetypeSubmit);
   }
+}
+
+function check_answer_client(typed, expected) {
+  // A loose, client-side echo of review.py's check_answer -- good enough
+  // for this reinforcement step, which is purely informational and never
+  // affects the SM-2 rating (that's already locked in as "Again").
+  const norm = (s) => s.trim().toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "");
+  const stripArticle = (s) => s.replace(/^(le|la)\s+|^l['’]/, "");
+  return stripArticle(norm(typed)) === stripArticle(norm(expected));
 }
 
 function renderRecognizeCard() {
