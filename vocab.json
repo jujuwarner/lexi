@@ -1727,5 +1727,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 87,
+    "word": "à bout portant",
+    "language": "fr",
+    "translation_en": "at point-blank range (fired from very close range)",
+    "definition_in_language": "Se dit d'un coup de feu tiré de très près, presque au contact de la cible.",
+    "source_sentence": "Non seulement il lui manquait un bras et une jambe, mais tout ce qu'il y avait de thorax et d'abdomen entre ce bras et cette jambe avait été emporté, pulvérisé par ce coup de canon à bout portant.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
