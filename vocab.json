@@ -1427,5 +1427,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 72,
+    "word": "culasse",
+    "language": "fr",
+    "translation_en": "breech (the rear part of a gun or cannon's barrel, where ammunition is loaded — the opposite end from the muzzle); also used for the cylinder head in a car engine",
+    "definition_in_language": "Partie arrière du canon d'une arme à feu, où l'on charge la munition, par opposition à la bouche.",
+    "source_sentence": "Enthousiaste et sans expérience, il ne savait pas qu'on ne doit aborder les canons que de côté ou par la culasse.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
