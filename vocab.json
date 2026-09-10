@@ -1367,5 +1367,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 69,
+    "word": "marc",
+    "language": "fr",
+    "translation_en": "marc — a strong brandy distilled from the leftover grape skins/seeds/stems after winemaking (pomace brandy); the same word can also mean coffee grounds or leftover pulp from pressing other fruit, but here it's the alcoholic spirit",
+    "definition_in_language": "Eau-de-vie obtenue par distillation du marc de raisin, c'est-à-dire les résidus (peaux, pépins, rafles) laissés après le pressurage du raisin pour le vin.",
+    "source_sentence": "Ne pensez pas à moi, seigneur, dit l'écuyer. Espérons seulement qu'il reste du marc à l'hôpital. Chaque blessé a droit à une assiette à soupe de marc.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
