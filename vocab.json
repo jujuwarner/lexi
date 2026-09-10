@@ -1107,5 +1107,65 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 56,
+    "word": "rayé",
+    "language": "fr",
+    "translation_en": "striped",
+    "definition_in_language": "Marqué de raies, de bandes de couleur alternées.",
+    "source_sentence": "Des chevaux caparaçonnés, un petit bouclier de cuir rond, une casaque rayée noir et safran.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 57,
+    "word": "safran",
+    "language": "fr",
+    "translation_en": "saffron (the spice; also the orange-yellow color it produces, often used invariably as a color word)",
+    "definition_in_language": "Épice de couleur orangée provenant du crocus ; par extension, la couleur jaune-orangé qu'elle produit.",
+    "source_sentence": "Des chevaux caparaçonnés, un petit bouclier de cuir rond, une casaque rayée noir et safran.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 58,
+    "word": "casaque",
+    "language": "fr",
+    "translation_en": "a loose tunic or overshirt; in modern French, most commonly refers specifically to a jockey's racing silks",
+    "definition_in_language": "Vêtement ample porté par-dessus les autres, notamment la tunique colorée que portent les jockeys pendant une course.",
+    "source_sentence": "Des chevaux caparaçonnés, un petit bouclier de cuir rond, une casaque rayée noir et safran.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
