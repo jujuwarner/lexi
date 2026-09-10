@@ -1667,5 +1667,65 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 84,
+    "word": "tamponner",
+    "language": "fr",
+    "translation_en": "to dab, to blot, to swab (e.g. a wound, to clean it or stop bleeding); can also mean 'to stamp' (with a rubber stamp) or, in a driving context, 'to crash into, to rear-end'",
+    "definition_in_language": "Presser légèrement avec un tampon ou un tissu pour nettoyer, sécher ou arrêter un saignement.",
+    "source_sentence": "Et je te scie par ci et je te couds par là, et je te tamponne des lésions et je te retourne des veines en doigts de gants pour les remettre en place avec plus de ficelle que de sang à l'intérieur mais bien rapiécées et bien étanches.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 85,
+    "word": "rapiécé",
+    "language": "fr",
+    "translation_en": "patched, mended with patches — closely related in meaning to 'rapetasser', already in your deck",
+    "definition_in_language": "Réparé à l'aide de pièces de tissu ou de matière ajoutées, souvent de façon rudimentaire.",
+    "source_sentence": "Et je te scie par ci et je te couds par là, et je te tamponne des lésions et je te retourne des veines en doigts de gants pour les remettre en place avec plus de ficelle que de sang à l'intérieur mais bien rapiécées et bien étanches.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 86,
+    "word": "étanche",
+    "language": "fr",
+    "translation_en": "watertight, leak-proof, sealed (impervious to liquid)",
+    "definition_in_language": "Qui ne laisse pas passer l'eau ou un autre liquide ; parfaitement fermé.",
+    "source_sentence": "Et je te scie par ci et je te couds par là, et je te tamponne des lésions et je te retourne des veines en doigts de gants pour les remettre en place avec plus de ficelle que de sang à l'intérieur mais bien rapiécées et bien étanches.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
