@@ -1167,5 +1167,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 59,
+    "word": "tiers",
+    "language": "fr",
+    "translation_en": "third (a more formal register word for 'third,' distinct from the everyday ordinal 'troisième'; mostly seen today in fixed expressions like 'tierce personne' — a third party or person not directly involved)",
+    "definition_in_language": "Qui vient en troisième position ; s'emploie surtout dans des expressions figées comme « tierce personne » (une personne extérieure à une affaire) plutôt que pour compter en général.",
+    "source_sentence": "Un des deux Turcs tomba mort et l'autre tua une tierce personne.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
