@@ -987,5 +987,45 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 50,
+    "word": "escouade",
+    "language": "fr",
+    "translation_en": "squad (a small group of soldiers under a commander)",
+    "definition_in_language": "Petit groupe de soldats placé sous les ordres d'un chef, formant une subdivision d'une troupe plus importante.",
+    "source_sentence": "En réalité, il avait peur que le vicomte ne se décourageât s'il s'apercevait que l'armée chrétienne ne consistait qu'en cette première rangée déployée, et que les forces auxiliaires se composaient de quelques rares escouades de fantassins en piteux état.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 51,
+    "word": "fantassin",
+    "language": "fr",
+    "translation_en": "infantryman, foot soldier",
+    "definition_in_language": "Soldat qui combat à pied, par opposition au cavalier.",
+    "source_sentence": "En réalité, il avait peur que le vicomte ne se décourageât s'il s'apercevait que l'armée chrétienne ne consistait qu'en cette première rangée déployée, et que les forces auxiliaires se composaient de quelques rares escouades de fantassins en piteux état.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
