@@ -1767,5 +1767,65 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 89,
+    "word": "égratignure",
+    "language": "fr",
+    "translation_en": "a scratch, scrape (a minor surface injury to skin)",
+    "definition_in_language": "Légère blessure superficielle de la peau, causée par un frottement ou une griffure.",
+    "source_sentence": "Pour résumer, il ne demeurait plus qu'une moitié de lui, la moitié droite, du reste parfaitement conservée, sans une égratignure, à part l'énorme déchirure qui l'avait séparée de la moitié gauche réduite en miettes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 90,
+    "word": "déchirure",
+    "language": "fr",
+    "translation_en": "a tear, rip, gash (a torn place, whether in fabric or skin)",
+    "definition_in_language": "Ouverture ou fente produite en déchirant quelque chose ; blessure provoquée par un arrachement.",
+    "source_sentence": "Pour résumer, il ne demeurait plus qu'une moitié de lui, la moitié droite, du reste parfaitement conservée, sans une égratignure, à part l'énorme déchirure qui l'avait séparée de la moitié gauche réduite en miettes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 91,
+    "word": "miette",
+    "language": "fr",
+    "translation_en": "a crumb (a tiny fragment, especially of bread); 'réduit en miettes' = 'smashed to bits, reduced to crumbs/smithereens' — a common figurative expression for something utterly destroyed",
+    "definition_in_language": "Petit fragment tombé d'un aliment, notamment du pain ; au figuré, très petit morceau d'une chose brisée.",
+    "source_sentence": "Pour résumer, il ne demeurait plus qu'une moitié de lui, la moitié droite, du reste parfaitement conservée, sans une égratignure, à part l'énorme déchirure qui l'avait séparée de la moitié gauche réduite en miettes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
