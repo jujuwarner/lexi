@@ -1087,5 +1087,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 55,
+    "word": "ombrelle",
+    "language": "fr",
+    "translation_en": "parasol, sunshade (a small decorative umbrella specifically for sun protection, as opposed to 'parapluie,' which is for rain)",
+    "definition_in_language": "Petit parapluie léger et souvent décoratif, utilisé pour se protéger du soleil.",
+    "source_sentence": "Sabre au clair, il se sentit galoper dans la plaine, les yeux fixés sur l'étendard impérial qui se montrait et disparaissait dans la fumée, tandis que les canonnades amies tournoyaient dans le ciel au-dessus de sa tête, que les ennemis ouvraient déjà une brèche dans le front des chrétiens — et aussi de brusques ombrelles de terre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
