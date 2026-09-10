@@ -967,5 +967,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 49,
+    "word": "porter malheur",
+    "language": "fr",
+    "translation_en": "to bring bad luck",
+    "definition_in_language": "Causer un événement néfaste ou une malchance, selon une croyance populaire.",
+    "source_sentence": "On dit qu'avant le combat, ça porte malheur.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
