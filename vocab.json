@@ -1307,5 +1307,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 66,
+    "word": "boyau",
+    "language": "fr",
+    "translation_en": "gut, intestine, bowel (often used in the plural, especially in graphic contexts referring to spilled entrails); can also figuratively mean a narrow passage or, in military contexts, a communication trench",
+    "definition_in_language": "Intestin ; viscère tubulaire de l'appareil digestif. Au figuré, désigne aussi un passage étroit ou, en contexte militaire, une tranchée de communication.",
+    "source_sentence": "Tous les boyaux étaient déjà par terre.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
