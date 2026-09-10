@@ -1287,5 +1287,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 65,
+    "word": "cimeterre",
+    "language": "fr",
+    "translation_en": "scimitar (a curved sword, historically associated with Middle Eastern and Ottoman/Turkish warriors) — note: easily confused with the unrelated word for 'cemetery,' which is spelled very similarly",
+    "definition_in_language": "Sabre recourbé, tranchant sur son bord convexe, traditionnellement associé aux cavaliers ottomans et moyen-orientaux.",
+    "source_sentence": "Alors il courut en évitant les coups de cimeterre jusqu'à ce qu'il trouvât un Turc de petite taille, à pied, et il tua ce Turc.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
