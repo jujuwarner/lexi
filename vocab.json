@@ -1207,5 +1207,45 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 61,
+    "word": "cuit",
+    "language": "fr",
+    "translation_en": "cooked; also figuratively 'weathered, sun-baked, leathery' when describing skin/faces toughened by sun and outdoor work",
+    "definition_in_language": "Qui a subi la cuisson ; au figuré, se dit d'une peau tannée et durcie par le soleil et le travail en extérieur.",
+    "source_sentence": "Leurs figures étaient des faces cuites et têtues de paysans.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 62,
+    "word": "têtu",
+    "language": "fr",
+    "translation_en": "stubborn, headstrong, obstinate",
+    "definition_in_language": "Qui s'entête, qui refuse de changer d'avis ou de céder ; obstiné.",
+    "source_sentence": "Leurs figures étaient des faces cuites et têtues de paysans.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
