@@ -1747,5 +1747,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 88,
+    "word": "bouillie",
+    "language": "fr",
+    "translation_en": "porridge, gruel, mush (a soft mashed food, like baby food); figuratively, a mangled, pulpy mess — as used here to describe destroyed flesh",
+    "definition_in_language": "Aliment mou obtenu en faisant cuire une substance (céréale, légume) dans un liquide jusqu'à obtenir une consistance épaisse et molle ; au figuré, désigne une masse informe et écrasée.",
+    "source_sentence": "Pour la tête, il n'en restait qu'un œil, une oreille, une joue, la moitié du nez, la moitié de la bouche, la moitié du menton et la moitié du front : de l'autre moitié, il ne subsistait qu'une bouillie.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
