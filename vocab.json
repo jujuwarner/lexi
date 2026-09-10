@@ -1487,5 +1487,45 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 75,
+    "word": "quartier",
+    "language": "fr",
+    "translation_en": "a piece, chunk, portion (as in a quarter or segment of something — e.g. a segment of an apple, a cut of meat); here used grimly to mean a dismembered piece of a body — a completely different sense from the everyday meaning of 'neighborhood'",
+    "definition_in_language": "Partie, morceau ou portion d'un tout (fruit, viande, etc.) ; ici, employé pour désigner un morceau d'un corps déchiqueté.",
+    "source_sentence": "Ceux chez qui il semblait qu'il y eût encore quelque chose à sauver, on les mettait sur le char des blessés, ceux qui n'étaient plus que quartiers et lambeaux allaient sur le char des morts pour avoir une sépulture bénie ; ce qui n'était même plus un cadavre, on le laissait en pâture aux cigognes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 76,
+    "word": "sépulture",
+    "language": "fr",
+    "translation_en": "burial; also a grave, tomb, resting place for the dead",
+    "definition_in_language": "Lieu où l'on enterre les morts ; action d'ensevelir un corps selon un rite.",
+    "source_sentence": "Ceux chez qui il semblait qu'il y eût encore quelque chose à sauver, on les mettait sur le char des blessés, ceux qui n'étaient plus que quartiers et lambeaux allaient sur le char des morts pour avoir une sépulture bénie ; ce qui n'était même plus un cadavre, on le laissait en pâture aux cigognes.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
