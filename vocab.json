@@ -579,11 +579,11 @@
     "cultural_note": "The noun 'peine' at the root of this phrase is richly multi-purpose in French — it also means 'sorrow/grief', and 'sentence/punishment' (as in 'peine de prison', a prison sentence). Two other common expressions from the same root: 'ça vaut la peine' (it's worth it/worth the trouble) and 'à peine' (barely, hardly).",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -599,11 +599,11 @@
     "cultural_note": "Worth knowing the idiom 'prendre la mouche' — literally 'to take the fly' — meaning to suddenly take offense or get huffy over something minor.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-09-16",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -620,10 +620,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -639,11 +639,11 @@
     "cultural_note": "Same root as 'haute couture' — literally 'high sewing' — the globally recognized French term for the most exclusive tier of custom-made fashion. Sutures and Paris runway fashion share a word.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -659,11 +659,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.56,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -680,10 +680,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -699,11 +699,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -720,10 +720,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -740,10 +740,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -760,10 +760,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -779,11 +779,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -800,10 +800,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -820,10 +820,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -839,11 +839,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -859,11 +859,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -880,10 +880,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -900,10 +900,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -920,10 +920,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-10",
-      "last_reviewed": "2026-09-09"
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -942,10 +942,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -962,10 +962,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -982,10 +982,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1002,10 +1002,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1022,10 +1022,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1042,10 +1042,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1062,10 +1062,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1082,10 +1082,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1101,11 +1101,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1122,10 +1122,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1142,10 +1142,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1162,10 +1162,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1182,10 +1182,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1202,10 +1202,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1222,10 +1222,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1242,10 +1242,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1261,11 +1261,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1282,10 +1282,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1302,10 +1302,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1321,11 +1321,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1342,10 +1342,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1361,18 +1361,18 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
     "id": 69,
     "word": "marc",
     "language": "fr",
-    "translation_en": "marc — a strong brandy distilled from the leftover grape skins/seeds/stems after winemaking (pomace brandy); the same word can also mean coffee grounds or leftover pulp from pressing other fruit, but here it's the alcoholic spirit",
+    "translation_en": "a strong brandy distilled from the leftover grape skins/seeds/stems after winemaking (pomace brandy); the same French word can also mean coffee grounds or leftover pulp from pressing other fruit, but here it's the alcoholic spirit",
     "definition_in_language": "Eau-de-vie obtenue par distillation du marc de raisin, c'est-à-dire les résidus (peaux, pépins, rafles) laissés après le pressurage du raisin pour le vin.",
     "source_sentence": "Ne pensez pas à moi, seigneur, dit l'écuyer. Espérons seulement qu'il reste du marc à l'hôpital. Chaque blessé a droit à une assiette à soupe de marc.",
     "source_title": "Le Vicomte pourfendu",
