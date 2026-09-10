@@ -3,7 +3,9 @@
 // answers/ratings to the backend, which is the only place SM-2 actually runs.
 
 const QUALITY_LABELS = { "1": "Again", "2": "Hard", "3": "Good", "4": "Easy" };
+const LANGUAGE_NAMES = { fr: "French", ru: "Russian", zh: "Mandarin" };
 
+let allDueCards = []; // everything due today, before any language filter
 let cards = [];
 let index = 0;
 let mode = null; // "write" | "recognize"
@@ -25,7 +27,7 @@ function updateProgress() {
 }
 
 function showSection(id) {
-  for (const s of ["mode-picker", "empty-state", "write-card", "recognize-card", "done-state"]) {
+  for (const s of ["language-picker", "mode-picker", "empty-state", "write-card", "recognize-card", "done-state"]) {
     el(s).classList.toggle("hidden", s !== id);
   }
 }
@@ -168,10 +170,21 @@ function startSession(chosenMode) {
   renderCard();
 }
 
+function showModePicker() {
+  el("progress").textContent = `${cards.length} word${cards.length === 1 ? "" : "s"} recommended for today`;
+  showSection("mode-picker");
+}
+
+function chooseLanguage(lang) {
+  cards = allDueCards.filter((c) => c.language === lang);
+  showModePicker();
+}
+
 async function init() {
   el("restart-btn").addEventListener("click", () => location.reload());
 
-  cards = await api("/api/due");
+  allDueCards = await api("/api/due");
+  cards = allDueCards;
 
   if (cards.length === 0) {
     showSection("empty-state");
@@ -184,8 +197,26 @@ async function init() {
   el("write-form").addEventListener("submit", handleWriteSubmit);
   el("recognize-reveal-btn").addEventListener("click", handleRecognizeReveal);
 
-  el("progress").textContent = `${cards.length} word${cards.length === 1 ? "" : "s"} recommended for today`;
-  showSection("mode-picker");
+  // Only ask which language when there's actually a choice to make -- one
+  // language due today (the common case so far) skips straight past this.
+  const languages = [...new Set(cards.map((c) => c.language))];
+  if (languages.length > 1) {
+    const container = el("language-buttons");
+    container.innerHTML = "";
+    for (const lang of languages) {
+      const count = cards.filter((c) => c.language === lang).length;
+      const btn = document.createElement("button");
+      btn.className = "primary";
+      btn.innerHTML = `${LANGUAGE_NAMES[lang] || lang}<br /><span>${count} word${count === 1 ? "" : "s"}</span>`;
+      btn.addEventListener("click", () => chooseLanguage(lang));
+      container.appendChild(btn);
+    }
+    el("progress").textContent = `${cards.length} word${cards.length === 1 ? "" : "s"} recommended, across ${languages.length} languages`;
+    showSection("language-picker");
+    return;
+  }
+
+  showModePicker();
 }
 
 init();

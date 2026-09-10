@@ -134,6 +134,14 @@ fields (character, pinyin, tone) that don't apply to alphabetic languages —
 that extension is intentionally deferred until the Mandarin-specific project
 work is further along, rather than guessed at now.
 
+**Multiple languages in the pool at once:** review sessions (CLI and web UI
+both) only ask which language to review when there's actually more than one
+due on a given day — with just French in the deck, that step never appears.
+Articles are French-only too: `display_word()` only ever attaches "le/la/l'"
+when an entry's `language` is `"fr"`, so a Russian noun's `gender` (which can
+be `"m"`, `"f"`, *or* `"n"` — Russian has three) stays informational rather
+than triggering a (wrong) French article.
+
 ## Not everything gets added
 
 A lesson from an old Quizlet habit: recording every unknown word regardless

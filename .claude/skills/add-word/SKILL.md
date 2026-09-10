@@ -97,11 +97,18 @@ properly-formatted entry to `vocab.json` in this project.
    }
    ```
 
-   **For nouns, always set `gender`** (`"m"` or `"f"` — French has only two).
-   This isn't optional metadata; review.py displays the word with its article
+   **For French nouns, always set `gender`** (`"m"` or `"f"`). This isn't
+   optional metadata; review.py displays French nouns with their article
    (e.g. "la cigogne") so gender gets practiced as part of recalling the word
    itself, not as separate trivia. For non-nouns (verbs, adjectives, adverbs),
    leave `gender` as `null` — there's nothing to track.
+
+   **Russian nouns have three genders, not two** — masculine, feminine, *and
+   neuter*. Set `gender` to `"m"`, `"f"`, or `"n"` for Russian nouns; still
+   worth recording even though Russian has no articles to display (gender
+   drives adjective/verb agreement instead), so it's informational here
+   rather than something `display_word()` acts on the way it does for
+   French.
 
    `language` is a short code: `fr` for French, `ru` for Russian, `zh` for
    Mandarin. Leave `source_sentence` / `source_title` as empty strings if she

@@ -106,20 +106,24 @@ VOWEL_START = "aàâeéèêëiîïoôuùûü"
 
 
 def display_word(entry):
-    """For nouns, show the word with its article (e.g. 'la cigogne') so
-    gender gets practiced as part of the same recall as the word itself —
+    """For French nouns, show the word with its article (e.g. 'la cigogne')
+    so gender gets practiced as part of the same recall as the word itself —
     that's how gender actually gets used, not as separate trivia. Non-nouns
     (verbs, adjectives — anything with no 'gender' field) just show the
-    bare word.
+    bare word, and so does every non-French language: Russian has grammatical
+    gender too but no articles, so there's nothing to prepend regardless of
+    what 'gender' says. This function is the only place that ever attaches
+    an article, so gating it here is enough — nowhere else needs to know
+    which language it's looking at.
 
-    Note: this only checks for a leading vowel to decide on "l'" elision.
-    French also elides before a silent 'h' (l'homme) but not an aspirate
-    'h' (le hibou), and there's no reliable rule-based way to tell those
-    apart — it's memorized per word. Not handled here; none of the words
-    added so far start with 'h', so it hasn't come up yet."""
+    Note: the article logic only checks for a leading vowel to decide on
+    "l'" elision. French also elides before a silent 'h' (l'homme) but not
+    an aspirate 'h' (le hibou), and there's no reliable rule-based way to
+    tell those apart — it's memorized per word. Not handled here; none of
+    the French words added so far start with 'h', so it hasn't come up yet."""
     gender = entry.get("gender")
     word = entry["word"]
-    if not gender:
+    if not gender or entry.get("language") != "fr":
         return word
     if word[0].lower() in VOWEL_START:
         return f"l'{word}"
@@ -245,6 +249,9 @@ def review_card_write(entry):
     return entry
 
 
+LANGUAGE_NAMES = {"fr": "French", "ru": "Russian", "zh": "Mandarin"}
+
+
 def run_review():
     entries = load_vocab()
     cards = due_today(entries)
@@ -253,7 +260,24 @@ def run_review():
         print("Nothing recommended right now. Nice work staying caught up!")
         return
 
-    print(f"{len(cards)} word(s) recommended for today.\n")
+    # Only ask which language when there's actually a choice to make — one
+    # language due today (the common case so far) skips straight past this.
+    languages = sorted(set(e["language"] for e in cards))
+    if len(languages) > 1:
+        print(f"{len(cards)} word(s) recommended for today, across {len(languages)} languages.\n")
+        print("Which language do you want to review?")
+        for i, lang in enumerate(languages, start=1):
+            name = LANGUAGE_NAMES.get(lang, lang)
+            count = sum(1 for e in cards if e["language"] == lang)
+            print(f"  {i}) {name} ({count})")
+        choice = input("> ").strip()
+        try:
+            chosen = languages[int(choice) - 1]
+        except (ValueError, IndexError):
+            chosen = languages[0]
+        cards = [e for e in cards if e["language"] == chosen]
+
+    print(f"\n{len(cards)} word(s) recommended for today.\n")
     print("How do you want to review today? (Enter for Write, the default)")
     print("  1) Recognize — see the word, recall the meaning yourself")
     print("  2) Write — see the meaning, type the word  [default]")

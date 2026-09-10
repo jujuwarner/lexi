@@ -17,8 +17,14 @@
     <p id="progress"></p>
   </header>
 
+  <!-- Language picker: only shown when more than one language is due -->
+  <section id="language-picker" class="card hidden">
+    <h2>Which language do you want to review?</h2>
+    <div id="language-buttons" class="mode-buttons"></div>
+  </section>
+
   <!-- Mode picker: shown once at the start of a session -->
-  <section id="mode-picker" class="card">
+  <section id="mode-picker" class="card hidden">
     <h2>How do you want to review today?</h2>
     <div class="mode-buttons">
       <button id="mode-write" class="primary">Write<br /><span>see the meaning, type the word</span></button>
