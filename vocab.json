@@ -1327,5 +1327,25 @@
       "next_review": "2026-09-09",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 67,
+    "word": "étalage",
+    "language": "fr",
+    "translation_en": "a display, a show (of something) — often carrying the connotation of showing off or putting on a performance, rather than something genuine",
+    "definition_in_language": "Action de montrer, d'exposer quelque chose de façon visible, souvent avec une connotation d'ostentation plutôt que de sincérité.",
+    "source_sentence": "Le pauvre animal eut un regard en haut, vers son maître, puis il baissa la tête comme s'il voulait brouter ses intestins mais ce n'était là qu'étalage d'héroïsme ; il défaillit et mourut.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-09",
+      "last_reviewed": null
+    }
   }
 ]
