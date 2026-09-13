@@ -1847,5 +1847,25 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 93,
+    "word": "душа",
+    "language": "ru",
+    "translation_en": "soul",
+    "definition_in_language": "Нематериальная часть человека, средоточие чувств и внутренней жизни.",
+    "source_sentence": "У него в пятнадцати верстах от постоялого дворика хорошее имение в двести душ.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "Under serfdom, an estate's size was measured partly by how many male serfs ('souls,' ревизские души) belonged to it, per the era's tax-census system — so 'an estate of two hundred souls' literally means 200 serfs. The novel was published in 1862, right after the 1861 Emancipation of the serfs, so this kind of accounting is already becoming a thing of the recent past as the characters speak.",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
