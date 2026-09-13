@@ -2091,5 +2091,45 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 105,
+    "word": "испещрить",
+    "language": "ru",
+    "translation_en": "to cover all over/densely with marks or writing, to speckle, to mottle",
+    "definition_in_language": "Покрыть что-либо множеством мелких знаков, пятен или письменных знаков по всей поверхности.",
+    "source_sentence": "Отец их вернулся к своей дивизии и к своей супруге и лишь изредка присылал сыновьям большие четвертушки серой бумаги, испещренные размашистым писарским почерком.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 106,
+    "word": "размашистый",
+    "language": "ru",
+    "translation_en": "sweeping, broad, expansive (used for handwriting or gestures) — bold, wide, and loose rather than small and neat",
+    "definition_in_language": "Широкий, размашистый в движениях или в почерке; не мелкий и не сжатый, а свободный и крупный.",
+    "source_sentence": "Отец их вернулся к своей дивизии и к своей супруге и лишь изредка присылал сыновьям большие четвертушки серой бумаги, испещренные размашистым писарским почерком.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
