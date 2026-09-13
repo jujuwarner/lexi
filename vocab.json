@@ -2071,5 +2071,25 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 104,
+    "word": "четвертушка",
+    "language": "ru",
+    "translation_en": "a quarter-sheet of paper (a small sheet of writing paper, historically made by folding or cutting a full sheet into quarters — used for short letters or notes)",
+    "definition_in_language": "Четвёртая часть листа бумаги, обычно небольшого размера, использовавшаяся для коротких писем или записок.",
+    "source_sentence": "Отец их вернулся к своей дивизии и к своей супруге и лишь изредка присылал сыновьям большие четвертушки серой бумаги, испещренные размашистым писарским почерком.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
