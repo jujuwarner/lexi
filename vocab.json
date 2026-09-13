@@ -1931,5 +1931,65 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 97,
+    "word": "речь впереди",
+    "language": "ru",
+    "translation_en": "more to come (on this person/topic) — a narrator's aside meaning someone or something will be discussed further later in the text",
+    "definition_in_language": "Авторское отступление, означающее, что о данном человеке или предмете будет рассказано подробнее далее в тексте.",
+    "source_sentence": "Николай Петрович родился на юге России, подобно старшему своему брату Павлу, о котором речь впереди, и воспитывался до четырнадцатилетнего возраста дома, окруженный дешевыми гувернерами, развязными, но подобострастными адъютантами и прочими полковыми и штабными личностями.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 98,
+    "word": "развязный",
+    "language": "ru",
+    "translation_en": "overly familiar, unceremonious, brash (in manner) — behaving with an inappropriate lack of formality or restraint, especially toward someone of higher status",
+    "definition_in_language": "Слишком свободный, непринуждённый в поведении, без должной сдержанности или почтительности, особенно по отношению к вышестоящим.",
+    "source_sentence": "Николай Петрович родился на юге России, подобно старшему своему брату Павлу, о котором речь впереди, и воспитывался до четырнадцатилетнего возраста дома, окруженный дешевыми гувернерами, развязными, но подобострастными адъютантами и прочими полковыми и штабными личностями.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 99,
+    "word": "подобострастный",
+    "language": "ru",
+    "translation_en": "obsequious, fawning, servile, sycophantic — showing excessive, insincere deference or flattery toward someone of higher status",
+    "definition_in_language": "Раболепный, льстивый, проявляющий чрезмерную и неискреннюю почтительность к вышестоящим.",
+    "source_sentence": "Николай Петрович родился на юге России, подобно старшему своему брату Павлу, о котором речь впереди, и воспитывался до четырнадцатилетнего возраста дома, окруженный дешевыми гувернерами, развязными, но подобострастными адъютантами и прочими полковыми и штабными личностями.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
