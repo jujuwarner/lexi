@@ -2151,5 +2151,45 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 108,
+    "word": "поневоле",
+    "language": "ru",
+    "translation_en": "unwillingly, against one's will, out of necessity — forced by circumstances rather than by choice",
+    "definition_in_language": "Вынужденно, не по собственному желанию, а под влиянием обстоятельств.",
+    "source_sentence": "Он поневоле вернулся в деревню и после довольно продолжительного бездействия занялся хозяйственными преобразованиями.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 109,
+    "word": "преобразование",
+    "language": "ru",
+    "translation_en": "a transformation, reform, restructuring (especially of an economic or administrative system)",
+    "definition_in_language": "Коренное изменение или реорганизация чего-либо, особенно хозяйственной или общественной системы.",
+    "source_sentence": "Он поневоле вернулся в деревню и после довольно продолжительного бездействия занялся хозяйственными преобразованиями.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "n",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
