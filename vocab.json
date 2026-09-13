@@ -2131,5 +2131,25 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 107,
+    "word": "выкрутас",
+    "language": "ru",
+    "translation_en": "a flourish, an ornamental curlicue/swirl (especially in handwriting or a signature); more broadly, can also mean fancy antics or showy tricks/capers in behavior",
+    "definition_in_language": "Замысловатый, витиеватый росчерк или завиток, часто украшающий подпись; в переносном смысле — вычурные, показные выходки или трюки.",
+    "source_sentence": "На конце этих четвертушек красовались старательно окруженные выкрутасами слова Пиотр Кирсаноф, генерал майор.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
