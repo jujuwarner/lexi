@@ -1381,11 +1381,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1401,11 +1401,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1422,10 +1422,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1442,10 +1442,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1461,11 +1461,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1481,11 +1481,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1501,11 +1501,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1522,10 +1522,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1542,10 +1542,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1561,11 +1561,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1582,10 +1582,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1602,10 +1602,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1622,10 +1622,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1642,10 +1642,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1662,10 +1662,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1681,11 +1681,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1702,10 +1702,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1722,10 +1722,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1742,10 +1742,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1761,11 +1761,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1782,10 +1782,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1801,11 +1801,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-09",
-      "last_reviewed": null
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
     }
   },
   {
@@ -1822,9 +1822,29 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-09-11",
+      "last_reviewed": "2026-09-10"
+    }
+  },
+  {
+    "id": 92,
+    "word": "видать",
+    "language": "ru",
+    "translation_en": "to see (colloquial/informal variant of 'видеть'); most often used in the fixed impersonal construction 'не видать' — 'nothing to be seen, no sign of...'",
+    "definition_in_language": "Разговорный вариант глагола «видеть»; часто употребляется в выражении «не видать» — ничего не видно, нет никаких признаков кого-либо или чего-либо.",
+    "source_sentence": "Что, Пётр? Не видать еще?",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "This is the opening line of the novel — Nikolai Petrovich asking his servant Pyotr whether his son Arkady's carriage is in sight yet, as he waits impatiently for his return. One of the most famous opening lines in Russian literature.",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
       "easiness": 2.5,
       "interval": 0,
-      "next_review": "2026-09-09",
+      "next_review": "2026-09-13",
       "last_reviewed": null
     }
   }
