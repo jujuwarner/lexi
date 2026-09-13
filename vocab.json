@@ -1991,5 +1991,85 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 100,
+    "word": "родительница",
+    "language": "ru",
+    "translation_en": "mother (a more formal/literary register word, as opposed to the plain 'мать')",
+    "definition_in_language": "Женщина по отношению к своим детям; более книжный, торжественный синоним слова «мать».",
+    "source_sentence": "Родительница его, из фамилии Коляиных, в девицах Agathe, а в генеральшах Агафоклея Кузьминична Кирсанова, принадлежала к числу матушек командирш, носила пышные чепцы и шумные шелковые платья, в церкви подходила первая ко кресту, говорила громко и много, допускала детей утром к ручке, на ночь их благословляла — словом, жила в свое удовольствие.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 101,
+    "word": "чепец",
+    "language": "ru",
+    "translation_en": "a bonnet, cap (specifically the kind traditionally worn indoors by married women)",
+    "definition_in_language": "Женский головной убор, который замужние женщины традиционно носили дома.",
+    "source_sentence": "Родительница его, из фамилии Коляиных, в девицах Agathe, а в генеральшах Агафоклея Кузьминична Кирсанова, принадлежала к числу матушек командирш, носила пышные чепцы и шумные шелковые платья, в церкви подходила первая ко кресту, говорила громко и много, допускала детей утром к ручке, на ночь их благословляла — словом, жила в свое удовольствие.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 102,
+    "word": "допускать к ручке",
+    "language": "ru",
+    "translation_en": "to allow someone to kiss one's hand (a formal greeting ritual, historically performed by children or subordinates toward an elder or superior as a mark of respect)",
+    "definition_in_language": "Позволять кому-либо поцеловать свою руку в знак уважения — формальный ритуал приветствия, распространённый в дворянских семьях.",
+    "source_sentence": "Родительница его, из фамилии Коляиных, в девицах Agathe, а в генеральшах Агафоклея Кузьминична Кирсанова, принадлежала к числу матушек командирш, носила пышные чепцы и шумные шелковые платья, в церкви подходила первая ко кресту, говорила громко и много, допускала детей утром к ручке, на ночь их благословляла — словом, жила в свое удовольствие.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 103,
+    "word": "жить в свое удовольствие",
+    "language": "ru",
+    "translation_en": "to live entirely for one's own pleasure/satisfaction — doing just as one likes, without much regard for anything else",
+    "definition_in_language": "Жить, руководствуясь только собственными желаниями и удовольствием, не особо считаясь с окружающими.",
+    "source_sentence": "Родительница его, из фамилии Коляиных, в девицах Agathe, а в генеральшах Агафоклея Кузьминична Кирсанова, принадлежала к числу матушек командирш, носила пышные чепцы и шумные шелковые платья, в церкви подходила первая ко кресту, говорила громко и много, допускала детей утром к ручке, на ночь их благословляла — словом, жила в свое удовольствие.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
