@@ -1911,5 +1911,25 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 96,
+    "word": "тянуть лямку",
+    "language": "ru",
+    "translation_en": "to slog away, to grind through tedious/thankless routine work, to soldier on (literally 'to pull the strap/harness-strap')",
+    "definition_in_language": "Заниматься тяжёлой, монотонной работой без особого удовольствия, но по необходимости или из чувства долга.",
+    "source_sentence": "Отец его, боевой генерал 1812 года, полуграмотный, грубый, но не злой русский человек, всю жизнь тянул лямку, командовал сперва бригадой, потом дивизией и постоянно жил в провинции, где в силу своего чина играл довольно значительную роль.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [],
+    "cultural_note": "This idiom comes from the 'бурлаки' — barge haulers who towed boats upstream along riverbanks using a shoulder harness (лямка), a grueling, low-status form of labor common on Russian rivers like the Volga before steam power, famously depicted in Repin's 1870s painting 'Бурлаки на Волге' (Barge Haulers on the Volga).",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
