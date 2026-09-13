@@ -1867,5 +1867,49 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 94,
+    "word": "постоялый двор",
+    "language": "ru",
+    "translation_en": "a wayside inn, coaching inn (a pre-railway roadside lodging for travelers and their horses)",
+    "definition_in_language": "Гостиница или заезжий дом на дороге, где путешественники останавливались вместе с лошадьми до появления железных дорог.",
+    "source_sentence": "У него в пятнадцати верстах от постоялого дворика хорошее имение в двести душ или, как он выражается с тех пор, как размежевался с крестьянами и завел ферму, в две тысячи десятин земли.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [
+      "historical"
+    ],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 95,
+    "word": "размежеваться",
+    "language": "ru",
+    "translation_en": "to complete a formal land boundary division/settlement (with someone) — specifically the legal process landowners went through with their former serfs after the 1861 Emancipation reform, dividing land between the estate and the newly freed peasants",
+    "definition_in_language": "Провести раздел земли, установив границы между своим владением и землёй других (например, крестьян) — в частности, после отмены крепостного права в 1861 году.",
+    "source_sentence": "У него в пятнадцати верстах от постоялого дворика хорошее имение в двести душ или, как он выражается с тех пор, как размежевался с крестьянами и завел ферму, в две тысячи десятин земли.",
+    "source_title": "Отцы и дети",
+    "date_added": "2026-09-13",
+    "tags": [
+      "historical"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-13",
+      "last_reviewed": null
+    }
   }
 ]
