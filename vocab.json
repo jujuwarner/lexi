@@ -2351,5 +2351,25 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 118,
+    "word": "compas",
+    "language": "fr",
+    "translation_en": "a compass (the two-legged geometry/drawing tool for drawing circles); here used figuratively — 'd'un mouvement de compas' = with a swinging, pivoting motion, like the two legs of a compass opening and swinging around a fixed point",
+    "definition_in_language": "Instrument à deux branches articulées servant à tracer des cercles ou à mesurer des distances ; ici employé au figuré pour décrire un mouvement de pivotement, comme les deux branches d'un compas qui s'écartent autour d'un point fixe.",
+    "source_sentence": "Contrarié de nous avoir fait une impression semblable, mon oncle posa le bout de sa béquille devant lui sur le terrain et, d'un mouvement de compas, s'élança vers l'entrée du château.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
