@@ -2211,5 +2211,45 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 111,
+    "word": "cuve",
+    "language": "fr",
+    "translation_en": "a vat, tub, tank — in a winemaking context specifically, the large open vat used for fermenting or treading grapes",
+    "definition_in_language": "Grand récipient utilisé pour la fermentation du vin ou pour d'autres usages industriels.",
+    "source_sentence": "Cette fois-là nous avions deviné juste ; nous en eûmes la preuve le soir quand un jeune homme nommé Florfier, qui foulait le raisin, se mit à crier de la cuve : « Oh ! Là-bas ! »",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 112,
+    "word": "fouler le raisin",
+    "language": "fr",
+    "translation_en": "to tread the grapes (the traditional method of crushing grapes with bare feet in a vat to extract the juice for winemaking)",
+    "definition_in_language": "Écraser le raisin avec les pieds dans une cuve, méthode traditionnelle pour en extraire le jus destiné à la fabrication du vin.",
+    "source_sentence": "Cette fois-là nous avions deviné juste ; nous en eûmes la preuve le soir quand un jeune homme nommé Florfier, qui foulait le raisin, se mit à crier de la cuve : « Oh ! Là-bas ! »",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
