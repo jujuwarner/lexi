@@ -2371,5 +2371,45 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 119,
+    "word": "pie-grièche",
+    "language": "fr",
+    "translation_en": "shrike (a small predatory songbird known for impaling its prey on thorns, sometimes called a 'butcher bird')",
+    "definition_in_language": "Petit oiseau prédateur connu pour empaler ses proies sur des épines.",
+    "source_sentence": "",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 120,
+    "word": "mésange",
+    "language": "fr",
+    "translation_en": "a tit, chickadee (a small songbird, e.g. 'mésange bleue' = blue tit)",
+    "definition_in_language": "Petit oiseau chanteur vif et coloré, commun dans les jardins et les forêts.",
+    "source_sentence": "",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
