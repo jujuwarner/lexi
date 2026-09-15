@@ -2191,5 +2191,25 @@
       "next_review": "2026-09-13",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 110,
+    "word": "vendanger",
+    "language": "fr",
+    "translation_en": "to harvest grapes (for winemaking)",
+    "definition_in_language": "Récolter le raisin, généralement pour la fabrication du vin.",
+    "source_sentence": "Dans la journée, nous avions vendangé ; à travers les cordons de vignes nous voyions approcher sur la mer grise les voiles d'un navire battant pavillon impérial.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
