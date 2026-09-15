@@ -2331,5 +2331,25 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 117,
+    "word": "hampe",
+    "language": "fr",
+    "translation_en": "a staff, pole, shaft (especially of a flag, spear, or similar object)",
+    "definition_in_language": "Long manche de bois ou de métal auquel est fixé un drapeau, une arme (comme une lance), ou un autre objet similaire.",
+    "source_sentence": "En regardant mieux, nous vîmes qu'il adhérait au vicomte comme à la hampe un drapeau.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
