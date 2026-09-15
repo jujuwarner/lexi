@@ -2311,5 +2311,25 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 116,
+    "word": "cime",
+    "language": "fr",
+    "translation_en": "the top, summit, peak (of a tree, mountain, etc.)",
+    "definition_in_language": "Partie la plus haute d'un arbre, d'une montagne ou d'une chose élevée.",
+    "source_sentence": "Une bouffée de vent monta de la mer, une branche cassée gémit à la cime d'un figuier.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
