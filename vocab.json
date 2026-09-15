@@ -2271,5 +2271,45 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 114,
+    "word": "faisan",
+    "language": "fr",
+    "translation_en": "pheasant",
+    "definition_in_language": "Oiseau de taille moyenne, souvent chassé, au plumage coloré chez le mâle.",
+    "source_sentence": "",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 115,
+    "word": "tourterelle",
+    "language": "fr",
+    "translation_en": "turtledove",
+    "definition_in_language": "Petit oiseau de la famille des colombidés, plus petit que le pigeon, au roucoulement caractéristique.",
+    "source_sentence": "",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
