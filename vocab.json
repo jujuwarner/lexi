@@ -2251,5 +2251,25 @@
       "next_review": "2026-09-14",
       "last_reviewed": null
     }
+  },
+  {
+    "id": 113,
+    "word": "muletier",
+    "language": "fr",
+    "translation_en": "of or for mules — 'sentier muletier' = a mule track/path (a narrow trail suitable for mule trains, common in hilly or mountainous terrain); as a noun, 'un muletier' means a muleteer, someone who drives mules",
+    "definition_in_language": "Relatif aux mulets ; « sentier muletier » désigne un chemin étroit adapté au passage des mulets, typique des terrains accidentés.",
+    "source_sentence": "Il faisait presque noir et nous vîmes au fond de la vallée une file de torches s'allumer le long du sentier muletier.",
+    "source_title": "Le Vicomte pourfendu",
+    "date_added": "2026-09-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-09-14",
+      "last_reviewed": null
+    }
   }
 ]
