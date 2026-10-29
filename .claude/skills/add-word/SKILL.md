@@ -41,6 +41,21 @@ properly-formatted entry to `vocab.json` in this project.
      Describe the usage pattern in plain English instead (e.g. "often used
      in the plural, as in the expression for something being in tatters")
      rather than quoting the actual French.
+
+     **A fourth leak shape, specific to words English has borrowed as
+     loanwords/transliterations** (more common in Russian than French —
+     "тройка"/troika, "тарантас"/tarantas, and likely more to come —
+     "изба"/izba, "мужик"/muzhik, "дача"/dacha, etc.): if the correct
+     English gloss for a word *is* a transliteration of the word itself,
+     writing that transliteration into `translation_en` means she can
+     answer correctly by transliterating the English prompt back into
+     Cyrillic, without actually recalling the word from memory. Before
+     finalizing `translation_en` for any entry, ask: does the English
+     translation sound like the target word said with an English accent?
+     If so, describe the concept in plain descriptive English instead
+     (what the thing actually is/does), and save the "this is usually
+     called X in English" loanword fact for `cultural_note`, where it's
+     safe since that only shows after she's already answered.
    - `definition_in_language` — a definition written *in the target
      language itself* (French, Russian, etc.), not translated from English.
      This is deliberate: reading a definition in the language you're
@@ -70,6 +85,18 @@ properly-formatted entry to `vocab.json` in this project.
    in the entry's `tags` array — e.g. `["archaic"]`, `["rare"]`,
    `["technical"]` — so it's marked as different from everyday vocabulary
    rather than blending in indistinguishably. Everyday words get `tags: []`.
+
+   **Any of these three tags also changes the entry's starting `srs`
+   block**, so the word gets de-prioritized in review from day one instead
+   of competing equally with everyday vocabulary for review slots. Instead
+   of the normal new-card defaults (`interval: 0`, `next_review`: today),
+   set `interval: 14` and `next_review` 14 days out from today. This is a
+   data-only change — `review.py`'s `due_today()` just checks
+   `next_review <= today`, so pushing the date out is all that's needed;
+   no code change, no special-casing elsewhere. Once she reviews the card
+   for the first time, normal SM-2 scheduling takes over from there as
+   usual — this only affects the initial delay before a niche word first
+   surfaces.
 
 5a. **Add a cultural/historical note when a word genuinely has one — not for
     every word.** If a word connects to real cultural or historical context

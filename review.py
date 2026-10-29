@@ -58,9 +58,17 @@ QUALITY_MAP = {
 }
 
 
-def apply_sm2(srs, quality):
+PRIORITY_INTERVAL_FACTOR = 0.5
+
+
+def apply_sm2(srs, quality, priority=False):
     """Given a card's current srs state and a 0-5 quality score, return the
-    updated srs state (repetitions, easiness, interval, next_review)."""
+    updated srs state (repetitions, easiness, interval, next_review).
+
+    `priority` marks a card you've deliberately chosen to see more often —
+    unlike easiness (which the algorithm derives from how you actually
+    perform), this is a standing multiplier you set yourself, applied on
+    every review for the life of the card, not just a one-time nudge."""
     repetitions = srs["repetitions"]
     easiness = srs["easiness"]
 
@@ -77,6 +85,9 @@ def apply_sm2(srs, quality):
             interval = round(srs["interval"] * easiness)
         repetitions += 1
 
+    if priority:
+        interval = max(1, round(interval * PRIORITY_INTERVAL_FACTOR))
+
     # Update easiness. This is the standard SM-2 formula — it nudges
     # easiness up for a 5 (very easy), down for a 3 (hard), and never lets
     # it drop below 1.3 (below that, intervals would shrink too aggressively).
@@ -84,12 +95,24 @@ def apply_sm2(srs, quality):
     easiness = max(1.3, easiness)
 
     today = date.today()
+
+    # Record the calendar date a card was FIRST ever reviewed, once, and
+    # never touch it again after that. This is what lets due_today()'s
+    # new-card cap hold across multiple sessions in the same day — without
+    # it, a card exits "brand new" (last_reviewed stops being None) the
+    # moment it's reviewed, which would quietly let the next batch of new
+    # cards in on the very next /api/due call, defeating the cap entirely.
+    first_reviewed_on = srs.get("first_reviewed_on")
+    if srs["last_reviewed"] is None:
+        first_reviewed_on = today.isoformat()
+
     return {
         "repetitions": repetitions,
         "easiness": round(easiness, 2),
         "interval": interval,
         "next_review": (today + timedelta(days=interval)).isoformat(),
         "last_reviewed": today.isoformat(),
+        "first_reviewed_on": first_reviewed_on,
     }
 
 
@@ -97,9 +120,79 @@ def apply_sm2(srs, quality):
 # Review session
 # ---------------------------------------------------------------------------
 
+NEW_CARDS_PER_DAY = 30
+# Caps how many never-reviewed cards can surface per language per day, so
+# a big batch of freshly-added words (e.g. a whole chapter's worth) doesn't
+# flood a single session. Only affects cards with no review history yet —
+# anything already in the normal SM-2 rotation is never capped, since that
+# would disrupt spacing you're already relying on. New cards are let in
+# oldest-id-first, so the backlog drains in a steady, predictable order
+# rather than a different random subset each day. Tune this constant
+# directly; no UI for it yet.
+
+PRIORITY_RETRY_THRESHOLD = 3
+# How many times you have to get a word wrong (first attempt + retries,
+# cumulative within one session) before it's auto-flagged priority — see
+# run_review()'s wrong_counts tracking. This is the replacement for manual
+# Hard/Good/Easy self-rating: that scale went mostly unused in practice,
+# since you only ever rated a word AFTER getting it right, by which point
+# it rarely felt "hard" even when it genuinely was. Behavior (how many
+# times you actually missed it) is a more honest signal than in-the-
+# moment self-report.
+
+
 def due_today(entries):
     today = date.today().isoformat()
-    return [e for e in entries if e["srs"]["next_review"] <= today]
+    due = [e for e in entries if e["srs"]["next_review"] <= today]
+
+    brand_new = [e for e in due if e["srs"]["last_reviewed"] is None]
+    in_progress = [e for e in due if e["srs"]["last_reviewed"] is not None]
+
+    # How many new cards has each language already spent today's cap on?
+    # Checked against ALL entries, not just `due` — a card introduced this
+    # morning may no longer be due again this afternoon (a miss pushes
+    # next_review to tomorrow), but it still used up a cap slot for today.
+    already_introduced_today = {}
+    for e in entries:
+        if e["srs"].get("first_reviewed_on") == today:
+            lang = e["language"]
+            already_introduced_today[lang] = already_introduced_today.get(lang, 0) + 1
+
+    allowed_new = []
+    for lang in sorted(set(e["language"] for e in brand_new)):
+        remaining = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
+        lang_new = sorted(
+            (e for e in brand_new if e["language"] == lang), key=lambda e: e["id"]
+        )
+        allowed_new.extend(lang_new[:remaining])
+
+    allowed_new_ids = {e["id"] for e in allowed_new}
+    return [e for e in due if e["srs"]["last_reviewed"] is not None or e["id"] in allowed_new_ids]
+
+
+# ---------------------------------------------------------------------------
+# Era tagging
+# ---------------------------------------------------------------------------
+# An entry's optional "era" field is a visual signal during review, not a
+# scheduling input — it never touches SM-2. Controlled vocabulary (rather
+# than a free-text tag) so the color-coding stays consistent: add a new key
+# here whenever vocab grows into a period this set doesn't cover yet, rather
+# than letting callers invent new era strings ad hoc.
+
+ERAS = {
+    "serfdom_era": {"label": "Serfdom era", "color": "#8b5a2b"},
+    "archaic": {"label": "Archaic / dated", "color": "#8a8578"},
+}
+
+
+def era_badge(entry):
+    """The {key, label, color} to render for this entry's era, or None if
+    it isn't tagged (most entries won't be — this is for words that are
+    genuinely tied to a specific bygone period, not everyday vocabulary)."""
+    key = entry.get("era")
+    if key not in ERAS:
+        return None
+    return {"key": key, **ERAS[key]}
 
 
 VOWEL_START = "aàâeéèêëiîïoôuùûü"
@@ -131,8 +224,15 @@ def display_word(entry):
 
 
 def review_card(entry):
-    """'Recognize' mode: show the word, self-rate how well you recalled its
-    meaning before revealing. Return the updated entry."""
+    """'Recognize' mode, first attempt for this due-appearance: show the
+    word, self-report whether you knew it, update SM-2 automatically from
+    that. Returns (entry, missed) — `missed` tells the caller (run_review)
+    whether this needs to go into the session's retry queue.
+
+    No 1-4 self-rating anymore — in practice that scale barely got used
+    (you only ever rated a word AFTER getting it right, by which point it
+    rarely felt "hard" even if it genuinely was). Difficulty is now judged
+    by behavior instead: see PRIORITY_RETRY_THRESHOLD in run_review()."""
     print("\n" + "=" * 50)
     print(f"  {display_word(entry)}")
     print("=" * 50)
@@ -147,9 +247,35 @@ def review_card(entry):
     if entry.get("cultural_note"):
         print(f"\n🌿 {entry['cultural_note']}")
 
-    quality = ask_quality(["1", "2", "3", "4"])
-    entry["srs"] = apply_sm2(entry["srs"], quality)
-    return entry
+    while True:
+        answer = input("\nDid you know it? (y/n)\n> ").strip().lower()
+        if answer in ("y", "n"):
+            break
+        print("Please enter y or n.")
+
+    quality = 5 if answer == "y" else 0  # Easy (clean recall) or Again
+    entry["srs"] = apply_sm2(entry["srs"], quality, priority="priority" in entry.get("tags", []))
+    return entry, quality == 0
+
+
+def review_card_retry(entry):
+    """'Recognize' mode retry drill — shown again because a previous
+    attempt this session was missed. Same word, but self-rated as a simple
+    got-it-or-not instead of the full 1-4 scale, and no further SM-2
+    update — the real spaced-repetition outcome was already locked in on
+    the genuine first attempt. Returns True if correct this time (drop
+    from the retry queue), False if it should come back around again."""
+    print("\n" + "=" * 50)
+    print(f"  {display_word(entry)}  (retry)")
+    print("=" * 50)
+    input("Press Enter to reveal...")
+    print(f"\nEnglish:  {entry['translation_en']}")
+
+    while True:
+        answer = input("\nGot it this time? (y/n)\n> ").strip().lower()
+        if answer in ("y", "n"):
+            return answer == "y"
+        print("Please enter y or n.")
 
 
 # ---------------------------------------------------------------------------
@@ -198,24 +324,15 @@ def check_answer(typed, expected):
     return "wrong"
 
 
-QUALITY_LABELS = {"1": "Again", "2": "Hard", "3": "Good", "4": "Easy"}
-
-
-def ask_quality(allowed_keys, header="How well did you remember it?"):
-    """Prompt for a quality rating, restricted to `allowed_keys` (a subset
-    of "1"-"4"). Used so, e.g., an exact-match answer can't be rated
-    "Again" — you clearly did remember it."""
-    menu = "   ".join(f"{k}) {QUALITY_LABELS[k]}" for k in allowed_keys)
-    while True:
-        answer = input(f"\n{header}\n  {menu}\n> ").strip()
-        if answer in allowed_keys:
-            return QUALITY_MAP[answer]
-        print(f"Please enter one of: {', '.join(allowed_keys)}.")
-
-
 def review_card_write(entry):
-    """'Write' mode: show the English meaning, type the French word, get it
-    checked. Return the updated entry."""
+    """'Write' mode, first attempt for this due-appearance: show the
+    English meaning, type the word, get it checked, update SM-2
+    automatically from the result. Returns (entry, missed) — see
+    review_card for what that's for.
+
+    No self-rating here either (see review_card's docstring) — an exact
+    match is automatically Easy, a close match (accent/article slip) is
+    automatically Good, and anything else is Again."""
     print("\n" + "=" * 50)
     print(f"  {entry['translation_en']}")
     print("=" * 50)
@@ -226,10 +343,10 @@ def review_card_write(entry):
 
     if result == "exact":
         print(f"\n✓ Correct! {expected}")
-        quality = ask_quality(["2", "3", "4"])  # can't be "Again" — you got it
+        quality = 5  # Easy -- a clean, unaided recall
     elif result == "close":
         print(f'\n~ Close — you wrote "{typed}", correct is "{expected}"')
-        quality = ask_quality(["1", "2", "3", "4"])
+        quality = 4  # Good -- right, but a minor typo/accent/article slip
     elif typed == "":
         print(f"\nNo worries — the answer is: {expected}")
         quality = 0  # Again — same as a wrong guess, just a gentler message
@@ -245,22 +362,33 @@ def review_card_write(entry):
     if entry.get("cultural_note"):
         print(f"\n🌿 {entry['cultural_note']}")
 
-    if quality == 0:
-        # A miss (skip or wrong guess) already auto-rates as "Again," so
-        # there's nothing left to grade -- but make her type the correct
-        # word once before moving on anyway. Purely informational (doesn't
-        # touch the SM-2 rating), just production practice on the thing she
-        # missed, the same reinforcement step Quizlet uses.
-        retyped = input("\nType it once more to help it stick: ").strip()
-        if check_answer(retyped, expected) == "exact":
-            print("✓ Got it.")
-        elif retyped == "":
-            print(f"The answer was: {expected}")
-        else:
-            print(f"Close enough — the answer was: {expected}")
+    entry["srs"] = apply_sm2(entry["srs"], quality, priority="priority" in entry.get("tags", []))
+    return entry, quality == 0
 
-    entry["srs"] = apply_sm2(entry["srs"], quality)
-    return entry
+
+def review_card_write_retry(entry):
+    """'Write' mode retry drill — shown again because a previous attempt
+    this session was missed. Same prompt, but no quality rating and no
+    further SM-2 update — just genuine repeated practice, Quizlet-style,
+    until it's answered correctly. Returns True if correct this time
+    (drop from the retry queue), False if it should come back around
+    again."""
+    print("\n" + "=" * 50)
+    print(f"  {entry['translation_en']}  (retry)")
+    print("=" * 50)
+
+    expected = display_word(entry)
+    typed = input("Type the word again: ").strip()
+    result = check_answer(typed, expected)
+
+    if result in ("exact", "close"):
+        print(f"\n✓ Got it! {expected}")
+        return True
+    elif typed == "":
+        print(f"\nThe answer is: {expected}")
+    else:
+        print(f'\n✗ Not quite — the answer is: {expected}')
+    return False
 
 
 LANGUAGE_NAMES = {"fr": "French", "ru": "Russian", "zh": "Mandarin"}
@@ -296,13 +424,50 @@ def run_review():
     print("  1) Recognize — see the word, recall the meaning yourself")
     print("  2) Write — see the meaning, type the word  [default]")
     mode = input("> ").strip()
-    card_fn = review_card if mode == "1" else review_card_write
+    first_fn = review_card if mode == "1" else review_card_write
+    retry_fn = review_card_retry if mode == "1" else review_card_write_retry
 
+    # Queue of (entry, is_retry). A missed FIRST attempt gets its retry
+    # inserted immediately next — so you retype it once right away while
+    # the correct answer is still fresh, without re-touching its already-
+    # locked-in SM-2 outcome. A missed RETRY (you saw it again and still
+    # got it wrong) falls back to the end of the queue instead — a
+    # breather on other words before it comes back around again, rather
+    # than being stuck retyping the same word forever. `reviewed` only
+    # counts genuine first attempts.
+    #
+    # `wrong_counts` tracks, per word id, how many times it's been missed
+    # so far this session (first attempt + any failed retries). This is
+    # the new difficulty signal, replacing manual self-rating: a word you
+    # only flub once or twice before recovering is just normal; one that
+    # takes real, repeated struggle gets auto-flagged priority once it's
+    # finally answered correctly, so it naturally surfaces more often in
+    # future sessions.
+    queue = [(e, False) for e in cards]
     reviewed = 0
-    for entry in cards:
-        entry = card_fn(entry)
-        save_vocab(entries)  # save after every card, not just at the end
-        reviewed += 1
+    wrong_counts = {}
+    i = 0
+    while i < len(queue):
+        entry, is_retry = queue[i]
+        i += 1
+        if not is_retry:
+            entry, missed = first_fn(entry)
+            save_vocab(entries)  # save after every card, not just at the end
+            reviewed += 1
+            if missed:
+                wrong_counts[entry["id"]] = 1
+                queue.insert(i, (entry, True))
+        else:
+            got_it = retry_fn(entry)
+            if not got_it:
+                wrong_counts[entry["id"]] = wrong_counts.get(entry["id"], 1) + 1
+                queue.append((entry, True))
+            else:
+                total_wrong = wrong_counts.pop(entry["id"], 0)
+                if total_wrong >= PRIORITY_RETRY_THRESHOLD and "priority" not in entry.get("tags", []):
+                    entry.setdefault("tags", []).append("priority")
+                    save_vocab(entries)
+                    print("  ⭐ That one took real effort — marked as priority.")
 
     print(f"\nDone! Reviewed {reviewed} card(s). See you next time.")
 

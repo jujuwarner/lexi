@@ -39,6 +39,9 @@
 
   <!-- Write mode -->
   <section id="write-card" class="card hidden">
+    <button id="write-priority-btn" class="priority-toggle" type="button" aria-label="Mark as priority">☆</button>
+    <span id="write-retry-badge" class="retry-badge hidden">Retry</span>
+    <span id="write-era-badge" class="era-badge hidden"></span>
     <p class="prompt-label">English</p>
     <p id="write-prompt" class="prompt"></p>
     <form id="write-form">
@@ -48,21 +51,15 @@
     </form>
     <div id="write-result" class="result hidden"></div>
     <div id="write-reveal" class="reveal hidden"></div>
-    <div id="write-retype" class="hidden">
-      <p class="field-label">Type it once more to help it stick</p>
-      <form id="retype-form">
-        <input id="retype-input" type="text" autocomplete="off" autocapitalize="off"
-               spellcheck="false" placeholder="Type it…" />
-        <button type="submit" class="primary">Continue</button>
-      </form>
-      <p id="retype-feedback"></p>
-    </div>
     <div id="write-quality" class="quality-buttons hidden"></div>
   </section>
 
   <!-- Recognize mode -->
   <section id="recognize-card" class="card hidden">
-    <p class="prompt-label">French</p>
+    <button id="recognize-priority-btn" class="priority-toggle" type="button" aria-label="Mark as priority">☆</button>
+    <span id="recognize-retry-badge" class="retry-badge hidden">Retry</span>
+    <span id="recognize-era-badge" class="era-badge hidden"></span>
+    <p id="recognize-prompt-label" class="prompt-label"></p>
     <p id="recognize-word" class="prompt"></p>
     <button id="recognize-reveal-btn" class="primary">Reveal</button>
     <div id="recognize-reveal" class="reveal hidden"></div>

@@ -151,6 +151,58 @@ button.primary {
   border-color: var(--accent);
 }
 
+.priority-toggle {
+  position: absolute;
+  top: 28px;
+  right: 32px;
+  padding: 6px 10px;
+  font-size: 1.3em;
+  line-height: 1;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--muted);
+  box-shadow: none;
+}
+
+.priority-toggle:hover { opacity: 0.7; }
+
+.priority-toggle.active { color: var(--accent); }
+
+.retry-badge {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 0.68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(125, 148, 113, 0.14);
+  color: var(--accent);
+}
+
+.era-badge {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 0.68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 5px 11px;
+  border-radius: 999px;
+  /* background/color are set inline per-era in app.js, since each era has
+     its own color — these are just the fallback/shape defaults. */
+}
+
+/* When a retry badge is also showing, push the era badge below it rather
+   than letting them overlap — both can legitimately be true at once. */
+.retry-badge:not(.hidden) ~ .era-badge {
+  top: 66px;
+}
+
 .prompt-label {
   text-transform: uppercase;
   font-size: 0.72em;
@@ -222,46 +274,6 @@ button.primary {
 }
 
 .reveal .field-label:first-child { margin-top: 0; }
-
-#write-retype {
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
-}
-
-#write-retype .field-label {
-  font-size: 0.75em;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
-  margin: 0 0 8px;
-}
-
-#retype-form {
-  display: flex;
-  gap: 10px;
-}
-
-#retype-input {
-  flex: 1;
-  font-family: inherit;
-  font-size: 1em;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-}
-
-#retype-input:focus {
-  outline: 2px solid var(--accent);
-}
-
-#retype-feedback {
-  margin: 10px 0 0;
-  font-size: 0.9em;
-  color: var(--muted);
-}
 
 .reveal blockquote {
   margin: 10px 0 6px;

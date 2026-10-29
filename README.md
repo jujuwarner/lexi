@@ -50,26 +50,41 @@ python3 run_ui.py
 It shows whatever cards are due today, one at a time, in one of two modes:
 
 - **Write (the default)** — you're shown the English meaning and type the
-  French word from memory, article included for nouns (e.g. "la cigogne").
-  Typed answers get checked against the correct form, with some leeway for
-  accent typos and missing/wrong articles — those get flagged as "close"
-  rather than marked wrong outright, and you rate honestly from there.
-  Anything that doesn't match at all — including pressing Enter with nothing
-  typed, a legitimate way to give up on a card — auto-rates as "Again," then
-  prompts you to type the correct word once more before moving on. That
-  retype is purely for practice; it doesn't touch the rating, which is
-  already locked in.
-- **Recognize** — the original mode: you see the word, recall the meaning
-  yourself, then reveal and self-rate.
+  target-language word from memory, article included for French nouns
+  (e.g. "la cigogne"). Typed answers get checked against the correct form,
+  with some leeway for accent typos and missing/wrong articles — those get
+  flagged as "close" rather than marked wrong outright.
+- **Recognize** — you see the word, recall the meaning yourself, then
+  reveal and self-report honestly whether you actually knew it.
 
 Write mode is the default because production (typing a word from memory) is
-a meaningfully stronger recall test than recognition (seeing a word and
-judging whether you knew it) — the same reasoning behind the "no AI during
-composition" principle elsewhere in the learning roadmap. Recognize mode is
-still there for days that call for something lighter.
+a meaningfully stronger recall test than recognition — the same reasoning
+behind the "no AI during composition" principle elsewhere in the learning
+roadmap. Recognize mode is still there for days that call for something
+lighter.
 
-Either way, you rate how well you remembered each card (Again / Hard / Good
-/ Easy), and the script schedules the next review date using SM-2.
+**There's no manual Hard/Good/Easy self-rating.** An earlier version asked
+for that on every card, the same way Anki does — but in practice it went
+mostly unused: you only ever rate a word *after* getting it right, by which
+point it rarely feels "hard" even when it genuinely was a struggle to get
+there. So difficulty now comes from actual behavior instead of in-the-moment
+self-report:
+
+- Missing a word — on the first attempt *or* on a retry — immediately
+  triggers a same-screen retype: same prompt, a fresh input, no jump to a
+  different card. This happens on the spot, while the word is still fresh.
+- If a word gets missed enough times in one session (3+, cumulative across
+  first attempt and retries) before you eventually get it right, it's
+  auto-flagged **priority** — reviewed more often going forward. This is a
+  forward-looking signal only; it never changes the SM-2 outcome that
+  already got locked in for that session's actual review.
+- You can also flag any card priority manually at any time (the ☆/★ toggle
+  in both modes), independent of the auto-flagging.
+
+The real SM-2 rating (the thing that actually schedules the next review
+date) is now computed automatically from how the answer checked — exact,
+close, or wrong — not from a self-reported scale. Retyping after a miss is
+purely for practice; it never submits a second rating for the same word.
 
 ## The SM-2 algorithm
 
@@ -103,6 +118,7 @@ Everything lives in `vocab.json`, a flat array of entries:
   "tags": [],
   "cultural_note": "",
   "gender": null,
+  "era": null,
   "srs": {
     "repetitions": 0,
     "easiness": 2.5,
@@ -112,6 +128,12 @@ Everything lives in `vocab.json`, a flat array of entries:
   }
 }
 ```
+
+`era` is an optional, controlled-vocabulary tag (`review.py`'s `ERAS`
+registry — e.g. `"serfdom_era"`, `"archaic"`) for words genuinely tied to a
+specific bygone period, not everyday vocabulary. Purely a visual signal — a
+small colored chip in review — and it never touches scheduling. Most
+entries leave it `null`.
 
 `gender` is `"m"` or `"f"` for nouns (French has only two), and `null` for
 everything else (verbs, adjectives, adverbs). This isn't just metadata —
@@ -131,17 +153,19 @@ alone. Finding further reading (articles, deeper history) is intentionally
 this") rather than a step baked into every word capture, so the core
 add-a-word flow stays fast for the common case.
 
-`language` is a short code (`fr`, `ru`, `zh`) — the schema is designed to
-support Russian and Mandarin from the start, even though French is the first
-language actually populated. Mandarin entries will eventually need additional
+`language` is a short code (`fr`, `ru`, `zh`) — the schema was designed to
+support Russian and Mandarin from the start, and Russian is now genuinely
+live and in daily use alongside French (both in the many hundreds of
+entries, growing from ongoing reading — currently *Отцы и дети* and
+*Муму*). Mandarin hasn't started yet; it'll eventually need additional
 fields (character, pinyin, tone) that don't apply to alphabetic languages —
-that extension is intentionally deferred until the Mandarin-specific project
-work is further along, rather than guessed at now.
+that extension stays deferred until the Mandarin-specific project work is
+further along, rather than guessed at now.
 
 **Multiple languages in the pool at once:** review sessions (CLI and web UI
 both) only ask which language to review when there's actually more than one
-due on a given day — with just French in the deck, that step never appears.
-Articles are French-only too: `display_word()` only ever attaches "le/la/l'"
+due on a given day — which, now that Russian and French are both live, is
+the normal case rather than a hypothetical. Articles are French-only too: `display_word()` only ever attaches "le/la/l'"
 when an entry's `language` is `"fr"`, so a Russian noun's `gender` (which can
 be `"m"`, `"f"`, *or* `"n"` — Russian has three) stays informational rather
 than triggering a (wrong) French article.
@@ -165,6 +189,37 @@ Two things enforce this:
   `"technical"`) rather than blending in indistinguishably with everyday
   vocabulary, so the pool stays legible even as it grows.
 
+## Keeping the prompts honest
+
+A card is only a real recall test if the prompt doesn't accidentally hand
+you the answer. Two leak patterns turned up in practice, both now guarded
+against in the `add-word` skill before an entry is ever saved:
+
+- **Same-word leaks** — an English translation that restates the target
+  word's own root in parentheses (e.g. defining a derived word by
+  literally showing the base word it's built from) effectively answers the
+  question inside the prompt itself. Caught across a sweep of the existing
+  deck and fixed by moving that kind of etymological note into
+  `cultural_note` instead, which only displays *after* the answer is
+  revealed — the interesting "oh, that's why" context survives, the leak
+  doesn't.
+- **Loanword leaks** — more specific to Russian than French: if a word's
+  correct English gloss is just an English-accented transliteration of the
+  word itself (тройка → "troika," тарантас → "tarantas"), writing that
+  gloss as the prompt lets you answer by transliterating the English prompt
+  back into Cyrillic, without recalling the word from memory at all. The
+  fix is the same shape — describe the underlying concept in plain English,
+  and save the "this is usually called X in English" fact for
+  `cultural_note`.
+
+**Niche words also don't compete evenly with everyday vocabulary from day
+one.** Entries tagged `archaic`, `rare`, or `technical` get a 14-day-out
+`next_review` instead of today, pushing their first appearance out rather
+than flooding review with a chapter's worth of one-off period terms the
+moment they're captured. It's a data-only decision — `due_today()` just
+checks the date — so it needed no scheduling-logic changes, only a
+different starting value.
+
 ## Why this design (the pedagogy behind it)
 
 The whole tool is built around retrieval before feedback, not feedback
@@ -185,7 +240,7 @@ opens the review interface in your browser. It's a thin wrapper, not a
 second implementation — `api.py` imports `review.py` directly and reuses its
 SM-2 logic, word display, and answer-checking as-is. The only new code is
 the API layer (a handful of endpoints: what's due, check an answer, submit a
-rating) and the browser page itself (`web/`) that calls them.
+rating, toggle priority) and the browser page itself (`web/`) that calls them.
 
 Runs entirely on `127.0.0.1` (your own machine) — nothing is reachable from
 the internet, there's no account, and there's nothing to pay for. Stop it
@@ -221,10 +276,17 @@ locally; original files untouched.
 
 ## Status
 
-v1 — manual definitions via Claude (no API calls from the tool itself), JSON
-storage, CLI and browser-based review (Write and Recognize modes, both). See
-the author's broader
+v2 — manual definitions via Claude (no API calls from the tool itself), JSON
+storage, CLI and browser-based review (Write and Recognize modes, both),
+automatic retry-based difficulty signal replacing manual self-rating,
+priority flagging (automatic and manual), era tagging, and two generations
+of answer-leak fixes baked into the add-word skill. Russian and French are
+both genuinely live; Mandarin isn't started yet.
+
+See `IDEAS.md` for design discussion on what's next but not built
+(grammar-construction drills as a separate review mode, deeper niche-word
+scheduling weight, a review-stats view) and the author's broader
 [language + AI learning roadmap](../career-agent/learning_roadmap.md) for
-what's next (auto-fetched definitions, character-aware scheduling for
-Mandarin, semantic search across entries, possibly a PWA if the web UI gets
-real daily use).
+how this fits the bigger picture (auto-fetched definitions, character-aware
+scheduling for Mandarin, semantic search across entries, possibly a PWA if
+the web UI gets real daily use).

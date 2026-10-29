@@ -45,6 +45,10 @@ class ReviewRequest(BaseModel):
     quality: str  # one of "1"-"4", same keys as review.QUALITY_MAP
 
 
+class TogglePriorityRequest(BaseModel):
+    id: int
+
+
 def _find_entry(entries, entry_id):
     for e in entries:
         if e["id"] == entry_id:
@@ -64,6 +68,8 @@ def _entry_payload(e):
         "source_sentence": e.get("source_sentence", ""),
         "source_title": e.get("source_title", ""),
         "cultural_note": e.get("cultural_note", ""),
+        "priority": "priority" in e.get("tags", []),
+        "era": review.era_badge(e),
     }
 
 
@@ -118,9 +124,31 @@ def submit_review(req: ReviewRequest):
         raise HTTPException(status_code=404, detail="Word not found")
 
     quality_score = review.QUALITY_MAP[req.quality]
-    entry["srs"] = review.apply_sm2(entry["srs"], quality_score)
+    priority = "priority" in entry.get("tags", [])
+    entry["srs"] = review.apply_sm2(entry["srs"], quality_score, priority=priority)
     review.save_vocab(entries)
     return {"ok": True, "next_review": entry["srs"]["next_review"]}
+
+
+@app.post("/api/toggle_priority")
+def toggle_priority(req: TogglePriorityRequest):
+    """Flip whether a card is marked priority (reviewed more often, on
+    every future review, not just once)."""
+    entries = review.load_vocab()
+    entry = _find_entry(entries, req.id)
+    if entry is None:
+        raise HTTPException(status_code=404, detail="Word not found")
+
+    tags = entry.setdefault("tags", [])
+    if "priority" in tags:
+        tags.remove("priority")
+        now_priority = False
+    else:
+        tags.append("priority")
+        now_priority = True
+
+    review.save_vocab(entries)
+    return {"ok": True, "priority": now_priority}
 
 
 # Serve the frontend last, so it doesn't shadow the /api/* routes above.
