@@ -60,6 +60,61 @@ Not built. Revisit if the one-time delay from the data-only fix stops
 feeling like enough — e.g. if niche words still end up cluttering reviews
 regularly once they've been through their first cycle.
 
+## Images for concrete object words (clothing, tools, etc.)
+
+Idea from 2026-11-03, sparked by кафтан — a word whose meaning is a
+specific, unfamiliar physical object (a traditional belted Russian coat)
+that a text definition can only approximate. A picture would do real work
+here in a way it wouldn't for an abstract word or a verb.
+
+**Which words would actually benefit:** concrete, visually distinctive
+objects — clothing (кафтан, косынка, казакин, феска, башмачок), tools/
+physical objects (соха, цеп, дышло, чурбак). Not abstract nouns, not
+verbs/adjectives, not idioms — a picture doesn't add anything for
+"to persuade" or "fate." This needs the same kind of judgment call already
+made for cultural_note (not every word, only where it adds real value),
+likely even narrower — probably something to add deliberately on request
+for a specific word, not something the add-word skill tries to do
+automatically for every noun.
+
+**Where would it show — a real open question, not just a UI detail:**
+putting the image in the *prompt* itself (alongside the English
+translation) changes what's being tested — recognizing an object visually
+is a different, arguably easier recall path than translating English text,
+and for objects this specific and unfamiliar, it might make the card too
+easy to be a meaningful test. Putting it only in the *reveal* (after
+answering, alongside cultural_note) keeps the actual recall test as-is and
+treats the image purely as a memory aid/reinforcement, closer to how
+cultural_note already works. Leans toward reveal-only, but worth deciding
+deliberately rather than defaulting to "just add it wherever."
+
+**The real cost is sourcing, not the schema change:** Lexi already has a
+precedent for this — the README's two decorative images (rose, butterfly)
+are specifically public-domain Wikimedia Commons scans, cropped locally,
+credited in a dedicated README section. Each new vocab image would need
+the same care: find a correct, actually-representative image (a modern
+stock photo of "a coat" won't do for кафтан specifically — accuracy
+matters more here than for decoration, since a misleading image actively
+teaches the wrong thing), verify its license, download and prep it, credit
+it. That's a real per-word content task, not a quick toggle — much closer
+to writing a good cultural_note than flipping on a boolean field.
+
+**Rough shape:**
+- Schema: an optional `image` field per entry — local file path (checked
+  into the repo, matching existing practice, not a hotlinked external URL
+  that can rot) plus credit/license info, parallel to how the README
+  tracks the two existing decorative images.
+- UI: a conditionally-rendered `<img>` in the reveal section of both
+  Write and Recognize modes, shown only when an entry has one.
+- No automation planned — adding an image to a word is something Julia
+  asks for explicitly, word by word, the same way "find me an article
+  about this" already works as an on-demand request rather than a
+  default step in the capture flow.
+
+Not built. Revisit the next time a concrete, hard-to-picture-from-text-
+alone object word comes up and the definition alone feels like it's not
+quite landing.
+
 ## Paradigm drills for high-frequency words (declension/conjugation fluency)
 
 Idea from 2026-11-03, sparked by removing a demo word (день, added only to

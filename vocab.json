@@ -15476,10 +15476,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-04",
+      "last_reviewed": "2026-11-03",
+      "first_reviewed_on": "2026-11-03"
     }
   },
   {
