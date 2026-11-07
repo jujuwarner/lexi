@@ -67,15 +67,22 @@ specific, unfamiliar physical object (a traditional belted Russian coat)
 that a text definition can only approximate. A picture would do real work
 here in a way it wouldn't for an abstract word or a verb.
 
-**Which words would actually benefit:** concrete, visually distinctive
-objects — clothing (кафтан, косынка, казакин, феска, башмачок), tools/
-physical objects (соха, цеп, дышло, чурбак). Not abstract nouns, not
-verbs/adjectives, not idioms — a picture doesn't add anything for
-"to persuade" or "fate." This needs the same kind of judgment call already
-made for cultural_note (not every word, only where it adds real value),
-likely even narrower — probably something to add deliberately on request
-for a specific word, not something the add-word skill tries to do
-automatically for every noun.
+**Which words would actually benefit — sharper criterion than "concrete
+object," per Julia's own refinement:** not just any physical object word,
+but specifically one where *even the English gloss* doesn't produce a
+clear mental picture. "A coat" or "a shed" already paint a clear enough
+picture once translated — no image needed. "A kaftan" doesn't clear that
+bar even in English; that's the real signal, not concreteness alone. Some
+candidates from recent reading likely pass this stricter bar (кафтан,
+соха, цеп, чурбак — specific old tools/garments with no close everyday
+English equivalent); some concrete-but-ordinary object words probably
+don't (e.g. a plain доска, "board/plank," already pictures fine from the
+English alone). Not abstract nouns, not verbs/adjectives, not idioms
+either way — a picture doesn't add anything for "to persuade" or "fate."
+This needs the same kind of judgment call already made for cultural_note
+(not every word, only where it adds real value), likely even narrower —
+something to add deliberately on request for a specific word, not
+something the add-word skill tries to do automatically for every noun.
 
 **Where would it show — a real open question, not just a UI detail:**
 putting the image in the *prompt* itself (alongside the English

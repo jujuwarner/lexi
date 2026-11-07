@@ -233,6 +233,22 @@ having the answer available the whole time. Lexi doesn't quiz you *while*
 you're reading — it captures the word, then makes you actually retrieve it
 later, on a schedule designed to hit right before you'd naturally forget it.
 
+**The same principle applies one step earlier than the tool itself covers,
+and that's on the reader, not the code.** Reflexively asking for a
+definition the moment an unfamiliar word shows up, the same way Lexi's
+review mode avoids giving feedback throughout, skips the same productive
+struggle Bjork's research is actually about. So the real-world rule I've
+settled on: let the word sit and try to infer it from context first, and
+only ask when comprehension genuinely requires it or the word seems worth
+deliberately practicing — not on reflex. Worth being precise about *which*
+difficulties are worth sitting with, though (a distinction the same Bjork
+paper is careful to draw): a word that's actually inferable from context,
+cognates, or repetition is worth the struggle. A word like чуланчик or
+барщина — a specific historical term with no compositional transparency —
+isn't; there's nothing to infer, so asking immediately there isn't
+skipping a desirable difficulty, it's just getting information that
+guessing was never going to produce anyway.
+
 ## The web UI
 
 `run_ui.py` starts a small local server (`api.py`, built with FastAPI) and

@@ -5876,11 +5876,11 @@
     "cultural_note": "In English, this vehicle is usually referred to by its transliterated name, \"tarantas\" — a real historical type, common for long-distance travel in 19th-century Russia.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.0,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.1,
+      "interval": 12,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -6030,11 +6030,11 @@
     "cultural_note": "Diminutive of \"ковш.\"",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -6118,11 +6118,11 @@
     "cultural_note": "Ties into the same coachman/travel vocabulary cluster as \"ямщик,\" added earlier.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": null
     },
     "era": null
@@ -6318,11 +6318,11 @@
     "cultural_note": "From \"ласка\" (affection, tenderness), the same root as \"ласкать\" (to caress, to be affectionate).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -6430,11 +6430,11 @@
     "cultural_note": "The \"-с\" at the end of \"так\" in this sentence is a separate, genuinely interesting feature — a deferential particle (short for \"сударь,\" sir) historically attached to servant/subordinate speech as a mark of respect toward a social superior. Pyotr is a servant speaking to his employer here.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": null
     },
     "era": null
@@ -6674,11 +6674,11 @@
     "cultural_note": "In this sentence, \"ничего\" is used in its very common colloquial sense of \"not bad, okay, alright\" — not its literal meaning \"nothing.\"",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-06",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 5,
+      "easiness": 2.0,
+      "interval": 34,
+      "next_review": "2026-12-10",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": null
     },
     "era": null
@@ -6808,11 +6808,11 @@
     "cultural_note": "From \"двор\" (courtyard, the manor grounds/household). Fits the same serfdom-era class vocabulary as \"оброк,\" \"вольноотпущенный,\" \"барич,\" and \"душа\" from this book.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-06",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 5,
+      "easiness": 2.0,
+      "interval": 34,
+      "next_review": "2026-12-10",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": null
     },
     "era": "serfdom_era"
@@ -6874,11 +6874,11 @@
     "cultural_note": "Related to \"предварительный\" (preliminary).",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-06",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -7008,11 +7008,11 @@
     "cultural_note": "Similar in function to \"к тому же.\"",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-06",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 5,
+      "easiness": 2.0,
+      "interval": 34,
+      "next_review": "2026-12-10",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7030,11 +7030,11 @@
     "cultural_note": "From \"живопись\" (painting, art).",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-06",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 5,
+      "easiness": 2.0,
+      "interval": 34,
+      "next_review": "2026-12-10",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7140,11 +7140,11 @@
     "cultural_note": "Shown here in the sentence in genitive case (\"екатерининского времени,\" modifying \"планах\") — stored in the nominative as the more flexible base form to actually learn. Catherine the Great's reign included a famous large-scale land-surveying/cadastral mapping project (the General Land Survey), which produced exactly the kind of old topographic \"plans\" referenced in this sentence — a genuinely specific historical detail, not just a vague nod to \"old times.\"",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -8089,11 +8089,11 @@
     "cultural_note": "The \"start/wind up a mechanism\" sense of \"заводить.\"",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.1,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 2.2,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-06"
     },
     "era": null
@@ -10353,11 +10353,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": null
     },
     "era": null
@@ -10419,11 +10419,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.9,
-      "interval": 18,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-10-17",
+      "repetitions": 5,
+      "easiness": 2.0,
+      "interval": 34,
+      "next_review": "2026-12-09",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": null
     },
     "era": null
@@ -10444,8 +10444,8 @@
       "repetitions": 2,
       "easiness": 1.5,
       "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -10465,11 +10465,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 8,
-      "easiness": 2.1,
+      "repetitions": 10,
+      "easiness": 2.3,
       "interval": 2,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-11-03",
+      "next_review": "2026-11-09",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": null
     },
     "era": null
@@ -10531,11 +10531,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": null
     },
     "era": null
@@ -10941,11 +10941,11 @@
     "cultural_note": "\"Разбить\" alone normally means \"to break/smash\" (разбить стекло = to break a glass). But paired with certain nouns — сад (garden), парк (park), клумбу (flowerbed), палатку (tent), лагерь (camp) — it instead means \"to lay out / set up / establish.\"",
     "gender": null,
     "srs": {
-      "repetitions": 6,
-      "easiness": 1.9,
+      "repetitions": 8,
+      "easiness": 2.1,
       "interval": 2,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-11-03",
+      "next_review": "2026-11-09",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11141,11 +11141,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 6,
-      "easiness": 1.9,
+      "repetitions": 8,
+      "easiness": 2.1,
       "interval": 2,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-11-03",
+      "next_review": "2026-11-09",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11275,11 +11275,11 @@
     "cultural_note": "Pairs naturally with потакать — \"потакать прихотям\" = \"to indulge someone's whims.\"",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11343,11 +11343,11 @@
     "cultural_note": "Related adjective: небрежный (careless, negligent, slapdash).",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 2.8,
-      "interval": 16,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 2,
+      "easiness": 2.2,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11411,11 +11411,11 @@
     "cultural_note": "Noun form of \"неумолимый\" (relentless, inexorable, unyielding) — often used for fate, natural law, or stern severity.",
     "gender": "f",
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
+      "repetitions": 5,
+      "easiness": 1.8,
       "interval": 2,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-02",
+      "next_review": "2026-11-09",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11433,11 +11433,11 @@
     "cultural_note": "Also used for \"running into/hitting\" a limit or obstacle: \"упираться в тупик\" = \"to hit a dead end.\" In this sentence the literal (physical pressing) and figurative (stubborn resistance) senses are blended for comic personification — the collar \"relentlessly\" pressing into his chin.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11455,11 +11455,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 3,
-      "easiness": 2.8,
-      "interval": 16,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 4,
+      "easiness": 2.9,
+      "interval": 45,
+      "next_review": "2026-12-20",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11477,11 +11477,11 @@
     "cultural_note": "Bazarov himself is training to become one — this was the ordinary word for a doctor at the time, not folksy or diminished the way it can sound now.",
     "gender": "m",
     "srs": {
-      "repetitions": 3,
-      "easiness": 2.8,
-      "interval": 16,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-10-19",
+      "repetitions": 4,
+      "easiness": 2.9,
+      "interval": 45,
+      "next_review": "2026-12-20",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11525,11 +11525,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11595,11 +11595,11 @@
     "cultural_note": "Most common in the fixed phrase \"как бишь его/её\" = \"what's-his-name, what was it called again.\" Folksy, slightly archaic register.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11771,11 +11771,11 @@
     "cultural_note": "Related to «острый» (sharp, keen). Imperfective counterpart: острить.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11795,11 +11795,11 @@
     "cultural_note": "Literally \"to break free from [someone's] hands\" — used for children, servants, anyone who's stopped listening and gone unruly.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11817,11 +11817,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11839,11 +11839,11 @@
     "cultural_note": "A classic game bird for hunting — the context here is Nikolai Petrovich inviting Arkady out to shoot some.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11883,11 +11883,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11971,11 +11971,11 @@
     "cultural_note": "From «похвала» (praise).",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12061,11 +12061,11 @@
     "cultural_note": "за- (beyond) + облако (cloud).",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12086,8 +12086,8 @@
       "repetitions": 2,
       "easiness": 1.5,
       "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12105,11 +12105,11 @@
     "cultural_note": "Compound: «слово» (word) + «прение» (an old-fashioned word for dispute/debate, related to «спор»).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12129,11 +12129,11 @@
     "cultural_note": "Literally \"not according to [my] innards/gut\" — «нутро» = innards, used figuratively for instinct/temperament.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12153,11 +12153,11 @@
     "cultural_note": "Literally \"there-here / back-and-forth.\"",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12175,11 +12175,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12197,11 +12197,11 @@
     "cultural_note": "Unrelated-ish second sense with the same written form: \"to fill/cover with something granular\" — засыпать яму землёй = \"to fill in a hole with earth.\" Context (and stress) tells them apart.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12263,11 +12263,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12285,11 +12285,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12307,11 +12307,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-05",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12377,11 +12377,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12423,11 +12423,11 @@
     "cultural_note": "Derived from the old names of the first two Cyrillic letters: «аз» and «буки».",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12445,11 +12445,11 @@
     "cultural_note": "From «толковать» (to discuss, interpret) + the «по-» prefix, signaling a short, bounded bit of talking.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12533,11 +12533,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12555,11 +12555,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12577,11 +12577,11 @@
     "cultural_note": "Figurative insult sense is the one in play here, not the literal headwear.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12687,11 +12687,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12731,11 +12731,11 @@
     "cultural_note": "Different sense from the more common \"storehouse/warehouse\" meaning — склад характера = \"type of disposition.\"",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12779,11 +12779,11 @@
     "cultural_note": "Can be adapted with other pronouns: что она тебе далась (her), что они тебе дались (them), etc.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12803,11 +12803,11 @@
     "cultural_note": "Likely part of Pavel Petrovich's backstory — explains the aristocratic, military bearing behind his earlier \"society lion\" days in Petersburg.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -13073,11 +13073,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13095,11 +13095,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13476,11 +13476,11 @@
     "cultural_note": "From \"чахотка\", the old/folk Russian term for tuberculosis (related to \"чахнуть\", to wither/waste away). A pervasive theme/fear in 19th-century Russian literature.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-07",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13836,11 +13836,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13904,11 +13904,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13948,11 +13948,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13970,11 +13970,11 @@
     "cultural_note": "Diminutive of кровать (\"bed\").",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13992,11 +13992,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14036,11 +14036,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14190,11 +14190,11 @@
     "cultural_note": "A folk/dialectal spelling of крыжовник (the standard spelling). Notably written by Fenechka herself in the text -- possibly an intentional character detail by Turgenev signaling her humble education.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14212,11 +14212,11 @@
     "cultural_note": "Commonly kept as a caged songbird in 19th-century Russian households.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14234,11 +14234,11 @@
     "cultural_note": "Common bird feed in 19th-century Russia -- likely connects back to the caged siskin (чиж) nearby.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14256,11 +14256,11 @@
     "cultural_note": "Diminutive of башмак (\"shoe\"). Here, a decorative silk pincushion shaped like a tiny shoe -- a common sewing accessory of the era.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14278,11 +14278,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14300,11 +14300,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14322,11 +14322,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14344,11 +14344,11 @@
     "cultural_note": "Diminutive of дуб (\"oak\").",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14366,11 +14366,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14388,11 +14388,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14410,11 +14410,11 @@
     "cultural_note": "Diminutive of липа (\"linden/lime tree\").",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14454,11 +14454,11 @@
     "cultural_note": "Said (about Fenechka) implying Nikolai Petrovich has good taste -- a teasing, slightly risqué compliment to his choice of companion, not a comment on anyone’s actual lips.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14476,11 +14476,11 @@
     "cultural_note": "From the fuller idiom \"тёртый калач\" (a well-kneaded loaf of bread, toughened/refined by repeated working) -- used metaphorically for someone toughened and made shrewd by life experience.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.8,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14520,11 +14520,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14542,11 +14542,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14564,11 +14564,11 @@
     "cultural_note": "From хохотать (\"to guffaw, laugh loudly\").",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14586,11 +14586,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14608,11 +14608,11 @@
     "cultural_note": "Known in English by its transliterated name, \"bogatyr.\" From Russian epic folklore (bylinas) -- legendary warrior-heroes like Ilya Muromets. Commonly used today, often affectionately, to describe a big, sturdy, healthy man or child.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14630,11 +14630,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14652,11 +14652,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14676,11 +14676,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 3,
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14698,11 +14698,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14720,11 +14720,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14742,11 +14742,11 @@
     "cultural_note": "An emphatic, folksy variant of непременно (\"certainly\").",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14764,11 +14764,11 @@
     "cultural_note": "A well-known, often-quoted Bazarov line -- hyperbole about peasant cunning/audacity, not a literal religious statement.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14786,11 +14786,11 @@
     "cultural_note": "An intensified form of скверный (\"bad, nasty\"), via the intensifying prefix пре-.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14808,11 +14808,11 @@
     "cultural_note": "Part of one of the most famous lines in the novel -- Bazarov's materialist aphorism contrasting reverence for nature with practical use of it.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-05",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14830,11 +14830,11 @@
     "cultural_note": "Part of one of the most famous lines in the novel -- Bazarov's materialist aphorism contrasting reverence for nature with practical use of it.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14852,11 +14852,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14874,11 +14874,11 @@
     "cultural_note": "Carries a religious/worshipful connotation (related to the archaic говеть, \"to observe religious fasting\") -- stronger than a plain \"admire\" or \"respect.\"",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14896,11 +14896,11 @@
     "cultural_note": "Bazarov teases Pyotr with this, mocking his sentimentality -- in character for Bazarov's general impatience with displayed emotion.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14918,11 +14918,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14940,11 +14940,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14962,11 +14962,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "serfdom_era"
@@ -14984,11 +14984,11 @@
     "cultural_note": "The stable (конюшня) was a real, common site for flogging serfs on Russian estates -- physically removed from the main house, staffed by grooms already handling whips for horses. Reflects the normalized corporal authority of the serf system (pre-1861 Emancipation Reform).",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "serfdom_era"
@@ -15006,11 +15006,11 @@
     "cultural_note": "Known in English by its transliterated name, \"praporshchik.\" In 19th-century usage, often a junior, inexperienced rank, sometimes carrying a faintly dismissive tone in literature. Later (Soviet/modern Russian army) the term shifted to mean a warrant officer instead, a different tier -- this is the older Imperial meaning.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "archaic"
@@ -15029,11 +15029,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15051,11 +15051,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15075,11 +15075,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15097,11 +15097,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15119,11 +15119,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15141,11 +15141,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15163,11 +15163,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15185,11 +15185,11 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15207,11 +15207,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15229,11 +15229,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15251,11 +15251,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15273,11 +15273,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15295,11 +15295,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15319,11 +15319,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15341,11 +15341,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15363,11 +15363,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15387,11 +15387,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15409,11 +15409,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15431,11 +15431,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15453,11 +15453,11 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15475,11 +15475,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-04",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15497,11 +15497,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15518,11 +15519,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15541,11 +15543,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15562,11 +15565,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15583,11 +15587,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15604,11 +15609,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15625,11 +15631,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15646,11 +15653,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15667,11 +15675,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15688,11 +15697,12 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15709,11 +15719,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15730,11 +15741,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15753,11 +15765,12 @@
     "gender": "f",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15774,11 +15787,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15795,11 +15809,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15818,11 +15833,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15839,11 +15855,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15860,11 +15877,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15881,11 +15899,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15902,11 +15921,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15923,11 +15943,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15944,11 +15965,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15965,11 +15987,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -15986,11 +16009,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16007,11 +16031,12 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-06",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16028,11 +16053,12 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16049,11 +16075,12 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16070,11 +16097,12 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16091,11 +16119,12 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16112,11 +16141,12 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-05"
     }
   },
   {
@@ -16133,11 +16163,12 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16154,11 +16185,12 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16177,11 +16209,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16198,11 +16231,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16219,11 +16253,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16240,11 +16275,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16261,11 +16297,12 @@
     "gender": null,
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-10-23",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16282,11 +16319,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16303,11 +16341,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16324,11 +16363,12 @@
     "gender": null,
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16346,10 +16386,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16366,11 +16407,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16389,11 +16431,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16410,11 +16453,12 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16431,11 +16475,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16452,11 +16497,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16473,11 +16519,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16494,11 +16541,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16515,11 +16563,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-13",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16536,11 +16585,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16558,10 +16608,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16578,11 +16629,12 @@
     "gender": "f",
     "era": "archaic",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16599,11 +16651,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16621,10 +16674,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16641,11 +16695,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16662,11 +16717,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16683,11 +16739,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16704,11 +16761,12 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16725,11 +16783,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-01",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16746,11 +16805,12 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-06"
     }
   },
   {
@@ -16768,10 +16828,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16788,11 +16849,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16809,11 +16871,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16831,10 +16894,11 @@
     "era": "serfdom_era",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16852,10 +16916,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16873,10 +16938,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16894,10 +16960,11 @@
     "era": "serfdom_era",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16915,10 +16982,11 @@
     "era": "serfdom_era",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16938,10 +17006,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16959,10 +17028,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -16980,10 +17050,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -17001,10 +17072,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -17022,10 +17094,11 @@
     "era": "archaic",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -17043,10 +17116,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -17064,10 +17138,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-02",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
     }
   },
   {
@@ -17085,9 +17160,1404 @@
     "era": null,
     "srs": {
       "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 792,
+    "word": "косяк",
+    "language": "ru",
+    "translation_en": "a door/window frame, jamb (the structural frame around an opening)",
+    "definition_in_language": "Боковая рама, обрамляющая дверной или оконный проём.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 793,
+    "word": "небось",
+    "language": "ru",
+    "translation_en": "I suppose, probably, no doubt (colloquial particle, often with a sarcastic or skeptical edge, like \"I bet\")",
+    "definition_in_language": "Разговорная частица, выражающая предположение, часто с оттенком иронии.",
+    "source_sentence": "А ты небось лучше?",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 794,
+    "word": "укоризна",
+    "language": "ru",
+    "translation_en": "reproach, rebuke, blame (often in \"with reproach\" -- a reproachful look/tone)",
+    "definition_in_language": "Упрёк, выражение неодобрения или осуждения.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 795,
+    "word": "истасканный",
+    "language": "ru",
+    "translation_en": "worn out, threadbare, shabby (of clothing/objects); figuratively, worn out/dissipated (of a person)",
+    "definition_in_language": "Изношенный от долгого использования; переносно -- истощённый, опустошённый тяжёлой жизнью человек.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 796,
+    "word": "сюртук",
+    "language": "ru",
+    "translation_en": "a frock coat (a fitted, long men's formal coat typical of 19th-century dress)",
+    "definition_in_language": "Длинный приталенный мужской сюртук, формальная одежда XIX века.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": "archaic",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 797,
+    "word": "заплатанный",
+    "language": "ru",
+    "translation_en": "patched (of clothing -- mended with a sewn-on patch over a worn-through spot)",
+    "definition_in_language": "Имеющий заплаты, зашитый поверх изношенного места.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 798,
+    "word": "дырявый",
+    "language": "ru",
+    "translation_en": "full of holes, holey",
+    "definition_in_language": "Имеющий дыры, прорванный.",
+    "source_sentence": "Осмотрел он свои дырявые сапоги.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 799,
+    "word": "опираться",
+    "language": "ru",
+    "translation_en": "to rest/lean [against something]",
+    "definition_in_language": "Упираться во что-либо, служащее опорой.",
+    "source_sentence": "О носок которого так щеголевато опиралась его правая ножка.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 800,
+    "word": "ученье",
+    "language": "ru",
+    "translation_en": "apprenticeship, training, schooling",
+    "definition_in_language": "Обучение какому-либо делу, ремеслу.",
+    "source_sentence": "А в Питере еще был в ученье.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 801,
+    "word": "выучиться",
+    "language": "ru",
+    "translation_en": "to learn, master [something] (perfective)",
+    "definition_in_language": "Приобрести знание или навык в результате обучения.",
+    "source_sentence": "Многому ты выучился в ученье.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 802,
+    "word": "хлеб даром есть",
+    "language": "ru",
+    "translation_en": "to eat bread for nothing, to be a freeloader (idiom -- to take sustenance/support without earning or contributing anything)",
+    "definition_in_language": "Жить на чужой счёт, не принося никакой пользы.",
+    "source_sentence": "Только хлеб даром ешь.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 803,
+    "word": "сманить",
+    "language": "ru",
+    "translation_en": "to lure, entice [someone] away (perfective)",
+    "definition_in_language": "Соблазнить, уговорить кого-либо последовать за собой или сделать что-либо.",
+    "source_sentence": "Сам же меня он сманул.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 804,
+    "word": "взять в руки",
+    "language": "ru",
+    "translation_en": "to take someone firmly in hand (idiom; to get someone under strict control/discipline)",
+    "definition_in_language": "Подчинить кого-либо своей воле, строго дисциплинировать.",
+    "source_sentence": "Лучше бы тебя хорошенько в руки взять.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 805,
+    "word": "глуп как пятка",
+    "language": "ru",
+    "translation_en": "as stupid as a heel (idiom) -- dumb as a doorknob, thick as a brick",
+    "definition_in_language": "Очень глупый, несообразительный человек (сравнение с пяткой -- частью тела, самой далёкой от головы).",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "The logic: the heel is about as far from the head/brain as a body part can be, and famously callused/insensate -- no capacity for thought at all. A vivid, slightly crude folk comparison.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-08",
+      "last_reviewed": "2026-11-07",
+      "first_reviewed_on": "2026-11-07"
+    }
+  },
+  {
+    "id": 806,
+    "word": "осина",
+    "language": "ru",
+    "translation_en": "an aspen tree",
+    "definition_in_language": "Лиственное дерево с дрожащими на ветру листьями.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
       "easiness": 2.5,
       "interval": 0,
-      "next_review": "2026-11-02",
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 807,
+    "word": "мне все нипочем",
+    "language": "ru",
+    "translation_en": "nothing fazes me, it's all nothing to me (idiom)",
+    "definition_in_language": "Разговорное выражение: ничто не производит впечатления, всё безразлично.",
+    "source_sentence": "Мне уже теперь все нипочем.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 808,
+    "word": "обдержаться",
+    "language": "ru",
+    "translation_en": "to get used to/toughened by hardship through experience (perfective reflexive)",
+    "definition_in_language": "Привыкнуть к трудностям, закалиться через испытания.",
+    "source_sentence": "Обдержался, обтерпелся человек, обмаслился, как коломенский горшок.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 809,
+    "word": "обтерпеться",
+    "language": "ru",
+    "translation_en": "to become inured to suffering, to grow used to enduring [something] (perfective reflexive)",
+    "definition_in_language": "Привыкнуть терпеть что-либо тяжёлое, перестать остро на это реагировать.",
+    "source_sentence": "Обдержался, обтерпелся человек, обмаслился, как коломенский горшок.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 810,
+    "word": "обмаслиться",
+    "language": "ru",
+    "translation_en": "to become greasy/slicked over (perfective reflexive, from масло, \"oil/butter\")",
+    "definition_in_language": "Покрыться слоем жира, стать скользким, лощёным от частого использования.",
+    "source_sentence": "Обмаслился, как коломенский горшок.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "Used figuratively here -- an old, well-used clay pot develops a smooth, oily glaze over time; the simile is for someone who has become similarly \"slicked over\" and impervious through repeated hardship.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 811,
+    "word": "расписывать",
+    "language": "ru",
+    "translation_en": "to describe in elaborate/exaggerated detail, to embellish, to paint a vivid (often overblown) picture of something",
+    "definition_in_language": "Описывать что-либо подробно и красочно, часто с преувеличением.",
+    "source_sentence": "Не расписывай.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 812,
+    "word": "горемыка",
+    "language": "ru",
+    "translation_en": "a poor wretch, an unlucky/luckless soul",
+    "definition_in_language": "Несчастный, многострадальный человек, преследуемый бедами.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 813,
+    "word": "мочальная душа",
+    "language": "ru",
+    "translation_en": "a weak, worthless, spineless person -- \"a pathetic rag of a man\" (derogatory; lit. \"a bast-fiber soul\")",
+    "definition_in_language": "Презрительное обозначение слабого, никчёмного, безвольного человека.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Мочало is bast fiber -- cheap, frayed plant fiber used for coarse cord, matting, scrub brushes. Calling someone's \"soul\" made of it implies they're flimsy, cheap, and pathetic.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 814,
+    "word": "распространяться",
+    "language": "ru",
+    "translation_en": "to spread, propagate, extend (disease, news, light, etc.); colloquially also \"to go on at length, expound/ramble on\" about a topic",
+    "definition_in_language": "Расширяться, охватывать всё большее пространство; разговорно -- говорить о чём-либо слишком долго и подробно.",
+    "source_sentence": "Чего распространяешься, право.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "The \"go on at length\" sense is a figurative extension of the literal \"to spread\" meaning -- expanding on a topic in speech, same underlying image as physical spreading.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 815,
+    "word": "побои",
+    "language": "ru",
+    "translation_en": "a beating, blows (physical violence inflicted on someone)",
+    "definition_in_language": "Удары, нанесённые кому-либо, физическое насилие.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 816,
+    "word": "при людях",
+    "language": "ru",
+    "translation_en": "in front of people, in public (idiom)",
+    "definition_in_language": "На глазах у окружающих, публично.",
+    "source_sentence": "Подай мне при людях приветствие.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 817,
+    "word": "изъявлять",
+    "language": "ru",
+    "translation_en": "to express, declare, manifest [a wish, intention, feeling] (formal/bureaucratic register)",
+    "definition_in_language": "Официально, формально выражать (желание, согласие и т.п.).",
+    "source_sentence": "Изъявляю.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 818,
+    "word": "красноречие",
+    "language": "ru",
+    "translation_en": "eloquence",
+    "definition_in_language": "Способность говорить красиво, убедительно, выразительно.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "From красный in its old sense of \"beautiful, fine\" (not \"red\") + речь, \"speech.\"",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 819,
+    "word": "безответный",
+    "language": "ru",
+    "translation_en": "meek, docile, submissive, unresisting (lit. \"without response/answer\" -- never talks back or protests, even when mistreated)",
+    "definition_in_language": "Кроткий, не способный возразить или ответить на обиду.",
+    "source_sentence": "Безответная ты душа.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 820,
+    "word": "притолка",
+    "language": "ru",
+    "translation_en": "the lintel (the top horizontal beam of a doorframe)",
+    "definition_in_language": "Верхняя горизонтальная перекладина дверного или оконного проёма.",
+    "source_sentence": "Оперлась легонько о притолку.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "Distinct from косяк, the side jamb of a doorframe.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 821,
+    "word": "озорник",
+    "language": "ru",
+    "translation_en": "a mischief-maker, prankster, troublemaker, rascal",
+    "definition_in_language": "Человек, склонный к проделкам, шалостям, хулиганству.",
+    "source_sentence": "Озорника-то мы этого скрутим.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 822,
+    "word": "скрутить",
+    "language": "ru",
+    "translation_en": "to twist, tie up, bind; figuratively, to subdue, overpower, bring under control (perfective)",
+    "definition_in_language": "Туго связать, обездвижить; переносно -- подчинить, укротить.",
+    "source_sentence": "Озорника-то мы этого скрутим.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 823,
+    "word": "коли",
+    "language": "ru",
+    "translation_en": "if (colloquial/folk variant of \"если\")",
+    "definition_in_language": "Разговорный, народный вариант союза \"если\".",
+    "source_sentence": "Коли что -- в полицию знать дадим.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 824,
+    "word": "дать знать",
+    "language": "ru",
+    "translation_en": "to let [someone] know, inform (idiom)",
+    "definition_in_language": "Сообщить кому-либо о чём-либо.",
+    "source_sentence": "В полицию знать дадим.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 825,
+    "word": "хмель",
+    "language": "ru",
+    "translation_en": "intoxication, drunkenness (the state of being tipsy/drunk from alcohol); also literally \"hops\" (the plant)",
+    "definition_in_language": "Состояние опьянения от алкоголя; также растение, используемое в пивоварении.",
+    "source_sentence": "Хмелем гораздо забирал.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 826,
+    "word": "забирать",
+    "language": "ru",
+    "translation_en": "to overtake, get the better of, carry away (colloquial); also the standard \"to take, collect\" sense",
+    "definition_in_language": "Разговорно -- овладевать, одолевать (напр. о хмеле); также -- брать, собирать.",
+    "source_sentence": "Хмелем гораздо забирал.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 827,
+    "word": "женский пол",
+    "language": "ru",
+    "translation_en": "the female sex, women [collectively] (idiom)",
+    "definition_in_language": "Женщины как группа, женский род человеческий.",
+    "source_sentence": "А что до женского пола, просто во все качества доходил.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 828,
+    "word": "во все качества доходить",
+    "language": "ru",
+    "translation_en": "to go to every extreme/excess (idiom)",
+    "definition_in_language": "Доходить до крайности во всех отношениях, не знать удержу.",
+    "source_sentence": "Просто во все качества доходил.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 829,
+    "word": "руку на себя наложить",
+    "language": "ru",
+    "translation_en": "to commit suicide, to take one's own life (euphemistic idiom; lit. \"to lay hands on oneself\")",
+    "definition_in_language": "Лишить себя жизни (эвфемизм).",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 830,
+    "word": "извозчик",
+    "language": "ru",
+    "translation_en": "a cabman, cab driver (drives a horse-drawn cab for hire)",
+    "definition_in_language": "Человек, занимающийся перевозкой людей за плату на лошади с повозкой.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "Distinct from кучер, who drives a private household's own carriage.",
+    "gender": "m",
+    "era": "serfdom_era",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 831,
+    "word": "мне нездоровилось",
+    "language": "ru",
+    "translation_en": "I was feeling unwell, under the weather (impersonal construction, dative + нездоровиться)",
+    "definition_in_language": "Безличная конструкция: испытывать недомогание, плохое самочувствие.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Same pattern as other impersonal dative predicates already in the deck, e.g. \"мне совестно.\"",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 832,
+    "word": "буфетчик",
+    "language": "ru",
+    "translation_en": "a butler/pantry-keeper (in charge of the sideboard/pantry, dishware, and serving refreshments)",
+    "definition_in_language": "Слуга, отвечающий за буфет -- хранение посуды, провизии и подачу напитков и еды.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": "serfdom_era",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 833,
+    "word": "чуланчик",
+    "language": "ru",
+    "translation_en": "a little storage closet, a small box room/pantry",
+    "definition_in_language": "Маленькое помещение для хранения вещей внутри дома.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "Diminutive of чулан.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 834,
+    "word": "нагрузиться",
+    "language": "ru",
+    "translation_en": "to get loaded, get drunk (colloquial/figurative; reflexive, lit. \"to load oneself up\")",
+    "definition_in_language": "Разговорное: сильно опьянеть (буквально -- нагрузить себя чем-либо).",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 835,
+    "word": "хмельной",
+    "language": "ru",
+    "translation_en": "intoxicating, alcoholic (of a drink); tipsy, drunk (of a person)",
+    "definition_in_language": "Содержащий алкоголь (о напитке); находящийся в состоянии опьянения (о человеке).",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 836,
+    "word": "обожатель",
+    "language": "ru",
+    "translation_en": "an admirer, a suitor (often with a slightly wry or ironic tone)",
+    "definition_in_language": "Тот, кто обожает, восхищается кем-либо; воздыхатель.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 837,
+    "word": "былинка",
+    "language": "ru",
+    "translation_en": "a blade of grass, a single grass stalk (often figurative/poetic -- something fragile, frail, or insignificant)",
+    "definition_in_language": "Тонкий стебелёк травы; переносно -- что-то хрупкое, слабое, незначительное.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "literary"
+    ],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 838,
+    "word": "спиться с кругу",
+    "language": "ru",
+    "translation_en": "to drink oneself into complete ruin (idiom) -- total moral/social collapse from alcoholism, to go completely off the rails",
+    "definition_in_language": "Окончательно опуститься, погибнуть морально и социально из-за пьянства.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 839,
+    "word": "обоз",
+    "language": "ru",
+    "translation_en": "a convoy, a wagon train/caravan (a group of carts traveling together, usually hauling goods)",
+    "definition_in_language": "Группа повозок, движущихся вместе, обычно с грузом.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 840,
+    "word": "застава",
+    "language": "ru",
+    "translation_en": "a checkpoint, outpost, city gate/barrier (historically a guarded post marking a city boundary or controlling road traffic)",
+    "definition_in_language": "Охраняемый пост на границе города или дороги.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": "archaic",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 841,
+    "word": "тина",
+    "language": "ru",
+    "translation_en": "mud, mire, slime, silt (the murky sediment at the bottom of a pond/river/swamp); figuratively, something stagnant",
+    "definition_in_language": "Илистая, вязкая масса на дне водоёма; переносно -- что-то застойное, тягостное.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 842,
+    "word": "армяк",
+    "language": "ru",
+    "translation_en": "a traditional heavy peasant outer coat/cloak (typically coarse wool or camel hair)",
+    "definition_in_language": "Тяжёлая крестьянская верхняя одежда из грубой шерсти или верблюжьей шерсти.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": "serfdom_era",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 843,
+    "word": "разостлать",
+    "language": "ru",
+    "translation_en": "to spread out, lay out (perfective; e.g. a cloth, blanket, or coat on the ground)",
+    "definition_in_language": "Разложить, расправить что-либо на поверхности.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 844,
+    "word": "сучка",
+    "language": "ru",
+    "translation_en": "a little female dog (diminutive of сука); note: this same word also has a vulgar slang-insult usage in modern Russian, but this context is the plain, literal sense",
+    "definition_in_language": "Маленькая собака женского пола.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "Likely refers to Mumu herself as a puppy.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 845,
+    "word": "повод",
+    "language": "ru",
+    "translation_en": "a lead rein (the rein/strap used to lead a horse); also \"a reason, pretext\" in other contexts",
+    "definition_in_language": "Ремень или верёвка для управления лошадью; в другом значении -- причина, предлог.",
+    "source_sentence": "Приводила к нему за повод старую водовозку.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 846,
+    "word": "водовозка",
+    "language": "ru",
+    "translation_en": "a water-delivery horse/cart (from водовоз, \"water carrier\")",
+    "definition_in_language": "Лошадь или повозка, используемая для доставки воды.",
+    "source_sentence": "Приводила к нему за повод старую водовозку.",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": "serfdom_era",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 847,
+    "word": "без разбору",
+    "language": "ru",
+    "translation_en": "indiscriminately, without discrimination, haphazardly (idiom)",
+    "definition_in_language": "Не выбирая, не разделяя, без внимания к различиям.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 848,
+    "word": "крапина",
+    "language": "ru",
+    "translation_en": "a speck, spot, fleck (of color -- a small mark or dot, e.g. on an animal's coat)",
+    "definition_in_language": "Маленькое пятнышко, крапинка на поверхности чего-либо.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 849,
+    "word": "дряхлость",
+    "language": "ru",
+    "translation_en": "decrepitude, feebleness, frailty from old age",
+    "definition_in_language": "Слабость, немощь, упадок сил вследствие старости.",
+    "source_sentence": "",
+    "source_title": "Муму",
+    "date_added": "2026-11-03",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-03",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 850,
+    "word": "снисхождение",
+    "language": "ru",
+    "translation_en": "condescension, leniency, indulgence (ambivalent -- can be benevolent forbearance toward someone's faults, or carry a more patronizing edge)",
+    "definition_in_language": "Терпимое, снисходительное отношение к чьим-либо недостаткам или проступкам.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 851,
+    "word": "распущенность",
+    "language": "ru",
+    "translation_en": "laxity, dissoluteness, lack of self-discipline, moral slackness",
+    "definition_in_language": "Отсутствие дисциплины, самоконтроля; моральная расслабленность.",
+    "source_sentence": "Проклятая славянская распущенность берет свое.",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 852,
+    "word": "как следует",
+    "language": "ru",
+    "translation_en": "as one should, properly, correctly (idiom)",
+    "definition_in_language": "Правильно, должным образом.",
+    "source_sentence": "Не учился я как следует.",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 853,
+    "word": "брать своё",
+    "language": "ru",
+    "translation_en": "to take its toll, to assert itself, to win out (idiom; like \"nature takes its course\")",
+    "definition_in_language": "Неизбежно проявляться, одерживать верх.",
+    "source_sentence": "Проклятая славянская распущенность берет свое.",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 854,
+    "word": "парить орлом",
+    "language": "ru",
+    "translation_en": "to carry oneself proudly/confidently, to be riding high, to feel triumphant (idiom; lit. \"to soar like an eagle\")",
+    "definition_in_language": "Держаться гордо и уверенно, чувствовать себя победителем.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 855,
+    "word": "из кого-то выйдет что-то",
+    "language": "ru",
+    "translation_en": "something will come of someone, someone will turn into/become something (idiom)",
+    "definition_in_language": "Из кого-либо получится что-либо значимое или определённое со временем.",
+    "source_sentence": "Коли хватит терпенья, из меня выйдет что-нибудь.",
+    "source_title": "",
+    "date_added": "2026-11-07",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-07",
       "last_reviewed": null
     }
   }
