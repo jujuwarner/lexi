@@ -12802,11 +12802,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12874,11 +12874,11 @@
     "cultural_note": "Literally \"to carry [someone] in [their] arms\" — but figurative, not physical.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12953,10 +12953,10 @@
   },
   {
     "id": 599,
-    "word": "сложён",
+    "word": "сложённый",
     "language": "ru",
-    "translation_en": "well-built, nicely proportioned (a physique, in this fixed collocation)",
-    "definition_in_language": "О фигуре человека — хорошо, удивительно сложена/сложён = хорошо сложённый.",
+    "translation_en": "well-built, nicely proportioned (of a physique)",
+    "definition_in_language": "О фигуре человека — хорошо, удивительно сложённый.",
     "source_sentence": "Она была удивительно сложена; ее коса золотого цвета и тяжелая, как золото, падала ниже колен, но красавицей никто бы не назвал; во всем ее лице только и было хорошего, что глаза, и даже не самые глаза — они были невелики и серы — но взгляд их, быстрый и глубокий, беспечный до удали и задумчивый до уныния — загадочный взгляд.",
     "source_title": "Отцы и дети",
     "date_added": "2026-10-06",
