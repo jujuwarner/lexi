@@ -60,6 +60,47 @@ Not built. Revisit if the one-time delay from the data-only fix stops
 feeling like enough — e.g. if niche words still end up cluttering reviews
 regularly once they've been through their first cycle.
 
+## Detecting near-synonym pairs from real mistakes
+
+Idea from 2026-11-09, sparked by actually typing щегольство for a card that
+wanted фатство — two words whose English translations had drifted into
+reading as pure duplicates, when they actually have a real distinction
+(style-as-choice vs. vanity-as-character-flaw) that two sloppy translations
+had papered over. Fixed that specific pair by hand, but the real question:
+could Lexi *surface* candidates like this automatically, instead of
+relying on noticing it by accident mid-review?
+
+**Why this doesn't work today:** `check_answer()` in `review.py` only ever
+uses the typed text ephemerally, to decide exact/close/wrong in the
+moment — it's never written down anywhere. There's no log, so there's no
+history to mine for "typed word Y when card X was the answer" patterns.
+This would need new infrastructure, not just a query over existing data.
+
+**Rough shape discussed:**
+- Log each wrong/close attempt: the card's id, and the typed text —
+  probably a simple append-only file (`mistakes.log`?), not bolted onto
+  `vocab.json` itself, since this is session telemetry, not vocab data.
+- The interesting signal isn't "got it wrong" generically — plenty of
+  wrong answers are just blanks or genuine don't-knows. The real signal is
+  specifically: **the typed text matches another real entry's `word`
+  field** (ignoring case/accents), and it happens **more than once** for
+  the same card. A single mix-up is noise; a repeated one across multiple
+  review sessions is a real candidate — exactly how щегольство/фатство
+  would have surfaced if this had existed already, since it happened more
+  than once before getting noticed by hand.
+- A lightweight analysis pass (not live/automatic) — something run
+  on-demand, similar in spirit to how the career-agent's Market Signal Log
+  works: scan the mistake log, group by (card id, confused-with id) pairs,
+  surface ones crossing some repeat threshold (2+? 3+?) as candidates
+  worth a human look — not auto-editing entries, since telling real
+  distinctions apart (like this one turned out to have) needs actual
+  judgment, not just statistics.
+
+Not built. Revisit once there's been enough review volume since this idea
+existed for the log to actually contain something worth mining — logging
+from day one, even before the analysis step exists, so the data isn't
+retroactively unavailable later.
+
 ## Images for concrete object words (clothing, tools, etc.)
 
 Idea from 2026-11-03, sparked by кафтан — a word whose meaning is a

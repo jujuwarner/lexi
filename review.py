@@ -120,15 +120,25 @@ def apply_sm2(srs, quality, priority=False):
 # Review session
 # ---------------------------------------------------------------------------
 
-NEW_CARDS_PER_DAY = 30
+NEW_CARDS_PER_DAY = 10
 # Caps how many never-reviewed cards can surface per language per day, so
 # a big batch of freshly-added words (e.g. a whole chapter's worth) doesn't
-# flood a single session. Only affects cards with no review history yet —
-# anything already in the normal SM-2 rotation is never capped, since that
-# would disrupt spacing you're already relying on. New cards are let in
-# oldest-id-first, so the backlog drains in a steady, predictable order
-# rather than a different random subset each day. Tune this constant
-# directly; no UI for it yet.
+# flood a single session. New cards are let in oldest-id-first, so the
+# backlog drains in a steady, predictable order rather than a different
+# random subset each day. Tune this constant directly; no UI for it yet.
+
+TOTAL_CARDS_PER_DAY = 40
+# Caps the total number of cards (new + in-progress reviews combined)
+# shown per language per day -- Anki itself has an equivalent "maximum
+# reviews/day" setting, for the same reason: without one, a big in-progress
+# backlog can balloon a single session indefinitely, since due reviews
+# used to have no cap at all (only new cards did). In-progress reviews are
+# prioritized first, most-overdue first -- skipping one doesn't erase the
+# need to review it, just defers it, since it'll still be due tomorrow --
+# with new cards filling whatever slots remain, still bounded by
+# NEW_CARDS_PER_DAY. If a language's true backlog exceeds this cap on a
+# given day, the overflow simply rolls forward to the next day rather than
+# vanishing or being force-fit into one sitting.
 
 PRIORITY_RETRY_THRESHOLD = 3
 # How many times you have to get a word wrong (first attempt + retries,
@@ -158,16 +168,29 @@ def due_today(entries):
             lang = e["language"]
             already_introduced_today[lang] = already_introduced_today.get(lang, 0) + 1
 
-    allowed_new = []
-    for lang in sorted(set(e["language"] for e in brand_new)):
-        remaining = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
+    allowed = []
+    for lang in sorted(set(e["language"] for e in due)):
+        # In-progress reviews get priority, most-overdue first, up to the
+        # total daily cap.
+        lang_in_progress = sorted(
+            (e for e in in_progress if e["language"] == lang),
+            key=lambda e: e["srs"]["next_review"],
+        )
+        shown_in_progress = lang_in_progress[:TOTAL_CARDS_PER_DAY]
+        allowed.extend(shown_in_progress)
+
+        # New cards fill whatever's left, bounded by both the remaining
+        # total-cap slots and the existing new-card-per-day cap.
+        remaining_total = TOTAL_CARDS_PER_DAY - len(shown_in_progress)
+        remaining_new_cap = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
+        remaining_new = min(remaining_total, remaining_new_cap)
+
         lang_new = sorted(
             (e for e in brand_new if e["language"] == lang), key=lambda e: e["id"]
         )
-        allowed_new.extend(lang_new[:remaining])
+        allowed.extend(lang_new[:remaining_new])
 
-    allowed_new_ids = {e["id"] for e in allowed_new}
-    return [e for e in due if e["srs"]["last_reviewed"] is not None or e["id"] in allowed_new_ids]
+    return allowed
 
 
 # ---------------------------------------------------------------------------
