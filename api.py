@@ -81,6 +81,15 @@ def get_due():
     return [_entry_payload(e) for e in cards]
 
 
+@app.get("/api/status")
+def get_status():
+    """Languages with nothing left to show right now AND some review
+    actually happened today for them -- lets the UI say "done for today"
+    instead of just silently making the language disappear."""
+    entries = review.load_vocab()
+    return {"completed_languages": review.completed_languages_today(entries)}
+
+
 @app.post("/api/check")
 def check(req: CheckRequest):
     """Write mode: check a typed answer. Doesn't touch the SRS state yet —

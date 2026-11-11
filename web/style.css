@@ -86,6 +86,13 @@ h1 {
   font-size: 0.95em;
 }
 
+.completed-note {
+  color: var(--good);
+  margin: 6px 0 0;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
 .card {
   background: var(--card-bg);
   border: 1px solid var(--border);

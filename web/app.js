@@ -437,13 +437,40 @@ function chooseLanguage(lang) {
   showModePicker();
 }
 
+// Renders the "✓ Done for today: French" note in the header -- this sits
+// outside the toggled <section>s (see showSection()) specifically so it
+// stays visible no matter which screen is showing, including the common
+// case where only one language is still active and the language-picker
+// screen gets skipped entirely.
+function renderCompletedNote(completedLanguages) {
+  const note = el("completed-note");
+  if (completedLanguages.length === 0) {
+    note.classList.add("hidden");
+    note.textContent = "";
+    return;
+  }
+  const names = completedLanguages.map((lang) => LANGUAGE_NAMES[lang] || lang);
+  note.textContent = `✓ Done for today: ${names.join(", ")}`;
+  note.classList.remove("hidden");
+}
+
 async function init() {
   el("restart-btn").addEventListener("click", () => location.reload());
 
-  allDueCards = await api("/api/due");
+  const [due, status] = await Promise.all([api("/api/due"), api("/api/status")]);
+  allDueCards = due;
   cards = allDueCards;
+  const completedLanguages = status.completed_languages;
+  renderCompletedNote(completedLanguages);
 
   if (cards.length === 0) {
+    // Nothing active, but tell apart "you finished everything that was
+    // due" from "there was never anything due in the first place" --
+    // only the former actually happened today.
+    el("empty-state-message").textContent =
+      completedLanguages.length > 0
+        ? "You're all done for today. Nice work! 🎉"
+        : "Nothing recommended right now. Nice work staying caught up!";
     showSection("empty-state");
     el("progress").textContent = "";
     return;

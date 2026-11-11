@@ -168,20 +168,36 @@ def due_today(entries):
             lang = e["language"]
             already_introduced_today[lang] = already_introduced_today.get(lang, 0) + 1
 
+    # How many cards (new or in-progress) has each language already had
+    # REVIEWED today, across every earlier call to due_today() today --
+    # not just what's still due right now. Without this, once a reviewed
+    # card's next_review moves past today, it drops out of `due`, quietly
+    # making room for more of the backlog to slip in under the same cap on
+    # the very next /api/due call -- which would let a single day's cap be
+    # re-spent over and over as the backlog shrinks, instead of actually
+    # deferring the overflow to tomorrow the way the cap is meant to.
+    reviewed_today = {}
+    for e in entries:
+        if e["srs"].get("last_reviewed") == today:
+            lang = e["language"]
+            reviewed_today[lang] = reviewed_today.get(lang, 0) + 1
+
     allowed = []
     for lang in sorted(set(e["language"] for e in due)):
-        # In-progress reviews get priority, most-overdue first, up to the
-        # total daily cap.
+        remaining_total = max(0, TOTAL_CARDS_PER_DAY - reviewed_today.get(lang, 0))
+
+        # In-progress reviews get priority, most-overdue first, up to
+        # whatever's left of today's total cap.
         lang_in_progress = sorted(
             (e for e in in_progress if e["language"] == lang),
             key=lambda e: e["srs"]["next_review"],
         )
-        shown_in_progress = lang_in_progress[:TOTAL_CARDS_PER_DAY]
+        shown_in_progress = lang_in_progress[:remaining_total]
         allowed.extend(shown_in_progress)
 
         # New cards fill whatever's left, bounded by both the remaining
         # total-cap slots and the existing new-card-per-day cap.
-        remaining_total = TOTAL_CARDS_PER_DAY - len(shown_in_progress)
+        remaining_total -= len(shown_in_progress)
         remaining_new_cap = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
         remaining_new = min(remaining_total, remaining_new_cap)
 
@@ -191,6 +207,23 @@ def due_today(entries):
         allowed.extend(lang_new[:remaining_new])
 
     return allowed
+
+
+def completed_languages_today(entries):
+    """Which languages have genuinely nothing more to show right now, but
+    only count as "done" (as opposed to just having an empty deck) if some
+    review actually happened today -- covers both a fully drained backlog
+    and a backlog that's hit today's cap and rolled the rest to tomorrow.
+    Used by the UI to tell those two "zero cards right now" cases apart."""
+    today = date.today().isoformat()
+    reviewed_today = {}
+    for e in entries:
+        if e["srs"].get("last_reviewed") == today:
+            lang = e["language"]
+            reviewed_today[lang] = reviewed_today.get(lang, 0) + 1
+
+    still_due_langs = {c["language"] for c in due_today(entries)}
+    return sorted(lang for lang in reviewed_today if lang not in still_due_langs)
 
 
 # ---------------------------------------------------------------------------
