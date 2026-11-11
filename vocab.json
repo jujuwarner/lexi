@@ -15,8 +15,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -39,8 +39,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -61,8 +61,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -80,11 +80,11 @@
     "cultural_note": "French distinguishes \"aube,\" the everyday neutral word for dawn, from this word, which carries a more literary, poetic register — closer to English \"aurora\" — and tends to show up in narration rather than casual conversation.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -102,11 +102,11 @@
     "cultural_note": "The reflexive construction used here, \"se faire fricasser,\" also has an informal/military slang life meaning to get shot up or wiped out — a darkly playful extension of \"getting cooked.\" This sentence is clearly the literal culinary sense, but the double meaning is worth knowing.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -127,8 +127,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -149,8 +149,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -171,8 +171,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -193,8 +193,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -215,8 +215,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -235,10 +235,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -257,10 +257,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -279,10 +279,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -301,10 +301,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -323,10 +323,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -345,10 +345,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -367,10 +367,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -8347,8 +8347,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-10-12",
-      "last_reviewed": "2026-10-11",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8367,10 +8367,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.9,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-10-12",
-      "last_reviewed": "2026-10-11",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8389,10 +8389,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.9,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-10-12",
-      "last_reviewed": "2026-10-11",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8413,8 +8413,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8432,11 +8432,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8456,11 +8456,11 @@
     "cultural_note": "The word comes from Greek — 'phoinix' (crimson/purple-red) + 'pteron' (wing), literally \"purple-winged.\" It's also the actual scientific genus name (Phoenicopterus). Dumas-and-Calvino-era literary French reaches for this kind of Greek-rooted term where everyday French would just say 'flamant.'",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8478,11 +8478,11 @@
     "cultural_note": "Worth knowing the idiom \"faire le pied de grue\" — literally \"to do the crane's foot\" — meaning to wait around for a long time, standing about. Comes from a crane's habit of standing motionless on one leg for long stretches.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8500,11 +8500,11 @@
     "cultural_note": "In French, 'corbeau' also refers to someone who sends anonymous poison-pen letters — a meaning popularized by the 1943 French film Le Corbeau. More broadly, crows and ravens carry strong death/carrion symbolism across many cultures, directly relevant to this battlefield scene.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8522,11 +8522,12 @@
     "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 0,
+      "easiness": 1.9,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8543,11 +8544,11 @@
     "cultural_note": "Unlike 'trépidant', this one's a genuine, helpful cognate rather than a false friend — the adjective sense (greedy, grasping) is a direct match with English 'rapacious.' Same root, same idea, and worth leaning on to help it stick.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8568,8 +8569,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8587,11 +8588,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 0,
+      "easiness": 1.9,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8608,11 +8610,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8632,11 +8634,12 @@
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.5,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 0,
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8653,11 +8656,12 @@
     "cultural_note": "This word also gives us 'chaumière' — a thatched cottage, a classic, almost iconic image in French rural/pastoral imagery and literature (a humble, cozy country home). Here, though, the word is doing dark double duty: the same material that evokes a rustic cottage is, in this passage, just cut field stalks with scattered human remains resting on them.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.6,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 0,
+      "easiness": 1.8,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8677,8 +8681,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8696,11 +8700,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8718,11 +8722,11 @@
     "cultural_note": "Comes from 'Baldacco', the old Italian/French name for Baghdad, once famous for producing rich, ornate silk fabric — the canopies took the city's name, the same way English 'damask' comes from Damascus. A nice parallel pattern between the two languages for luxury-textile words.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8743,8 +8747,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8762,11 +8766,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 0,
+      "easiness": 1.9,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8783,11 +8788,11 @@
     "cultural_note": "Historically associated with wealth and nobility — brocade was expensive, labor-intensive to weave, and often used for aristocratic garments and ecclesiastical vestments. Worth noticing the irony in this scene: luxury fabric on camp women greeting soldiers with 'vilains rires', not exactly a noble setting.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": null
     },
     "era": null
@@ -8805,11 +8810,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8827,11 +8832,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8849,11 +8854,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8871,11 +8876,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8896,11 +8901,11 @@
     "cultural_note": "A genuinely obscure, specialized term even to most native French speakers — this is period military-firearms vocabulary, not everyday language. Blunderbusses were largely obsolete by the 19th century, replaced by more accurate rifled firearms, which is part of why the word itself has faded from common use along with the object.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8918,11 +8923,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8943,8 +8948,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -8962,11 +8967,12 @@
     "cultural_note": "Worth knowing the idiom 'prendre la mouche' — literally 'to take the fly' — meaning to suddenly take offense or get huffy over something minor.",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-09-16",
-      "last_reviewed": "2026-09-10"
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-26",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -8983,11 +8989,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9005,11 +9011,11 @@
     "cultural_note": "Same root as 'haute couture' — literally 'high sewing' — the globally recognized French term for the most exclusive tier of custom-made fashion. Sutures and Paris runway fashion share a word.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9027,11 +9033,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9049,11 +9055,11 @@
     "cultural_note": "Boiling tar/pitch on wounds isn't just a grim literary flourish — it reflects a real historical practice in pre-modern veterinary and battlefield medicine, used to seal and cauterize wounds before better methods existed. Brutal, but historically accurate.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9071,11 +9077,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9093,11 +9099,11 @@
     "cultural_note": "The reflexive form ‘se ruer (sur)’ means something different — ‘to rush, to hurl oneself (at).’ Same spelling, unrelated meaning once it's reflexive.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9115,11 +9121,11 @@
     "cultural_note": "In this sentence Calvino playfully turns this noun phrase into an improvised verb — 'se poudre-de-rizaient' (roughly 'were rice-powdering themselves') — which isn't a real dictionary verb, just a one-off literary flourish built on the spot from the common noun phrase, similar to jokingly saying 'he Windexed the counter' in English. The real, standing vocabulary here is the noun phrase itself, not the invented conjugation.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9137,11 +9143,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9159,11 +9165,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9184,8 +9190,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9203,11 +9209,11 @@
     "cultural_note": "Literally breaks down as 'garde' (guard) + 'à vous' (to/for you) — an old command form, roughly 'guard, for you,' that fused into a fixed noun phrase over time.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9225,11 +9231,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9247,11 +9253,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9269,11 +9275,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9294,8 +9300,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9316,8 +9322,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9337,11 +9343,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9359,11 +9365,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9381,11 +9387,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9403,11 +9409,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
     "era": null
@@ -9426,10 +9432,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9446,11 +9453,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9467,11 +9475,12 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9488,11 +9497,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9510,10 +9520,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 1,
-      "easiness": 2.5,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9530,11 +9541,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9551,11 +9563,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9573,10 +9586,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9593,11 +9607,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9614,11 +9629,12 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9635,11 +9651,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9656,11 +9673,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9678,10 +9696,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 1,
-      "easiness": 2.5,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-12",
+      "last_reviewed": "2026-11-11",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9699,10 +9718,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9720,10 +9740,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9740,11 +9761,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9762,10 +9784,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9782,11 +9805,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9803,11 +9827,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9824,11 +9849,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9846,10 +9872,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9867,10 +9894,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9887,11 +9915,12 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9908,11 +9937,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
+      "repetitions": 0,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9929,11 +9959,12 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9951,10 +9982,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9972,10 +10004,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -9992,11 +10025,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10014,10 +10048,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10035,10 +10070,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10056,10 +10092,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10077,10 +10114,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10098,10 +10136,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10118,11 +10157,12 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10130,20 +10170,21 @@
     "id": 85,
     "word": "rapiécé",
     "language": "fr",
-    "translation_en": "patched, mended with patches — closely related in meaning to 'rapetasser', already in your deck",
+    "translation_en": "patched, mended with patches",
     "definition_in_language": "Réparé à l'aide de pièces de tissu ou de matière ajoutées, souvent de façon rudimentaire.",
     "source_sentence": "Et je te scie par ci et je te couds par là, et je te tamponne des lésions et je te retourne des veines en doigts de gants pour les remettre en place avec plus de ficelle que de sang à l'intérieur mais bien rapiécées et bien étanches.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-09",
     "tags": [],
-    "cultural_note": "",
+    "cultural_note": "Closely related in meaning to rapetasser (id 31), already in the deck.",
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10161,10 +10202,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10182,10 +10224,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10202,11 +10245,12 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10224,10 +10268,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10244,11 +10289,12 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.5,
+      "repetitions": 0,
+      "easiness": 1.7,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -10266,10 +10312,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-09-11",
-      "last_reviewed": "2026-09-10"
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
+      "first_reviewed_on": null
     },
     "era": null
   },
@@ -12964,11 +13011,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -12986,11 +13033,11 @@
     "cultural_note": "Watch out for the unrelated scythe sense elsewhere.",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.0,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.1,
+      "interval": 12,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13008,11 +13055,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13030,11 +13077,11 @@
     "cultural_note": "In Orthodox Christian tradition, carries extra weight as one of the recognized sinful \"passions\" (close to acedia/spiritual listlessness) -- not just casual sadness.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13054,11 +13101,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13076,11 +13123,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13186,11 +13233,11 @@
     "cultural_note": "Often paired with \"мысль\": неотвязная мысль = a nagging thought that won’t leave you alone.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13208,11 +13255,11 @@
     "cultural_note": "From «увещевать» -- related in flavor to «наставление» (id 525), but leans more toward persuading/pleading than general guidance.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13230,11 +13277,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13252,11 +13299,11 @@
     "cultural_note": "Literally \"small-souled-ness\" (мал- small + душа soul) -- often about moral/resolve weakness, not just physical fear.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13296,11 +13343,11 @@
     "cultural_note": "From «помешаться» (to go mad/insane) -- related to «мешать» (to interfere/mix), with a real shift in meaning over time.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13323,8 +13370,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-10",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13386,11 +13433,11 @@
     "cultural_note": "From «молчать» (to be silent) + the softening «по-» prefix -- often hints at deliberately withholding comment, not just happening to be quiet.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13408,11 +13455,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13454,11 +13501,11 @@
     "cultural_note": "Literally \"of the old cut\" (покрой = the cut/style of a garment), but used figuratively about people, not just clothes.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13476,11 +13523,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-09",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13545,11 +13592,11 @@
     "cultural_note": "\"Плутовской роман\" is the standard Russian literary term for a picaresque novel (a genre featuring a cunning, lower-class protagonist living by wit through episodic adventures).",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13567,11 +13614,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13591,11 +13638,11 @@
     "cultural_note": "«Лад» = manner, way, mode.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13613,11 +13660,11 @@
     "cultural_note": "Verb form of «уныние» (id 602), already in your deck.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13635,11 +13682,11 @@
     "cultural_note": "Distinct from «переводить/перевести» (to translate) -- different reflexive verb despite the surface similarity. Common construction: \"X-ы не перевелись\" = \"there is no shortage of X.\"",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13657,11 +13704,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13679,11 +13726,11 @@
     "cultural_note": "Common idiom: «наводить тоску (на кого-то)» = \"to induce melancholy in someone, to bring someone down.\"",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13703,11 +13750,11 @@
     "cultural_note": "«Наводить» here means \"to induce/bring on\" (a feeling or state) -- same construction works with other abstract nouns: наводить грусть (sadness), наводить сон (sleepiness).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13725,11 +13772,11 @@
     "cultural_note": "From the same root as «рвать» (to tear), extended figuratively into \"straining eagerly toward something.\"",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13749,11 +13796,11 @@
     "cultural_note": "Flexible pattern: \"приниматься за + [accusative]\" works with other objects too -- приниматься за работу (get to work), приняться за чтение (get down to reading), etc.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13771,11 +13818,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13795,11 +13842,11 @@
     "cultural_note": "Often connotes authority or intensity, not just literally sharp eyesight.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13817,11 +13864,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13839,11 +13886,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13929,11 +13976,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13973,11 +14020,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14061,11 +14108,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14105,11 +14152,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14127,11 +14174,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14149,11 +14196,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14171,11 +14218,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14193,11 +14240,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14215,11 +14262,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14479,11 +14526,11 @@
     "cultural_note": "Known in English by its transliterated name, \"chernozem.\" Famous fertile black soil of the Russian/Ukrainian steppe -- historically central to the region's agriculture, relevant backdrop to Nikolai Petrovich's struggles managing his estate's farmland.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.5,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.6,
+      "interval": 15,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14545,11 +14592,11 @@
     "cultural_note": "Rooted in the Slavic folk superstition of the \"evil eye\" (сглаз) -- praising something too much risks jinxing it. Often heard as a warning: \"не сглазь!\" (\"don't jinx it!\").",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-03",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-26",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -16369,8 +16416,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16432,11 +16479,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16654,11 +16701,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16720,11 +16767,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16764,11 +16811,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16874,11 +16921,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -16940,11 +16987,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -16962,11 +17009,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "next_review": "2026-11-11",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -16984,11 +17031,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17006,11 +17053,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17028,11 +17075,11 @@
     "gender": null,
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17052,11 +17099,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17074,11 +17121,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17096,11 +17143,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17118,11 +17165,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-09",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-10",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -20694,6 +20741,2910 @@
       "easiness": 2.5,
       "interval": 0,
       "next_review": "2026-11-08",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 955,
+    "word": "вешний",
+    "language": "ru",
+    "translation_en": "of spring, spring- (archaic/poetic form of \"весенний\")",
+    "definition_in_language": "Устаревшая, поэтическая форма слова \"весенний\".",
+    "source_sentence": "Вешние воды.",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [
+      "archaic",
+      "literary"
+    ],
+    "cultural_note": "Title of the novella -- \"Вешние воды\" (\"Spring Waters\"/\"Torrents of Spring\") refers to the rushing spring floodwaters, used as a metaphor for the fleeting, headlong rush of young first love.",
+    "gender": "m",
+    "era": "archaic",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 14,
+      "next_review": "2026-11-23",
+      "last_reviewed": null,
+      "first_reviewed_on": null
+    }
+  },
+  {
+    "id": 956,
+    "word": "римлянин",
+    "language": "ru",
+    "translation_en": "a Roman (a person from Rome/ancient Rome)",
+    "definition_in_language": "Житель Рима, уроженец Древнего Рима.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 957,
+    "word": "полынь",
+    "language": "ru",
+    "translation_en": "wormwood (a bitter-tasting herb, also known for its use in absinthe)",
+    "definition_in_language": "Горькое травянистое растение с резким запахом.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 958,
+    "word": "неотвязчивый",
+    "language": "ru",
+    "translation_en": "persistent, clingy, nagging (of a thought, feeling, or presence that won't let go)",
+    "definition_in_language": "Навязчивый, не оставляющий в покое, преследующий (о мысли, чувстве).",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 959,
+    "word": "постылый",
+    "language": "ru",
+    "translation_en": "loathsome, repugnant, odious (become repellent/tiresome, often through prolonged exposure)",
+    "definition_in_language": "Отвратительный, ненавистный, вызывающий отвращение.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 960,
+    "word": "тяжкий",
+    "language": "ru",
+    "translation_en": "heavy, grave, severe, burdensome (of a feeling, illness, crime, or weight -- stronger/more literary than the plain тяжёлый)",
+    "definition_in_language": "Очень тяжёлый, мучительный, серьёзный по тяжести.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 961,
+    "word": "обступить",
+    "language": "ru",
+    "translation_en": "to surround, close in on, crowd around (literally, people/things; figuratively, thoughts/memories/feelings closing in on someone)",
+    "definition_in_language": "Окружить со всех сторон; переносно -- о мыслях, воспоминаниях, нахлынувших на кого-либо.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 962,
+    "word": "осенний",
+    "language": "ru",
+    "translation_en": "autumn-, autumnal, of autumn",
+    "definition_in_language": "Относящийся к осени, свойственный осени.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 963,
+    "word": "порожний",
+    "language": "ru",
+    "translation_en": "empty, vacant (of a container or space -- older/folk-flavored, similar to пустой but more rustic/dated)",
+    "definition_in_language": "Ничем не заполненный, пустой (устаревшее или просторечное слово).",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [
+      "archaic"
+    ],
+    "cultural_note": "",
+    "gender": "m",
+    "era": "archaic",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 14,
+      "next_review": "2026-11-23",
+      "last_reviewed": null,
+      "first_reviewed_on": null
+    }
+  },
+  {
+    "id": 964,
+    "word": "самообольщение",
+    "language": "ru",
+    "translation_en": "self-deception, self-delusion (literally \"self-seduction\")",
+    "definition_in_language": "Обман самого себя, ложное представление о себе или своём положении.",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 965,
+    "word": "подтачивать",
+    "language": "ru",
+    "translation_en": "to gradually undermine, erode, sap, wear away at",
+    "definition_in_language": "Постепенно ослаблять, разрушать изнутри (о здоровье, силах, уверенности и т.п.).",
+    "source_sentence": "",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 966,
+    "word": "бух",
+    "language": "ru",
+    "translation_en": "bang!, plop!, splash! — an interjection for a sudden heavy fall or plunge",
+    "definition_in_language": "Междометие, передающее звук или ощущение внезапного тяжёлого падения, провала.",
+    "source_sentence": "бух в бездну",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Often paired with a direction/destination, e.g. \"бух в бездну\" — \"and then — bang! — into the abyss\" — a sudden, total plunge, often figurative (despair, ruin).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 967,
+    "word": "урочный",
+    "language": "ru",
+    "translation_en": "appointed, fixed, set, destined (of a day, hour, time)",
+    "definition_in_language": "Заранее установленный, назначенный; предопределённый (о дне, часе, сроке).",
+    "source_sentence": "день урочный",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 968,
+    "word": "intarissable",
+    "language": "fr",
+    "translation_en": "inexhaustible, endless, nonstop (of a talker or a topic)",
+    "definition_in_language": "Qui ne s'épuise pas, qui ne s'arrête pas ; se dit souvent de quelqu'un qui parle sans cesse sur un sujet.",
+    "source_sentence": "Vive était intarissable à son sujet.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 969,
+    "word": "se jouer de",
+    "language": "fr",
+    "translation_en": "to play tricks on, to deceive, to toy with",
+    "definition_in_language": "Tromper quelqu'un, agir sur lui de façon trompeuse ou cruelle, sans qu'il s'en rende compte.",
+    "source_sentence": "Son mémoire se jouait de lui.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Distinct from \"jouer aux dés\" (already in your deck, id 202) — that's literal dice-playing; this is figurative deception/trickery.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 970,
+    "word": "fournaise",
+    "language": "fr",
+    "translation_en": "a furnace, a blaze; (figuratively) a stiflingly hot place",
+    "definition_in_language": "Chaleur très intense, comme celle d'un four ; au figuré, endroit étouffant de chaleur.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 971,
+    "word": "ruche",
+    "language": "fr",
+    "translation_en": "a beehive; (figuratively) a swarming, buzzing, crowded place",
+    "definition_in_language": "Habitation des abeilles ; au figuré, lieu grouillant de monde et bruyant d'activité.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 972,
+    "word": "s'évertuer à",
+    "language": "fr",
+    "translation_en": "to strive hard to, to do one's utmost to (often implying a strained or futile effort)",
+    "definition_in_language": "Faire de grands efforts pour parvenir à quelque chose, souvent en vain.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 973,
+    "word": "s'échouer",
+    "language": "fr",
+    "translation_en": "to run aground, to strand oneself; (figuratively) to wash up/end up somewhere",
+    "definition_in_language": "Littéralement, s'arrêter sur le rivage, le sable (un bateau) ; au figuré, se retrouver quelque part, souvent par lassitude ou hasard.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 974,
+    "word": "décortiquer",
+    "language": "fr",
+    "translation_en": "to shell, to husk (nuts, shrimp); (figuratively) to dissect, pick apart, analyze in minute detail",
+    "definition_in_language": "Littéralement, retirer l'écorce ou la coquille d'un fruit, d'un crustacé ; au figuré, analyser quelque chose en détail, le disséquer.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 975,
+    "word": "sur le pouce",
+    "language": "fr",
+    "translation_en": "on the go, in a rush, quickly and informally (almost always about eating)",
+    "definition_in_language": "Rapidement, sans prendre le temps de s'asseoir pour un vrai repas ; se dit surtout de manger quelque chose à la hâte.",
+    "source_sentence": "On ne se mangerait pas une petite assiette sur le pouce?",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 976,
+    "word": "moucher",
+    "language": "fr",
+    "translation_en": "to put someone in their place, to snub sharply, to take someone down a notch",
+    "definition_in_language": "Rabrouer quelqu'un vivement, le remettre à sa place avec sévérité.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Literally \"to wipe/blow someone's nose\" (se moucher = to blow one's own nose) — the figurative sense of sharply putting someone in their place is the far more common usage when the object is a person.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 977,
+    "word": "boutade",
+    "language": "fr",
+    "translation_en": "a witty quip, a flippant remark, a jest (often sharp or sarcastic, said half-seriously)",
+    "definition_in_language": "Remarque spirituelle et soudaine, souvent ironique, dite à moitié sérieusement.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 978,
+    "word": "bonnet de nuit",
+    "language": "fr",
+    "translation_en": "a nightcap (the hat worn to bed); (figuratively) a killjoy, a wet blanket",
+    "definition_in_language": "Littéralement, bonnet que l'on porte pour dormir ; au figuré, personne qui gâche l'ambiance, rabat-joie.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 979,
+    "word": "donner le change",
+    "language": "fr",
+    "translation_en": "to throw someone off the scent, to mislead, to put up a false front",
+    "definition_in_language": "Tromper quelqu'un sur ses véritables sentiments ou intentions, lui faire croire autre chose que la vérité.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "À l'origine, vocabulaire de chasse : le gibier donne un \"change\" de piste aux chiens pour les détourner de la vraie trace.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 980,
+    "word": "mondanités",
+    "language": "fr",
+    "translation_en": "social niceties, small talk, society chit-chat",
+    "definition_in_language": "Propos légers et superficiels échangés en société (compliments, politesses, bavardages mondains).",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 981,
+    "word": "s'enquiller",
+    "language": "fr",
+    "translation_en": "to knock back, to down in one go; to plow/barrel into (something), often fast and with a bit of force",
+    "definition_in_language": "Familier : faire quelque chose rapidement et sans interruption, souvent avec une pointe de brusquerie (avaler une boisson, s'engager dans un lieu ou une tâche).",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 982,
+    "word": "s'arsouiller",
+    "language": "fr",
+    "translation_en": "to get drunk, to booze it up (slangy, disreputable connotation)",
+    "definition_in_language": "Familier et péjoratif : se mettre à boire excessivement, s'enivrer.",
+    "source_sentence": "Elle aimait s'arsouiller en papotant comme si le monde attendait d'être recouvert du torrent de sa parole ivre, se dit-il avec une méchanceté qu'il savait gratuite.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Lié au mot \"arsouille\", ancien terme d'argot pour un voyou, un vaurien — le verbe garde cette teinte de dissolution. Compare to 'prendre une cuite' (id 992), the neutral, non-judgmental version of the same basic meaning.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 983,
+    "word": "papoter",
+    "language": "fr",
+    "translation_en": "to chat, to natter, to have a casual gossipy chinwag",
+    "definition_in_language": "Bavarder de façon légère et agréable, sans sujet particulier important.",
+    "source_sentence": "Elle aimait s'arsouiller en papotant comme si le monde attendait d'être recouvert du torrent de sa parole ivre, se dit-il avec une méchanceté qu'il savait gratuite.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 984,
+    "word": "se freiner",
+    "language": "fr",
+    "translation_en": "to restrain oneself, to hold oneself back, to put the brakes on",
+    "definition_in_language": "Se retenir, s'empêcher d'agir ou de réagir selon une impulsion.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 985,
+    "word": "carnet de bal",
+    "language": "fr",
+    "translation_en": "a dance card",
+    "definition_in_language": "Petit carnet que portait une femme lors d'un bal pour y noter le nom de son partenaire pour chaque danse.",
+    "source_sentence": "Elle anticipait les tournées comme elle aurait noirci un carnet de bal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 986,
+    "word": "noircir",
+    "language": "fr",
+    "translation_en": "to blacken, to darken; (idiomatically) to fill up completely (a page, a card) with writing",
+    "definition_in_language": "Rendre noir ; au figuré, couvrir entièrement une page ou un carnet d'écriture (jusqu'à ce qu'il paraisse noirci).",
+    "source_sentence": "Elle anticipait les tournées comme elle aurait noirci un carnet de bal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 987,
+    "word": "tournée",
+    "language": "fr",
+    "translation_en": "a round (of drinks); a tour, a circuit",
+    "definition_in_language": "Série de boissons offertes ou consommées l'une après l'autre dans un groupe ; par extension, un circuit, une tournée.",
+    "source_sentence": "Elle anticipait les tournées comme elle aurait noirci un carnet de bal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 988,
+    "word": "d'entrée de jeu",
+    "language": "fr",
+    "translation_en": "right from the start, from the get-go, straight off the bat",
+    "definition_in_language": "Dès le début, avant même que quoi que ce soit d'autre ne se passe.",
+    "source_sentence": "Toujours une bouteille d'entrée de jeu.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 989,
+    "word": "mettre un peu de temps à",
+    "language": "fr",
+    "translation_en": "to take a little while to (do/notice something)",
+    "definition_in_language": "Avoir besoin d'un certain temps avant de faire ou de remarquer quelque chose.",
+    "source_sentence": "Elle avait mis un peu de temps à s'apercevoir que, de la mort des bouteilles, il ne participait qu'à la marge. Ça n'avait qu'à peine douché ses emportements.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 990,
+    "word": "doucher",
+    "language": "fr",
+    "translation_en": "to dampen, to put a damper on, to deflate (someone's enthusiasm or mood)",
+    "definition_in_language": "Littéralement, arroser quelqu'un sous une douche ; au figuré, refroidir brusquement l'enthousiasme ou le moral de quelqu'un.",
+    "source_sentence": "Elle avait mis un peu de temps à s'apercevoir que, de la mort des bouteilles, il ne participait qu'à la marge. Ça n'avait qu'à peine douché ses emportements.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 991,
+    "word": "emportement",
+    "language": "fr",
+    "translation_en": "a fit of passion, an outburst, a loss of temper or excess of feeling",
+    "definition_in_language": "Mouvement soudain et violent de colère ou de passion, qui emporte quelqu'un au-delà de la mesure.",
+    "source_sentence": "Elle avait mis un peu de temps à s'apercevoir que, de la mort des bouteilles, il ne participait qu'à la marge. Ça n'avait qu'à peine douché ses emportements.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 992,
+    "word": "prendre une cuite",
+    "language": "fr",
+    "translation_en": "to get drunk, to tie one on",
+    "definition_in_language": "S'enivrer, boire jusqu'à être ivre. \"Une cuite\" = une beuverie, l'état d'ivresse qui en résulte.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "The standard, fairly neutral way to say 'got drunk' — distinct from s'arsouiller (already in your deck, id 982), which means the same thing but slangier and with a disreputable, low-class edge. 'Prendre une cuite' passes no judgment; 's'arsouiller' does.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 993,
+    "word": "assommant",
+    "language": "fr",
+    "translation_en": "deadly boring, tedious, a drag",
+    "definition_in_language": "Extrêmement ennuyeux, lassant au point de fatiguer.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "From 'assommer' — literally 'to knock out, to club/stun someone' — so the boredom is framed as practically clubbing you unconscious.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 994,
+    "word": "plaintif",
+    "language": "fr",
+    "translation_en": "plaintive, mournful, wailing",
+    "definition_in_language": "Qui exprime une plainte douloureuse ; se dit d'une voix, d'un son, d'un regard triste et suppliant.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 995,
+    "word": "se foutre de",
+    "language": "fr",
+    "translation_en": "to not give a damn about, to not care about at all",
+    "definition_in_language": "Familier (voire vulgaire) : être complètement indifférent à quelque chose. \"Je m'en fous\" = \"je ne m'en soucie pas du tout\".",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Also has a second, distinct sense: 'se foutre de quelqu'un' = to make fun of/mock someone. This entry covers only the 'not caring' meaning.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 996,
+    "word": "chigner",
+    "language": "fr",
+    "translation_en": "to whine, to gripe, to grumble, to moan complainingly",
+    "definition_in_language": "Familier : se plaindre de façon geignarde, pleurnicher.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Especially common in Québécois French, though used informally in France too.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 997,
+    "word": "rester coi",
+    "language": "fr",
+    "translation_en": "to remain silent, to stay speechless, to keep mum",
+    "definition_in_language": "Rester silencieux, souvent par stupeur ou par choix délibéré de ne rien dire.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "'Coi/coite' is an old adjective now almost only used in this fixed phrase.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 998,
+    "word": "taquiner",
+    "language": "fr",
+    "translation_en": "to tease, to needle, to rib (playfully, not mean-spirited)",
+    "definition_in_language": "Se moquer gentiment de quelqu'un pour le plaisir, sans méchanceté.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "Distinct from 'aguicher' (id 1021), which is specifically seductive/provocative teasing — 'taquiner' is the lighthearted, non-sexual kind.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 999,
+    "word": "les affres",
+    "language": "fr",
+    "translation_en": "the throes, the torments, the anguish",
+    "definition_in_language": "Souffrance intense et angoissante, souvent liée à une épreuve précise (la mort, la création, etc.). Toujours au pluriel.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1000,
+    "word": "être bien en peine de",
+    "language": "fr",
+    "translation_en": "to be hard-pressed to, to be at a loss to (do something)",
+    "definition_in_language": "Avoir beaucoup de difficulté à faire quelque chose, ne pas vraiment en être capable.",
+    "source_sentence": "Vincent aurait été bien en peine de parler avec perspicacité de la coupe de cheveux de ses aventures d'un soir.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1001,
+    "word": "aventure d'un soir",
+    "language": "fr",
+    "translation_en": "a one-night stand, a fling",
+    "definition_in_language": "Rencontre amoureuse ou sexuelle qui ne dure qu'une soirée, sans suite.",
+    "source_sentence": "Vincent aurait été bien en peine de parler avec perspicacité de la coupe de cheveux de ses aventures d'un soir.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1002,
+    "word": "galanterie",
+    "language": "fr",
+    "translation_en": "gallantry, courtesy toward women; a flirtatious or flattering remark, a line",
+    "definition_in_language": "Politesse et prévenance envers les femmes ; aussi, propos flatteur ou séducteur, parfois un peu insincère.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1003,
+    "word": "de cet acabit",
+    "language": "fr",
+    "translation_en": "of that sort, of that ilk, of that stripe (often dismissive)",
+    "definition_in_language": "De ce genre, de cette espèce ; souvent avec une connotation méprisante ou dédaigneuse.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Almost always used with a dismissive edge — 'des gens de cet acabit' implies not very good company.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1004,
+    "word": "choper par le col",
+    "language": "fr",
+    "translation_en": "to grab/collar someone by the collar",
+    "definition_in_language": "Attraper quelqu'un en le saisissant au col de ses vêtements, souvent avec colère ou pour le retenir de force.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-09",
+    "tags": [],
+    "cultural_note": "'Choper' is informal slang for 'to grab, nab, catch' — also used for catching an illness or catching someone in the act.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-09",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1005,
+    "word": "sans prétention",
+    "language": "fr",
+    "translation_en": "unpretentious, without airs, modest",
+    "definition_in_language": "Qui ne cherche pas à paraître plus important ou raffiné qu'il ne l'est ; simple, modeste.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1006,
+    "word": "épater",
+    "language": "fr",
+    "translation_en": "to amaze, to impress, to dazzle, to stun (often by showing off)",
+    "definition_in_language": "Surprendre vivement quelqu'un, l'impressionner fortement, souvent en cherchant à se faire remarquer.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Classic phrase: 'épater la galerie' — to show off for the crowd, to put on a show to impress people.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1007,
+    "word": "bique",
+    "language": "fr",
+    "translation_en": "an old bag, an old biddy (dismissive slang for a woman, usually older)",
+    "definition_in_language": "Familier et péjoratif : désigne une femme, souvent âgée, de façon méprisante.",
+    "source_sentence": "Ni plus ni moins, des vieilles biques qui lisaient dans les transports publics; c'était le sujet de Vive.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Literally means 'a (nanny) goat' — the dismissive sense for an old woman is a figurative extension of that.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1008,
+    "word": "ni plus ni moins",
+    "language": "fr",
+    "translation_en": "nothing more, nothing less; exactly, precisely",
+    "definition_in_language": "Exactement cela, sans exagération ni atténuation.",
+    "source_sentence": "Ni plus ni moins, des vieilles biques qui lisaient dans les transports publics; c'était le sujet de Vive.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1009,
+    "word": "se prendre en photo",
+    "language": "fr",
+    "translation_en": "to take a picture of oneself, to take a selfie",
+    "definition_in_language": "Se photographier soi-même.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1010,
+    "word": "opiniâtre",
+    "language": "fr",
+    "translation_en": "stubborn, obstinate, dogged, persistent",
+    "definition_in_language": "Qui persiste avec une ténacité inflexible, qui refuse de céder.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "More literary/formal register than the everyday 'têtu' (stubborn).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1011,
+    "word": "se prendre au jeu de",
+    "language": "fr",
+    "translation_en": "to get caught up in, to get drawn in, to start genuinely enjoying (something begun half-heartedly)",
+    "definition_in_language": "Commencer à s'investir sincèrement et sans le vouloir dans quelque chose qu'on avait entrepris de façon détachée ou ironique.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1012,
+    "word": "tassé",
+    "language": "fr",
+    "translation_en": "stooped, shrunken, hunched down (of a person, often with age)",
+    "definition_in_language": "Se dit d'une personne, souvent âgée, dont le corps s'est affaissé, voûté avec le temps.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Also commonly means 'crammed, packed together' (of people in a crowded space) — this entry covers the 'shrunken with age' sense specifically.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1013,
+    "word": "se piquer de",
+    "language": "fr",
+    "translation_en": "to pride oneself on, to fancy oneself as (often with a skeptical edge about whether it's deserved)",
+    "definition_in_language": "Se vanter d'avoir un certain talent ou une certaine qualité, parfois avec une confiance excessive.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1014,
+    "word": "se côtoyer",
+    "language": "fr",
+    "translation_en": "to rub shoulders, to mix together, to coexist in close proximity",
+    "definition_in_language": "Se trouver côte à côte, se fréquenter ou coexister dans un même espace.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1015,
+    "word": "charivari",
+    "language": "fr",
+    "translation_en": "a noisy, chaotic uproar, a hubbub, a riotous din",
+    "definition_in_language": "Bruit confus et assourdissant, tapage désordonné.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Originally referred to a mock-serenade of banging pots and pans aimed at publicly mocking someone (a 'shivaree') — now used generally for any chaotic, clamorous racket.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1016,
+    "word": "s'aboucher",
+    "language": "fr",
+    "translation_en": "to be thrown together, brought into contact with; (in other contexts) to connect/collude with someone, often shadily",
+    "definition_in_language": "Se mettre en contact avec quelqu'un ; selon le contexte, simplement se trouver réunis, ou comploter ensemble de façon louche.",
+    "source_sentence": "Âgés d'une dizaine d'années, ils avaient constitué le corps du même groupe charivarique d'enfants abouchés le temps de la fête des adultes; laissés à vivre entre eux, à s'ébrouer dans leurs jeux à l'horizon, points mouvants à la limite lointaine du regard parental.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "In this context, a neutral sense — kids thrown together for the party, not colluding for anything shady.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1017,
+    "word": "s'ébrouer",
+    "language": "fr",
+    "translation_en": "to frolic about, to romp around; (literally, of an animal) to shake oneself off, to snort",
+    "definition_in_language": "Se secouer vivement (comme un animal) ; au figuré, se dit d'enfants qui s'agitent et jouent avec entrain.",
+    "source_sentence": "Âgés d'une dizaine d'années, ils avaient constitué le corps du même groupe charivarique d'enfants abouchés le temps de la fête des adultes; laissés à vivre entre eux, à s'ébrouer dans leurs jeux à l'horizon, points mouvants à la limite lointaine du regard parental.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1018,
+    "word": "casse-cou",
+    "language": "fr",
+    "translation_en": "a daredevil; reckless (noun and invariable adjective)",
+    "definition_in_language": "Personne téméraire, qui prend des risques imprudents ; ou, dit d'un lieu, dangereusement escarpé.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Literally 'break-neck.' Can describe a person (noun or adjective) or a dangerously steep staircase/path ('un escalier casse-cou').",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1019,
+    "word": "effarant",
+    "language": "fr",
+    "translation_en": "staggering, astounding, alarming",
+    "definition_in_language": "Qui provoque une stupeur mêlée d'inquiétude, par son caractère extrême.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1020,
+    "word": "suie",
+    "language": "fr",
+    "translation_en": "soot",
+    "definition_in_language": "Résidu noir et poudreux laissé par la fumée, notamment dans une cheminée.",
+    "source_sentence": "On s'était tous retrouvés barbouillés de suie, avec le jeu des assiettes dans la cheminée!",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1021,
+    "word": "aguicher",
+    "language": "fr",
+    "translation_en": "to tease, to tantalize, to allure (flirtatiously, seductively)",
+    "definition_in_language": "Chercher à attirer, à séduire par des manières provocantes.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Distinct from 'taquiner' (already in your deck, id 998) — that's lighthearted, non-sexual teasing. 'Aguicher' is specifically seductive/provocative teasing.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1022,
+    "word": "inouï",
+    "language": "fr",
+    "translation_en": "unheard-of, incredible, extraordinary",
+    "definition_in_language": "Si extraordinaire qu'on n'avait jamais rien vu ou entendu de pareil.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Literally 'unheard' (from 'ouïr', an old verb for 'to hear'). Distinct from 'effarant' (id 1019) — that one carries more of a shock/alarm edge; 'inouï' is about rarity/unprecedented-ness and can be positive.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1023,
+    "word": "tâtonner",
+    "language": "fr",
+    "translation_en": "to feel one's way, to grope around, to fumble; (figuratively) to proceed by trial and error",
+    "definition_in_language": "Chercher en touchant, sans voir (dans le noir, par exemple) ; au figuré, avancer avec incertitude, par essais successifs.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1024,
+    "word": "guilleret",
+    "language": "fr",
+    "translation_en": "perky, cheerful, chirpy, in high spirits (often with a jaunty, slightly mischievous edge)",
+    "definition_in_language": "De bonne humeur, léger et pétillant, avec un entrain un peu espiègle.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1025,
+    "word": "s'embrouiller",
+    "language": "fr",
+    "translation_en": "to get confused, to get mixed up, to get tangled up (in one's words or thoughts)",
+    "definition_in_language": "Perdre le fil de ses idées ou de ses paroles, devenir confus.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1026,
+    "word": "la cafetière",
+    "language": "fr",
+    "translation_en": "the coffee pot, the coffee maker",
+    "definition_in_language": "Appareil ou récipient servant à préparer le café.",
+    "source_sentence": "Il était guilleret en allumant la cafetière pour qu'elle fasse son office le temps de ses ablutions, il se sentait léger et il ne savait pas pourquoi.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Also has a slang sense: 'the noggin, the head' (e.g. 'se cogner la cafetière' = to bang one's head). This entry covers the literal sense.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1027,
+    "word": "faire son office",
+    "language": "fr",
+    "translation_en": "to do its job, to do its duty (of a thing/device)",
+    "definition_in_language": "Remplir sa fonction, accomplir ce pour quoi il est destiné.",
+    "source_sentence": "Il était guilleret en allumant la cafetière pour qu'elle fasse son office le temps de ses ablutions, il se sentait léger et il ne savait pas pourquoi.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1028,
+    "word": "ablutions",
+    "language": "fr",
+    "translation_en": "one's washing-up routine, ablutions",
+    "definition_in_language": "Action de se laver, se nettoyer (visage, dents, etc.) ; registre un peu soutenu ou littéraire.",
+    "source_sentence": "Il était guilleret en allumant la cafetière pour qu'elle fasse son office le temps de ses ablutions, il se sentait léger et il ne savait pas pourquoi.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1029,
+    "word": "à brûle-pourpoint",
+    "language": "fr",
+    "translation_en": "point-blank, abruptly, without warning, out of the blue",
+    "definition_in_language": "Soudainement, sans préparation, de façon à prendre au dépourvu.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Often pairs with 'demander' (demander à brûle-pourpoint = to ask point-blank) but also works with 'dire', 'annoncer', etc. Originally a dueling term — 'pourpoint' was a doublet/jerkin, and firing 'à brûle-pourpoint' meant close enough to singe it.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1030,
+    "word": "se démettre",
+    "language": "fr",
+    "translation_en": "to dislocate (a joint, a body part)",
+    "definition_in_language": "Déplacer un os hors de son articulation normale. \"Se démettre l'épaule\" = se disloquer l'épaule.",
+    "source_sentence": "s'était démis l'épaule",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Also has an unrelated formal sense: 'démettre quelqu'un de ses fonctions' = to dismiss someone from their position.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1031,
+    "word": "turlupiner",
+    "language": "fr",
+    "translation_en": "to nag at, to bug, to gnaw at (someone's mind)",
+    "definition_in_language": "Préoccuper de façon persistante, tracasser l'esprit sans relâche.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Informal, a bit old-fashioned/quaint in flavor.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1032,
+    "word": "ne pas mettre le doigt dessus",
+    "language": "fr",
+    "translation_en": "to not be able to put one's finger on it",
+    "definition_in_language": "Ne pas réussir à identifier précisément ce qui cloche ou ce qu'on ressent, malgré le sentiment d'avoir repéré quelque chose.",
+    "source_sentence": "Il ne mettait pas le doigt dessus.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Almost always used in the negative — the rarer positive form ('il a mis le doigt dessus') exists, but this is by far the more common usage.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1033,
+    "word": "la bande-son",
+    "language": "fr",
+    "translation_en": "the soundtrack (of a film, show, or figuratively of a moment/life)",
+    "definition_in_language": "Ensemble des sons et de la musique accompagnant un film ou une œuvre.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1034,
+    "word": "la tournure des événements",
+    "language": "fr",
+    "translation_en": "the turn of events, how things develop/unfold",
+    "definition_in_language": "La manière dont une situation évolue, se développe.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "'Tournure' alone has other senses too: a turn of phrase/linguistic construction, or historically, a bustle (clothing padding under a skirt).",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1035,
+    "word": "faire faux bond",
+    "language": "fr",
+    "translation_en": "to stand someone up, to bail on someone, to not show up as planned",
+    "definition_in_language": "Ne pas venir à un rendez-vous convenu, manquer à un engagement envers quelqu'un.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1036,
+    "word": "changer de sujet",
+    "language": "fr",
+    "translation_en": "to change the subject",
+    "definition_in_language": "Passer à un autre sujet de conversation, souvent pour éviter le précédent.",
+    "source_sentence": "Stupéfait, Étienne se demanda quel était le rapport, et rétorqua à sa femme qu'il était commode de changer de sujet au milieu d'un raisonnement clair, que la ficelle était un peu grosse.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1037,
+    "word": "raisonnement",
+    "language": "fr",
+    "translation_en": "reasoning, a line of reasoning/argument",
+    "definition_in_language": "Suite d'idées ou d'arguments menant à une conclusion.",
+    "source_sentence": "Stupéfait, Étienne se demanda quel était le rapport, et rétorqua à sa femme qu'il était commode de changer de sujet au milieu d'un raisonnement clair, que la ficelle était un peu grosse.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1038,
+    "word": "la ficelle est un peu grosse",
+    "language": "fr",
+    "translation_en": "that's a bit too obvious, that trick is too transparent, I can see through that",
+    "definition_in_language": "Se dit d'une ruse, d'une excuse ou d'un procédé trop visible, pas assez subtil pour tromper.",
+    "source_sentence": "Stupéfait, Étienne se demanda quel était le rapport, et rétorqua à sa femme qu'il était commode de changer de sujet au milieu d'un raisonnement clair, que la ficelle était un peu grosse.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'the string is a bit thick' — like seeing the puppet strings too clearly. Figurative use of 'ficelle' (already in your deck as 'string, twine', id 83).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1039,
+    "word": "bouffonnerie",
+    "language": "fr",
+    "translation_en": "buffoonery, clownish foolishness, a farcical antic",
+    "definition_in_language": "Comportement ou action grotesque et comique, digne d'un bouffon.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Related to 'bouffon' (already in your deck, id 380) — this is the noun for the behavior itself, not the person.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1040,
+    "word": "au pied levé",
+    "language": "fr",
+    "translation_en": "on the spot, at a moment's notice, without preparation",
+    "definition_in_language": "Sans préparation, de façon improvisée, immédiatement.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'with the foot raised' — mid-step, ready to go.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1041,
+    "word": "se débrouiller",
+    "language": "fr",
+    "translation_en": "to manage, to get by, to figure it out, to cope (resourcefully, on one's own)",
+    "definition_in_language": "Faire face à une situation avec ingéniosité, se tirer d'affaire seul.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1042,
+    "word": "bassesse",
+    "language": "fr",
+    "translation_en": "baseness, vileness, a despicable act",
+    "definition_in_language": "Caractère moralement bas, mesquin ; acte méprisable, souvent lâche ou sournois.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "From 'bas' ('low').",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1043,
+    "word": "de guerre lasse",
+    "language": "fr",
+    "translation_en": "worn down, giving in out of sheer exhaustion, finally giving up resistance",
+    "definition_in_language": "Céder non pas par conviction, mais parce qu'on est épuisé de résister ou de lutter.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'of weary war.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1044,
+    "word": "gâté",
+    "language": "fr",
+    "translation_en": "spoiled (of a child); rotten, decayed (of a tooth, food)",
+    "definition_in_language": "Se dit d'un enfant trop indulgé ; ou d'une dent, d'un aliment, qui s'est détérioré.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1045,
+    "word": "mesquin",
+    "language": "fr",
+    "translation_en": "petty, mean, stingy, small-minded",
+    "definition_in_language": "Qui manque de générosité ou de grandeur d'âme, dans un esprit étroit et avare.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1046,
+    "word": "pour sa gouverne",
+    "language": "fr",
+    "translation_en": "for your information, for future reference (often with a condescending/didactic edge)",
+    "definition_in_language": "Pour que la personne en tienne compte à l'avenir, souvent dit sur un ton un peu professoral ou condescendant.",
+    "source_sentence": "Quand Vive avait parlé d'argent, Étienne lui avait hurlé pour sa gouverne que par ailleurs Mahler n'était absolument pas mort en Allemagne mais en AUTRICHE.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1047,
+    "word": "braire",
+    "language": "fr",
+    "translation_en": "to bray (of a donkey); (figuratively, of a person) to bawl, to howl complainingly",
+    "definition_in_language": "Cri de l'âne ; au figuré et familier, se dit de quelqu'un qui pleure ou crie bruyamment et de façon importune.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1048,
+    "word": "illico",
+    "language": "fr",
+    "translation_en": "right away, immediately, pronto",
+    "definition_in_language": "Familier : tout de suite, sans délai.",
+    "source_sentence": "Il aurait fallu qu'il la rappelle, qu'il le lui demande illico: Qu'est-ce que tu trafiques au juste qui semble t'accaparer?",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1049,
+    "word": "trafiquer",
+    "language": "fr",
+    "translation_en": "to be up to, to tinker with, to mess with (something vague or mildly suspicious)",
+    "definition_in_language": "Familier : faire quelque chose de pas très clair ou de mal défini. \"Qu'est-ce que tu trafiques?\" = \"Qu'est-ce que tu fais?\" (avec une nuance de suspicion ou de curiosité).",
+    "source_sentence": "Il aurait fallu qu'il la rappelle, qu'il le lui demande illico: Qu'est-ce que tu trafiques au juste qui semble t'accaparer?",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1050,
+    "word": "accaparer",
+    "language": "fr",
+    "translation_en": "to monopolize, to hog, to take up all of (someone's time or attention)",
+    "definition_in_language": "S'approprier entièrement quelque chose (du temps, de l'attention), au détriment des autres.",
+    "source_sentence": "Il aurait fallu qu'il la rappelle, qu'il le lui demande illico: Qu'est-ce que tu trafiques au juste qui semble t'accaparer?",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1051,
+    "word": "atrabilaire",
+    "language": "fr",
+    "translation_en": "irritable, ill-tempered, prone to gloomy irritability",
+    "definition_in_language": "Qui a un caractère maussade, aigri et facilement irritable.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Rooted in the old four-humors theory of medicine — 'atrabile' meant black bile, the humor associated with melancholy and anger.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1052,
+    "word": "anachorète",
+    "language": "fr",
+    "translation_en": "an anchorite, a hermit, a recluse",
+    "definition_in_language": "Personne qui vit retirée du monde, dans une solitude extrême, à l'origine pour des raisons religieuses.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Originally a religious hermit; used more broadly, sometimes with a touch of irony, for anyone who lives in isolation shunning society.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1053,
+    "word": "rabat",
+    "language": "fr",
+    "translation_en": "a flap (of a pocket, envelope, notebook cover, etc.)",
+    "definition_in_language": "Partie rabattue d'un objet (poche, enveloppe, carnet) qui se replie sur le reste.",
+    "source_sentence": "Il sortit son carnet aux rabats élégants.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1054,
+    "word": "brouillon",
+    "language": "fr",
+    "translation_en": "disorganized, muddled, messy (of a person's thinking or work style)",
+    "definition_in_language": "Qui manque de méthode et d'ordre dans sa façon de penser ou de travailler.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "As a noun, 'un brouillon' also means 'a rough draft.'",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1055,
+    "word": "fantasque",
+    "language": "fr",
+    "translation_en": "whimsical, capricious, unpredictable (often in a quirky, fanciful way)",
+    "definition_in_language": "Dont les humeurs ou le comportement sont imprévisibles, changeants, souvent avec une fantaisie un peu étrange.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1056,
+    "word": "chacal",
+    "language": "fr",
+    "translation_en": "a jackal; (figuratively) a vulture, a ruthlessly opportunistic person",
+    "definition_in_language": "Animal sauvage charognard ; au figuré, personne sans scrupules qui profite du malheur d'autrui.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1057,
+    "word": "se faire larguer",
+    "language": "fr",
+    "translation_en": "to get dumped, to get ditched (romantically)",
+    "definition_in_language": "Familier : être quitté par son/sa partenaire.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "From 'larguer' — originally nautical, 'to cast off' — used informally for dumping a partner or abandoning someone/something in general.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1058,
+    "word": "séance tenante",
+    "language": "fr",
+    "translation_en": "right then and there, on the spot, immediately",
+    "definition_in_language": "Sans délai, sur-le-champ.",
+    "source_sentence": "C'est la première chose qu'elle lui avait racontée, comme si elle voulait qu'il la rassure séance tenante, au cas où, 'si toi tu viens en moi, toi, tu resteras.'",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Formal/legal-flavored origin — literally 'the session being held.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1059,
+    "word": "au cas où",
+    "language": "fr",
+    "translation_en": "just in case",
+    "definition_in_language": "Pour parer à une éventualité, par précaution.",
+    "source_sentence": "C'est la première chose qu'elle lui avait racontée, comme si elle voulait qu'il la rassure séance tenante, au cas où, 'si toi tu viens en moi, toi, tu resteras.'",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1060,
+    "word": "ventre mou",
+    "language": "fr",
+    "translation_en": "the mushy middle, the amorphous undecided mass (neither standing out nor failing)",
+    "definition_in_language": "Masse indécise et passive, qui ne se distingue ni positivement ni négativement.",
+    "source_sentence": "Bien, c'était ventre mou, c'était le gros des troupes qui s'étaient assujetties au protocole universitaire dans les temps: on ne les rejetait pas, on ne les applaudissait pas non plus.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Also has a separate figurative sense: 'the soft underbelly, the weak spot' (of a plan, a system). This entry covers the 'amorphous mass' sense.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1061,
+    "word": "s'assujettir à",
+    "language": "fr",
+    "translation_en": "to submit to, to subject oneself to, to comply with (a rule, a protocol)",
+    "definition_in_language": "Se soumettre à une règle ou une autorité ; registre assez soutenu.",
+    "source_sentence": "Bien, c'était ventre mou, c'était le gros des troupes qui s'étaient assujetties au protocole universitaire dans les temps: on ne les rejetait pas, on ne les applaudissait pas non plus.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1062,
+    "word": "faire sa cour auprès de",
+    "language": "fr",
+    "translation_en": "to court, to curry favor with (someone, to win their goodwill)",
+    "definition_in_language": "Chercher à plaire à quelqu'un, à gagner ses bonnes grâces, souvent dans un but intéressé.",
+    "source_sentence": "Il fallait commencer à faire sa cour auprès des professeurs dès le début de la licence pour espérer décrocher leur accord, certains d'entre eux étaient pris d'assaut, et évidemment les sujets sur le XIXe fleurissaient comme le chiendent.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1063,
+    "word": "être pris d'assaut",
+    "language": "fr",
+    "translation_en": "to be besieged, stormed, overwhelmed with demand",
+    "definition_in_language": "Être sollicité massivement et soudainement par beaucoup de personnes à la fois.",
+    "source_sentence": "Il fallait commencer à faire sa cour auprès des professeurs dès le début de la licence pour espérer décrocher leur accord, certains d'entre eux étaient pris d'assaut, et évidemment les sujets sur le XIXe fleurissaient comme le chiendent.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1064,
+    "word": "fleurir comme le chiendent",
+    "language": "fr",
+    "translation_en": "to flourish/spread like weeds, to proliferate unstoppably",
+    "definition_in_language": "Se multiplier abondamment et de façon difficile à contenir, comme une mauvaise herbe envahissante.",
+    "source_sentence": "Il fallait commencer à faire sa cour auprès des professeurs dès le début de la licence pour espérer décrocher leur accord, certains d'entre eux étaient pris d'assaut, et évidemment les sujets sur le XIXe fleurissaient comme le chiendent.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "'Chiendent' is couch grass/crabgrass — a famously persistent, hard-to-eradicate weed.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1065,
+    "word": "la foire d'empoigne",
+    "language": "fr",
+    "translation_en": "a free-for-all, a scramble, a mad grab",
+    "definition_in_language": "Situation chaotique où chacun cherche à s'emparer de quelque chose sans règle ni retenue.",
+    "source_sentence": "C'était la foire d'empoigne des coups bas pour s'y creuser un petit trou.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'the fair of grabbing/seizing.'",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1066,
+    "word": "un coup bas",
+    "language": "fr",
+    "translation_en": "a low blow, a dirty trick",
+    "definition_in_language": "À l'origine terme de boxe ; au figuré, procédé déloyal ou malhonnête contre quelqu'un.",
+    "source_sentence": "C'était la foire d'empoigne des coups bas pour s'y creuser un petit trou.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1067,
+    "word": "se creuser un trou",
+    "language": "fr",
+    "translation_en": "to carve out a niche/spot for oneself",
+    "definition_in_language": "Se faire une place, s'installer durablement dans un milieu ou un domaine, souvent avec effort.",
+    "source_sentence": "C'était la foire d'empoigne des coups bas pour s'y creuser un petit trou.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'to dig oneself a hole.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1068,
+    "word": "en écharpe",
+    "language": "fr",
+    "translation_en": "in a sling; (figuratively) carried around like a wound/trophy",
+    "definition_in_language": "Littéralement, se dit d'un bras porté en bandage suspendu ; au figuré, se dit de quelque chose qu'on porte avec soi comme une blessure visible.",
+    "source_sentence": "Quand Étienne était arrivé après la bataille avec son Verlaine en écharpe, on lui avait bien ri au nez, et on lui avait proposé de prendre attache avec un seiziémiste mollasse, qui lui, de toute évidence, n'avait pas son cheptel au complet.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1069,
+    "word": "prendre attache avec",
+    "language": "fr",
+    "translation_en": "to get in touch with, to make contact with",
+    "definition_in_language": "Entrer en contact avec quelqu'un ; registre soutenu ou administratif.",
+    "source_sentence": "Quand Étienne était arrivé après la bataille avec son Verlaine en écharpe, on lui avait bien ri au nez, et on lui avait proposé de prendre attache avec un seiziémiste mollasse, qui lui, de toute évidence, n'avait pas son cheptel au complet.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1070,
+    "word": "mollasse",
+    "language": "fr",
+    "translation_en": "flabby, listless, sluggish, wishy-washy (of a person)",
+    "definition_in_language": "Familier et péjoratif : qui manque d'énergie, de fermeté ou de caractère.",
+    "source_sentence": "Quand Étienne était arrivé après la bataille avec son Verlaine en écharpe, on lui avait bien ri au nez, et on lui avait proposé de prendre attache avec un seiziémiste mollasse, qui lui, de toute évidence, n'avait pas son cheptel au complet.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1071,
+    "word": "avoir son cheptel au complet",
+    "language": "fr",
+    "translation_en": "to have a full roster (of students), to be fully subscribed",
+    "definition_in_language": "Avoir le nombre complet d'étudiants attribués ou inscrits ; \"cheptel\" désigne à l'origine un troupeau de bétail, utilisé ici au figuré.",
+    "source_sentence": "Quand Étienne était arrivé après la bataille avec son Verlaine en écharpe, on lui avait bien ri au nez, et on lui avait proposé de prendre attache avec un seiziémiste mollasse, qui lui, de toute évidence, n'avait pas son cheptel au complet.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "'Cheptel' literally means 'livestock, a herd' — the figurative use here treats a professor's assigned students like a herd to be counted.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1072,
+    "word": "se démonter",
+    "language": "fr",
+    "translation_en": "to lose one's composure, to get flustered, to be thrown off balance",
+    "definition_in_language": "Perdre son calme ou son assurance face à une difficulté ou une surprise.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Almost always used in the negative in practice — 'il ne s'est pas démonté' = 'he didn't lose his cool.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1073,
+    "word": "bûcher",
+    "language": "fr",
+    "translation_en": "to study hard, to cram, to grind",
+    "definition_in_language": "Familier : travailler dur et avec acharnement, notamment pour des examens.",
+    "source_sentence": "Il s'était convaincu de la pertinence de son choix, avait bûché avec un véritable enthousiasme toute une année préparatoire, n'avait pas noué d'amitiés trop spécifiques, mais s'était fondu dans un petit groupe de travail efficace où l'on se faisait passer des oraux et se prêtait les fiches sans mesquinerie excessive; il était bon, il sentait la force naturelle de ses capacités se chauffer dans l'effort, vibrer dans la tension du concours, rattraper la déception de l'issue de sa maîtrise sur Du Bellay.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "No etymological relation to 'bûcheron' (woodcutter, already in your deck, id 261) despite the shared root — just a coincidental resemblance.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1074,
+    "word": "se fondre dans",
+    "language": "fr",
+    "translation_en": "to blend into, to merge into (a group)",
+    "definition_in_language": "S'intégrer discrètement à un groupe, s'y mêler sans se distinguer.",
+    "source_sentence": "Il s'était convaincu de la pertinence de son choix, avait bûché avec un véritable enthousiasme toute une année préparatoire, n'avait pas noué d'amitiés trop spécifiques, mais s'était fondu dans un petit groupe de travail efficace où l'on se faisait passer des oraux et se prêtait les fiches sans mesquinerie excessive; il était bon, il sentait la force naturelle de ses capacités se chauffer dans l'effort, vibrer dans la tension du concours, rattraper la déception de l'issue de sa maîtrise sur Du Bellay.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1075,
+    "word": "mesquinerie",
+    "language": "fr",
+    "translation_en": "stinginess, pettiness, meanness",
+    "definition_in_language": "Caractère ou acte mesquin, manque de générosité.",
+    "source_sentence": "Il s'était convaincu de la pertinence de son choix, avait bûché avec un véritable enthousiasme toute une année préparatoire, n'avait pas noué d'amitiés trop spécifiques, mais s'était fondu dans un petit groupe de travail efficace où l'on se faisait passer des oraux et se prêtait les fiches sans mesquinerie excessive; il était bon, il sentait la force naturelle de ses capacités se chauffer dans l'effort, vibrer dans la tension du concours, rattraper la déception de l'issue de sa maîtrise sur Du Bellay.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Noun form related to 'mesquin' (already in your deck, id 1045).",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1076,
+    "word": "une fiche",
+    "language": "fr",
+    "translation_en": "a study card, an index card (for notes/revision)",
+    "definition_in_language": "Petite feuille cartonnée utilisée pour prendre des notes, réviser.",
+    "source_sentence": "Il s'était convaincu de la pertinence de son choix, avait bûché avec un véritable enthousiasme toute une année préparatoire, n'avait pas noué d'amitiés trop spécifiques, mais s'était fondu dans un petit groupe de travail efficace où l'on se faisait passer des oraux et se prêtait les fiches sans mesquinerie excessive; il était bon, il sentait la force naturelle de ses capacités se chauffer dans l'effort, vibrer dans la tension du concours, rattraper la déception de l'issue de sa maîtrise sur Du Bellay.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1077,
+    "word": "l'issue de",
+    "language": "fr",
+    "translation_en": "the outcome of",
+    "definition_in_language": "Le résultat final, la façon dont quelque chose se termine.",
+    "source_sentence": "Il s'était convaincu de la pertinence de son choix, avait bûché avec un véritable enthousiasme toute une année préparatoire, n'avait pas noué d'amitiés trop spécifiques, mais s'était fondu dans un petit groupe de travail efficace où l'on se faisait passer des oraux et se prêtait les fiches sans mesquinerie excessive; il était bon, il sentait la force naturelle de ses capacités se chauffer dans l'effort, vibrer dans la tension du concours, rattraper la déception de l'issue de sa maîtrise sur Du Bellay.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1078,
+    "word": "s'acharner contre",
+    "language": "fr",
+    "translation_en": "to go after relentlessly, to persecute, to hound (someone)",
+    "definition_in_language": "S'attaquer à quelqu'un avec une hostilité acharnée et persistante.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Related to 'acharnement' (already in your deck, id 46). Also commonly seen as 's'acharner sur', same basic meaning.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1079,
+    "word": "patinoire",
+    "language": "fr",
+    "translation_en": "an ice rink; (figuratively/colloquially) a treacherously slippery surface",
+    "definition_in_language": "Surface de glace aménagée pour le patinage ; au figuré, tout endroit dangereusement glissant.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1080,
+    "word": "pointure",
+    "language": "fr",
+    "translation_en": "a shoe/glove/hat size; (figuratively) a big name, a heavyweight, someone of real stature",
+    "definition_in_language": "Taille d'une chaussure, d'un gant, etc. ; au figuré, personne d'une grande envergure ou compétence dans son domaine.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1081,
+    "word": "un fonds",
+    "language": "fr",
+    "translation_en": "a collection, archival holdings",
+    "definition_in_language": "Ensemble de documents ou d'œuvres réunis dans une bibliothèque, des archives, etc.",
+    "source_sentence": "Il s'était vu conservateur d'un fonds précieux d'archives nationales après quelques années dans une bibliothèque prestigieuse, un royaume de livres à brillanter. Il aurait peut-être parachevé sa formation en faisant l'École du Louvre. Fantasmant d'illustres missions patrimoniales au service de l'État, il avait été persuadé que ce concours n'attendait que lui.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1082,
+    "word": "parachever",
+    "language": "fr",
+    "translation_en": "to put the finishing touches on, to round out, to complete",
+    "definition_in_language": "Achever complètement quelque chose, lui donner sa forme définitive et accomplie.",
+    "source_sentence": "Il s'était vu conservateur d'un fonds précieux d'archives nationales après quelques années dans une bibliothèque prestigieuse, un royaume de livres à brillanter. Il aurait peut-être parachevé sa formation en faisant l'École du Louvre. Fantasmant d'illustres missions patrimoniales au service de l'État, il avait été persuadé que ce concours n'attendait que lui.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1083,
+    "word": "fantasmer de",
+    "language": "fr",
+    "translation_en": "to fantasize about",
+    "definition_in_language": "Imaginer avec insistance et plaisir quelque chose de désirable mais pas encore réalisé.",
+    "source_sentence": "Il s'était vu conservateur d'un fonds précieux d'archives nationales après quelques années dans une bibliothèque prestigieuse, un royaume de livres à brillanter. Il aurait peut-être parachevé sa formation en faisant l'École du Louvre. Fantasmant d'illustres missions patrimoniales au service de l'État, il avait été persuadé que ce concours n'attendait que lui.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1084,
+    "word": "un penchant",
+    "language": "fr",
+    "translation_en": "an inclination, a tendency, a leaning (toward something)",
+    "definition_in_language": "Tendance naturelle à aimer ou à faire quelque chose.",
+    "source_sentence": "Mais il n'avait pas fait partie de ces enfants que les parents très tôt inscrivent au conservatoire afin de ne pas seulement privilégier leurs penchants égoïstes de petits animaux portés aux jeux, mais de les confronter à l'effort.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1085,
+    "word": "porté à",
+    "language": "fr",
+    "translation_en": "inclined toward, prone to",
+    "definition_in_language": "Qui a naturellement tendance à faire ou ressentir quelque chose.",
+    "source_sentence": "Mais il n'avait pas fait partie de ces enfants que les parents très tôt inscrivent au conservatoire afin de ne pas seulement privilégier leurs penchants égoïstes de petits animaux portés aux jeux, mais de les confronter à l'effort.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1086,
+    "word": "plénitude",
+    "language": "fr",
+    "translation_en": "fullness, plenitude, completeness, fulfillment",
+    "definition_in_language": "Sentiment de complétude totale et satisfaisante.",
+    "source_sentence": "Sa mère n'avait pas encouragé une vocation qu'il aurait pu exprimer avec plénitude.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1087,
+    "word": "trimer",
+    "language": "fr",
+    "translation_en": "to slog, to toil, to grind away (at hard, tiring, often thankless work)",
+    "definition_in_language": "Familier : travailler durement et péniblement.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Similar territory to 'bûcher' (already in your deck, id 1073), but 'bûcher' is specifically about studying/cramming, while 'trimer' is broader — any grinding, exhausting labor.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1088,
+    "word": "maquereau",
+    "language": "fr",
+    "translation_en": "mackerel (the fish)",
+    "definition_in_language": "Poisson de mer, souvent vendu en conserve.",
+    "source_sentence": "boîtes de maquereaux",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "Also has a well-known slang sense: 'a pimp.' This entry covers the literal fish.",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1089,
+    "word": "asperger",
+    "language": "fr",
+    "translation_en": "to spray, to sprinkle (with liquid); (figuratively) to spread/project outward onto others",
+    "definition_in_language": "Projeter un liquide sur quelque chose ou quelqu'un ; au figuré, répandre autour de soi (une humeur, une attitude).",
+    "source_sentence": "Étienne n'avait pas de noirceur grandiloquente à asperger aux alentours.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-10",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-10",
       "last_reviewed": null
     }
   }
