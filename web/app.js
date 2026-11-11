@@ -9,6 +9,8 @@ let cards = []; // the live session queue -- grows as missed cards get requeued
 let index = 0;
 let mode = null; // "write" | "recognize"
 let reviewedCount = 0; // genuine first attempts only, not retries
+let sessionLanguage = null; // which language the current session is for --
+// lets the "keep going on backlog" option know what to fetch more of
 
 // The progress display's denominator/numerator are deliberately NOT
 // index/cards.length -- that pair grows every time something gets
@@ -203,6 +205,7 @@ function renderCard() {
   if (index >= cards.length) {
     el("done-message").textContent = `Done! Reviewed ${reviewedCount} card(s). See you next time.`;
     showSection("done-state");
+    offerKeepGoing();
     return;
   }
 
@@ -412,6 +415,7 @@ function handleRecognizeReveal() {
 
 function startSession(chosenMode) {
   mode = chosenMode;
+  sessionLanguage = cards[0]?.language || sessionLanguage;
   index = 0;
   reviewedCount = 0;
   totalRecommended = cards.length;
@@ -419,6 +423,41 @@ function startSession(chosenMode) {
   wrongCounts = {};
   renderCard();
 }
+
+// Checks whether there's still backlog left for the language that was
+// just finished, and if so, shows the "keep going" button so you can
+// pull another chunk right now instead of waiting for tomorrow. Fetches
+// fresh status rather than reusing the one from page load, since a whole
+// session's worth of reviewing just happened and the numbers have moved.
+async function offerKeepGoing() {
+  const btn = el("keep-going-btn");
+  btn.classList.add("hidden"); // hide any stale state while we check
+  if (!sessionLanguage) return;
+
+  const status = await api("/api/status");
+  const info = status.backlog[sessionLanguage];
+  if (!info) return; // nothing left beyond today's normal cap
+
+  const name = LANGUAGE_NAMES[sessionLanguage] || sessionLanguage;
+  el("keep-going-count").textContent =
+    `${info.due} more ${name} card(s) due · ~${info.days} day${info.days === 1 ? "" : "s"} to clear`;
+  btn.classList.remove("hidden");
+}
+
+async function keepGoingOnBacklog() {
+  if (!sessionLanguage) return;
+  const more = await api(`/api/backlog?language=${encodeURIComponent(sessionLanguage)}`);
+  if (more.length === 0) return; // backlog moved under us; nothing to add
+  allDueCards = allDueCards.concat(more);
+  cards = more;
+  startSession(mode); // same mode as the session that just finished
+}
+
+// Set by chooseLanguage() -- distinguishes a normal active-today session
+// from a deliberate backlog continuation, purely for showModePicker()'s
+// wording ("recommended for today" doesn't fit a backlog you chose to
+// keep going on well past today's normal cap).
+let sessionKind = "active";
 
 function showModePicker() {
   // When there was an actual language choice, chooseLanguage() already
@@ -428,12 +467,22 @@ function showModePicker() {
   // say which language it is instead of leaving that unstated.
   const languages = [...new Set(cards.map((c) => c.language))];
   const languageLabel = languages.length === 1 ? `${LANGUAGE_NAMES[languages[0]] || languages[0]} ` : "";
-  el("progress").textContent = `${cards.length} ${languageLabel}word${cards.length === 1 ? "" : "s"} recommended for today`;
+  const verb = sessionKind === "backlog" ? "from the backlog" : "recommended for today";
+  el("progress").textContent = `${cards.length} ${languageLabel}word${cards.length === 1 ? "" : "s"} ${verb}`;
   showSection("mode-picker");
 }
 
-function chooseLanguage(lang) {
-  cards = allDueCards.filter((c) => c.language === lang);
+// `kind` distinguishes a normal active-today pick from deliberately
+// continuing on a language whose cap is already spent for today -- the
+// latter fetches straight from the uncapped backlog instead of filtering
+// today's (already-exhausted) due list.
+async function chooseLanguage(lang, kind = "active") {
+  sessionKind = kind;
+  if (kind === "backlog") {
+    cards = await api(`/api/backlog?language=${encodeURIComponent(lang)}`);
+  } else {
+    cards = allDueCards.filter((c) => c.language === lang);
+  }
   showModePicker();
 }
 
@@ -454,19 +503,92 @@ function renderCompletedNote(completedLanguages) {
   note.classList.remove("hidden");
 }
 
+// Renders a quiet note about any language whose backlog is big enough to
+// take more than one day to clear at the daily cap -- same "outside the
+// toggled sections" placement as renderCompletedNote(), for the same
+// reason: it should stay visible regardless of which screen is showing.
+function renderBacklogNote(backlog) {
+  const note = el("backlog-note");
+  const langs = Object.keys(backlog);
+  if (langs.length === 0) {
+    note.classList.add("hidden");
+    note.textContent = "";
+    return;
+  }
+  const parts = langs.map((lang) => {
+    const { due, days } = backlog[lang];
+    const name = LANGUAGE_NAMES[lang] || lang;
+    return `${name} — ${due} in backlog (~${days} day${days === 1 ? "" : "s"})`;
+  });
+  note.textContent = parts.join(" · ");
+  note.classList.remove("hidden");
+}
+
+// Renders the language-picker buttons for a mix of normal active-today
+// options and "continue backlog" options (languages already done for
+// today that still have more backlog waiting) -- the two are visually
+// distinguished, but both lead into chooseLanguage() the same way.
+function renderLanguageOptions(options) {
+  const container = el("language-buttons");
+  container.innerHTML = "";
+  for (const opt of options) {
+    const name = LANGUAGE_NAMES[opt.lang] || opt.lang;
+    const btn = document.createElement("button");
+    btn.className = "primary";
+    const label = opt.kind === "backlog" ? `Continue ${name} backlog` : name;
+    const sub =
+      opt.kind === "backlog"
+        ? `${opt.count} card${opt.count === 1 ? "" : "s"} in backlog`
+        : `${opt.count} word${opt.count === 1 ? "" : "s"}`;
+    btn.innerHTML = `${label}<br /><span>${sub}</span>`;
+    btn.addEventListener("click", () => chooseLanguage(opt.lang, opt.kind));
+    container.appendChild(btn);
+  }
+}
+
 async function init() {
   el("restart-btn").addEventListener("click", () => location.reload());
+  el("keep-going-btn").addEventListener("click", keepGoingOnBacklog);
 
   const [due, status] = await Promise.all([api("/api/due"), api("/api/status")]);
   allDueCards = due;
   cards = allDueCards;
   const completedLanguages = status.completed_languages;
   renderCompletedNote(completedLanguages);
+  renderBacklogNote(status.backlog);
 
-  if (cards.length === 0) {
-    // Nothing active, but tell apart "you finished everything that was
-    // due" from "there was never anything due in the first place" --
-    // only the former actually happened today.
+  el("mode-write").addEventListener("click", () => startSession("write"));
+  el("mode-recognize").addEventListener("click", () => startSession("recognize"));
+  el("write-form").addEventListener("submit", handleWriteSubmit);
+  el("recognize-reveal-btn").addEventListener("click", handleRecognizeReveal);
+  el("write-priority-btn").addEventListener("click", () => togglePriority("write-priority-btn"));
+  el("recognize-priority-btn").addEventListener("click", () => togglePriority("recognize-priority-btn"));
+
+  // What you could start right now: any language with an active batch
+  // still due today, plus any language that's done for today but still
+  // has backlog you could deliberately keep going on -- e.g. you've hit
+  // French's cap for the day, but want to come back this evening and do
+  // another chunk rather than wait for tomorrow.
+  const activeLangs = [...new Set(cards.map((c) => c.language))];
+  const continuableBacklogLangs = completedLanguages.filter((lang) => lang in status.backlog);
+
+  const options = [
+    ...activeLangs.map((lang) => ({
+      lang,
+      kind: "active",
+      count: cards.filter((c) => c.language === lang).length,
+    })),
+    ...continuableBacklogLangs.map((lang) => ({
+      lang,
+      kind: "backlog",
+      count: status.backlog[lang].due,
+    })),
+  ];
+
+  if (options.length === 0) {
+    // Nothing active and nothing continuable, but tell apart "you
+    // finished everything that was due" from "there was never anything
+    // due in the first place" -- only the former actually happened today.
     el("empty-state-message").textContent =
       completedLanguages.length > 0
         ? "You're all done for today. Nice work! 🎉"
@@ -476,33 +598,16 @@ async function init() {
     return;
   }
 
-  el("mode-write").addEventListener("click", () => startSession("write"));
-  el("mode-recognize").addEventListener("click", () => startSession("recognize"));
-  el("write-form").addEventListener("submit", handleWriteSubmit);
-  el("recognize-reveal-btn").addEventListener("click", handleRecognizeReveal);
-  el("write-priority-btn").addEventListener("click", () => togglePriority("write-priority-btn"));
-  el("recognize-priority-btn").addEventListener("click", () => togglePriority("recognize-priority-btn"));
-
-  // Only ask which language when there's actually a choice to make -- one
-  // language due today (the common case so far) skips straight past this.
-  const languages = [...new Set(cards.map((c) => c.language))];
-  if (languages.length > 1) {
-    const container = el("language-buttons");
-    container.innerHTML = "";
-    for (const lang of languages) {
-      const count = cards.filter((c) => c.language === lang).length;
-      const btn = document.createElement("button");
-      btn.className = "primary";
-      btn.innerHTML = `${LANGUAGE_NAMES[lang] || lang}<br /><span>${count} word${count === 1 ? "" : "s"}</span>`;
-      btn.addEventListener("click", () => chooseLanguage(lang));
-      container.appendChild(btn);
-    }
-    el("progress").textContent = `${cards.length} word${cards.length === 1 ? "" : "s"} recommended, across ${languages.length} languages`;
+  // Only ask which language/option when there's actually a choice to
+  // make -- a single option (the common case) skips straight past this.
+  if (options.length > 1) {
+    renderLanguageOptions(options);
+    el("progress").textContent = `${options.length} option${options.length === 1 ? "" : "s"} available right now`;
     showSection("language-picker");
     return;
   }
 
-  showModePicker();
+  await chooseLanguage(options[0].lang, options[0].kind); // calls showModePicker() itself
 }
 
 init();

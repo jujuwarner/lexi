@@ -81,13 +81,28 @@ def get_due():
     return [_entry_payload(e) for e in cards]
 
 
+@app.get("/api/backlog")
+def get_backlog(language: str, limit: int = review.TOTAL_CARDS_PER_DAY):
+    """One more chunk of backlog for a language, beyond today's normal
+    cap -- powers the "keep going" option once a capped session ends."""
+    entries = review.load_vocab()
+    cards = review.backlog_cards(entries, language, limit)
+    return [_entry_payload(e) for e in cards]
+
+
 @app.get("/api/status")
 def get_status():
     """Languages with nothing left to show right now AND some review
     actually happened today for them -- lets the UI say "done for today"
-    instead of just silently making the language disappear."""
+    instead of just silently making the language disappear. Also reports
+    any language whose backlog is big enough to take more than one day
+    to clear at the daily cap, so a large backlog is visible rather than
+    just quietly deferring a bit more each day forever."""
     entries = review.load_vocab()
-    return {"completed_languages": review.completed_languages_today(entries)}
+    return {
+        "completed_languages": review.completed_languages_today(entries),
+        "backlog": review.backlog_by_language(entries),
+    }
 
 
 @app.post("/api/check")

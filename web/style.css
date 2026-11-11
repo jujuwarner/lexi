@@ -93,6 +93,12 @@ h1 {
   font-weight: 600;
 }
 
+.backlog-note {
+  color: var(--muted);
+  margin: 4px 0 0;
+  font-size: 0.85em;
+}
+
 .card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -314,4 +320,21 @@ button.primary {
   color: var(--muted);
   font-size: 1.05em;
   margin: 0;
+}
+
+#done-state {
+  align-items: center;
+  gap: 16px;
+}
+
+#keep-going-btn {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+#keep-going-count {
+  display: block;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--muted);
 }

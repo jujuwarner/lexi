@@ -209,6 +209,62 @@ def due_today(entries):
     return allowed
 
 
+def backlog_cards(entries, language, limit=None):
+    """The next batch of `language` cards beyond today's normal cap --
+    for when you deliberately choose to keep going on the backlog rather
+    than stop for the day. Same priority order as due_today() (most-
+    overdue in-progress first, then new cards oldest-id-first), and still
+    respects NEW_CARDS_PER_DAY -- only TOTAL_CARDS_PER_DAY is lifted here,
+    since that's the cap meant to be optional; the new-word pacing cap
+    isn't something "I have more time today" should override.
+    `limit` caps how many cards come back in one call, so each "keep
+    going" click hands back one more chunk rather than the whole
+    remaining backlog at once; defaults to TOTAL_CARDS_PER_DAY."""
+    if limit is None:
+        limit = TOTAL_CARDS_PER_DAY
+
+    today = date.today().isoformat()
+    due = [
+        e for e in entries
+        if e["language"] == language and e["srs"]["next_review"] <= today
+    ]
+    brand_new = [e for e in due if e["srs"]["last_reviewed"] is None]
+    in_progress = [e for e in due if e["srs"]["last_reviewed"] is not None]
+
+    already_introduced_today = sum(
+        1 for e in entries
+        if e["language"] == language and e["srs"].get("first_reviewed_on") == today
+    )
+    remaining_new_cap = max(0, NEW_CARDS_PER_DAY - already_introduced_today)
+
+    lang_in_progress = sorted(in_progress, key=lambda e: e["srs"]["next_review"])
+    lang_new = sorted(brand_new, key=lambda e: e["id"])[:remaining_new_cap]
+
+    return (lang_in_progress + lang_new)[:limit]
+
+
+def backlog_by_language(entries):
+    """How many days of cap-limited reviewing it'd take to clear each
+    language's current backlog, for languages where that's genuinely
+    more than a single day's work -- i.e. due_today()'s cap would defer
+    some of it past today even if you reviewed every card it offers.
+    Deliberately omits languages whose whole due pile fits in one day's
+    cap, since there's nothing multi-day to flag there."""
+    today = date.today().isoformat()
+    due_counts = {}
+    for e in entries:
+        if e["srs"]["next_review"] <= today:
+            lang = e["language"]
+            due_counts[lang] = due_counts.get(lang, 0) + 1
+
+    backlog = {}
+    for lang, due_count in due_counts.items():
+        days = -(-due_count // TOTAL_CARDS_PER_DAY)  # ceiling division
+        if days > 1:
+            backlog[lang] = {"due": due_count, "days": days}
+    return backlog
+
+
 def completed_languages_today(entries):
     """Which languages have genuinely nothing more to show right now, but
     only count as "done" (as opposed to just having an empty deck) if some
