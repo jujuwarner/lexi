@@ -55,6 +55,26 @@ async function api(path, options) {
   return res.json();
 }
 
+// Refreshes the "✓ Done for today" / backlog notes in the header so they
+// track a session as it happens -- without this, they're frozen at
+// whatever /api/status reported on page load and never budge while you
+// review, even though every /api/review call is quietly moving them.
+// Not awaited by callers -- it shouldn't hold up advancing to the next
+// card just to update header text.
+async function refreshHeaderNotes() {
+  const status = await api("/api/status");
+  renderCompletedNote(status.completed_languages);
+  renderBacklogNote(status.backlog);
+}
+
+async function postReview(id, quality) {
+  await api("/api/review", {
+    method: "POST",
+    body: JSON.stringify({ id, quality }),
+  });
+  refreshHeaderNotes();
+}
+
 function updateProgress() {
   if (!totalRecommended) return;
   const completed = totalRecommended - pendingIds.size;
@@ -175,10 +195,7 @@ function requeueImmediately(entry) {
 async function submitReviewFirstAttempt(entry, qualityKey) {
   if (isProcessing) return;
   isProcessing = true;
-  await api("/api/review", {
-    method: "POST",
-    body: JSON.stringify({ id: entry.id, quality: qualityKey }),
-  });
+  await postReview(entry.id, qualityKey);
   reviewedCount += 1;
   if (qualityKey === "1") {
     wrongCounts[entry.id] = 1;
@@ -313,10 +330,7 @@ async function handleWriteSubmit(e) {
     // through what would read as a brand new card for the same word.
     if (isProcessing) return;
     isProcessing = true;
-    await api("/api/review", {
-      method: "POST",
-      body: JSON.stringify({ id: entry.id, quality: "1" }),
-    });
+    await postReview(entry.id, "1");
     reviewedCount += 1;
     wrongCounts[entry.id] = 1;
     pendingRetypeEntry = entry;

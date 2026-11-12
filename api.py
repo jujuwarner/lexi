@@ -35,6 +35,19 @@ app.add_middleware(
 )
 
 
+@app.middleware("http")
+async def no_cache(request, call_next):
+    """Tell the browser never to cache anything from this app, including
+    the static frontend files (app.js, index.html, style.css). Without
+    this, a plain refresh after a UI update can keep serving a stale
+    cached copy of app.js even once the server's running the new code --
+    only a hard refresh forces a re-fetch. There's no perf cost worth
+    worrying about here (one user, localhost, tiny files)."""
+    response = await call_next(request)
+    response.headers["Cache-Control"] = "no-store, must-revalidate"
+    return response
+
+
 class CheckRequest(BaseModel):
     id: int
     typed: str
