@@ -71,6 +71,19 @@ header {
   margin-bottom: 24px;
 }
 
+.home-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 14px;
+  font-size: 0.85em;
+  border-color: transparent;
+  background: transparent;
+  color: var(--muted);
+}
+
+.home-btn:hover { opacity: 1; color: var(--text); }
+
 h1 {
   font-family: "Snell Roundhand", "Apple Chancery", "Brush Script MT", cursive;
   font-size: 2.8em;

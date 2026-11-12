@@ -210,20 +210,20 @@ def due_today(entries):
 
 
 def backlog_cards(entries, language, limit=None):
-    """`language`'s entire backlog beyond today's normal cap, by default
+    """`language`'s entire backlog beyond today's normal caps, by default
     in one go -- for when you deliberately choose to keep going rather
-    than stop for the day. There's no re-gating once you've opted in:
-    closing the tab or clicking "Back to start" is always a safe way to
-    stop partway through, since every review saves immediately, so there
-    was never a real need to force it into bite-sized chunks. Pass an
+    than stop for the day. There's no re-gating once you've opted in,
+    for either cap: not TOTAL_CARDS_PER_DAY, and not NEW_CARDS_PER_DAY
+    either -- both exist to keep an ordinary day from ballooning by
+    default, not to second-guess a deliberate choice to do more. Closing
+    the tab or clicking "Back to start" is always a safe way to stop
+    partway through, since every review saves immediately, so there was
+    never a real need to force any of this into gated chunks. Pass an
     explicit `limit` if a caller specifically wants a capped chunk
     instead of the whole thing.
 
-    Same priority order as due_today() (most-overdue in-progress first,
-    then new cards oldest-id-first), and still respects NEW_CARDS_PER_DAY
-    -- only TOTAL_CARDS_PER_DAY is lifted here, since that's the cap
-    meant to be optional; the new-word pacing cap isn't something "I have
-    more time today" should override."""
+    Same priority order as due_today() -- most-overdue in-progress
+    first, then new cards oldest-id-first."""
     today = date.today().isoformat()
     due = [
         e for e in entries
@@ -232,14 +232,8 @@ def backlog_cards(entries, language, limit=None):
     brand_new = [e for e in due if e["srs"]["last_reviewed"] is None]
     in_progress = [e for e in due if e["srs"]["last_reviewed"] is not None]
 
-    already_introduced_today = sum(
-        1 for e in entries
-        if e["language"] == language and e["srs"].get("first_reviewed_on") == today
-    )
-    remaining_new_cap = max(0, NEW_CARDS_PER_DAY - already_introduced_today)
-
     lang_in_progress = sorted(in_progress, key=lambda e: e["srs"]["next_review"])
-    lang_new = sorted(brand_new, key=lambda e: e["id"])[:remaining_new_cap]
+    lang_new = sorted(brand_new, key=lambda e: e["id"])
 
     combined = lang_in_progress + lang_new
     return combined if limit is None else combined[:limit]

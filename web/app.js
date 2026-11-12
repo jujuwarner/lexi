@@ -567,6 +567,10 @@ function renderLanguageOptions(options) {
 
 async function init() {
   el("restart-btn").addEventListener("click", () => location.reload());
+  // Lives outside the toggled sections (see showSection()) so it's
+  // reachable mid-review too, not just from the done-state screen --
+  // always safe to click, since every review saves immediately.
+  el("home-btn").addEventListener("click", () => location.reload());
   el("keep-going-btn").addEventListener("click", keepGoingOnBacklog);
 
   const [due, status] = await Promise.all([api("/api/due"), api("/api/status")]);
