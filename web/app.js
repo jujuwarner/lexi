@@ -440,7 +440,7 @@ function startSession(chosenMode) {
 
 // Checks whether there's still backlog left for the language that was
 // just finished, and if so, shows the "keep going" button so you can
-// pull another chunk right now instead of waiting for tomorrow. Fetches
+// pull the rest of it right now instead of waiting for tomorrow. Fetches
 // fresh status rather than reusing the one from page load, since a whole
 // session's worth of reviewing just happened and the numbers have moved.
 async function offerKeepGoing() {
@@ -460,6 +460,11 @@ async function offerKeepGoing() {
 
 async function keepGoingOnBacklog() {
   if (!sessionLanguage) return;
+  // No `limit` -- pulls the whole remaining backlog in one go, so this
+  // doesn't just trade one "Done!" interstitial every 40 cards for
+  // another; once you've opted in, it runs until the backlog's actually
+  // clear (or you stop yourself -- always safe, since every review saves
+  // immediately).
   const more = await api(`/api/backlog?language=${encodeURIComponent(sessionLanguage)}`);
   if (more.length === 0) return; // backlog moved under us; nothing to add
   allDueCards = allDueCards.concat(more);

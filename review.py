@@ -210,19 +210,20 @@ def due_today(entries):
 
 
 def backlog_cards(entries, language, limit=None):
-    """The next batch of `language` cards beyond today's normal cap --
-    for when you deliberately choose to keep going on the backlog rather
-    than stop for the day. Same priority order as due_today() (most-
-    overdue in-progress first, then new cards oldest-id-first), and still
-    respects NEW_CARDS_PER_DAY -- only TOTAL_CARDS_PER_DAY is lifted here,
-    since that's the cap meant to be optional; the new-word pacing cap
-    isn't something "I have more time today" should override.
-    `limit` caps how many cards come back in one call, so each "keep
-    going" click hands back one more chunk rather than the whole
-    remaining backlog at once; defaults to TOTAL_CARDS_PER_DAY."""
-    if limit is None:
-        limit = TOTAL_CARDS_PER_DAY
+    """`language`'s entire backlog beyond today's normal cap, by default
+    in one go -- for when you deliberately choose to keep going rather
+    than stop for the day. There's no re-gating once you've opted in:
+    closing the tab or clicking "Back to start" is always a safe way to
+    stop partway through, since every review saves immediately, so there
+    was never a real need to force it into bite-sized chunks. Pass an
+    explicit `limit` if a caller specifically wants a capped chunk
+    instead of the whole thing.
 
+    Same priority order as due_today() (most-overdue in-progress first,
+    then new cards oldest-id-first), and still respects NEW_CARDS_PER_DAY
+    -- only TOTAL_CARDS_PER_DAY is lifted here, since that's the cap
+    meant to be optional; the new-word pacing cap isn't something "I have
+    more time today" should override."""
     today = date.today().isoformat()
     due = [
         e for e in entries
@@ -240,7 +241,8 @@ def backlog_cards(entries, language, limit=None):
     lang_in_progress = sorted(in_progress, key=lambda e: e["srs"]["next_review"])
     lang_new = sorted(brand_new, key=lambda e: e["id"])[:remaining_new_cap]
 
-    return (lang_in_progress + lang_new)[:limit]
+    combined = lang_in_progress + lang_new
+    return combined if limit is None else combined[:limit]
 
 
 def backlog_by_language(entries):

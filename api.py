@@ -12,6 +12,7 @@ Run with:
 """
 
 from pathlib import Path
+from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -95,9 +96,13 @@ def get_due():
 
 
 @app.get("/api/backlog")
-def get_backlog(language: str, limit: int = review.TOTAL_CARDS_PER_DAY):
-    """One more chunk of backlog for a language, beyond today's normal
-    cap -- powers the "keep going" option once a capped session ends."""
+def get_backlog(language: str, limit: Optional[int] = None):
+    """The entire remaining backlog for a language, beyond today's normal
+    cap -- powers the "keep going" / "continue backlog" options. Returns
+    everything in one go by default (there's no need to re-gate it once
+    you've deliberately opted in; stopping partway is always safe, since
+    every review saves immediately) -- pass `limit` for a capped chunk
+    instead."""
     entries = review.load_vocab()
     cards = review.backlog_cards(entries, language, limit)
     return [_entry_payload(e) for e in cards]
