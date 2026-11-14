@@ -376,8 +376,12 @@ cultural_note, never in the prompt itself:
   Lake Kerkini, Greece, photo by Antonios Tsaknakis, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red-backed_shrike.jpg).
   CC BY-SA 4.0. `image_in_prompt: true`.
+- **mésange** (id 120) — a Eurasian Blue Tit (*Cyanistes caeruleus*),
+  Lancashire, UK, photo by Francis C. Franklin, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eurasian_blue_tit_Lancashire.jpg).
+  CC BY-SA 3.0. `image_in_prompt: true`.
 
-All seventeen resized locally (longest side capped at 500px) to keep file
+All eighteen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

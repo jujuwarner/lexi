@@ -10979,22 +10979,26 @@
     "id": 120,
     "word": "mésange",
     "language": "fr",
-    "translation_en": "a tit, chickadee (a small songbird, e.g. 'mésange bleue' = blue tit)",
+    "translation_en": "a tit, chickadee (a small songbird)",
     "definition_in_language": "Petit oiseau chanteur vif et coloré, commun dans les jardins et les forêts.",
     "source_sentence": "",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-14",
     "tags": [],
-    "cultural_note": "",
+    "cultural_note": "E.g. 'mésange bleue' = blue tit.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/mesange_120.jpg",
+    "image_credit": "Photo by Francis C. Franklin, Eurasian Blue Tit (Cyanistes caeruleus), Lancashire, UK, via Wikimedia Commons. CC BY-SA 3.0.",
+    "image_in_prompt": true
   },
   {
     "id": 508,
