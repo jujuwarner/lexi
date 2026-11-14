@@ -372,8 +372,12 @@ cultural_note, never in the prompt itself:
   turtur*), Hungary, photo by Charles J. Sharp, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Turtle_dove_(Streptopelia_turtur_turtur)_Hungary.jpg).
   CC BY-SA 4.0. `image_in_prompt: true`.
+- **pie-grièche** (id 119) — a Red-backed Shrike (*Lanius collurio*),
+  Lake Kerkini, Greece, photo by Antonios Tsaknakis, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red-backed_shrike.jpg).
+  CC BY-SA 4.0. `image_in_prompt: true`.
 
-All sixteen resized locally (longest side capped at 500px) to keep file
+All seventeen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
