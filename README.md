@@ -360,8 +360,12 @@ cultural_note, never in the prompt itself:
   David Ohmer, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lexington_Kentucky_-_Keeneland_Jockey_(2145203304)_(2).jpg).
   CC BY 2.0. `image_in_prompt: true`.
+- **caille** (id 63) — a Common Quail (*Coturnix coturnix*), Fraunberg,
+  Bavaria, photo by Christoph Moning, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1,_Ausschnitt.jpg).
+  CC BY 4.0. `image_in_prompt: true`.
 
-All thirteen resized locally (longest side capped at 500px) to keep file
+All fourteen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

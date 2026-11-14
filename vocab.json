@@ -12,11 +12,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -36,11 +36,11 @@
     "cultural_note": "\"À belles dents\" is a common idiomatic pairing, usually with \"mordre\" or \"croquer,\" describing biting into something with real enthusiasm — digging into a meal heartily. Here it's repurposed grimly: instead of someone eating with gusto, something (a body part) is torn away as if bitten off, which is a good example of how a cheerful everyday idiom can be redeployed for a much darker image.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -58,11 +58,11 @@
     "cultural_note": "This phrase attaches freely to all sorts of contexts, not just this punitive one — the most common everyday use is medical, as in \"prise de sang à jeun\" (a fasting blood draw), where French clinics routinely require patients to arrive without having eaten.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -124,11 +124,11 @@
     "cultural_note": "Comes from Italian \"sbirro,\" which originally just meant a police constable in the old Italian city-states. French borrowed the word but the meaning drifted pejorative — it now implies muscle serving power rather than a legitimate officer.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -146,11 +146,11 @@
     "cultural_note": "\"La partie lésée\" is a set legal phrase — \"the aggrieved/injured party\" — the standard courtroom term for whoever was wronged, which is exactly the role these robbed noblemen play in the trial described here.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -168,11 +168,11 @@
     "cultural_note": "Hunting rights were a serious matter in feudal/Ancien Régime France — the \"droit de chasse\" was often an exclusive aristocratic privilege tied to land ownership, so poaching on someone's land wasn't just petty theft of game, it was a direct challenge to their status. That's exactly what makes Florfier's excuse land as a real legal defense in the story.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -190,11 +190,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -212,11 +212,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -234,11 +234,11 @@
     "cultural_note": "Often appears in the phrase \"vivre de rapines\" — to live by plunder — a standard, slightly literary way of describing a bandit's way of life.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -256,11 +256,11 @@
     "cultural_note": "\"Condamner à la potence\" is the standard legal phrase for a hanging sentence — naming the apparatus rather than the act, the same move English makes with \"sentenced to the gallows\" instead of \"sentenced to hang.\"",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -278,11 +278,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -9716,14 +9716,17 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/caille_63.jpg",
+    "image_credit": "Photo by Christoph Moning, Common Quail (Coturnix coturnix), Fraunberg, Bavaria, Germany, via Wikimedia Commons. CC BY 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 64,
@@ -9738,11 +9741,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9760,11 +9763,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9782,11 +9785,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9804,11 +9807,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9826,11 +9829,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9848,11 +9851,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9870,11 +9873,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9892,11 +9895,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9917,8 +9920,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9936,11 +9939,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9958,11 +9961,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9980,11 +9983,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -10002,11 +10005,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -10027,8 +10030,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
