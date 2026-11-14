@@ -338,8 +338,12 @@ cultural_note, never in the prompt itself:
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Common_crane_grus_grus.jpg).
   CC BY-SA 2.5. `image_in_prompt: true`. First French-language entry
   to get a vocab image — the rest so far were all Russian.
+- **corbeau** (id 9) — a Common Raven (*Corvus corax*), photo by Frank
+  Schulenburg, Point Reyes National Seashore, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis,_Point_Reyes_National_Seashore.jpg).
+  CC BY-SA 4.0. `image_in_prompt: true`.
 
-All nine resized locally (longest side capped at 500px) to keep file
+All ten resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

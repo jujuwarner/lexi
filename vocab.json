@@ -8509,14 +8509,17 @@
     "cultural_note": "In French, 'corbeau' also refers to someone who sends anonymous poison-pen letters — a meaning popularized by the 1943 French film Le Corbeau. More broadly, crows and ravens carry strong death/carrion symbolism across many cultures, directly relevant to this battlefield scene.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/corbeau_9.jpg",
+    "image_credit": "Photo by Frank Schulenburg, Common Raven (Corvus corax), Point Reyes National Seashore, via Wikimedia Commons. CC BY-SA 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 10,
@@ -8531,11 +8534,11 @@
     "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.9,
+      "repetitions": 1,
+      "easiness": 2.0,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8553,11 +8556,11 @@
     "cultural_note": "Unlike 'trépidant', this one's a genuine, helpful cognate rather than a false friend — the adjective sense (greedy, grasping) is a direct match with English 'rapacious.' Same root, same idea, and worth leaning on to help it stick.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
+      "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8575,11 +8578,11 @@
     "cultural_note": "Originally specifically a shipwreck's remains (still the primary legal/nautical sense — salvage law is called 'droit des épaves'). It extends naturally to describe a person completely worn down or broken — 'une épave' or 'il est devenu une épave' means someone reduced to a shell of themselves, by grief, exhaustion, addiction, etc. A genuinely common figurative use beyond the literal battlefield sense here.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8597,11 +8600,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.9,
+      "repetitions": 1,
+      "easiness": 2.0,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8619,11 +8622,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8643,11 +8646,11 @@
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8665,11 +8668,11 @@
     "cultural_note": "This word also gives us 'chaumière' — a thatched cottage, a classic, almost iconic image in French rural/pastoral imagery and literature (a humble, cozy country home). Here, though, the word is doing dark double duty: the same material that evokes a rustic cottage is, in this passage, just cut field stalks with scattered human remains resting on them.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.8,
+      "repetitions": 1,
+      "easiness": 1.9,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
