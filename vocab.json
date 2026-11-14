@@ -6127,11 +6127,11 @@
     "cultural_note": "Ties into the same coachman/travel vocabulary cluster as \"ямщик,\" added earlier.",
     "gender": "m",
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null,
@@ -6885,11 +6885,11 @@
     "cultural_note": "Related to \"предварительный\" (preliminary).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -6975,11 +6975,11 @@
     "cultural_note": "\"Одолжение\" = a favor, a kindness. Same double-edged tone range as English \"do me a favor.\"",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7063,11 +7063,11 @@
     "cultural_note": "From \"небо\" (sky) + \"склон\" (slope) — evoking the visual curve where sky meets horizon.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7151,11 +7151,11 @@
     "cultural_note": "Shown here in the sentence in genitive case (\"екатерининского времени,\" modifying \"планах\") — stored in the nominative as the more flexible base form to actually learn. Catherine the Great's reign included a famous large-scale land-surveying/cadastral mapping project (the General Land Survey), which produced exactly the kind of old topographic \"plans\" referenced in this sentence — a genuinely specific historical detail, not just a vague nod to \"old times.\"",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7415,11 +7415,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7747,14 +7747,16 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-01"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/kartuz_481.jpg",
+    "image_credit": "Vasily Vereshchagin, \"A Boy in a Black Kartuz\" (1880-1901), depicting a картуз — Kyiv National Art Gallery, via Wikimedia Commons. Public domain (published before 1931)."
   },
   {
     "id": 482,
@@ -10451,11 +10453,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -10563,11 +10565,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 12,
-      "easiness": 2.5,
+      "repetitions": 13,
+      "easiness": 2.6,
       "interval": 2,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -10629,11 +10631,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -11039,11 +11041,11 @@
     "cultural_note": "\"Разбить\" alone normally means \"to break/smash\" (разбить стекло = to break a glass). But paired with certain nouns — сад (garden), парк (park), клумбу (flowerbed), палатку (tent), лагерь (camp) — it instead means \"to lay out / set up / establish.\"",
     "gender": null,
     "srs": {
-      "repetitions": 10,
-      "easiness": 2.3,
+      "repetitions": 11,
+      "easiness": 2.4,
       "interval": 2,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11149,11 +11151,11 @@
     "cultural_note": "One of Bazarov's signature lines, encapsulating his nihilist/scientific-materialist worldview — nature as something to dissect and mechanically understand rather than romanticize.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11239,11 +11241,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 10,
-      "easiness": 2.3,
+      "repetitions": 11,
+      "easiness": 2.4,
       "interval": 2,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11373,11 +11375,11 @@
     "cultural_note": "Pairs naturally with потакать — \"потакать прихотям\" = \"to indulge someone's whims.\"",
     "gender": "f",
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11509,11 +11511,11 @@
     "cultural_note": "Noun form of \"неумолимый\" (relentless, inexorable, unyielding) — often used for fate, natural law, or stern severity.",
     "gender": "f",
     "srs": {
-      "repetitions": 7,
-      "easiness": 2.0,
+      "repetitions": 8,
+      "easiness": 2.1,
       "interval": 2,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11531,11 +11533,11 @@
     "cultural_note": "Also used for \"running into/hitting\" a limit or obstacle: \"упираться в тупик\" = \"to hit a dead end.\" In this sentence the literal (physical pressing) and figurative (stubborn resistance) senses are blended for comic personification — the collar \"relentlessly\" pressing into his chin.",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11623,11 +11625,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11693,11 +11695,11 @@
     "cultural_note": "Most common in the fixed phrase \"как бишь его/её\" = \"what's-his-name, what was it called again.\" Folksy, slightly archaic register.",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11781,14 +11783,16 @@
     "cultural_note": "Common women's headwear in 19th-century Russia, especially for peasant/working women.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-13",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/kosynka_544.jpg",
+    "image_credit": "Hariton Platonov, \"Ukrainian Girl\" (1896), depicting a косынка — via Wikimedia Commons. Public domain (artist died 1907)."
   },
   {
     "id": 545,
@@ -11869,11 +11873,11 @@
     "cultural_note": "Related to «острый» (sharp, keen). Imperfective counterpart: острить.",
     "gender": null,
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -11915,11 +11919,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 3,
-      "easiness": 1.6,
-      "interval": 9,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 4,
+      "easiness": 1.7,
+      "interval": 14,
+      "next_review": "2026-11-28",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null

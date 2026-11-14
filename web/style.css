@@ -246,6 +246,20 @@ button.primary {
   line-height: 1.35;
 }
 
+/* Experimental (see IDEAS.md): the target-language definition, shown in
+   the prompt itself rather than held back for the reveal, for entries
+   that opt in via definition_in_prompt. Deliberately smaller/lighter
+   than .prompt -- it's a supplementary reading-practice layer on top of
+   the English translation, not a replacement for it. */
+.prompt-definition {
+  font-size: 1.05em;
+  font-style: italic;
+  color: var(--muted);
+  text-align: center;
+  margin: -14px 0 24px;
+  line-height: 1.5;
+}
+
 #write-form {
   display: flex;
   gap: 10px;

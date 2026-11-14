@@ -256,6 +256,17 @@ function renderWriteCard() {
   renderPriorityButton("write-priority-btn", entry);
   renderEraBadge("write-era-badge", entry);
   el("write-prompt").textContent = entry.translation_en;
+  const defLabel = el("write-prompt-definition-label");
+  const defText = el("write-prompt-definition");
+  if (entry.definition_in_prompt && entry.definition_in_language) {
+    defLabel.textContent = `${LANGUAGE_NAMES[entry.language] || entry.language} definition`;
+    defText.textContent = entry.definition_in_language;
+    defLabel.classList.remove("hidden");
+    defText.classList.remove("hidden");
+  } else {
+    defLabel.classList.add("hidden");
+    defText.classList.add("hidden");
+  }
   el("write-retry-badge").classList.toggle("hidden", !entry._isRetry);
   el("write-input").placeholder = WRITE_INPUT_PLACEHOLDER;
   el("write-input").value = "";

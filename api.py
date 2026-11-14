@@ -78,6 +78,12 @@ def _entry_payload(e):
         "display_word": review.display_word(e),
         "translation_en": e["translation_en"],
         "definition_in_language": e["definition_in_language"],
+        # Experimental, opt-in per entry (see IDEAS.md) -- when true, Write
+        # mode's prompt shows definition_in_language alongside
+        # translation_en instead of holding it back for the reveal. Only
+        # ever set going forward on newly-added entries, never retrofitted
+        # onto existing ones.
+        "definition_in_prompt": e.get("definition_in_prompt", False),
         "language": e["language"],
         "source_sentence": e.get("source_sentence", ""),
         "source_title": e.get("source_title", ""),

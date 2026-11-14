@@ -306,8 +306,14 @@ cultural_note, never in the prompt itself:
 - **сюртук** (id 796) — a man's frock coat, France, c. 1816-1820, via
   [Los Angeles County Museum of Art](https://commons.wikimedia.org/wiki/File:Man%27s_silk_and_wool_twill_frock_coat_c._1820.jpg),
   from Wikimedia Commons. Public domain.
+- **картуз** (id 481) — Vasily Vereshchagin, *A Boy in a Black Kartuz*
+  (1880-1901), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Парень_в_черном_картузе.jpg)
+  (Kyiv National Art Gallery). Public domain (published before 1931).
+- **косынка** (id 544) — Hariton Platonov, *Ukrainian Girl* (1896), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Платонов_Дівчина-українка_1896.jpg).
+  Public domain (artist died 1907).
 
-All three resized locally (longest side capped at 500px) to keep file
+All five resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

@@ -161,8 +161,9 @@ to writing a good cultural_note than flipping on a boolean field.
 
 **Built 2026-11-14**, exactly to this shape: `image` + `image_credit`
 fields, reveal-only (both modes), added one word at a time on request.
-First three: шинель, тулуп, сюртук — three distinct, specific Russian
-coats Julia wanted visually disambiguated from each other. Credits in
+First four: шинель, тулуп, сюртук, картуз — specific Russian coats
+and headwear Julia wanted visually disambiguated from each other
+(and, for картуз, from a generic "a cap"). Credits in
 the README's "Vocab-card images" section. Still no automation — adding
 an image to a word remains an explicit, one-at-a-time request.
 
