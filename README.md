@@ -321,8 +321,12 @@ cultural_note, never in the prompt itself:
   itself is a more direct cue than the definition, so it's shown in the
   Write-mode prompt instead of held back for the reveal — a deliberate,
   per-entry choice, not a change to the default.
+- **леший** (id 778) — Viktor Vasnetsov, costume sketch for the forest
+  spirit in Rimsky-Korsakov's opera *Snegurochka* (1885), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leshiy_by_Vasnetsov.jpg).
+  Public domain (artist died 1926).
 
-All six resized locally (longest side capped at 500px) to keep file
+All seven resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

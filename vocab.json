@@ -16966,13 +16966,13 @@
     "id": 778,
     "word": "леший",
     "language": "ru",
-    "translation_en": "a leshy -- a forest spirit/demon of Slavic folklore; colloquially used as an insult (roughly \"goblin,\" \"blockhead\")",
+    "translation_en": "a forest spirit/demon of Slavic folklore; colloquially used as an insult (roughly \"goblin,\" \"blockhead\")",
     "definition_in_language": "Лесной дух в славянском фольклоре, иногда злой, уводящий людей с дороги в лесу; также бранное слово.",
     "source_sentence": "Вишь, глухой черт, леший!",
     "source_title": "Муму",
     "date_added": "2026-11-02",
     "tags": [],
-    "cultural_note": "Used here as a cruel taunt directed at Gerasim because of his deafness.",
+    "cultural_note": "Used here as a cruel taunt directed at Gerasim because of his deafness. Transliterated as \"leshy\" in English.",
     "gender": "m",
     "era": null,
     "srs": {
@@ -16982,7 +16982,9 @@
       "next_review": "2026-11-14",
       "last_reviewed": "2026-11-08",
       "first_reviewed_on": "2026-11-07"
-    }
+    },
+    "image": "assets/vocab/leshiy_778.jpg",
+    "image_credit": "Viktor Vasnetsov, costume sketch for the forest spirit in Rimsky-Korsakov's opera \"Snegurochka\" (1885), via Wikimedia Commons. Public domain (artist died 1926)."
   },
   {
     "id": 779,
