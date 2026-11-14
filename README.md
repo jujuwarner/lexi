@@ -364,8 +364,12 @@ cultural_note, never in the prompt itself:
   Bavaria, photo by Christoph Moning, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1,_Ausschnitt.jpg).
   CC BY 4.0. `image_in_prompt: true`.
+- **faisan** (id 114) — a male Common Pheasant (*Phasianus colchicus*),
+  Oulu, Finland, photo by Estormiz, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_Oulu_20200524_02.jpg).
+  CC0 (public domain). `image_in_prompt: true`.
 
-All fourteen resized locally (longest side capped at 500px) to keep file
+All fifteen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

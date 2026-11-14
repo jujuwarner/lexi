@@ -10848,12 +10848,16 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/faisan_114.jpg",
+    "image_credit": "Photo by Estormiz, male Common Pheasant (Phasianus colchicus), Oulu, Finland, via Wikimedia Commons. CC0 (public domain).",
+    "image_in_prompt": true
   },
   {
     "id": 115,
