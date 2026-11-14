@@ -303,8 +303,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -325,8 +325,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -347,8 +347,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -369,8 +369,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -8353,8 +8353,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8375,8 +8375,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8394,11 +8394,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8419,8 +8419,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8438,11 +8438,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8462,11 +8462,11 @@
     "cultural_note": "The word comes from Greek — 'phoinix' (crimson/purple-red) + 'pteron' (wing), literally \"purple-winged.\" It's also the actual scientific genus name (Phoenicopterus). Dumas-and-Calvino-era literary French reaches for this kind of Greek-rooted term where everyday French would just say 'flamant.'",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8484,14 +8484,17 @@
     "cultural_note": "Worth knowing the idiom \"faire le pied de grue\" — literally \"to do the crane's foot\" — meaning to wait around for a long time, standing about. Comes from a crane's habit of standing motionless on one leg for long stretches.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/grue_8.jpg",
+    "image_credit": "Photo by Andreas Trepte, www.avi-fauna.info, Common Crane (Grus grus), via Wikimedia Commons. CC BY-SA 2.5.",
+    "image_in_prompt": true
   },
   {
     "id": 9,
@@ -24918,6 +24921,72 @@
       "easiness": 2.5,
       "interval": 0,
       "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1147,
+    "word": "кондитерская",
+    "language": "ru",
+    "translation_en": "a confectionery, a pastry shop/café",
+    "definition_in_language": "Магазин или кафе, где продают сладости, выпечку, торты.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1148,
+    "word": "лепёшка",
+    "language": "ru",
+    "translation_en": "a flatbread, a patty; (also) a small round lozenge/drop (candy)",
+    "definition_in_language": "Плоское круглое изделие из теста (хлеб, лепёшка) или маленькая круглая конфета/пастилка.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1149,
+    "word": "мятный",
+    "language": "ru",
+    "translation_en": "mint-flavored, minty",
+    "definition_in_language": "Приготовленный с мятой или имеющий вкус/запах мяты.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
       "last_reviewed": null
     }
   }

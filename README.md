@@ -333,8 +333,13 @@ cultural_note, never in the prompt itself:
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:They_did_not_Expect_Him.jpg)
   (Tretyakov Gallery). Public domain (artist died 1930).
   `image_in_prompt: true`.
+- **grue** (id 8) — a Common Crane (*Grus grus*), photo by Andreas
+  Trepte (www.avi-fauna.info), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Common_crane_grus_grus.jpg).
+  CC BY-SA 2.5. `image_in_prompt: true`. First French-language entry
+  to get a vocab image — the rest so far were all Russian.
 
-All eight resized locally (longest side capped at 500px) to keep file
+All nine resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
