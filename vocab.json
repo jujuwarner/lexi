@@ -16976,15 +16976,16 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-30",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     },
     "image": "assets/vocab/leshiy_778.jpg",
-    "image_credit": "Viktor Vasnetsov, costume sketch for the forest spirit in Rimsky-Korsakov's opera \"Snegurochka\" (1885), via Wikimedia Commons. Public domain (artist died 1926)."
+    "image_credit": "Viktor Vasnetsov, costume sketch for the forest spirit in Rimsky-Korsakov's opera \"Snegurochka\" (1885), via Wikimedia Commons. Public domain (artist died 1926).",
+    "image_in_prompt": true
   },
   {
     "id": 779,
@@ -17488,11 +17489,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-30",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17582,11 +17583,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-14",
-      "last_reviewed": "2026-11-08",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-30",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -18281,10 +18282,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18304,10 +18306,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18327,10 +18330,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18347,11 +18351,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18369,10 +18374,11 @@
     "era": "archaic",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18390,10 +18396,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {

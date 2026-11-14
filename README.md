@@ -324,7 +324,8 @@ cultural_note, never in the prompt itself:
 - **леший** (id 778) — Viktor Vasnetsov, costume sketch for the forest
   spirit in Rimsky-Korsakov's opera *Snegurochka* (1885), via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leshiy_by_Vasnetsov.jpg).
-  Public domain (artist died 1926).
+  Public domain (artist died 1926). Also `image_in_prompt: true`, like
+  бекас — shown while guessing, not just in the reveal.
 
 All seven resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
