@@ -52,10 +52,16 @@
     <img id="write-prompt-image" class="vocab-image hidden" alt="" />
     <p id="write-prompt-image-credit" class="image-credit hidden"></p>
     <form id="write-form">
-      <input id="write-input" type="text" autocomplete="off" autocapitalize="off"
-             spellcheck="false" placeholder="Type the word (le/la/l' if it's a noun)…" />
-      <button type="submit" class="primary">Check</button>
+      <div class="write-input-row">
+        <input id="write-input" type="text" autocomplete="off" autocapitalize="off"
+               spellcheck="false" placeholder="Type the word (le/la/l' if it's a noun)…" />
+        <button type="submit" class="primary">Check</button>
+      </div>
     </form>
+    <!-- Sibling of the form, not nested inside it -- so it stays visible
+         after write-form gets hidden on submit, the same way write-result
+         and write-reveal do (see IDEAS.md-style note in app.js). -->
+    <div id="write-variants" class="hidden"></div>
     <div id="write-result" class="result hidden"></div>
     <div id="write-reveal" class="reveal hidden"></div>
     <div id="write-quality" class="quality-buttons hidden"></div>

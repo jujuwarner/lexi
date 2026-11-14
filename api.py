@@ -54,6 +54,11 @@ class CheckRequest(BaseModel):
     typed: str
 
 
+class CheckTextRequest(BaseModel):
+    typed: str
+    expected: str
+
+
 class ReviewRequest(BaseModel):
     id: int
     quality: str  # one of "1"-"4", same keys as review.QUALITY_MAP
@@ -96,6 +101,13 @@ def _entry_payload(e):
         # Julia can deliberately choose to show it in the prompt instead.
         # Default false: the reveal-only placement is still the norm.
         "image_in_prompt": e.get("image_in_prompt", False),
+        # Alternate full-string forms of the same word/idiom worth
+        # practicing side by side (e.g. "faire le dos rond" / "faire le
+        # gros dos" -- genuine interchangeable variants, not duplicates).
+        # Checked via /api/check_text as supplementary practice fields in
+        # Write mode -- deliberately NOT wired into SM-2 scoring or the
+        # retry flow, which still runs on the primary `word` alone.
+        "variants": e.get("variants", []),
         "priority": "priority" in e.get("tags", []),
         "era": review.era_badge(e),
     }
@@ -167,6 +179,16 @@ def check(req: CheckRequest):
         "image": entry.get("image", ""),
         "image_credit": entry.get("image_credit", ""),
     }
+
+
+@app.post("/api/check_text")
+def check_text(req: CheckTextRequest):
+    """Generic typed-vs-expected check, no entry lookup and no SRS side
+    effects -- powers supplementary practice fields (e.g. idiom variants,
+    see `variants` on _entry_payload) that are worth reinforcing
+    alongside a card without being wired into its actual scheduling."""
+    result = review.check_answer(req.typed, req.expected)
+    return {"result": result, "expected": req.expected}
 
 
 @app.post("/api/review")

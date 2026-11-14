@@ -258,6 +258,87 @@ const RETYPE_PLACEHOLDER = "Type it once more to help it stick…";
 // same screen is that retype, not a fresh answer to a new card.
 let pendingRetypeEntry = null;
 
+// The <input> elements for the current card's variants (see renderVariants
+// below), in the same order as entry.variants -- read back in
+// handleWriteSubmit to check each one independently of the main flow.
+let variantInputEls = [];
+
+// Builds one labeled input + result line per entry.variants -- genuine
+// alternate forms of the same word/idiom (e.g. "faire le dos rond" /
+// "faire le gros dos") worth practicing side by side. Entirely separate
+// from the main check/retry/SRS flow: these are supplementary
+// reinforcement, not a second graded answer.
+function renderVariants(entry) {
+  const container = el("write-variants");
+  container.innerHTML = "";
+  variantInputEls = [];
+
+  const variants = entry.variants || [];
+  if (variants.length === 0) {
+    container.classList.add("hidden");
+    return;
+  }
+
+  variants.forEach((_, i) => {
+    const label = document.createElement("p");
+    label.className = "variant-label";
+    label.textContent =
+      variants.length === 1
+        ? "Also practice: the other way to say it"
+        : `Also practice: variant ${i + 1}`;
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.className = "variant-input";
+    input.autocomplete = "off";
+    input.autocapitalize = "off";
+    input.spellcheck = false;
+    input.placeholder = "Type the other way to say it…";
+    // Lives outside <form> (see index.html) so its result stays visible
+    // after write-form is hidden on submit -- Enter still submits the
+    // whole card via the same handler as the main input.
+    input.addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter") {
+        ev.preventDefault();
+        el("write-form").requestSubmit();
+      }
+    });
+
+    const result = document.createElement("p");
+    result.className = "variant-result hidden";
+
+    container.appendChild(label);
+    container.appendChild(input);
+    container.appendChild(result);
+    variantInputEls.push({ input, result, expected: variants[i] });
+  });
+
+  container.classList.remove("hidden");
+}
+
+// Checks each variant input independently via /api/check_text and shows
+// inline feedback -- never touches SM-2 scoring or the retry flow, which
+// run entirely on the primary word (see handleWriteSubmit).
+async function checkVariants() {
+  for (const { input, result, expected } of variantInputEls) {
+    const typed = input.value.trim();
+    const data = await api("/api/check_text", {
+      method: "POST",
+      body: JSON.stringify({ typed, expected }),
+    });
+    result.className = `variant-result ${data.result}`;
+    result.textContent =
+      data.result === "exact"
+        ? `✓ ${data.expected}`
+        : data.result === "close"
+          ? `~ close — ${data.expected}`
+          : typed === ""
+            ? `${data.expected}`
+            : `✗ ${data.expected}`;
+    result.classList.remove("hidden");
+  }
+}
+
 function renderWriteCard() {
   showSection("write-card");
   const entry = cards[index];
@@ -265,6 +346,7 @@ function renderWriteCard() {
 
   renderPriorityButton("write-priority-btn", entry);
   renderEraBadge("write-era-badge", entry);
+  renderVariants(entry);
   el("write-prompt").textContent = entry.translation_en;
   const defLabel = el("write-prompt-definition-label");
   const defText = el("write-prompt-definition");
@@ -323,6 +405,7 @@ async function handleWriteSubmit(e) {
     method: "POST",
     body: JSON.stringify({ id: entry.id, typed }),
   });
+  checkVariants(); // independent of the main flow; not awaited -- no need to block on it
 
   el("write-form").classList.add("hidden");
 

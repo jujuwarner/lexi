@@ -23957,7 +23957,10 @@
       "interval": 0,
       "next_review": "2026-11-11",
       "last_reviewed": null
-    }
+    },
+    "variants": [
+      "faire le gros dos"
+    ]
   },
   {
     "id": 1100,
@@ -25018,6 +25021,50 @@
     "tags": [],
     "cultural_note": "",
     "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1150,
+    "word": "travailler à temps partiel",
+    "language": "fr",
+    "translation_en": "to work part-time",
+    "definition_in_language": "Exercer une activité professionnelle pour une durée inférieure au temps plein.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1151,
+    "word": "travailleur indépendant",
+    "language": "fr",
+    "translation_en": "an independent worker, a freelancer, a self-employed worker",
+    "definition_in_language": "Personne qui exerce une activité professionnelle sans être salariée d'un employeur.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
     "era": null,
     "definition_in_prompt": true,
     "srs": {

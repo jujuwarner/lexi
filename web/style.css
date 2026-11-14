@@ -262,10 +262,16 @@ button.primary {
 
 #write-form {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
-#write-input {
+.write-input-row {
+  display: flex;
+  gap: 10px;
+}
+
+#write-input, .variant-input {
   flex: 1;
   font-family: inherit;
   font-size: 1.1em;
@@ -276,9 +282,36 @@ button.primary {
   color: var(--text);
 }
 
-#write-input:focus, #recognize-reveal-btn:focus {
+#write-input:focus, .variant-input:focus, #recognize-reveal-btn:focus {
   outline: 2px solid var(--accent);
 }
+
+/* Supplementary practice fields for genuine idiom/word variants (e.g.
+   "faire le dos rond" / "faire le gros dos") -- checked independently via
+   /api/check_text, deliberately NOT wired into SM-2 scoring or the retry
+   flow, which still runs on the primary word alone. */
+#write-variants {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+}
+
+.variant-label {
+  font-size: 0.8em;
+  color: var(--muted);
+  margin: 0;
+}
+
+.variant-result {
+  font-size: 0.88em;
+  margin: 2px 0 0;
+}
+
+.variant-result.exact { color: var(--good); }
+.variant-result.close { color: var(--good); }
+.variant-result.wrong { color: var(--bad); }
 
 #recognize-reveal-btn {
   display: block;
