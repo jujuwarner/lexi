@@ -10872,13 +10872,17 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/tourterelle_115.jpg",
+    "image_credit": "Photo by Charles J. Sharp, European Turtle Dove (Streptopelia turtur), Hungary, via Wikimedia Commons. CC BY-SA 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 116,
@@ -10894,10 +10898,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
     "era": null
   },
@@ -10915,10 +10920,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
     "era": null
   },
@@ -10936,10 +10942,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-14",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     },
     "era": null
   },

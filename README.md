@@ -368,8 +368,12 @@ cultural_note, never in the prompt itself:
   Oulu, Finland, photo by Estormiz, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_Oulu_20200524_02.jpg).
   CC0 (public domain). `image_in_prompt: true`.
+- **tourterelle** (id 115) — a European Turtle Dove (*Streptopelia
+  turtur*), Hungary, photo by Charles J. Sharp, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Turtle_dove_(Streptopelia_turtur_turtur)_Hungary.jpg).
+  CC BY-SA 4.0. `image_in_prompt: true`.
 
-All fifteen resized locally (longest side capped at 500px) to keep file
+All sixteen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
