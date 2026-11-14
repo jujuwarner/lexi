@@ -355,8 +355,13 @@ cultural_note, never in the prompt itself:
   century, Morristown National Historical Park, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_flintlock_blunderbuss.jpeg).
   Public domain (U.S. federal government work). `image_in_prompt: true`.
+- **casaque** (id 58), modern-French-default sense specifically — a
+  jockey in racing silks at Keeneland, Lexington, Kentucky, photo by
+  David Ohmer, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lexington_Kentucky_-_Keeneland_Jockey_(2145203304)_(2).jpg).
+  CC BY 2.0. `image_in_prompt: true`.
 
-All twelve resized locally (longest side capped at 500px) to keep file
+All thirteen resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

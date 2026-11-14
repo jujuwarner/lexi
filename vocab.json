@@ -9610,7 +9610,10 @@
       "last_reviewed": "2026-11-11",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/casaque_58.jpg",
+    "image_credit": "Photo by David Ohmer, jockey in racing silks (casaque), Keeneland, Lexington, Kentucky, via Wikimedia Commons. CC BY 2.0.",
+    "image_in_prompt": true
   },
   {
     "id": 59,
