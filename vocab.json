@@ -18418,11 +18418,15 @@
     "era": "serfdom_era",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
-    }
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
+    },
+    "image": "assets/vocab/armyak_842.jpg",
+    "image_credit": "Ilya Repin, \"They Did Not Expect Him\" (1884-1888), detail — the man in the armyak, via Wikimedia Commons (Tretyakov Gallery). Public domain (artist died 1930). Cropped locally from the full painting.",
+    "image_in_prompt": true
   },
   {
     "id": 843,
@@ -18439,10 +18443,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18459,11 +18464,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18481,10 +18487,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18502,10 +18509,11 @@
     "era": "serfdom_era",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18525,10 +18533,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18546,10 +18555,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18567,10 +18577,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-03",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18588,10 +18599,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18609,10 +18621,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18632,10 +18645,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18655,10 +18669,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18678,10 +18693,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18701,10 +18717,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18722,10 +18739,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18743,10 +18761,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18763,11 +18782,12 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18810,10 +18830,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18831,10 +18852,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18852,10 +18874,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18872,11 +18895,12 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18894,10 +18918,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18915,10 +18940,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18936,10 +18962,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18957,10 +18984,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18978,10 +19006,11 @@
     "era": "archaic",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {
@@ -18999,10 +19028,11 @@
     "era": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-11-07",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
+      "first_reviewed_on": "2026-11-14"
     }
   },
   {

@@ -319,15 +319,22 @@ cultural_note, never in the prompt itself:
   above. This one's also the first exception to reveal-only placement
   (`image_in_prompt: true`): for a specific bird species, the picture
   itself is a more direct cue than the definition, so it's shown in the
-  Write-mode prompt instead of held back for the reveal — a deliberate,
-  per-entry choice, not a change to the default.
+  Write-mode prompt instead of held back for the reveal. After trying
+  this one, Julia decided she preferred it generally — `image_in_prompt`
+  is now the *default* for every image added from here on, not a rare
+  exception (the reveal-only path still exists in code for the first
+  five images above, added before the default flipped).
 - **леший** (id 778) — Viktor Vasnetsov, costume sketch for the forest
   spirit in Rimsky-Korsakov's opera *Snegurochka* (1885), via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leshiy_by_Vasnetsov.jpg).
-  Public domain (artist died 1926). Also `image_in_prompt: true`, like
-  бекас — shown while guessing, not just in the reveal.
+  Public domain (artist died 1926). `image_in_prompt: true`.
+- **армяк** (id 842) — Ilya Repin, *They Did Not Expect Him* (1884-1888),
+  detail cropped locally from the full painting, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:They_did_not_Expect_Him.jpg)
+  (Tretyakov Gallery). Public domain (artist died 1930).
+  `image_in_prompt: true`.
 
-All seven resized locally (longest side capped at 500px) to keep file
+All eight resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
