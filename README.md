@@ -312,8 +312,17 @@ cultural_note, never in the prompt itself:
 - **косынка** (id 544) — Hariton Platonov, *Ukrainian Girl* (1896), via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Платонов_Дівчина-українка_1896.jpg).
   Public domain (artist died 1907).
+- **бекас** (id 551) — a Common Snipe (*Gallinago gallinago*), Dümmer,
+  Germany, 2022, photo by TRinaud via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Common_snipe_(Gallinago_gallinago)_2022.jpg).
+  CC BY 4.0 — attribution required, unlike the public-domain images
+  above. This one's also the first exception to reveal-only placement
+  (`image_in_prompt: true`): for a specific bird species, the picture
+  itself is a more direct cue than the definition, so it's shown in the
+  Write-mode prompt instead of held back for the reveal — a deliberate,
+  per-entry choice, not a change to the default.
 
-All five resized locally (longest side capped at 500px) to keep file
+All six resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

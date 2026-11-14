@@ -90,6 +90,12 @@ def _entry_payload(e):
         "cultural_note": e.get("cultural_note", ""),
         "image": e.get("image", ""),
         "image_credit": e.get("image_credit", ""),
+        # Opt-in exception to the reveal-only default (see IDEAS.md) -- for
+        # a word where the picture itself is genuinely the more direct cue
+        # than translating the definition (e.g. a specific bird species),
+        # Julia can deliberately choose to show it in the prompt instead.
+        # Default false: the reveal-only placement is still the norm.
+        "image_in_prompt": e.get("image_in_prompt", False),
         "priority": "priority" in e.get("tags", []),
         "era": review.era_badge(e),
     }

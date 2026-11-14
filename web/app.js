@@ -89,11 +89,14 @@ function showSection(id) {
 
 function renderRevealHtml(data) {
   let html = `<p class="field-label">${(cards[index]?.language || "fr").toUpperCase()} definition</p><p>${data.definition_in_language}</p>`;
-  if (data.image) {
+  // Skip it here if it was already shown in the prompt (image_in_prompt)
+  // -- no point repeating the same picture twice in one card.
+  if (data.image && !cards[index]?.image_in_prompt) {
     // Reveal-only, deliberately -- showing this earlier (in the prompt
     // itself) would change what's being tested, so it's treated purely
     // as a memory aid alongside the definition, the same way
-    // cultural_note already works.
+    // cultural_note already works. (Unless image_in_prompt opts out of
+    // that, per-entry -- see above.)
     html += `<img class="vocab-image" src="${data.image}" alt="${data.word || data.expected || ""}" />`;
     if (data.image_credit) {
       html += `<p class="image-credit">${data.image_credit}</p>`;
@@ -240,7 +243,14 @@ function renderCard() {
   else renderRecognizeCard();
 }
 
-const WRITE_INPUT_PLACEHOLDER = "Type the word (le/la/l' if it's a noun)…";
+// The le/la/l' hint is French-specific -- Russian nouns don't take an
+// article at all, so showing it there was actively misleading, not just
+// irrelevant. Only French gets the longer hint; everything else gets the
+// plain version.
+const WRITE_INPUT_PLACEHOLDERS = {
+  fr: "Type the word (le/la/l' if it's a noun)…",
+};
+const DEFAULT_WRITE_INPUT_PLACEHOLDER = "Type the word…";
 const RETYPE_PLACEHOLDER = "Type it once more to help it stick…";
 
 // Set while a missed Write-mode first attempt is waiting on its immediate
@@ -267,8 +277,25 @@ function renderWriteCard() {
     defLabel.classList.add("hidden");
     defText.classList.add("hidden");
   }
+  const promptImage = el("write-prompt-image");
+  const promptImageCredit = el("write-prompt-image-credit");
+  if (entry.image_in_prompt && entry.image) {
+    promptImage.src = entry.image;
+    promptImage.alt = entry.translation_en || "";
+    promptImage.classList.remove("hidden");
+    if (entry.image_credit) {
+      promptImageCredit.textContent = entry.image_credit;
+      promptImageCredit.classList.remove("hidden");
+    } else {
+      promptImageCredit.classList.add("hidden");
+    }
+  } else {
+    promptImage.classList.add("hidden");
+    promptImageCredit.classList.add("hidden");
+  }
   el("write-retry-badge").classList.toggle("hidden", !entry._isRetry);
-  el("write-input").placeholder = WRITE_INPUT_PLACEHOLDER;
+  el("write-input").placeholder =
+    WRITE_INPUT_PLACEHOLDERS[entry.language] || DEFAULT_WRITE_INPUT_PLACEHOLDER;
   el("write-input").value = "";
   el("write-result").classList.add("hidden");
   el("write-reveal").classList.add("hidden");
