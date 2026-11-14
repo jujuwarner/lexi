@@ -8699,7 +8699,7 @@
     },
     "era": null,
     "image": "assets/vocab/capote_17.jpg",
-    "image_credit": "French WWI infantryman uniform display, model 1915 capote (horizon blue greatcoat), photo by Wikimedia Commons user historicair. CC BY-SA 3.0.",
+    "image_credit": "French WWI infantryman uniform display, 1915 pattern greatcoat (\"horizon blue\"), photo by Wikimedia Commons user historicair. CC BY-SA 3.0.",
     "image_in_prompt": true
   },
   {
@@ -9603,16 +9603,16 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null,
     "image": "assets/vocab/casaque_58.jpg",
-    "image_credit": "Photo by David Ohmer, jockey in racing silks (casaque), Keeneland, Lexington, Kentucky, via Wikimedia Commons. CC BY 2.0.",
+    "image_credit": "Photo by David Ohmer, a jockey in racing colours, Keeneland, Lexington, Kentucky, via Wikimedia Commons. CC BY 2.0.",
     "image_in_prompt": true
   },
   {
@@ -9628,11 +9628,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9650,11 +9650,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9672,11 +9672,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9694,11 +9694,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -18440,7 +18440,7 @@
       "first_reviewed_on": "2026-11-14"
     },
     "image": "assets/vocab/armyak_842.jpg",
-    "image_credit": "Ilya Repin, \"They Did Not Expect Him\" (1884-1888), detail — the man in the armyak, via Wikimedia Commons (Tretyakov Gallery). Public domain (artist died 1930). Cropped locally from the full painting.",
+    "image_credit": "Ilya Repin, \"They Did Not Expect Him\" (1884-1888), detail of the man's coat, via Wikimedia Commons (Tretyakov Gallery). Public domain (artist died 1930). Cropped locally from the full painting.",
     "image_in_prompt": true
   },
   {
