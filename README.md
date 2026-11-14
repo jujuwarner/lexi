@@ -351,8 +351,12 @@ cultural_note, never in the prompt itself:
   military meaning — "capote" also means a convertible's soft top or,
   informally, a condom, and the image only applies to the sense this
   card is actually testing.
+- **espingole** (id 27) — an English flintlock blunderbuss, 18th
+  century, Morristown National Historical Park, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:English_flintlock_blunderbuss.jpeg).
+  Public domain (U.S. federal government work). `image_in_prompt: true`.
 
-All eleven resized locally (longest side capped at 500px) to keep file
+All twelve resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

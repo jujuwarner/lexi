@@ -8916,14 +8916,17 @@
     "cultural_note": "A genuinely obscure, specialized term even to most native French speakers — this is period military-firearms vocabulary, not everyday language. Blunderbusses were largely obsolete by the 19th century, replaced by more accurate rifled firearms, which is part of why the word itself has faded from common use along with the object.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/espingole_27.jpg",
+    "image_credit": "An English flintlock blunderbuss, 18th century, Morristown National Historical Park, via Wikimedia Commons. Public domain (U.S. federal government work).",
+    "image_in_prompt": true
   },
   {
     "id": 28,
@@ -8938,11 +8941,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8960,11 +8963,11 @@
     "cultural_note": "The noun 'peine' at the root of this phrase is richly multi-purpose in French — it also means 'sorrow/grief', and 'sentence/punishment' (as in 'peine de prison', a prison sentence). Two other common expressions from the same root: 'ça vaut la peine' (it's worth it/worth the trouble) and 'à peine' (barely, hardly).",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9004,11 +9007,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9026,11 +9029,11 @@
     "cultural_note": "Same root as 'haute couture' — literally 'high sewing' — the globally recognized French term for the most exclusive tier of custom-made fashion. Sutures and Paris runway fashion share a word.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9048,11 +9051,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9070,11 +9073,11 @@
     "cultural_note": "Boiling tar/pitch on wounds isn't just a grim literary flourish — it reflects a real historical practice in pre-modern veterinary and battlefield medicine, used to seal and cauterize wounds before better methods existed. Brutal, but historically accurate.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9092,11 +9095,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9114,11 +9117,11 @@
     "cultural_note": "The reflexive form ‘se ruer (sur)’ means something different — ‘to rush, to hurl oneself (at).’ Same spelling, unrelated meaning once it's reflexive.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9136,11 +9139,11 @@
     "cultural_note": "In this sentence Calvino playfully turns this noun phrase into an improvised verb — 'se poudre-de-rizaient' (roughly 'were rice-powdering themselves') — which isn't a real dictionary verb, just a one-off literary flourish built on the spot from the common noun phrase, similar to jokingly saying 'he Windexed the counter' in English. The real, standing vocabulary here is the noun phrase itself, not the invented conjugation.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9158,11 +9161,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9180,11 +9183,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9202,11 +9205,11 @@
     "cultural_note": "A remarkable semantic climb: 'maréchal' comes from Frankish roots meaning roughly 'horse servant' (marh = horse + skalk = servant). The same root survives literally in 'maréchal-ferrant' — a farrier, someone who shoes horses. Over centuries the word rose from a lowly stable-hand's title to the highest military rank in France ('Maréchal de France'), most famously held by Napoleon's marshals (Ney, Murat, and others).",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9224,11 +9227,11 @@
     "cultural_note": "Literally breaks down as 'garde' (guard) + 'à vous' (to/for you) — an old command form, roughly 'guard, for you,' that fused into a fixed noun phrase over time.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9246,11 +9249,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9290,11 +9293,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9312,11 +9315,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9334,11 +9337,11 @@
     "cultural_note": "Beyond literary use, this word shows up in a specific modern context worth knowing: 'acharnement thérapeutique' — roughly 'medical futility' or 'therapeutic obstinacy' in English — refers to relentlessly pursuing aggressive treatment for a dying patient beyond reasonable hope, a real term used in French bioethics and end-of-life care debates.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9358,11 +9361,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9380,11 +9383,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9402,11 +9405,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9424,11 +9427,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9446,11 +9449,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9468,11 +9471,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9490,11 +9493,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9512,11 +9515,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
+      "repetitions": 2,
       "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9534,11 +9537,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9556,11 +9559,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -9578,11 +9581,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
