@@ -342,8 +342,17 @@ cultural_note, never in the prompt itself:
   Schulenburg, Point Reyes National Seashore, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis,_Point_Reyes_National_Seashore.jpg).
   CC BY-SA 4.0. `image_in_prompt: true`.
+- **capote** (id 17), military sense specifically — a French WWI
+  infantryman uniform display showing the model 1915 capote (the
+  "horizon blue" greatcoat), photo by Wikimedia Commons user
+  historicair, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:French_soldier_uniform_WWI.jpg).
+  CC BY-SA 3.0. `image_in_prompt: true`. Picked deliberately for the
+  military meaning — "capote" also means a convertible's soft top or,
+  informally, a condom, and the image only applies to the sense this
+  card is actually testing.
 
-All ten resized locally (longest side capped at 500px) to keep file
+All eleven resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

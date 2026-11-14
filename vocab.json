@@ -8690,14 +8690,17 @@
     "cultural_note": "The military greatcoat sense is the one most associated in French cultural memory with WWI infantry ('les poilus'), whose pale blue-grey capotes are an iconic wartime image — though the word itself applies to soldiers' coats across many periods, not just WWI, which fits this book's less specific, more fable-like war setting.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/capote_17.jpg",
+    "image_credit": "French WWI infantryman uniform display, model 1915 capote (horizon blue greatcoat), photo by Wikimedia Commons user historicair. CC BY-SA 3.0.",
+    "image_in_prompt": true
   },
   {
     "id": 18,
@@ -8712,11 +8715,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8734,11 +8737,11 @@
     "cultural_note": "Comes from 'Baldacco', the old Italian/French name for Baghdad, once famous for producing rich, ornate silk fabric — the canopies took the city's name, the same way English 'damask' comes from Damascus. A nice parallel pattern between the two languages for luxury-textile words.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
+      "repetitions": 2,
       "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8756,11 +8759,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8778,11 +8781,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.9,
+      "repetitions": 1,
+      "easiness": 2.0,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8800,11 +8803,11 @@
     "cultural_note": "Historically associated with wealth and nobility — brocade was expensive, labor-intensive to weave, and often used for aristocratic garments and ecclesiastical vestments. Worth noticing the irony in this scene: luxury fabric on camp women greeting soldiers with 'vilains rires', not exactly a noble setting.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8822,11 +8825,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8844,11 +8847,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8866,11 +8869,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -8888,11 +8891,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-11",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -10323,11 +10326,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
