@@ -82,6 +82,8 @@ def _entry_payload(e):
         "source_sentence": e.get("source_sentence", ""),
         "source_title": e.get("source_title", ""),
         "cultural_note": e.get("cultural_note", ""),
+        "image": e.get("image", ""),
+        "image_credit": e.get("image_credit", ""),
         "priority": "priority" in e.get("tags", []),
         "era": review.era_badge(e),
     }
@@ -150,6 +152,8 @@ def check(req: CheckRequest):
         "source_sentence": entry.get("source_sentence", ""),
         "source_title": entry.get("source_title", ""),
         "cultural_note": entry.get("cultural_note", ""),
+        "image": entry.get("image", ""),
+        "image_credit": entry.get("image_credit", ""),
     }
 
 

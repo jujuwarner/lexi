@@ -12,11 +12,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -39,8 +39,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -58,11 +58,11 @@
     "cultural_note": "This phrase attaches freely to all sorts of contexts, not just this punitive one — the most common everyday use is medical, as in \"prise de sang à jeun\" (a fasting blood draw), where French clinics routinely require patients to arrive without having eaten.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -80,11 +80,11 @@
     "cultural_note": "French distinguishes \"aube,\" the everyday neutral word for dawn, from this word, which carries a more literary, poetic register — closer to English \"aurora\" — and tends to show up in narration rather than casual conversation.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -102,11 +102,11 @@
     "cultural_note": "The reflexive construction used here, \"se faire fricasser,\" also has an informal/military slang life meaning to get shot up or wiped out — a darkly playful extension of \"getting cooked.\" This sentence is clearly the literal culinary sense, but the double meaning is worth knowing.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -124,11 +124,11 @@
     "cultural_note": "Comes from Italian \"sbirro,\" which originally just meant a police constable in the old Italian city-states. French borrowed the word but the meaning drifted pejorative — it now implies muscle serving power rather than a legitimate officer.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -146,11 +146,11 @@
     "cultural_note": "\"La partie lésée\" is a set legal phrase — \"the aggrieved/injured party\" — the standard courtroom term for whoever was wronged, which is exactly the role these robbed noblemen play in the trial described here.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -168,11 +168,11 @@
     "cultural_note": "Hunting rights were a serious matter in feudal/Ancien Régime France — the \"droit de chasse\" was often an exclusive aristocratic privilege tied to land ownership, so poaching on someone's land wasn't just petty theft of game, it was a direct challenge to their status. That's exactly what makes Florfier's excuse land as a real legal defense in the story.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -190,11 +190,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -212,11 +212,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -234,11 +234,11 @@
     "cultural_note": "Often appears in the phrase \"vivre de rapines\" — to live by plunder — a standard, slightly literary way of describing a bandit's way of life.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -259,8 +259,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -278,11 +278,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -5795,14 +5795,16 @@
     "cultural_note": "Also the title of Gogol's famous short story \"Шинель\" (\"The Overcoat\") — one of the most influential works in Russian literature.",
     "gender": "f",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.5,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/shinel_393.jpg",
+    "image_credit": "Russian soldier in a greatcoat (шинель), 1862 — New York Public Library Digital Collections, via Wikimedia Commons. Public domain (published before 1931)."
   },
   {
     "id": 394,
@@ -5839,11 +5841,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -5905,11 +5907,11 @@
     "cultural_note": "From \"стиснуть,\" to clench/squeeze tightly — also used in \"стиснуть зубы,\" to clench one's teeth.",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.5,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.6,
+      "interval": 21,
+      "next_review": "2026-12-04",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -5971,11 +5973,11 @@
     "cultural_note": "Ties into the same gentry/serf social divide as \"душа\" (souls/serfs), added earlier — this novel is deeply concerned with that class tension, set right on the cusp of the 1861 Emancipation.",
     "gender": "m",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.5,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.6,
+      "interval": 21,
+      "next_review": "2026-12-04",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": "serfdom_era"
@@ -6059,11 +6061,11 @@
     "cultural_note": "Historically tied to Russia's post-horse relay system — driving travelers and mail between stations. A horse caretaker/groom would instead be \"конюх,\" a different word.",
     "gender": "m",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.5,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -6081,11 +6083,11 @@
     "cultural_note": "Direct opposite of \"закладывать лошадей,\" added earlier.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": null
     },
     "era": null
@@ -6132,7 +6134,9 @@
       "last_reviewed": "2026-11-05",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/tulup_408.jpg",
+    "image_credit": "Sergey Ivanov, \"Peasant in the Sled\" (1904-1905), depicting a тулуп — Tatarstan State Museum of Fine Arts, via Wikimedia Commons. Public domain (artist died 1910)."
   },
   {
     "id": 409,
@@ -6147,11 +6151,11 @@
     "cultural_note": "Short for \"коренная лошадь\" — the noun is dropped once context is established, leaving the adjective to stand in on its own. Ties directly into \"тройка,\" added earlier.",
     "gender": "f",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -6437,11 +6441,11 @@
     "cultural_note": "The \"-с\" at the end of \"так\" in this sentence is a separate, genuinely interesting feature — a deferential particle (short for \"сударь,\" sir) historically attached to servant/subordinate speech as a mark of respect toward a social superior. Pyotr is a servant speaking to his employer here.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": null
     },
     "era": null
@@ -6615,11 +6619,11 @@
     "cultural_note": "Also has literal senses (to line/quilt something, to reinforce from underneath) and a colloquial sense (to injure, or to shoot down a plane) — context here confirms the figurative \"incite\" sense.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -6705,11 +6709,11 @@
     "cultural_note": "A classic saying of resigned optimism, similar in spirit to the English idiom \"this too shall pass.\"",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -6837,11 +6841,11 @@
     "cultural_note": "Borrowed from German \"Kammerdiener,\" literally \"chamber servant\" — not a native Russian word.",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -6971,11 +6975,11 @@
     "cultural_note": "\"Одолжение\" = a favor, a kindness. Same double-edged tone range as English \"do me a favor.\"",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -6993,11 +6997,11 @@
     "cultural_note": "\"Сводить\" alone has several unrelated common meanings depending on context — to take someone somewhere and bring them back, to reconcile/bring together, \"сводить с ума\" (to drive someone crazy). This specific \"clear a forest\" sense is a distinct fixed collocation.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7059,11 +7063,11 @@
     "cultural_note": "From \"небо\" (sky) + \"склон\" (slope) — evoking the visual curve where sky meets horizon.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7389,11 +7393,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7411,11 +7415,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.6,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7433,11 +7437,11 @@
     "cultural_note": "\"Клячонка\" is its diminutive-pejorative form, which is the form that appeared in the text. Ties back to the equestrian vocabulary cluster from earlier in this book, but in a distinctly unflattering register.",
     "gender": "f",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7565,11 +7569,11 @@
     "cultural_note": "The image here compares the larks' continuous trilling song to little clear, ringing rivulets of sound (\"звонкими струйками\").",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7675,11 +7679,11 @@
     "cultural_note": "From \"герб\" (coat of arms, crest). \"Гербовый\" also has a separate bureaucratic sense — \"гербовая бумага\" = official stamped paper for legal documents.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-01"
     },
     "era": null
@@ -7743,11 +7747,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-01"
     },
     "era": null
@@ -7877,11 +7881,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-01"
     },
     "era": null
@@ -8031,11 +8035,11 @@
     "cultural_note": "Context decides the sense — here it's the physique/build meaning, describing a small, elegant bow.",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-06"
     },
     "era": null
@@ -9717,11 +9721,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9742,8 +9746,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9761,11 +9765,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9786,8 +9790,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9805,11 +9809,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9827,11 +9831,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9849,11 +9853,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9871,11 +9875,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9896,8 +9900,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9915,11 +9919,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9938,10 +9942,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.8,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9959,11 +9963,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -9984,8 +9988,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10006,8 +10010,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10025,11 +10029,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10050,8 +10054,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10072,8 +10076,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10091,11 +10095,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
+      "repetitions": 1,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10113,11 +10117,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10138,8 +10142,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10157,11 +10161,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10182,8 +10186,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10201,11 +10205,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10226,8 +10230,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10245,11 +10249,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10267,11 +10271,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10289,11 +10293,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-10",
-      "last_reviewed": "2026-11-09",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10379,11 +10383,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10535,11 +10539,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10647,11 +10651,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10669,11 +10673,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -10713,11 +10717,11 @@
     "cultural_note": "",
     "gender": "n",
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 5,
+      "easiness": 1.8,
+      "interval": 24,
+      "next_review": "2026-12-07",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": null
     },
     "era": null
@@ -11145,11 +11149,11 @@
     "cultural_note": "One of Bazarov's signature lines, encapsulating his nihilist/scientific-materialist worldview — nature as something to dissect and mechanically understand rather than romanticize.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-09"
     },
     "era": null
@@ -11437,11 +11441,11 @@
     "cultural_note": "Related adjective: небрежный (careless, negligent, slapdash).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.2,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.3,
+      "interval": 13,
+      "next_review": "2026-11-26",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-10"
     },
     "era": null
@@ -11780,8 +11784,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12177,11 +12181,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12539,11 +12543,11 @@
     "cultural_note": "From «толковать» (to discuss, interpret) + the «по-» prefix, signaling a short, bounded bit of talking.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -12781,11 +12785,11 @@
     "cultural_note": "A фат is specifically a conceited, self-satisfied poser -- the source sentence groups фатство with самолюбие (\"self-love/vanity\") and львиные привычки (\"grand, showy airs\"), reinforcing this is about character/conceit, not clothing. Compare щегольство (id 503), which centers on style/appearance itself rather than the underlying vanity.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -13189,11 +13193,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13343,11 +13347,11 @@
     "cultural_note": "From «помешаться» (to go mad/insane) -- related to «мешать» (to interfere/mix), with a real shift in meaning over time.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13367,11 +13371,11 @@
     "cultural_note": "From «вкопать» (to dig/plant something into the ground) -- literally \"as if dug into the ground.\"",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13592,11 +13596,11 @@
     "cultural_note": "\"Плутовской роман\" is the standard Russian literary term for a picaresque novel (a genre featuring a cunning, lower-class protagonist living by wit through episodic adventures).",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-10-23"
     },
     "era": null
@@ -13796,11 +13800,11 @@
     "cultural_note": "Flexible pattern: \"приниматься за + [accusative]\" works with other objects too -- приниматься за работу (get to work), приняться за чтение (get down to reading), etc.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13818,11 +13822,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -13998,11 +14002,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14042,11 +14046,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14064,11 +14068,11 @@
     "cultural_note": "Diminutive of кровать (\"bed\").",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14086,11 +14090,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14130,11 +14134,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14174,11 +14178,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-01"
     },
     "era": null
@@ -14284,11 +14288,11 @@
     "cultural_note": "A folk/dialectal spelling of крыжовник (the standard spelling). Notably written by Fenechka herself in the text -- possibly an intentional character detail by Turgenev signaling her humble education.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14306,11 +14310,11 @@
     "cultural_note": "Commonly kept as a caged songbird in 19th-century Russian households.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14328,11 +14332,11 @@
     "cultural_note": "Common bird feed in 19th-century Russia -- likely connects back to the caged siskin (чиж) nearby.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14350,11 +14354,11 @@
     "cultural_note": "Diminutive of башмак (\"shoe\"). Here, a decorative silk pincushion shaped like a tiny shoe -- a common sewing accessory of the era.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14372,11 +14376,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14394,11 +14398,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14416,11 +14420,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14438,11 +14442,11 @@
     "cultural_note": "Diminutive of дуб (\"oak\").",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14460,11 +14464,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14482,11 +14486,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14504,11 +14508,11 @@
     "cultural_note": "Diminutive of липа (\"linden/lime tree\").",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14548,11 +14552,11 @@
     "cultural_note": "Said (about Fenechka) implying Nikolai Petrovich has good taste -- a teasing, slightly risqué compliment to his choice of companion, not a comment on anyone’s actual lips.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14570,11 +14574,11 @@
     "cultural_note": "From the fuller idiom \"тёртый калач\" (a well-kneaded loaf of bread, toughened/refined by repeated working) -- used metaphorically for someone toughened and made shrewd by life experience.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.8,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 1.9,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14614,11 +14618,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14636,11 +14640,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14658,11 +14662,11 @@
     "cultural_note": "From хохотать (\"to guffaw, laugh loudly\").",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14680,11 +14684,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14702,11 +14706,11 @@
     "cultural_note": "Known in English by its transliterated name, \"bogatyr.\" From Russian epic folklore (bylinas) -- legendary warrior-heroes like Ilya Muromets. Commonly used today, often affectionately, to describe a big, sturdy, healthy man or child.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14724,11 +14728,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14746,11 +14750,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14792,11 +14796,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 1,
+      "easiness": 1.4,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14814,11 +14818,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14836,11 +14840,11 @@
     "cultural_note": "An emphatic, folksy variant of непременно (\"certainly\").",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14858,11 +14862,11 @@
     "cultural_note": "A well-known, often-quoted Bazarov line -- hyperbole about peasant cunning/audacity, not a literal religious statement.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14880,11 +14884,11 @@
     "cultural_note": "An intensified form of скверный (\"bad, nasty\"), via the intensifying prefix пре-.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14902,11 +14906,11 @@
     "cultural_note": "Part of one of the most famous lines in the novel -- Bazarov's materialist aphorism contrasting reverence for nature with practical use of it.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-05",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -14924,11 +14928,11 @@
     "cultural_note": "Part of one of the most famous lines in the novel -- Bazarov's materialist aphorism contrasting reverence for nature with practical use of it.",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14946,11 +14950,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14968,11 +14972,11 @@
     "cultural_note": "Carries a religious/worshipful connotation (related to the archaic говеть, \"to observe religious fasting\") -- stronger than a plain \"admire\" or \"respect.\"",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -14990,11 +14994,11 @@
     "cultural_note": "Bazarov teases Pyotr with this, mocking his sentimentality -- in character for Bazarov's general impatience with displayed emotion.",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -15012,11 +15016,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -15034,11 +15038,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": null
@@ -15056,11 +15060,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "serfdom_era"
@@ -15078,11 +15082,11 @@
     "cultural_note": "The stable (конюшня) was a real, common site for flogging serfs on Russian estates -- physically removed from the main house, staffed by grooms already handling whips for horses. Reflects the normalized corporal authority of the serf system (pre-1861 Emancipation Reform).",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "serfdom_era"
@@ -15100,11 +15104,11 @@
     "cultural_note": "Known in English by its transliterated name, \"praporshchik.\" In 19th-century usage, often a junior, inexperienced rank, sometimes carrying a faintly dismissive tone in literature. Later (Soviet/modern Russian army) the term shifted to mean a warrant officer instead, a different tier -- this is the older Imperial meaning.",
     "gender": "m",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "archaic"
@@ -15123,11 +15127,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15145,11 +15149,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15169,11 +15173,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15213,11 +15217,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15235,11 +15239,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15257,11 +15261,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15301,11 +15305,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15323,11 +15327,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15345,11 +15349,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15367,11 +15371,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15389,11 +15393,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15413,11 +15417,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15435,11 +15439,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15457,11 +15461,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15481,11 +15485,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15503,11 +15507,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15525,11 +15529,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-23",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15547,11 +15551,11 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15569,11 +15573,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-03"
     }
   },
@@ -15591,11 +15595,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15613,11 +15617,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 0,
+      "easiness": 1.9,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15637,11 +15641,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15681,11 +15685,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15703,11 +15707,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15725,11 +15729,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15747,11 +15751,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15769,11 +15773,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 0,
+      "easiness": 1.9,
+      "interval": 1,
+      "next_review": "2026-11-14",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15835,11 +15839,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15859,11 +15863,11 @@
     "gender": "f",
     "era": "archaic",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15903,11 +15907,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15927,11 +15931,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15949,11 +15953,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15971,11 +15975,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -15993,11 +15997,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-29",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16015,11 +16019,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16059,11 +16063,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16081,11 +16085,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16103,11 +16107,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16125,11 +16129,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-12",
-      "last_reviewed": "2026-11-06",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-29",
+      "last_reviewed": "2026-11-13",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16147,11 +16151,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16213,11 +16217,11 @@
     "gender": "f",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.9,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.0,
+      "interval": 11,
+      "next_review": "2026-11-25",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-05"
     }
   },
@@ -16347,11 +16351,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-30",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16413,11 +16417,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16657,11 +16661,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 2.7,
-      "interval": 6,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-07",
+      "repetitions": 3,
+      "easiness": 2.8,
+      "interval": 16,
+      "next_review": "2026-11-30",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -16811,11 +16815,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-06"
     }
   },
@@ -17009,11 +17013,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-11",
-      "last_reviewed": "2026-11-10",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-18",
+      "last_reviewed": "2026-11-12",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17187,11 +17191,11 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17231,11 +17235,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17275,11 +17279,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17297,11 +17301,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17344,8 +17348,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17363,13 +17367,15 @@
     "gender": "m",
     "era": "archaic",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
-    }
+    },
+    "image": "assets/vocab/syurtuk_796.jpg",
+    "image_credit": "Man's frock coat (сюртук), France, c. 1816-1820 — Los Angeles County Museum of Art, via Wikimedia Commons. Public domain."
   },
   {
     "id": 797,
@@ -17385,11 +17391,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17407,11 +17413,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-07"
     }
   },
@@ -17613,11 +17619,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17635,11 +17641,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17657,11 +17663,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17701,11 +17707,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17723,11 +17729,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17747,11 +17753,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17769,11 +17775,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17881,11 +17887,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17903,11 +17909,11 @@
     "gender": "f",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17925,11 +17931,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17947,11 +17953,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -17969,11 +17975,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18037,11 +18043,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18085,11 +18091,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18109,11 +18115,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18177,11 +18183,11 @@
     "gender": "m",
     "era": "serfdom_era",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.7,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.8,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18199,11 +18205,11 @@
     "gender": "m",
     "era": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18221,11 +18227,11 @@
     "gender": null,
     "era": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-20",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -18246,8 +18252,8 @@
       "repetitions": 0,
       "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-13",
-      "last_reviewed": "2026-11-12",
+      "next_review": "2026-11-15",
+      "last_reviewed": "2026-11-14",
       "first_reviewed_on": "2026-11-08"
     }
   },
@@ -24163,6 +24169,709 @@
       "easiness": 2.5,
       "interval": 0,
       "next_review": "2026-11-11",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1114,
+    "word": "l'ordinateur fixe",
+    "language": "fr",
+    "translation_en": "the desktop computer",
+    "definition_in_language": "Ordinateur non portable, destiné à rester à un même endroit (par opposition à l'ordinateur portable).",
+    "source_sentence": "Étienne avait eu envie de prendre l'ordinateur fixe qui trônait sur le bureau de Katia entre une plante verte suffocante et une pile de manuscrits raturés et de lui exploser le visage avec.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1115,
+    "word": "trôner",
+    "language": "fr",
+    "translation_en": "to sit enthroned, to occupy a prominent/central spot",
+    "definition_in_language": "Occuper une place centrale et bien visible, souvent avec une connotation ironique quand il s'agit d'un objet banal.",
+    "source_sentence": "Étienne avait eu envie de prendre l'ordinateur fixe qui trônait sur le bureau de Katia entre une plante verte suffocante et une pile de manuscrits raturés et de lui exploser le visage avec.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "From 'trône' (throne).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1116,
+    "word": "rature",
+    "language": "fr",
+    "translation_en": "a crossing-out, a strikethrough mark (on a manuscript or document)",
+    "definition_in_language": "Trait tracé sur un mot ou un passage pour l'annuler ou le corriger.",
+    "source_sentence": "Étienne avait eu envie de prendre l'ordinateur fixe qui trônait sur le bureau de Katia entre une plante verte suffocante et une pile de manuscrits raturés et de lui exploser le visage avec.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1117,
+    "word": "louper",
+    "language": "fr",
+    "translation_en": "to miss, to mess up, to botch, to flub",
+    "definition_in_language": "Familier : rater, échouer à faire quelque chose correctement, ou ne pas remarquer quelque chose.",
+    "source_sentence": "Il ne loupait aucune coquille ni aucune faute d'orthographe.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1118,
+    "word": "coquille",
+    "language": "fr",
+    "translation_en": "a typo, a printing/typesetting error",
+    "definition_in_language": "Erreur d'impression ou de frappe dans un texte imprimé ou publié.",
+    "source_sentence": "Il ne loupait aucune coquille ni aucune faute d'orthographe.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Literally 'a shell' (seashell, eggshell) -- this is a distinct, specific editorial/publishing sense.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1119,
+    "word": "traquer",
+    "language": "fr",
+    "translation_en": "to track down, to hunt, to relentlessly pursue",
+    "definition_in_language": "Poursuivre sans relâche (une proie, un criminel, ou au figuré un défaut, une erreur).",
+    "source_sentence": "Il traquait en limier les répétitions, les incohérences, redondances, et toute rupture de rythme ou de registre non justifiée.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1120,
+    "word": "limier",
+    "language": "fr",
+    "translation_en": "a bloodhound, a tracking dog; (figuratively) a sleuth, a detective",
+    "definition_in_language": "Chien dressé pour suivre une piste à l'odeur ; au figuré, personne habile à traquer, à enquêter.",
+    "source_sentence": "Il traquait en limier les répétitions, les incohérences, redondances, et toute rupture de rythme ou de registre non justifiée.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1121,
+    "word": "placarder",
+    "language": "fr",
+    "translation_en": "to put up, to post, to plaster (notices/posters on walls)",
+    "definition_in_language": "Afficher publiquement une affiche, un avis, en le collant ou le fixant sur un mur.",
+    "source_sentence": "Il avait, à cette fin, distribué et placardé des mémos, plastifiés et en couleurs.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1122,
+    "word": "plastifié",
+    "language": "fr",
+    "translation_en": "laminated",
+    "definition_in_language": "Recouvert d'une fine couche de plastique protectrice.",
+    "source_sentence": "Il avait, à cette fin, distribué et placardé des mémos, plastifiés et en couleurs.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1123,
+    "word": "abattre du travail",
+    "language": "fr",
+    "translation_en": "to get through a huge amount of work, to churn through work",
+    "definition_in_language": "Accomplir une grande quantité de travail en peu de temps.",
+    "source_sentence": "Il abattait un travail colossal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "'Abattre' here means to accomplish/plow through -- very different from its literal sense 'to knock down, to fell (a tree), to shoot down.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1124,
+    "word": "dépasser les bornes",
+    "language": "fr",
+    "translation_en": "to go too far, to overstep the bounds",
+    "definition_in_language": "Aller au-delà de ce qui est acceptable ou raisonnable.",
+    "source_sentence": "Mais Katia trouvait depuis un moment maintenant qu'Étienne Lechevallier dépassait les bornes, et elle n'était pas la seule au sein de la boîte; c'était une chose de lui laisser quelques latitudes capricieuses pour prix de son efficacité et une autre de le laisser donner libre cours à ses fantaisies obsessionnelles (voire de les entretenir) comme si tout cela était normal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1125,
+    "word": "donner libre cours à",
+    "language": "fr",
+    "translation_en": "to give free rein to",
+    "definition_in_language": "Laisser s'exprimer librement et sans retenue (une émotion, une fantaisie).",
+    "source_sentence": "Mais Katia trouvait depuis un moment maintenant qu'Étienne Lechevallier dépassait les bornes, et elle n'était pas la seule au sein de la boîte; c'était une chose de lui laisser quelques latitudes capricieuses pour prix de son efficacité et une autre de le laisser donner libre cours à ses fantaisies obsessionnelles (voire de les entretenir) comme si tout cela était normal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1126,
+    "word": "entretenir",
+    "language": "fr",
+    "translation_en": "to maintain, to foster, to indulge (a habit, a quirk)",
+    "definition_in_language": "Faire perdurer, encourager quelque chose à continuer.",
+    "source_sentence": "Mais Katia trouvait depuis un moment maintenant qu'Étienne Lechevallier dépassait les bornes, et elle n'était pas la seule au sein de la boîte; c'était une chose de lui laisser quelques latitudes capricieuses pour prix de son efficacité et une autre de le laisser donner libre cours à ses fantaisies obsessionnelles (voire de les entretenir) comme si tout cela était normal.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Distinct from the more common sense 'to maintain/take care of' (a house, a relationship) -- here it's about keeping a habit or quirk alive.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1127,
+    "word": "caniveau",
+    "language": "fr",
+    "translation_en": "a (street) gutter",
+    "definition_in_language": "Canal le long d'une rue, destiné à l'écoulement des eaux de pluie.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1128,
+    "word": "déontologie",
+    "language": "fr",
+    "translation_en": "professional ethics, a code of conduct",
+    "definition_in_language": "Ensemble des règles et devoirs moraux régissant une profession.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "A near-cognate of English 'deontology,' but used much more broadly in French for everyday professional ethics, not just the narrower philosophical sense.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1129,
+    "word": "relâché",
+    "language": "fr",
+    "translation_en": "lax, slack, loose (of discipline, morals, standards)",
+    "definition_in_language": "Qui a perdu de sa rigueur ou de sa fermeté ; devenu négligent.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1130,
+    "word": "ménager la chèvre et le chou",
+    "language": "fr",
+    "translation_en": "to try to please both sides, to have it both ways, to sit on the fence",
+    "definition_in_language": "Chercher à satisfaire deux parties ou intérêts opposés à la fois, sans trancher.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'to spare both the goat and the cabbage' -- references the old river-crossing riddle (goat, cabbage, wolf) where you must avoid letting either be destroyed.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1131,
+    "word": "daube",
+    "language": "fr",
+    "translation_en": "trash, garbage, crap (of poor-quality work of any kind)",
+    "definition_in_language": "Familier et péjoratif : chose de très mauvaise qualité.",
+    "source_sentence": "Elle se tortillait avec la même ardeur pour la dernière daube pondue dans le cadre d'un partenariat biaisé avec le ministère de la Culture que pour l'exposition de Francis Bacon.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Literally 'a daube,' a slow-cooked Provençal beef stew -- the slang sense is unrelated to the dish. Similar to 'torchon' (id 1111), but 'torchon' is specific to writing/text, while 'daube' works for anything.",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1132,
+    "word": "pondre",
+    "language": "fr",
+    "translation_en": "to churn out, to produce (dismissively)",
+    "definition_in_language": "Familier et péjoratif : produire, créer quelque chose, souvent avec une connotation de facilité ou de médiocrité.",
+    "source_sentence": "Elle se tortillait avec la même ardeur pour la dernière daube pondue dans le cadre d'un partenariat biaisé avec le ministère de la Culture que pour l'exposition de Francis Bacon.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Literally 'to lay an egg.'",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1133,
+    "word": "aplanir",
+    "language": "fr",
+    "translation_en": "to flatten, to level out; (figuratively) to smooth over, to iron out (difficulties)",
+    "definition_in_language": "Rendre plat, uni ; au figuré, faire disparaître des obstacles ou des tensions.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1134,
+    "word": "lapsus",
+    "language": "fr",
+    "translation_en": "a slip of the tongue (or pen), a Freudian slip",
+    "definition_in_language": "Erreur involontaire de langage ou d'écriture, souvent perçue comme révélatrice d'une pensée inconsciente.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1135,
+    "word": "chaisière de messe",
+    "language": "fr",
+    "translation_en": "a chair-woman at Mass (a woman who rented out chairs to churchgoers for a fee)",
+    "definition_in_language": "Historiquement, femme chargée de louer des chaises aux fidèles pendant la messe, avant la généralisation des bancs gratuits.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "A real historical occupation in French churches before free/assigned pew seating became standard.",
+    "gender": "f",
+    "era": "archaic",
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1136,
+    "word": "recueillir",
+    "language": "fr",
+    "translation_en": "to collect, to gather (information, funds); to take in, to shelter (a person or animal in need)",
+    "definition_in_language": "Rassembler (des informations, des fonds) ; ou accueillir chez soi quelqu'un ou un animal dans le besoin.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "'Se recueillir' (reflexive) is a distinct, common related form: 'to collect oneself, to meditate quietly,' often in a solemn or spiritual context.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1137,
+    "word": "cueillir",
+    "language": "fr",
+    "translation_en": "to pick, to pluck, to gather (flowers, fruit)",
+    "definition_in_language": "Détacher une fleur, un fruit de sa tige ou de sa branche.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "'Recueillir' (already in your deck, id 1136) is built from this root.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1138,
+    "word": "pâquerette",
+    "language": "fr",
+    "translation_en": "a daisy",
+    "definition_in_language": "Petite fleur commune des prés et des pelouses, à pétales blancs et cœur jaune.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Idiom: 'être au ras des pâquerettes' = to be utterly unsophisticated/low-brow (literally 'at daisy level').",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1139,
+    "word": "jacasser",
+    "language": "fr",
+    "translation_en": "to chatter, to jabber, to yap incessantly",
+    "definition_in_language": "À l'origine, le cri de la pie ; au figuré, parler sans arrêt et de façon bruyante ou agaçante.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Distinct from 'papoter' (already in your deck, id 983), which is pleasant, friendly chatting -- 'jacasser' has an irritating, grating edge.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1140,
+    "word": "bonbonne",
+    "language": "fr",
+    "translation_en": "a demijohn, a large jug/carboy",
+    "definition_in_language": "Grand récipient en verre ou en plastique, à col étroit, utilisé pour le vin, l'eau ou le gaz.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1141,
+    "word": "jouer au con",
+    "language": "fr",
+    "translation_en": "to play dumb, to act like an idiot (deliberately feigning ignorance or being willfully obtuse)",
+    "definition_in_language": "Vulgaire et familier : faire semblant de ne pas comprendre, ou se comporter de façon délibérément stupide ou difficile.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "'Con' is crude slang for 'idiot, jerk' (with a cruder anatomical origin, though the insult sense is what's in play here).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1142,
+    "word": "ébranlement",
+    "language": "fr",
+    "translation_en": "a shaking, a shock, a jolt; (figuratively) a profound upheaval",
+    "definition_in_language": "Action d'ébranler, de secouer ; au figuré, choc profond qui déstabilise des convictions, une assurance.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "From 'ébranler' (to shake, to rattle, to destabilize).",
+    "gender": "m",
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1143,
+    "word": "au sens figuré",
+    "language": "fr",
+    "translation_en": "in the figurative sense",
+    "definition_in_language": "Se dit d'un mot ou d'une expression employée de façon imagée, non littérale.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Opposite of 'au sens propre' (literal sense).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1144,
+    "word": "au sens propre",
+    "language": "fr",
+    "translation_en": "in the literal sense",
+    "definition_in_language": "Se dit d'un mot ou d'une expression employée dans son sens premier, non imagé.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Opposite of 'au sens figuré' (figurative sense).",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1145,
+    "word": "secouer",
+    "language": "fr",
+    "translation_en": "to shake; (figuratively) to shake someone up, to rattle, to give a wake-up call",
+    "definition_in_language": "Agiter vivement ; au figuré, bousculer quelqu'un émotionnellement ou le sortir de sa complaisance.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "Related in spirit to 'ébranlement' (already in your deck, id 1142), but 'secouer' is the more everyday, general verb.",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1146,
+    "word": "se faire mal",
+    "language": "fr",
+    "translation_en": "to hurt oneself",
+    "definition_in_language": "Se blesser, ressentir une douleur physique causée à soi-même.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-13",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-13",
       "last_reviewed": null
     }
   }

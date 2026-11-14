@@ -159,9 +159,12 @@ to writing a good cultural_note than flipping on a boolean field.
   about this" already works as an on-demand request rather than a
   default step in the capture flow.
 
-Not built. Revisit the next time a concrete, hard-to-picture-from-text-
-alone object word comes up and the definition alone feels like it's not
-quite landing.
+**Built 2026-11-14**, exactly to this shape: `image` + `image_credit`
+fields, reveal-only (both modes), added one word at a time on request.
+First three: шинель, тулуп, сюртук — three distinct, specific Russian
+coats Julia wanted visually disambiguated from each other. Credits in
+the README's "Vocab-card images" section. Still no automation — adding
+an image to a word remains an explicit, one-at-a-time request.
 
 ## Paradigm drills for high-frequency words (declension/conjugation fluency)
 

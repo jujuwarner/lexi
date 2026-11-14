@@ -290,6 +290,28 @@ No attribution legally required for either, but credited here anyway
 since it's good practice. Backgrounds removed and images cropped/isolated
 locally; original files untouched.
 
+### Vocab-card images
+
+A handful of vocab entries (specific, unfamiliar physical objects where
+even the English gloss doesn't paint a clear picture — see IDEAS.md) carry
+an optional reveal-only image, shown after answering alongside
+cultural_note, never in the prompt itself:
+
+- **шинель** (id 393) — a Russian soldier in a greatcoat, 1862, via
+  [New York Public Library Digital Collections](https://commons.wikimedia.org/wiki/File:Russian_soldier_from_1862.JPG),
+  from Wikimedia Commons. Public domain (published before 1931).
+- **тулуп** (id 408) — Sergey Ivanov, *Peasant in the Sled* (1904-1905),
+  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:S._V._Ivanov._Peasant_in_the_sled._(1904-1905).jpg)
+  (Tatarstan State Museum of Fine Arts). Public domain (artist died 1910).
+- **сюртук** (id 796) — a man's frock coat, France, c. 1816-1820, via
+  [Los Angeles County Museum of Art](https://commons.wikimedia.org/wiki/File:Man%27s_silk_and_wool_twill_frock_coat_c._1820.jpg),
+  from Wikimedia Commons. Public domain.
+
+All three resized locally (longest side capped at 500px) to keep file
+sizes reasonable; originals untouched elsewhere. More may be added the
+same deliberate, one-at-a-time way described in IDEAS.md — never
+auto-generated for every concrete noun.
+
 ## Status
 
 v2 — manual definitions via Claude (no API calls from the tool itself), JSON

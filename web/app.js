@@ -89,6 +89,16 @@ function showSection(id) {
 
 function renderRevealHtml(data) {
   let html = `<p class="field-label">${(cards[index]?.language || "fr").toUpperCase()} definition</p><p>${data.definition_in_language}</p>`;
+  if (data.image) {
+    // Reveal-only, deliberately -- showing this earlier (in the prompt
+    // itself) would change what's being tested, so it's treated purely
+    // as a memory aid alongside the definition, the same way
+    // cultural_note already works.
+    html += `<img class="vocab-image" src="${data.image}" alt="${data.word || data.expected || ""}" />`;
+    if (data.image_credit) {
+      html += `<p class="image-credit">${data.image_credit}</p>`;
+    }
+  }
   if (data.source_sentence) {
     html += `<p class="field-label">From</p><blockquote>"${data.source_sentence}"${data.source_title ? ` — ${data.source_title}` : ""}</blockquote>`;
   }
