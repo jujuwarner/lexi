@@ -457,10 +457,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -475,13 +476,14 @@
     "date_added": "2026-09-16",
     "tags": [],
     "cultural_note": "A real phenomenon (combustion of marsh gases like methane from decomposing organic matter) wrapped in centuries of folklore about wandering spirits or mischievous fairies leading travelers astray at night — a fitting obsession for a character who blends real science with old superstition.",
-    "gender": "m",
+    "gender": "pl",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -499,10 +501,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -520,10 +523,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -541,10 +545,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -562,10 +567,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -583,10 +589,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -604,10 +611,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -3173,7 +3181,7 @@
     "date_added": "2026-09-19",
     "tags": [],
     "cultural_note": "",
-    "gender": "m",
+    "gender": "pl",
     "srs": {
       "repetitions": 0,
       "easiness": 2.5,
@@ -3868,7 +3876,7 @@
     "date_added": "2026-09-19",
     "tags": [],
     "cultural_note": "Easy to visually confuse with the completely unrelated everyday word \"services\" — just one letter apart, very different meaning.",
-    "gender": "m",
+    "gender": "pl",
     "srs": {
       "repetitions": 0,
       "easiness": 2.5,
@@ -21399,7 +21407,7 @@
     "date_added": "2026-11-09",
     "tags": [],
     "cultural_note": "",
-    "gender": "f",
+    "gender": "pl",
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -21808,7 +21816,7 @@
       "idiom"
     ],
     "cultural_note": "",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -22385,7 +22393,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "Also has a slang sense: 'the noggin, the head' (e.g. 'se cogner la cafetière' = to bang one's head). This entry covers the literal sense.",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -22429,7 +22437,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "f",
+    "gender": "pl",
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -22538,7 +22546,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -22559,7 +22567,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "'Tournure' alone has other senses too: a turn of phrase/linguistic construction, or historically, a bustle (clothing padding under a skirt).",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23232,7 +23240,7 @@
       "idiom"
     ],
     "cultural_note": "Literally 'the fair of grabbing/seizing.'",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23255,7 +23263,7 @@
       "idiom"
     ],
     "cultural_note": "",
-    "gender": "m",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23473,7 +23481,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23494,7 +23502,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "f",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23578,7 +23586,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "m",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -23641,7 +23649,7 @@
     "date_added": "2026-11-10",
     "tags": [],
     "cultural_note": "",
-    "gender": "m",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,
@@ -24288,7 +24296,7 @@
     "date_added": "2026-11-13",
     "tags": [],
     "cultural_note": "",
-    "gender": "m",
+    "gender": null,
     "era": null,
     "srs": {
       "repetitions": 0,

@@ -317,6 +317,15 @@ def display_word(entry):
     an article, so gating it here is enough — nowhere else needs to know
     which language it's looking at.
 
+    'gender' is "m", "f", or "pl" -- the last for nouns genuinely used in
+    the plural (e.g. "feux follets", "sévices"), which take "les"
+    regardless of grammatical gender since "les" doesn't distinguish it.
+    Leave 'gender' unset/null for entries whose `word` already bakes in
+    its own article or determiner (e.g. "un coup bas", "les affres",
+    "la tournure des événements") -- display_word only ever prepends an
+    article to a bare noun, so setting gender on one of these would
+    double it up ("la un coup bas").
+
     Note: the article logic only checks for a leading vowel to decide on
     "l'" elision. French also elides before a silent 'h' (l'homme) but not
     an aspirate 'h' (le hibou), and there's no reliable rule-based way to
@@ -326,6 +335,8 @@ def display_word(entry):
     word = entry["word"]
     if not gender or entry.get("language") != "fr":
         return word
+    if gender == "pl":
+        return f"les {word}"
     if word[0].lower() in VOWEL_START:
         return f"l'{word}"
     return f"{'le' if gender == 'm' else 'la'} {word}"
