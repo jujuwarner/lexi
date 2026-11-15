@@ -380,8 +380,14 @@ cultural_note, never in the prompt itself:
   Lancashire, UK, photo by Francis C. Franklin, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eurasian_blue_tit_Lancashire.jpg).
   CC BY-SA 3.0. `image_in_prompt: true`.
+- **cigogne** (id 3, French) and **аист** (id 906, Russian) — both use
+  the same photo (same species, same everyday word in both languages):
+  a White Stork (*Ciconia ciconia*), Białowieża, Poland, photo by
+  Charles J. Sharp, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_Białowieza.jpg).
+  CC BY-SA 4.0. `image_in_prompt: true`.
 
-All eighteen resized locally (longest side capped at 500px) to keep file
+All twenty resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

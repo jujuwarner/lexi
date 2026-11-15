@@ -36,11 +36,11 @@
     "cultural_note": "\"À belles dents\" is a common idiomatic pairing, usually with \"mordre\" or \"croquer,\" describing biting into something with real enthusiasm — digging into a meal heartily. Here it's repurposed grimly: instead of someone eating with gusto, something (a body part) is torn away as if bitten off, which is a good example of how a cheerful everyday idiom can be redeployed for a much darker image.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -234,11 +234,11 @@
     "cultural_note": "Often appears in the phrase \"vivre de rapines\" — to live by plunder — a standard, slightly literary way of describing a bandit's way of life.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -256,11 +256,11 @@
     "cultural_note": "\"Condamner à la potence\" is the standard legal phrase for a hanging sentence — naming the apparatus rather than the act, the same move English makes with \"sentenced to the gallows\" instead of \"sentenced to hang.\"",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -300,11 +300,11 @@
     "cultural_note": "French splits this trade in a way English doesn't bother to: a \"charpentier\" does structural framing, while a \"menuisier\" does finer woodwork (furniture, doors, cabinetry). English just calls both \"carpenter.\"",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -322,11 +322,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -344,11 +344,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -366,11 +366,11 @@
     "cultural_note": "As slang, \"bidon\" also works as an adjective meaning \"fake, phony, bogus\" — \"c'est bidon\" = \"that's bogus.\" A common casual use, unrelated to the container meaning.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -8350,11 +8350,11 @@
     "cultural_note": "A squire (écuyer) was a young nobleman training to become a knight, serving and accompanying one in combat and daily life. The word comes from 'écu' (shield), since a squire originally carried his lord's shield. Today 'écuyer' also refers to an accomplished horseman or riding master — most famously the écuyers of the Cadre Noir in Saumur, France's elite classical riding academy.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8372,14 +8372,17 @@
     "cultural_note": "Storks carry real folklore weight across Europe — the \"storks bring babies\" legend is pan-European, and in Alsace (France) the stork is a beloved regional symbol, with a real conservation effort after the population nearly disappeared there in the mid-20th century. They're also strongly associated with Central and Eastern Europe generally, fitting for a book with scenes set in Bohemia.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/cigogne_3.jpg",
+    "image_credit": "Photo by Charles J. Sharp, White Stork (Ciconia ciconia), Białowieża, Poland, via Wikimedia Commons. CC BY-SA 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 4,
@@ -8394,11 +8397,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8416,11 +8419,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8534,11 +8537,11 @@
     "cultural_note": "A classic false friend for English speakers. It shares the same Latin root as 'trepidation' (trepidare, to tremble/be agitated), but modern French has drifted the meaning toward 'exciting, vibrant, pulsating with energy' rather than fear — 'une vie trépidante' means a hectic, fast-paced life, not a fearful one.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.0,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 2.1,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8556,11 +8559,11 @@
     "cultural_note": "Unlike 'trépidant', this one's a genuine, helpful cognate rather than a false friend — the adjective sense (greedy, grasping) is a direct match with English 'rapacious.' Same root, same idea, and worth leaning on to help it stick.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8578,11 +8581,11 @@
     "cultural_note": "Originally specifically a shipwreck's remains (still the primary legal/nautical sense — salvage law is called 'droit des épaves'). It extends naturally to describe a person completely worn down or broken — 'une épave' or 'il est devenu une épave' means someone reduced to a shell of themselves, by grief, exhaustion, addiction, etc. A genuinely common figurative use beyond the literal battlefield sense here.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8600,11 +8603,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.0,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 2.1,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -8646,11 +8649,11 @@
     "cultural_note": "Traces back to the same Latin root (sepelire, 'to bury') as English 'sepulchre/sepulcher' — a useful family resemblance to lean on for memory. The neutral, everyday word for 'to bury' is 'enterrer'; 'ensevelir' carries more literary, solemn weight — the kind of word you'd expect describing a burial formally, not in casual conversation.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.8,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.9,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -19834,7 +19837,10 @@
       "interval": 0,
       "next_review": "2026-11-07",
       "last_reviewed": null
-    }
+    },
+    "image": "assets/vocab/aist_906.jpg",
+    "image_credit": "Photo by Charles J. Sharp, White Stork (Ciconia ciconia), Białowieża, Poland, via Wikimedia Commons. CC BY-SA 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 907,
@@ -25064,6 +25070,188 @@
     "date_added": "2026-11-14",
     "tags": [],
     "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1152,
+    "word": "forcer sur",
+    "language": "fr",
+    "translation_en": "to overdo, to go overboard with (something)",
+    "definition_in_language": "Exagérer dans l'usage ou l'application de quelque chose.",
+    "source_sentence": "Elle avait forcé en demi-bémol sur un maquillage sans fausse note.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1153,
+    "word": "demi-bémol",
+    "language": "fr",
+    "translation_en": "a half-flat (music); (figuratively) in a muted, understated, subtle way",
+    "definition_in_language": "Terme musical désignant une altération inférieure au bémol ; au figuré, une nuance atténuée, discrète.",
+    "source_sentence": "Elle avait forcé en demi-bémol sur un maquillage sans fausse note.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1154,
+    "word": "sans fausse note",
+    "language": "fr",
+    "translation_en": "without a false note — flawless, nothing off or wrong",
+    "definition_in_language": "Se dit de quelque chose d'exécuté ou de réalisé parfaitement, sans le moindre défaut.",
+    "source_sentence": "Elle avait forcé en demi-bémol sur un maquillage sans fausse note.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1155,
+    "word": "gouffre",
+    "language": "fr",
+    "translation_en": "a chasm, an abyss, a pit",
+    "definition_in_language": "Cavité très profonde et large ; au figuré, défaut ou faiblesse profonde.",
+    "source_sentence": "Elle avait terminé le maquillage en professionnelle de son propre visage, ses chances et ses gouffres, emballer le tout pour ne pas trouer la pellicule, elle avait bientôt quarante-deux ans, elle se savait par cœur.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1156,
+    "word": "emballer",
+    "language": "fr",
+    "translation_en": "to wrap up, to package; (figuratively) to finish/wrap up a job; (informally) to thrill, to excite",
+    "definition_in_language": "Envelopper un objet pour le protéger ou le transporter ; au figuré, terminer un travail (jargon du cinéma/photo) ; familièrement, enthousiasmer.",
+    "source_sentence": "Elle avait terminé le maquillage en professionnelle de son propre visage, ses chances et ses gouffres, emballer le tout pour ne pas trouer la pellicule, elle avait bientôt quarante-deux ans, elle se savait par cœur.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1157,
+    "word": "pellicule",
+    "language": "fr",
+    "translation_en": "(photographic) film; (also, unrelated) dandruff",
+    "definition_in_language": "Support souple et mince utilisé en photographie argentique ; sans rapport, désigne aussi les squames du cuir chevelu.",
+    "source_sentence": "Elle avait terminé le maquillage en professionnelle de son propre visage, ses chances et ses gouffres, emballer le tout pour ne pas trouer la pellicule, elle avait bientôt quarante-deux ans, elle se savait par cœur.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1158,
+    "word": "savoir par cœur",
+    "language": "fr",
+    "translation_en": "to know by heart — to know something thoroughly, intimately",
+    "definition_in_language": "Connaître quelque chose de mémoire, en totalité et en détail.",
+    "source_sentence": "Elle avait terminé le maquillage en professionnelle de son propre visage, ses chances et ses gouffres, emballer le tout pour ne pas trouer la pellicule, elle avait bientôt quarante-deux ans, elle se savait par cœur.",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-14",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1159,
+    "word": "en prendre ombrage",
+    "language": "fr",
+    "translation_en": "to take offense at it, to take umbrage",
+    "definition_in_language": "Se sentir vexé ou blessé par quelque chose.",
+    "source_sentence": "",
+    "source_title": "L'épaisseur d'un cheveu",
+    "date_added": "2026-11-14",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'to take shadow from it' -- the English word 'umbrage' shares the same root ('ombrage', shade/shadow).",
     "gender": null,
     "era": null,
     "definition_in_prompt": true,
