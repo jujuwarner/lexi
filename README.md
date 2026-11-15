@@ -294,24 +294,39 @@ locally; original files untouched.
 
 A handful of vocab entries (specific, unfamiliar physical objects where
 even the English gloss doesn't paint a clear picture — see IDEAS.md) carry
-an optional reveal-only image, shown after answering alongside
-cultural_note, never in the prompt itself:
+an optional image. Originally always reveal-only (shown after answering,
+alongside cultural_note); as of 2026-11-14 `image_in_prompt: true` is the
+default for new images instead (shown while guessing, not held back) --
+see the дилижанс/бекас-era entries below for when that default flipped.
+Credits are written to avoid naming the headword, its transliteration, or
+its plain English gloss, since `image_in_prompt` entries show the credit
+before you've answered — reveal-only credits don't have that constraint,
+but the five below were retrofitted with safe credits anyway when they
+were upgraded from reveal-only to image_in_prompt on 2026-11-16.
 
-- **шинель** (id 393) — a Russian soldier in a greatcoat, 1862, via
+- **шинель** (id 393) — a Russian soldier in a long military-style coat,
+  1862, via
   [New York Public Library Digital Collections](https://commons.wikimedia.org/wiki/File:Russian_soldier_from_1862.JPG),
   from Wikimedia Commons. Public domain (published before 1931).
-- **тулуп** (id 408) — Sergey Ivanov, *Peasant in the Sled* (1904-1905),
-  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:S._V._Ivanov._Peasant_in_the_sled._(1904-1905).jpg)
+  `image_in_prompt: true`.
+- **тулуп** (id 408) — Sergey Ivanov, portrait of a peasant bundled in
+  this kind of coat on a sled (1904-1905), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:S._V._Ivanov._Peasant_in_the_sled._(1904-1905).jpg)
   (Tatarstan State Museum of Fine Arts). Public domain (artist died 1910).
-- **сюртук** (id 796) — a man's frock coat, France, c. 1816-1820, via
+  `image_in_prompt: true`.
+- **сюртук** (id 796) — a man's coat of this style, France, c. 1816-1820,
+  via
   [Los Angeles County Museum of Art](https://commons.wikimedia.org/wiki/File:Man%27s_silk_and_wool_twill_frock_coat_c._1820.jpg),
-  from Wikimedia Commons. Public domain.
-- **картуз** (id 481) — Vasily Vereshchagin, *A Boy in a Black Kartuz*
-  (1880-1901), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Парень_в_черном_картузе.jpg)
+  from Wikimedia Commons. Public domain. `image_in_prompt: true`.
+- **картуз** (id 481) — Vasily Vereshchagin, portrait of a boy wearing
+  this kind of cap (1880-1901), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Парень_в_черном_картузе.jpg)
   (Kyiv National Art Gallery). Public domain (published before 1931).
-- **косынка** (id 544) — Hariton Platonov, *Ukrainian Girl* (1896), via
+  `image_in_prompt: true`.
+- **косынка** (id 544) — Hariton Platonov, portrait of a girl wearing
+  this kind of headscarf (1896), via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Платонов_Дівчина-українка_1896.jpg).
-  Public domain (artist died 1907).
+  Public domain (artist died 1907). `image_in_prompt: true`.
 - **бекас** (id 551) — a Common Snipe (*Gallinago gallinago*), Dümmer,
   Germany, 2022, photo by TRinaud via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Common_snipe_(Gallinago_gallinago)_2022.jpg).
@@ -396,8 +411,13 @@ cultural_note, never in the prompt itself:
   photo by Worldantiques, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pala_type_of_kilij.jpg).
   CC BY-SA 3.0. `image_in_prompt: true`.
+- **ясень** (id 695) — a mature European ash tree (*Fraxinus
+  excelsior*), Arboretum de Chèvreloup, Rocquencourt, France, photo by
+  Matthieu Sontag, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fraxinus_excelsior_tree.jpg).
+  CC BY-SA 3.0. `image_in_prompt: true`.
 
-All twenty-two resized locally (longest side capped at 500px) to keep file
+All twenty-three resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
