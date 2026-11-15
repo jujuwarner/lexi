@@ -7759,11 +7759,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-01"
     },
     "era": null,
@@ -8295,11 +8295,11 @@
     "cultural_note": "Ties directly to \"кружить голову\" and \"щегольство,\" added just before this — this character was a real charmer/dandy in his prime.",
     "gender": null,
     "srs": {
-      "repetitions": 4,
-      "easiness": 1.7,
-      "interval": 14,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-01",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-06"
     },
     "era": null
@@ -10471,11 +10471,11 @@
     "cultural_note": "This idiom comes from the 'бурлаки' — barge haulers who towed boats upstream along riverbanks using a shoulder harness (лямка), a grueling, low-status form of labor common on Russian rivers like the Volga before steam power, famously depicted in Repin's 1870s painting 'Бурлаки на Волге' (Barge Haulers on the Volga).",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10537,11 +10537,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -11846,16 +11846,17 @@
     "cultural_note": "Common women's headwear in 19th-century Russia, especially for peasant/working women.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null,
     "image": "assets/vocab/kosynka_544.jpg",
-    "image_credit": "Hariton Platonov, \"Ukrainian Girl\" (1896), depicting a косынка — via Wikimedia Commons. Public domain (artist died 1907)."
+    "image_credit": "Hariton Platonov, portrait of a girl wearing this kind of headscarf (1896) — via Wikimedia Commons. Public domain (artist died 1907).",
+    "image_in_prompt": true
   },
   {
     "id": 545,
@@ -12229,11 +12230,11 @@
     "cultural_note": "за- (beyond) + облако (cloud).",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-11"
     },
     "era": null
@@ -12545,11 +12546,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 2,
-      "easiness": 1.5,
-      "interval": 6,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-09",
+      "repetitions": 3,
+      "easiness": 1.6,
+      "interval": 9,
+      "next_review": "2026-11-24",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-10-19"
     },
     "era": null
@@ -14866,11 +14867,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-02"
     },
     "era": null
@@ -15130,11 +15131,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-03"
     },
     "era": "serfdom_era"
