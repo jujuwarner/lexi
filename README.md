@@ -392,8 +392,12 @@ cultural_note, never in the prompt itself:
   CC0 (public domain). `image_in_prompt: true`. Picked the roofing sense
   over the stubble-field sense since it reads more immediately — same
   material, two uses of the word.
+- **cimeterre** (id 65) — an Ottoman pala-type kilij with its scabbard,
+  photo by Worldantiques, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pala_type_of_kilij.jpg).
+  CC BY-SA 3.0. `image_in_prompt: true`.
 
-All twenty-one resized locally (longest side capped at 500px) to keep file
+All twenty-two resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.

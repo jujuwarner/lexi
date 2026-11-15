@@ -389,10 +389,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -410,10 +411,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -433,10 +435,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
+      "first_reviewed_on": "2026-11-15"
     },
     "era": null
   },
@@ -9769,14 +9772,17 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/cimeterre_65.jpg",
+    "image_credit": "Photo by Worldantiques, an Ottoman pala-type kilij with its scabbard, via Wikimedia Commons. CC BY-SA 3.0.",
+    "image_in_prompt": true
   },
   {
     "id": 66,
@@ -9813,11 +9819,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -9923,11 +9929,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -9967,11 +9973,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10011,11 +10017,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10033,11 +10039,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.3,
+      "repetitions": 1,
+      "easiness": 1.4,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10077,11 +10083,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10099,11 +10105,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10165,11 +10171,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10209,11 +10215,11 @@
     "cultural_note": "Closely related in meaning to rapetasser (id 31), already in the deck.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10253,11 +10259,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10341,11 +10347,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -10766,10 +10772,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10787,11 +10793,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10810,10 +10816,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10831,11 +10837,11 @@
     "cultural_note": "Common in 'sentier muletier' -- a mule track/path, a narrow trail suitable for mule trains, common in hilly or mountainous terrain.",
     "gender": null,
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10853,11 +10859,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null,
@@ -10878,11 +10884,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 2.7,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null,
@@ -10904,10 +10910,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10926,10 +10932,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10947,11 +10953,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null
@@ -10969,11 +10975,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
+      "repetitions": 0,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null,
@@ -10994,11 +11000,11 @@
     "cultural_note": "E.g. 'mésange bleue' = blue tit.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 2.6,
+      "repetitions": 0,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-11-14"
     },
     "era": null,
