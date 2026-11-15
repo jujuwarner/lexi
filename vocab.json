@@ -423,7 +423,7 @@
     "id": 139,
     "word": "préjudice",
     "language": "fr",
-    "translation_en": "harm, damage, detriment, injury (a false friend — not the English \"prejudice\"/bias sense)",
+    "translation_en": "harm, damage, detriment, injury",
     "definition_in_language": "Tort ou dommage subi par une personne, souvent au sens juridique ou matériel.",
     "source_sentence": "C'avait d'abord été une maladie des grillons, maladie imperceptible dont ne souffrait qu'un grillon sur mille: encore n'en ressentait-il aucun préjudice.",
     "source_title": "Le Vicomte pourfendu",
@@ -431,7 +431,7 @@
     "tags": [
       "false-friend"
     ],
-    "cultural_note": "English actually preserves a fossil of this true meaning in the legal phrase \"without prejudice,\" which really does mean \"without harm/detriment to one's rights\" — same root sense as the French word, just narrowed down to that one legal context in English, while everyday English \"prejudice\" drifted to mean bias instead.",
+    "cultural_note": "English actually preserves a fossil of this true meaning in the legal phrase 'without prejudice,' which really does mean 'without harm/detriment to one's rights' — same root sense as the French word, just narrowed down to that one legal context in English, while everyday English 'prejudice' drifted to mean bias instead.",
     "gender": "m",
     "srs": {
       "repetitions": 0,
