@@ -5806,11 +5806,11 @@
     "cultural_note": "Also the title of Gogol's famous short story \"Шинель\" (\"The Overcoat\") — one of the most influential works in Russian literature.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null,
@@ -5963,11 +5963,11 @@
     "cultural_note": "Fits alongside \"тарантас,\" added earlier — a standard period phrase for preparing to travel.",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6073,11 +6073,11 @@
     "cultural_note": "Historically tied to Russia's post-horse relay system — driving travelers and mail between stations. A horse caretaker/groom would instead be \"конюх,\" a different word.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6095,11 +6095,11 @@
     "cultural_note": "Direct opposite of \"закладывать лошадей,\" added earlier.",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6117,11 +6117,11 @@
     "cultural_note": "",
     "gender": "f",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6187,11 +6187,11 @@
     "cultural_note": "The old idiomatic way to promise a cash tip — \"there'll be [something] for vodka\" — not a literal promise to hand out vodka.",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6319,11 +6319,11 @@
     "cultural_note": "\"Оклеить обоями\" is the set phrase for \"to wallpaper (a room).\" The sentence this was pulled from actually uses the short-form passive participle \"оклеена\" (agreeing with \"комната,\" feminine) — a productive pattern where the ending shifts by gender/number: оклеен (m), оклеена (f), оклеено (n), оклеены (pl).",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6387,11 +6387,11 @@
     "cultural_note": "From \"разнуздать,\" to remove a horse's bridle/bit. Context decides whether the literal (horses) or figurative (unrestrained behavior) sense applies.",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6431,11 +6431,11 @@
     "cultural_note": "Short form of \"просёлочная дорога.\"",
     "gender": "m",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6585,11 +6585,11 @@
     "cultural_note": "Fits the same social/economic thread as \"душа\" and \"барич,\" added earlier. The novel is set in 1859 — before the actual 1861 Emancipation Manifesto, though published in 1862, just after it. So this scene reflects the pre-Emancipation years already destabilizing: rumors and public debate about impending reform were circulating widely before the law passed, and peasants were increasingly emboldened to resist old obligations like oброк even before serfdom was formally abolished.",
     "gender": "m",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": "serfdom_era"
@@ -6743,11 +6743,11 @@
     "cultural_note": "Same spelling, unrelated meaning: this word is also the noble title \"marquise.\" A perfectly-timed callback in the scene, too — Nikolai Petrovich directly answering Arkady's earlier remark about the estate having no shade.",
     "gender": "f",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6765,11 +6765,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -6787,11 +6787,11 @@
     "cultural_note": "",
     "gender": "m",
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
     "era": null
@@ -7097,11 +7097,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 0,
+      "easiness": 1.3,
+      "interval": 1,
+      "next_review": "2026-11-16",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7185,11 +7185,11 @@
     "cultural_note": "Past passive participle of \"обрыть\" (to dig a trench around something).",
     "gender": null,
     "srs": {
-      "repetitions": 5,
-      "easiness": 1.6,
-      "interval": 16,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-10-30",
+      "repetitions": 6,
+      "easiness": 1.7,
+      "interval": 26,
+      "next_review": "2026-12-11",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-09-28"
     },
     "era": null
@@ -7427,11 +7427,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-15",
-      "last_reviewed": "2026-11-14",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-15",
       "first_reviewed_on": "2026-09-29"
     },
     "era": null
@@ -7768,7 +7768,8 @@
     },
     "era": null,
     "image": "assets/vocab/kartuz_481.jpg",
-    "image_credit": "Vasily Vereshchagin, \"A Boy in a Black Kartuz\" (1880-1901), depicting a картуз — Kyiv National Art Gallery, via Wikimedia Commons. Public domain (published before 1931)."
+    "image_credit": "Vasily Vereshchagin, portrait of a boy wearing this kind of cap (1880-1901) — Kyiv National Art Gallery, via Wikimedia Commons. Public domain (published before 1931).",
+    "image_in_prompt": true
   },
   {
     "id": 482,
