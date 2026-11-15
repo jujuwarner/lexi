@@ -386,8 +386,14 @@ cultural_note, never in the prompt itself:
   Charles J. Sharp, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_Białowieza.jpg).
   CC BY-SA 4.0. `image_in_prompt: true`.
+- **chaume** (id 16) — a thatched roof detail, Normandy, France, photo
+  by Jebulon, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Window_and_unfinished_thatch_roof_Normandy.jpg).
+  CC0 (public domain). `image_in_prompt: true`. Picked the roofing sense
+  over the stubble-field sense since it reads more immediately — same
+  material, two uses of the word.
 
-All twenty resized locally (longest side capped at 500px) to keep file
+All twenty-one resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
