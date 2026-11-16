@@ -420,8 +420,12 @@ were upgraded from reveal-only to image_in_prompt on 2026-11-16.
   (probably 17th-century) firearm, via the
   [Portable Antiquities Scheme / Trustees of the British Museum](https://commons.wikimedia.org/wiki/File:Post_Medieval_gun_flint,_probably_17th_century._(FindID_96393).jpg),
   on Wikimedia Commons. CC BY-SA 4.0. `image_in_prompt: true`.
+- **alambic** (id 147) — a distillation apparatus of this kind,
+  depicted in a medieval manuscript, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Alambik1.jpg).
+  Public domain. `image_in_prompt: true`.
 
-All twenty-four resized locally (longest side capped at 500px) to keep file
+All twenty-five resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
