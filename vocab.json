@@ -234,11 +234,11 @@
     "cultural_note": "Often appears in the phrase \"vivre de rapines\" — to live by plunder — a standard, slightly literary way of describing a bandit's way of life.",
     "gender": "f",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -300,11 +300,11 @@
     "cultural_note": "French splits this trade in a way English doesn't bother to: a \"charpentier\" does structural framing, while a \"menuisier\" does finer woodwork (furniture, doors, cabinetry). English just calls both \"carpenter.\"",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -322,11 +322,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -344,11 +344,11 @@
     "cultural_note": "",
     "gender": null,
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
-      "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "repetitions": 2,
+      "easiness": 1.5,
+      "interval": 6,
+      "next_review": "2026-11-22",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -366,11 +366,11 @@
     "cultural_note": "As slang, \"bidon\" also works as an adjective meaning \"fake, phony, bogus\" — \"c'est bidon\" = \"that's bogus.\" A common casual use, unrelated to the container meaning.",
     "gender": "m",
     "srs": {
-      "repetitions": 1,
-      "easiness": 1.4,
+      "repetitions": 0,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-08"
     },
     "era": null
@@ -389,10 +389,10 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -410,11 +410,11 @@
     "cultural_note": "Grillon is also the name of one of the towns where Julia taught during TAPIF (Valréas and Grillon) — a nice coincidence running into the word mid-novel.",
     "gender": "m",
     "srs": {
-      "repetitions": 0,
-      "easiness": 1.7,
+      "repetitions": 1,
+      "easiness": 1.8,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -435,10 +435,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -457,13 +457,16 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/pierre-a-fusil_140.jpg",
+    "image_credit": "A worked piece of this material from a Post-Medieval firearm, probably 17th century, via the Portable Antiquities Scheme / Trustees of the British Museum, on Wikimedia Commons. CC BY-SA 4.0.",
+    "image_in_prompt": true
   },
   {
     "id": 141,
@@ -479,10 +482,10 @@
     "gender": "pl",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -501,10 +504,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -523,10 +526,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -545,10 +548,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -567,10 +570,10 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -589,10 +592,10 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 1.7,
+      "easiness": 1.3,
       "interval": 1,
-      "next_review": "2026-11-16",
-      "last_reviewed": "2026-11-15",
+      "next_review": "2026-11-17",
+      "last_reviewed": "2026-11-16",
       "first_reviewed_on": "2026-11-15"
     },
     "era": null
@@ -26245,6 +26248,208 @@
       "easiness": 2.5,
       "interval": 0,
       "next_review": "2026-11-15",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1203,
+    "word": "под предлогом",
+    "language": "ru",
+    "translation_en": "under the pretext of",
+    "definition_in_language": "Используя что-либо как притворную, ложную причину для оправдания действия.",
+    "source_sentence": "Его не отпускали под тем же предлогом ужасного зноя.",
+    "source_title": "",
+    "date_added": "2026-11-16",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Takes the instrumental case. \"Предлог\" alone also has an unrelated grammatical meaning, \"a preposition.\"",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1204,
+    "word": "зной",
+    "language": "ru",
+    "translation_en": "intense heat, sweltering heat",
+    "definition_in_language": "Очень сильная, изнуряющая жара.",
+    "source_sentence": "Его не отпускали под тем же предлогом ужасного зноя.",
+    "source_title": "",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "More literary/intense register than the everyday \"жара.\"",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1205,
+    "word": "расстаться с",
+    "language": "ru",
+    "translation_en": "to part with/from (someone), to split up",
+    "definition_in_language": "Прекратить отношения, разлучиться с кем-либо.",
+    "source_sentence": "Он скоро расстанется с нею и, вероятно, навсегда; но пока один и тот же челнок, как в Уландовом романсе, несёт их по жизненным укрощённым струям — радуйся, наслаждайся, путешественник!",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1206,
+    "word": "челнок",
+    "language": "ru",
+    "translation_en": "a small boat, a skiff (also: a weaving shuttle; informally, a shuttle trader)",
+    "definition_in_language": "Маленькая лодка; также деталь ткацкого станка, а в разговорной речи — торговец, совершающий частые поездки за товаром за границу.",
+    "source_sentence": "Он скоро расстанется с нею и, вероятно, навсегда; но пока один и тот же челнок, как в Уландовом романсе, несёт их по жизненным укрощённым струям — радуйся, наслаждайся, путешественник!",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1207,
+    "word": "укрощённый",
+    "language": "ru",
+    "translation_en": "tamed, subdued",
+    "definition_in_language": "Приведённый в покорное, смирное состояние.",
+    "source_sentence": "Он скоро расстанется с нею и, вероятно, навсегда; но пока один и тот же челнок, как в Уландовом романсе, несёт их по жизненным укрощённым струям — радуйся, наслаждайся, путешественник!",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1208,
+    "word": "струя",
+    "language": "ru",
+    "translation_en": "a stream, a jet, a current (of water, air, etc.)",
+    "definition_in_language": "Узкий поток жидкости или газа, движущийся в определённом направлении.",
+    "source_sentence": "Он скоро расстанется с нею и, вероятно, навсегда; но пока один и тот же челнок, как в Уландовом романсе, несёт их по жизненным укрощённым струям — радуйся, наслаждайся, путешественник!",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": "f",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1209,
+    "word": "сразиться с",
+    "language": "ru",
+    "translation_en": "to compete against, to do battle with (literally or in a game)",
+    "definition_in_language": "Вступить в состязание, борьбу или игру с кем-либо.",
+    "source_sentence": "Фрау Леноре предложила ему сразиться с нею и с Панталеоне в тресетте, выучила его этой несложной итальянской карточной игре — обыграла его на несколько крейцеров — и он был очень доволен.",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1210,
+    "word": "обыграть",
+    "language": "ru",
+    "translation_en": "to beat (someone) at a game, winning money/stakes off them",
+    "definition_in_language": "Выиграть у кого-либо в игре, нередко забрав ставку.",
+    "source_sentence": "Фрау Леноре предложила ему сразиться с нею и с Панталеоне в тресетте, выучила его этой несложной итальянской карточной игре — обыграла его на несколько крейцеров — и он был очень доволен.",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [],
+    "cultural_note": "",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1211,
+    "word": "надо и честь знать",
+    "language": "ru",
+    "translation_en": "one should know when to stop, when enough is enough",
+    "definition_in_language": "Пора прекратить, не следует злоупотреблять, нужно знать меру.",
+    "source_sentence": "Надо ж было и честь знать.",
+    "source_title": "Вешние воды",
+    "date_added": "2026-11-16",
+    "tags": [
+      "idiom"
+    ],
+    "cultural_note": "Literally 'one must know honor' -- i.e., know the limits of propriety, know when to leave or stop.",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-16",
       "last_reviewed": null
     }
   }
