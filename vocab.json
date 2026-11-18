@@ -739,22 +739,26 @@
     "id": 153,
     "word": "tricorne",
     "language": "fr",
-    "translation_en": "a tricorn hat — the three-cornered hat typical of 18th-century fashion (worn by gentlemen, sailors, military officers)",
+    "translation_en": "the three-cornered hat typical of 18th-century fashion (worn by gentlemen, sailors, military officers)",
     "definition_in_language": "Chapeau à trois cornes, replié sur les côtés, caractéristique de la mode du XVIIIe siècle.",
     "source_sentence": "Il avait le visage aussi ridé qu'un marron sec sous sa perruque et son tricorne.",
     "source_title": "Le Vicomte pourfendu",
     "date_added": "2026-09-16",
     "tags": [],
-    "cultural_note": "",
+    "cultural_note": "Known in English by the same word, \"tricorn.\"",
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
-    "era": null
+    "era": null,
+    "image": "assets/vocab/tricorne_153.jpg",
+    "image_credit": "An Italian wool hat of this style, mid-18th century, Metropolitan Museum of Art (Rogers Fund, 1926), via Wikimedia Commons. CC0 (public domain).",
+    "image_in_prompt": true
   },
   {
     "id": 154,
@@ -770,10 +774,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -791,10 +796,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -812,10 +818,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -833,10 +840,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -854,10 +862,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -875,10 +884,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -896,10 +906,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
@@ -917,10 +928,11 @@
     "gender": "f",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-19",
+      "last_reviewed": "2026-11-18",
+      "first_reviewed_on": "2026-11-18"
     },
     "era": null
   },
