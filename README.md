@@ -429,8 +429,14 @@ were upgraded from reveal-only to image_in_prompt on 2026-11-16.
   [Metropolitan Museum of Art](https://commons.wikimedia.org/wiki/File:Tricorne_MET_DP-642-001.jpg)
   (Rogers Fund, 1926), on Wikimedia Commons. CC0 (public domain).
   `image_in_prompt: true`.
+- **guêtré** (id 156) — an illustration of this leg covering, by David
+  Ring (commissioned by Europeana Fashion, MoMu – Fashion Museum
+  Antwerp), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gaiters_(clothing).jpg).
+  CC0 (public domain). `image_in_prompt: true`. Also fixed a cognate
+  leak here -- translation_en said "gaitered" outright.
 
-All twenty-six resized locally (longest side capped at 500px) to keep file
+All twenty-seven resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
