@@ -1031,7 +1031,7 @@
     "id": 166,
     "word": "adresse",
     "language": "fr",
-    "translation_en": "skill, dexterity, deftness (a separate sense from the far more common \"adresse\" = street address)",
+    "translation_en": "skill, dexterity, deftness (a separate sense from the far more common meaning, a street address)",
     "definition_in_language": "Habileté, aptitude à exécuter quelque chose avec précision et efficacité.",
     "source_sentence": "Peut-être bien que sa carrière de médecin de bord, il ne la devait pas à autre chose qu'à son adresse au tresette qui se le faisait disputer comme partenaire par les plus fameux navigateurs, le capitaine Cook entre autres.",
     "source_title": "Le Vicomte pourfendu",
@@ -1040,11 +1040,12 @@
     "cultural_note": "Same spelling as \"adresse\" (street address), but a fully separate meaning — easy to default to \"address\" first since that sense is far more common, so worth deliberately practicing the skill/dexterity sense until it comes to mind just as readily.",
     "gender": "f",
     "srs": {
-      "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "repetitions": 1,
+      "easiness": 2.6,
+      "interval": 1,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-20",
+      "first_reviewed_on": "2026-11-20"
     },
     "era": null
   },
@@ -1062,10 +1063,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-20",
+      "first_reviewed_on": "2026-11-20"
     },
     "era": null
   },
@@ -1083,10 +1085,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-20",
+      "first_reviewed_on": "2026-11-20"
     },
     "era": null
   },
@@ -1104,10 +1107,11 @@
     "gender": "m",
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-20",
+      "first_reviewed_on": "2026-11-20"
     },
     "era": null
   },
@@ -1125,10 +1129,11 @@
     "gender": null,
     "srs": {
       "repetitions": 0,
-      "easiness": 2.5,
-      "interval": 0,
-      "next_review": "2026-09-16",
-      "last_reviewed": null
+      "easiness": 1.7,
+      "interval": 1,
+      "next_review": "2026-11-21",
+      "last_reviewed": "2026-11-20",
+      "first_reviewed_on": "2026-11-20"
     },
     "era": null
   },
