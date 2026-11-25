@@ -6016,7 +6016,7 @@
     "source_title": "Отцы и дети",
     "date_added": "2026-09-20",
     "tags": [],
-    "cultural_note": "Fits alongside \"тарантас,\" added earlier — a standard period phrase for preparing to travel.",
+    "cultural_note": "Aspect pair, practiced together on this card: закладывать (imperfective: the process, or a repeated action) / заложить (perfective: done, a single completed action). A standard period phrase for getting ready to travel; in 19th-century novels you'll often see the command «Заложить лошадей!». Fits alongside тарантас. Закладывать / заложить has other common meanings too: to lay a foundation (заложить фундамент), to pawn (заложить часы), to bookmark a page, and in slang to snitch on someone. Merged 2026-11-25 from two separate cards (400 + 413).",
     "gender": null,
     "srs": {
       "repetitions": 6,
@@ -6026,7 +6026,11 @@
       "last_reviewed": "2026-11-15",
       "first_reviewed_on": null
     },
-    "era": null
+    "era": null,
+    "aspect_pair": {
+      "imperfective": "закладывать лошадей",
+      "perfective": "заложить лошадей"
+    }
   },
   {
     "id": 401,
@@ -6286,28 +6290,6 @@
     "date_added": "2026-09-20",
     "tags": [],
     "cultural_note": "Technically the comparative form of \"живо\" (briskly), used commandingly.",
-    "gender": null,
-    "srs": {
-      "repetitions": 5,
-      "easiness": 1.8,
-      "interval": 24,
-      "next_review": "2026-12-17",
-      "last_reviewed": "2026-11-23",
-      "first_reviewed_on": null
-    },
-    "era": null
-  },
-  {
-    "id": 413,
-    "word": "заложить лошадей",
-    "language": "ru",
-    "translation_en": "to harness/hitch up the horses (perfective aspect -- a completed action)",
-    "definition_in_language": "Совершенный вид глагола \"закладывать\" — запрячь лошадей в повозку (законченное действие).",
-    "source_sentence": "В несколько минут лошади были заложены.",
-    "source_title": "Отцы и дети",
-    "date_added": "2026-09-20",
-    "tags": [],
-    "cultural_note": "The perfective counterpart of \"закладывать лошадей,\" added earlier — worth practicing as its own entry since Russian verb aspect pairs (imperfective/perfective) are lexically distinct forms, not just a tense conjugation the way English or French would handle it.",
     "gender": null,
     "srs": {
       "repetitions": 5,
@@ -27966,6 +27948,120 @@
       "easiness": 2.5,
       "interval": 0,
       "next_review": "2026-11-24",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1277,
+    "word": "изувечить",
+    "language": "ru",
+    "translation_en": "to maim, mutilate, cripple (inflict a lasting, disfiguring injury)",
+    "definition_in_language": "Нанести тяжёлое, непоправимое телесное повреждение, сделать калекой.",
+    "source_sentence": "И вдруг его убьют или изувечат.",
+    "source_title": "",
+    "date_added": "2026-11-25",
+    "tags": [],
+    "cultural_note": "Perfective; imperfective увечить (also калечить / искалечить). Stronger than ранить (to wound): the injury is lasting. Related: увечье (n), a maiming injury; изувеченный, maimed. In the example, убьют / изувечат are the indefinite-personal construction: a 3rd-person plural verb with no subject = \"he'll be killed or maimed\". И вдруг here = \"and what if...?\"",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-25",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1278,
+    "word": "беспристрастный свидетель",
+    "language": "ru",
+    "translation_en": "an impartial witness, a neutral witness",
+    "definition_in_language": "Очевидец события, не заинтересованный ни в чьей пользе и потому способный честно и объективно рассказать о случившемся.",
+    "source_sentence": "",
+    "source_title": "",
+    "date_added": "2026-11-25",
+    "tags": [],
+    "cultural_note": "Беспристрастный = без-/бес- (without) + пристрастие (bias, partiality; also a passion or weakness for something), like English im-partial. Related: беспристрастно (impartially), пристрастный (biased). Свидетель (m; f. свидетельница), witness; свидетельствовать = to testify; свидетельство = testimony, certificate (свидетельство о рождении = birth certificate). In a duel, a neutral witness could confirm afterward that the fight was fair.",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-25",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1279,
+    "word": "уступать",
+    "language": "ru",
+    "translation_en": "to yield, cede, give up (something to someone); to give in; to be inferior to",
+    "definition_in_language": "Отдавать что-либо другому, отказываясь от этого в его пользу; поддаваться чьим-либо просьбам; быть хуже кого-либо в чём-либо.",
+    "source_sentence": "Он охотно уступает эту привилегию своему почтенному собрату.",
+    "source_title": "",
+    "date_added": "2026-11-25",
+    "tags": [],
+    "cultural_note": "Takes the dative of the person: уступить место (кому-то) = to give up one's seat; уступить дорогу = to give way, yield; уступить просьбам = to give in to requests; ни в чём не уступать = to be second to none. Related: уступка, a concession.",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-25",
+      "last_reviewed": null
+    },
+    "aspect_pair": {
+      "imperfective": "уступать",
+      "perfective": "уступить"
+    }
+  },
+  {
+    "id": 1280,
+    "word": "почтенный",
+    "language": "ru",
+    "translation_en": "respectable, venerable, worthy of respect (often ironic: \"my esteemed...\")",
+    "definition_in_language": "Заслуживающий уважения благодаря возрасту, положению или заслугам; часто с иронией.",
+    "source_sentence": "Он охотно уступает эту привилегию своему почтенному собрату.",
+    "source_title": "",
+    "date_added": "2026-11-25",
+    "tags": [],
+    "cultural_note": "Related: почтение (respect, esteem), почтенный возраст (a venerable age). In the example it has a mock-formal, ironic ring, like English \"my esteemed colleague\" said with a raised eyebrow.",
+    "gender": null,
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-25",
+      "last_reviewed": null
+    }
+  },
+  {
+    "id": 1281,
+    "word": "собрат",
+    "language": "ru",
+    "translation_en": "a fellow member (of a profession or group), a colleague, a brother-in-arms",
+    "definition_in_language": "Человек, принадлежащий к той же профессии, общественной группе или кругу, что и кто-либо другой.",
+    "source_sentence": "Он охотно уступает эту привилегию своему почтенному собрату.",
+    "source_title": "",
+    "date_added": "2026-11-25",
+    "tags": [],
+    "cultural_note": "Literally \"co-brother\" (со- + брат). собрат по перу = a fellow writer (literally \"brother by the pen\"); собратья (pl.).",
+    "gender": "m",
+    "era": null,
+    "definition_in_prompt": true,
+    "srs": {
+      "repetitions": 0,
+      "easiness": 2.5,
+      "interval": 0,
+      "next_review": "2026-11-25",
       "last_reviewed": null
     }
   }
