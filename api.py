@@ -123,8 +123,8 @@ def get_due():
 
 @app.get("/api/backlog")
 def get_backlog(language: str, limit: Optional[int] = None):
-    """The entire remaining backlog for a language, beyond today's normal
-    cap -- powers the "keep going" / "continue backlog" options. Returns
+    """Everything due for a language, including new words beyond today's
+    new-card allowance (reviews themselves are never capped) -- powers the "keep going" / "continue backlog" options. Returns
     everything in one go by default (there's no need to re-gate it once
     you've deliberately opted in; stopping partway is always safe, since
     every review saves immediately) -- pass `limit` for a capped chunk
@@ -139,9 +139,8 @@ def get_status():
     """Languages with nothing left to show right now AND some review
     actually happened today for them -- lets the UI say "done for today"
     instead of just silently making the language disappear. Also reports
-    any language whose backlog is big enough to take more than one day
-    to clear at the daily cap, so a large backlog is visible rather than
-    just quietly deferring a bit more each day forever."""
+    any language with new words still waiting beyond today's new-card
+    allowance, so a growing pile of unintroduced words stays visible."""
     entries = review.load_vocab()
     return {
         "completed_languages": review.completed_languages_today(entries),

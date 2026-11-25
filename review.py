@@ -127,18 +127,11 @@ NEW_CARDS_PER_DAY = 10
 # backlog drains in a steady, predictable order rather than a different
 # random subset each day. Tune this constant directly; no UI for it yet.
 
-TOTAL_CARDS_PER_DAY = 40
-# Caps the total number of cards (new + in-progress reviews combined)
-# shown per language per day -- Anki itself has an equivalent "maximum
-# reviews/day" setting, for the same reason: without one, a big in-progress
-# backlog can balloon a single session indefinitely, since due reviews
-# used to have no cap at all (only new cards did). In-progress reviews are
-# prioritized first, most-overdue first -- skipping one doesn't erase the
-# need to review it, just defers it, since it'll still be due tomorrow --
-# with new cards filling whatever slots remain, still bounded by
-# NEW_CARDS_PER_DAY. If a language's true backlog exceeds this cap on a
-# given day, the overflow simply rolls forward to the next day rather than
-# vanishing or being force-fit into one sitting.
+# No cap on reviews (changed 2026-11-25). Every in-progress card that's due
+# is shown, however many that is. Only never-seen cards are rationed, via
+# NEW_CARDS_PER_DAY above. An earlier version also capped the total at 40
+# cards per language per day (like Anki's "maximum reviews/day"), but Julia
+# preferred seeing everything that's actually due over deferring reviews.
 
 PRIORITY_RETRY_THRESHOLD = 3
 # How many times you have to get a word wrong (first attempt + retries,
@@ -168,39 +161,18 @@ def due_today(entries):
             lang = e["language"]
             already_introduced_today[lang] = already_introduced_today.get(lang, 0) + 1
 
-    # How many cards (new or in-progress) has each language already had
-    # REVIEWED today, across every earlier call to due_today() today --
-    # not just what's still due right now. Without this, once a reviewed
-    # card's next_review moves past today, it drops out of `due`, quietly
-    # making room for more of the backlog to slip in under the same cap on
-    # the very next /api/due call -- which would let a single day's cap be
-    # re-spent over and over as the backlog shrinks, instead of actually
-    # deferring the overflow to tomorrow the way the cap is meant to.
-    reviewed_today = {}
-    for e in entries:
-        if e["srs"].get("last_reviewed") == today:
-            lang = e["language"]
-            reviewed_today[lang] = reviewed_today.get(lang, 0) + 1
-
     allowed = []
     for lang in sorted(set(e["language"] for e in due)):
-        remaining_total = max(0, TOTAL_CARDS_PER_DAY - reviewed_today.get(lang, 0))
-
-        # In-progress reviews get priority, most-overdue first, up to
-        # whatever's left of today's total cap.
+        # Every due in-progress review, most-overdue first. No cap.
         lang_in_progress = sorted(
             (e for e in in_progress if e["language"] == lang),
             key=lambda e: e["srs"]["next_review"],
         )
-        shown_in_progress = lang_in_progress[:remaining_total]
-        allowed.extend(shown_in_progress)
+        allowed.extend(lang_in_progress)
 
-        # New cards fill whatever's left, bounded by both the remaining
-        # total-cap slots and the existing new-card-per-day cap.
-        remaining_total -= len(shown_in_progress)
-        remaining_new_cap = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
-        remaining_new = min(remaining_total, remaining_new_cap)
-
+        # Then new cards, oldest-id-first, up to whatever's left of today's
+        # new-card allowance for this language.
+        remaining_new = max(0, NEW_CARDS_PER_DAY - already_introduced_today.get(lang, 0))
         lang_new = sorted(
             (e for e in brand_new if e["language"] == lang), key=lambda e: e["id"]
         )
@@ -210,12 +182,13 @@ def due_today(entries):
 
 
 def backlog_cards(entries, language, limit=None):
-    """`language`'s entire backlog beyond today's normal caps, by default
-    in one go -- for when you deliberately choose to keep going rather
-    than stop for the day. There's no re-gating once you've opted in,
-    for either cap: not TOTAL_CARDS_PER_DAY, and not NEW_CARDS_PER_DAY
-    either -- both exist to keep an ordinary day from ballooning by
-    default, not to second-guess a deliberate choice to do more. Closing
+    """Everything due for `language`, including new cards beyond today's
+    NEW_CARDS_PER_DAY allowance, by default in one go -- for when you
+    deliberately choose to keep going rather than stop for the day. Since
+    reviews are no longer capped, the "backlog" in practice is just the new
+    cards still waiting. The new-card cap exists to keep an ordinary day
+    from ballooning by default, not to second-guess a deliberate choice to
+    do more. Closing
     the tab or clicking "Back to start" is always a safe way to stop
     partway through, since every review saves immediately, so there was
     never a real need to force any of this into gated chunks. Pass an
@@ -240,24 +213,31 @@ def backlog_cards(entries, language, limit=None):
 
 
 def backlog_by_language(entries):
-    """How many days of cap-limited reviewing it'd take to clear each
-    language's current backlog, for languages where that's genuinely
-    more than a single day's work -- i.e. due_today()'s cap would defer
-    some of it past today even if you reviewed every card it offers.
-    Deliberately omits languages whose whole due pile fits in one day's
-    cap, since there's nothing multi-day to flag there."""
+    """New words still waiting beyond what due_today() will show, per
+    language, and roughly how many days they'd take to introduce at
+    NEW_CARDS_PER_DAY. Reviews are never deferred anymore, so only new
+    cards can pile up. Omits languages with nothing waiting past today.
+
+    `due` is the number of new cards NOT in today's queue (what "keep
+    going" would add); `days` counts from tomorrow."""
     today = date.today().isoformat()
-    due_counts = {}
+    shown_today = {}
+    for e in due_today(entries):
+        if e["srs"]["last_reviewed"] is None:
+            shown_today[e["language"]] = shown_today.get(e["language"], 0) + 1
+
+    waiting = {}
     for e in entries:
-        if e["srs"]["next_review"] <= today:
+        if e["srs"]["last_reviewed"] is None and e["srs"]["next_review"] <= today:
             lang = e["language"]
-            due_counts[lang] = due_counts.get(lang, 0) + 1
+            waiting[lang] = waiting.get(lang, 0) + 1
 
     backlog = {}
-    for lang, due_count in due_counts.items():
-        days = -(-due_count // TOTAL_CARDS_PER_DAY)  # ceiling division
-        if days > 1:
-            backlog[lang] = {"due": due_count, "days": days}
+    for lang, total_new in waiting.items():
+        beyond_today = total_new - shown_today.get(lang, 0)
+        if beyond_today > 0:
+            days = -(-beyond_today // NEW_CARDS_PER_DAY)  # ceiling division
+            backlog[lang] = {"due": beyond_today, "days": days}
     return backlog
 
 

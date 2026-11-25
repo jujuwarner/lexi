@@ -585,15 +585,15 @@ async function offerKeepGoing() {
 
   const name = LANGUAGE_NAMES[sessionLanguage] || sessionLanguage;
   el("keep-going-count").textContent =
-    `${info.due} more ${name} card(s) due · ~${info.days} day${info.days === 1 ? "" : "s"} to clear`;
+    `${info.due} more new ${name} word${info.due === 1 ? "" : "s"} waiting · ~${info.days} day${info.days === 1 ? "" : "s"} at 10 a day`;
   btn.classList.remove("hidden");
 }
 
 async function keepGoingOnBacklog() {
   if (!sessionLanguage) return;
   // No `limit` -- pulls the whole remaining backlog in one go, so this
-  // doesn't just trade one "Done!" interstitial every 40 cards for
-  // another; once you've opted in, it runs until the backlog's actually
+  // doesn't just trade one "Done!" interstitial for another every 10 new
+  // words; once you've opted in, it runs until the backlog's actually
   // clear (or you stop yourself -- always safe, since every review saves
   // immediately).
   const more = await api(`/api/backlog?language=${encodeURIComponent(sessionLanguage)}`);
@@ -668,7 +668,7 @@ function renderBacklogNote(backlog) {
   const parts = langs.map((lang) => {
     const { due, days } = backlog[lang];
     const name = LANGUAGE_NAMES[lang] || lang;
-    return `${name} — ${due} in backlog (~${days} day${days === 1 ? "" : "s"})`;
+    return `${name} — ${due} new word${due === 1 ? "" : "s"} waiting (~${days} day${days === 1 ? "" : "s"})`;
   });
   note.textContent = parts.join(" · ");
   note.classList.remove("hidden");
