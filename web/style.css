@@ -271,7 +271,23 @@ button.primary {
   gap: 10px;
 }
 
-#write-input, .variant-input {
+/* Dual-aspect verb cards: labels + the second (perfective) input. */
+.aspect-label {
+  display: block;
+  font-size: 0.8em;
+  color: var(--muted);
+  margin: 0 0 4px;
+}
+
+.aspect-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.aspect-row.hidden, .aspect-label.hidden { display: none; }
+
+#write-input, #write-input-pf, .variant-input {
   flex: 1;
   font-family: inherit;
   font-size: 1.1em;
@@ -282,7 +298,7 @@ button.primary {
   color: var(--text);
 }
 
-#write-input:focus, .variant-input:focus, #recognize-reveal-btn:focus {
+#write-input:focus, #write-input-pf:focus, .variant-input:focus, #recognize-reveal-btn:focus {
   outline: 2px solid var(--accent);
 }
 

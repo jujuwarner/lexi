@@ -52,6 +52,8 @@ async def no_cache(request, call_next):
 class CheckRequest(BaseModel):
     id: int
     typed: str
+    # Dual-aspect verb cards only: {"imperfective": ..., "perfective": ...}.
+    typed_pair: Optional[dict] = None
 
 
 class CheckTextRequest(BaseModel):
@@ -108,6 +110,11 @@ def _entry_payload(e):
         # Write mode -- deliberately NOT wired into SM-2 scoring or the
         # retry flow, which still runs on the primary `word` alone.
         "variants": e.get("variants", []),
+        # Dual-aspect Russian verb cards (see IDEAS.md): when present, Write
+        # mode asks for both forms, checked and scheduled together as one
+        # card. `word` stays a plain string (the imperfective) so nothing
+        # else has to branch on its type.
+        "aspect_pair": e.get("aspect_pair"),
         "priority": "priority" in e.get("tags", []),
         "era": review.era_badge(e),
     }
@@ -158,7 +165,11 @@ def check(req: CheckRequest):
         raise HTTPException(status_code=404, detail="Word not found")
 
     expected = review.display_word(entry)
-    result = review.check_answer(req.typed, expected)
+    pair_results = None
+    if entry.get("aspect_pair") and req.typed_pair is not None:
+        result, pair_results = review.check_aspect_pair(req.typed_pair, entry["aspect_pair"])
+    else:
+        result = review.check_answer(req.typed, expected)
 
     if result == "exact":
         allowed = ["2", "3", "4"]  # can't be "Again" — you got it right
@@ -170,6 +181,7 @@ def check(req: CheckRequest):
     return {
         "result": result,
         "expected": expected,
+        "pair_results": pair_results,
         "allowed_qualities": allowed,
         "definition_in_language": entry["definition_in_language"],
         "source_sentence": entry.get("source_sentence", ""),

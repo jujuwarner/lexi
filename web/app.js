@@ -258,6 +258,49 @@ const RETYPE_PLACEHOLDER = "Type it once more to help it stick…";
 // same screen is that retype, not a fresh answer to a new card.
 let pendingRetypeEntry = null;
 
+// ---- Dual-aspect verb cards (entry.aspect_pair, see IDEAS.md) ----------
+// One card, two inputs (imperfective + perfective), checked and scheduled
+// together: /api/check combines both into a single exact/close/wrong, and
+// everything downstream (auto-quality, retype, retry) runs on that.
+function isAspectCard(entry) {
+  return !!(entry && entry.aspect_pair);
+}
+
+// Body for /api/check -- adds typed_pair for dual-aspect cards.
+function checkPayload(entry) {
+  const typed = el("write-input").value.trim();
+  const body = { id: entry.id, typed };
+  if (isAspectCard(entry)) {
+    body.typed_pair = { imperfective: typed, perfective: el("write-input-pf").value.trim() };
+  }
+  return body;
+}
+
+// What the person typed, for feedback messages ("you wrote ...").
+function typedForDisplay(entry) {
+  const typed = el("write-input").value.trim();
+  if (!isAspectCard(entry)) return typed;
+  const pf = el("write-input-pf").value.trim();
+  return typed === "" && pf === "" ? "" : `${typed} / ${pf}`;
+}
+
+// " (imperfective ✓, perfective ✗)" -- only for dual-aspect results.
+function pairBreakdown(data) {
+  if (!data.pair_results) return "";
+  const mark = (r) => (r === "exact" ? "✓" : r === "close" ? "~" : "✗");
+  const p = data.pair_results;
+  return ` (imperfective ${mark(p.imperfective.result)}, perfective ${mark(p.perfective.result)})`;
+}
+
+// Clears both inputs and sets their placeholders -- used for a fresh card
+// and for the same-screen retype after a miss.
+function resetWriteInputs(entry, placeholder) {
+  el("write-input").value = "";
+  el("write-input-pf").value = "";
+  el("write-input").placeholder = placeholder;
+  el("write-input-pf").placeholder = placeholder === RETYPE_PLACEHOLDER ? RETYPE_PLACEHOLDER : "Perfective…";
+}
+
 // The <input> elements for the current card's variants (see renderVariants
 // below), in the same order as entry.variants -- read back in
 // handleWriteSubmit to check each one independently of the main flow.
@@ -376,9 +419,23 @@ function renderWriteCard() {
     promptImageCredit.classList.add("hidden");
   }
   el("write-retry-badge").classList.toggle("hidden", !entry._isRetry);
-  el("write-input").placeholder =
-    WRITE_INPUT_PLACEHOLDERS[entry.language] || DEFAULT_WRITE_INPUT_PLACEHOLDER;
-  el("write-input").value = "";
+  const aspect = isAspectCard(entry);
+  el("write-input-label").classList.toggle("hidden", !aspect);
+  el("write-aspect-row").classList.toggle("hidden", !aspect);
+  resetWriteInputs(
+    entry,
+    aspect ? "Imperfective…" : WRITE_INPUT_PLACEHOLDERS[entry.language] || DEFAULT_WRITE_INPUT_PLACEHOLDER
+  );
+  // On a dual-aspect card, Enter in the first box moves to the second
+  // instead of submitting half an answer (Enter there submits as usual).
+  el("write-input").onkeydown = aspect
+    ? (ev) => {
+        if (ev.key === "Enter" && el("write-input-pf").value.trim() === "") {
+          ev.preventDefault();
+          el("write-input-pf").focus();
+        }
+      }
+    : null;
   el("write-result").classList.add("hidden");
   el("write-reveal").classList.add("hidden");
   el("write-quality").classList.add("hidden");
@@ -401,9 +458,10 @@ async function handleWriteSubmit(e) {
   // empty string never matches, so it resolves as "wrong" on its own.
 
   const entry = cards[index];
+  const shownTyped = typedForDisplay(entry);
   const data = await api("/api/check", {
     method: "POST",
-    body: JSON.stringify({ id: entry.id, typed }),
+    body: JSON.stringify(checkPayload(entry)),
   });
   checkVariants(); // independent of the main flow; not awaited -- no need to block on it
 
@@ -414,11 +472,11 @@ async function handleWriteSubmit(e) {
   if (data.result === "exact") {
     resultBox.textContent = `✓ Correct! ${data.expected}`;
   } else if (data.result === "close") {
-    resultBox.textContent = `~ Close — you wrote "${typed}", correct is "${data.expected}"`;
-  } else if (typed === "") {
+    resultBox.textContent = `~ Close — you wrote "${shownTyped}", correct is "${data.expected}"${pairBreakdown(data)}`;
+  } else if (shownTyped === "") {
     resultBox.textContent = `No worries — the answer is: ${data.expected}`;
   } else {
-    resultBox.textContent = `✗ Not quite — the answer is: ${data.expected}`;
+    resultBox.textContent = `✗ Not quite — the answer is: ${data.expected}${pairBreakdown(data)}`;
   }
   resultBox.classList.remove("hidden");
 
@@ -438,8 +496,7 @@ async function handleWriteSubmit(e) {
     } else {
       setTimeout(() => {
         pendingRetypeEntry = entry;
-        el("write-input").placeholder = RETYPE_PLACEHOLDER;
-        el("write-input").value = "";
+        resetWriteInputs(entry, RETYPE_PLACEHOLDER);
         el("write-form").classList.remove("hidden");
         setTimeout(() => el("write-input").focus(), 0);
       }, 900);
@@ -466,8 +523,7 @@ async function handleWriteSubmit(e) {
     wrongCounts[entry.id] = 1;
     pendingRetypeEntry = entry;
     isProcessing = false; // the retype input is live now -- unblock for it
-    el("write-input").placeholder = RETYPE_PLACEHOLDER;
-    el("write-input").value = "";
+    resetWriteInputs(entry, RETYPE_PLACEHOLDER);
     el("write-form").classList.remove("hidden");
     setTimeout(() => el("write-input").focus(), 0);
   }
@@ -478,9 +534,10 @@ async function handleImmediateRetypeSubmit(typed) {
   pendingRetypeEntry = null;
   el("write-form").classList.add("hidden");
 
+  const shownTyped = typedForDisplay(entry);
   const data = await api("/api/check", {
     method: "POST",
-    body: JSON.stringify({ id: entry.id, typed }),
+    body: JSON.stringify(checkPayload(entry)),
   });
   const gotIt = data.result === "exact" || data.result === "close";
 
@@ -488,9 +545,9 @@ async function handleImmediateRetypeSubmit(typed) {
   resultBox.className = `result ${gotIt ? "exact" : "wrong"}`;
   resultBox.textContent = gotIt
     ? `✓ Nice, that's it! ${data.expected}`
-    : typed === ""
+    : shownTyped === ""
     ? `The answer is: ${data.expected}`
-    : `✗ Not quite — the answer is: ${data.expected}`;
+    : `✗ Not quite — the answer is: ${data.expected}${pairBreakdown(data)}`;
   resultBox.classList.remove("hidden");
 
   // This retype was just reinforcement -- typed while the answer was

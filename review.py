@@ -311,6 +311,10 @@ def display_word(entry):
     an aspirate 'h' (le hibou), and there's no reliable rule-based way to
     tell those apart — it's memorized per word. Not handled here; none of
     the French words added so far start with 'h', so it hasn't come up yet."""
+    pair = entry.get("aspect_pair")
+    if pair:
+        # Dual-aspect Russian verb card (see IDEAS.md): both forms together.
+        return f"{pair['imperfective']} / {pair['perfective']}"
     gender = entry.get("gender")
     word = entry["word"]
     if not gender or entry.get("language") != "fr":
@@ -421,6 +425,33 @@ def check_answer(typed, expected):
         return "close"
 
     return "wrong"
+
+
+ASPECTS = ("imperfective", "perfective")
+
+
+def check_aspect_pair(typed_pair, aspect_pair):
+    """Dual-aspect verb cards (an entry with `aspect_pair`): check the
+    imperfective and perfective answers separately, then combine them into
+    one result for the card's single SM-2 history. Both exact -> "exact";
+    no misses but at least one "close" (accent slip) -> "close"; any miss ->
+    "wrong", since half a verb pair isn't really knowing it.
+    Returns (combined, {aspect: {"result", "expected"}})."""
+    per = {}
+    for aspect in ASPECTS:
+        expected = aspect_pair[aspect]
+        per[aspect] = {
+            "result": check_answer(typed_pair.get(aspect, ""), expected),
+            "expected": expected,
+        }
+    results = [p["result"] for p in per.values()]
+    if all(r == "exact" for r in results):
+        combined = "exact"
+    elif "wrong" in results:
+        combined = "wrong"
+    else:
+        combined = "close"
+    return combined, per
 
 
 def review_card_write(entry):

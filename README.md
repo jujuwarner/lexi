@@ -142,6 +142,14 @@ the bare word, so gender gets practiced as part of recalling the word itself,
 the same way it actually gets used, instead of being a separate fact to
 memorize on the side.
 
+`aspect_pair` (optional, Russian verbs only) is
+`{"imperfective": "уступать", "perfective": "уступить"}`. It turns the entry
+into a dual-aspect card: Write mode asks for both forms in two labeled
+inputs, checked and scheduled together as one card with one `srs` history.
+Both exact = exact, an accent slip on either = close, a miss on either =
+wrong. `word` stays the plain imperfective string. See IDEAS.md for the
+design notes.
+
 `cultural_note` is populated only when a word carries real cultural or
 historical weight — a period-specific term, an idiom with a documented
 origin, a word whose meaning is tied to a specific historical institution or

@@ -52,10 +52,19 @@
     <img id="write-prompt-image" class="vocab-image hidden" alt="" />
     <p id="write-prompt-image-credit" class="image-credit hidden"></p>
     <form id="write-form">
+      <!-- Dual-aspect verb cards only (entry.aspect_pair): labels the main
+           input as the imperfective and shows a second input for the
+           perfective. Hidden for every other card. -->
+      <label id="write-input-label" for="write-input" class="aspect-label hidden">Imperfective</label>
       <div class="write-input-row">
         <input id="write-input" type="text" autocomplete="off" autocapitalize="off"
                spellcheck="false" placeholder="Type the word (le/la/l' if it's a noun)…" />
         <button type="submit" class="primary">Check</button>
+      </div>
+      <div id="write-aspect-row" class="aspect-row hidden">
+        <label for="write-input-pf" class="aspect-label">Perfective</label>
+        <input id="write-input-pf" type="text" autocomplete="off" autocapitalize="off"
+               spellcheck="false" placeholder="Perfective…" />
       </div>
     </form>
     <!-- Sibling of the form, not nested inside it -- so it stays visible

@@ -280,10 +280,28 @@ review slots.
   retroactively into one dual-aspect entry, or leave existing entries as
   they are and only apply the new shape going forward.
 
-Not built. Revisit when there's either a slow week with appetite for a
-schema change, or when enough new verb pairs have been added the old
-ad-hoc way that the inconsistency starts actively bothering review
-sessions.
+**Built, first version (2026-11-25).** How the open questions above were
+settled:
+- **Schema:** an optional `aspect_pair: {"imperfective": ..., "perfective":
+  ...}` alongside `word`, rather than turning `word` into an object. `word`
+  stays a plain string (the imperfective), so nothing else had to branch on
+  its type. `display_word()` returns "imperfective / perfective" for these.
+- **Review mechanic:** Write mode shows two labeled inputs. Enter in the
+  first moves to the second; Enter in the second submits.
+- **Scoring:** `check_aspect_pair()` combines both into one result. Both
+  exact = exact (Easy); no misses but an accent slip = close (Good); any
+  miss = wrong (Again, plus the usual retype and retry). Feedback shows
+  which half was missed.
+- **One SM-2 history:** yes, one card and one `srs` block.
+- **Recognize mode:** shows "уступать / уступить" as the word to recognize.
+- **First card:** уступать / уступить (1279).
+- **Migration:** закладывать/заложить лошадей merged the same day. 400
+  became the dual-aspect card, keeping its review history (the stronger of
+  the two), and 413 was removed. сватать was left single: its perfectives
+  (посватать, сосватать) differ in nuance, so it isn't a clean pair.
+- **Still open:** when to use this at add-word time.
+  Default for now: use it for plain verbs whose aspect partner is common,
+  and not for fixed phrases (обдумать предложение stays single).
 
 ## Review metrics / stats view
 
