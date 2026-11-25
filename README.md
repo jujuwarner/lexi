@@ -416,6 +416,19 @@ were upgraded from reveal-only to image_in_prompt on 2026-11-16.
   Matthieu Sontag, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fraxinus_excelsior_tree.jpg).
   CC BY-SA 3.0. `image_in_prompt: true`.
+- **сусальное золото** (id 766) — a craftsman applying gold leaf to a
+  carved frame, photo by Juangonzalez64 at English Wikipedia, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Goldleaf.jpg).
+  Public domain. `image_in_prompt: true`.
+- **казакин** (id 519) — Aleksander Orłowski's 1814 portrait of Denis
+  Davydov on horseback in a kazakin, cropped to the upper body, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Denis_Davidov.jpg)
+  (the same image Russian Wikipedia uses to illustrate the word). Public
+  domain. `image_in_prompt: true`.
+- **кафтан** (id 714) — Sergei Prokudin-Gorsky's c. 1910 color photograph
+  of A. P. Kalganov in a long belted kaftan, Zlatoust, cropped to him, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sergey_Mikhaylovich_Prokudin-Gorsky_-_A.P._Kalganov_with_son_and_granddaughter,_ca._1910.jpg)
+  (Library of Congress). Public domain. `image_in_prompt: true`.
 - **pierre à fusil** (id 140) — a worked gunflint from a Post-Medieval
   (probably 17th-century) firearm, via the
   [Portable Antiquities Scheme / Trustees of the British Museum](https://commons.wikimedia.org/wiki/File:Post_Medieval_gun_flint,_probably_17th_century._(FindID_96393).jpg),
