@@ -396,6 +396,9 @@ ARTICLE_RE = re.compile(r"^(le|la)\s+|^l['’]")
 
 
 def _normalize_text(s):
+    # Russian ё is optional in ordinary print (мотылек = мотылёк), so it
+    # counts as plain е: typing either spelling is an exact match.
+    s = s.replace("ё", "е").replace("Ё", "Е")
     return " ".join(s.strip().lower().split())
 
 
