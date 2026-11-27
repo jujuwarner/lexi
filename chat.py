@@ -18,6 +18,7 @@ Auth: the SDK drives the locally installed Claude Code, so it uses
 whatever that's logged in with (or ANTHROPIC_API_KEY, if set).
 """
 
+import asyncio
 import json
 from pathlib import Path
 from typing import AsyncIterator, Optional
@@ -28,9 +29,12 @@ from claude_agent_sdk import (
     ResultMessage,
     StreamEvent,
     ToolUseBlock,
+    create_sdk_mcp_server,
     query,
+    tool,
 )
 
+import images
 import review
 
 LEXI_DIR = Path(__file__).parent
@@ -45,8 +49,19 @@ headings, no tables.
 Follow the vocab workflow in CLAUDE.md exactly when adding or editing \
 cards: duplicate check, leak check, propose first and add only after she \
 says yes (yes / да / oui / "add it" all count). You can edit vocab.json \
-only. If she asks for something outside that (code changes, images, git \
-commits), say it needs her terminal session with Claude Code instead.
+only. If she asks for something outside that (code changes, git commits), \
+say it needs her terminal session with Claude Code instead.
+
+Images: when she asks for a picture on a card, call search_commons with a \
+good English (or Latin species) query. The panel shows her the candidates \
+as numbered thumbnails, in the order returned, so just say in a sentence \
+which ones look best to you and why, and let her pick. Don't describe \
+every candidate. When she picks one ("use 2", or by clicking), call \
+add_vocab_image with its exact file title and a credit written in the \
+style of CLAUDE.md: describe what's shown without naming the word or its \
+English meaning ("a man wearing this kind of coat"), plus artist or \
+photographer, date if known, "via Wikimedia Commons" and the license. If \
+nothing fits, try another query or say so.
 
 Each message may start with a [Lexi context] block describing the card on \
 her screen. If it says the answer isn't revealed yet, never write the \
@@ -60,7 +75,56 @@ TOOL_LABELS = {
     "Edit": "Editing",
     "Write": "Writing",
     "Bash": "Running",
+    "mcp__lexi__search_commons": "Searching Wikimedia Commons",
+    "mcp__lexi__add_vocab_image": "Adding the image",
 }
+
+
+def _image_tools(found: list):
+    """The two image tools, built per request so search results can be
+    handed to the panel (through `found`) as clickable thumbnails."""
+
+    @tool(
+        "search_commons",
+        "Search Wikimedia Commons for images to put on a vocab card. Returns only images "
+        "whose license allows reuse (public domain, CC0, CC BY, CC BY-SA). Julia sees the "
+        "results as numbered thumbnails in the panel, in this order.",
+        {"query": str},
+    )
+    async def search_commons(args):
+        try:
+            results = await asyncio.to_thread(images.search_commons, args["query"], 8)
+        except Exception as exc:
+            return {"content": [{"type": "text", "text": f"Search failed: {exc}"}], "is_error": True}
+        found.append(results)
+        if not results:
+            return {"content": [{"type": "text", "text": "No reusable images found. Try another query."}]}
+        lines = [
+            f"{i}. {r['title']} | {r['license']} | artist: {r['artist'] or 'unknown'} | "
+            f"{r['width']}x{r['height']} | {r['description']}"
+            for i, r in enumerate(results, 1)
+        ]
+        return {"content": [{"type": "text", "text": "\n".join(lines)}]}
+
+    @tool(
+        "add_vocab_image",
+        "Put a Wikimedia Commons image on a vocab card: re-checks the license, downloads and "
+        "resizes it, sets image / image_credit / image_in_prompt on the card, and adds a README "
+        "credit. The credit shows in the prompt, so it must not name the word or its English "
+        "clue; the tool rejects one that does.",
+        {"entry_id": int, "file_title": str, "credit": str},
+    )
+    async def add_vocab_image(args):
+        try:
+            result = await asyncio.to_thread(
+                images.add_image, int(args["entry_id"]), args["file_title"], args["credit"]
+            )
+        except Exception as exc:
+            result = {"ok": False, "error": str(exc)}
+        return {"content": [{"type": "text", "text": json.dumps(result, ensure_ascii=False)}],
+                "is_error": not result.get("ok")}
+
+    return create_sdk_mcp_server(name="lexi", tools=[search_commons, add_vocab_image])
 
 
 def _card_context(card_id: Optional[int], mode: Optional[str], answer_shown: bool) -> str:
@@ -112,14 +176,20 @@ async def stream_chat(
     """Yields newline-delimited JSON events for the frontend:
     {"type": "text", "text": ...}   a chunk of Claude's reply
     {"type": "tool", "label": ...}  Claude is using a tool
+    {"type": "images", "results": [...]}  image search results to pick from
     {"type": "done", "session_id": ..., "edited": bool}
     {"type": "error", "message": ...}
     """
+    found: list = []  # image search results, forwarded to the panel
     options = ClaudeAgentOptions(
         cwd=str(LEXI_DIR),
         setting_sources=["project"],  # loads CLAUDE.md; not ~/.claude settings
         system_prompt={"type": "preset", "preset": "claude_code", "append": PANEL_PROMPT},
-        allowed_tools=["Read", "Glob", "Grep", "Edit(/vocab.json)", "Bash(python3 *)"],
+        mcp_servers={"lexi": _image_tools(found)},
+        allowed_tools=[
+            "Read", "Glob", "Grep", "Edit(/vocab.json)", "Bash(python3 *)",
+            "mcp__lexi__search_commons", "mcp__lexi__add_vocab_image",
+        ],
         disallowed_tools=["WebSearch", "WebFetch", "Agent", "Task"],
         permission_mode="dontAsk",
         include_partial_messages=True,
@@ -132,6 +202,8 @@ async def stream_chat(
     wrote_text = False
     try:
         async for msg in query(prompt=prompt, options=options):
+            while found:
+                yield _event(type="images", results=found.pop(0))
             if isinstance(msg, StreamEvent):
                 ev = msg.event
                 if ev.get("type") == "content_block_start" and ev.get("content_block", {}).get("type") == "text":
@@ -144,7 +216,7 @@ async def stream_chat(
                         yield _event(type="text", text=delta["text"])
             elif isinstance(msg, AssistantMessage):
                 for block in msg.content:
-                    if isinstance(block, ToolUseBlock):
+                    if isinstance(block, ToolUseBlock) and block.name != "ToolSearch":
                         yield _event(type="tool", label=_tool_summary(block))
             elif isinstance(msg, ResultMessage):
                 if msg.is_error:

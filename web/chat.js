@@ -54,6 +54,15 @@
       if (fresh.definition_in_prompt && fresh.definition_in_language) {
         $("write-prompt-definition").textContent = fresh.definition_in_language;
       }
+      if (fresh.image_in_prompt && fresh.image) {
+        const img = $("write-prompt-image");
+        img.src = `${fresh.image}?v=${Date.now()}`; // bust the cache if the file was replaced
+        img.alt = fresh.translation_en || "";
+        img.classList.remove("hidden");
+        const credit = $("write-prompt-image-credit");
+        credit.textContent = fresh.image_credit || "";
+        credit.classList.toggle("hidden", !fresh.image_credit);
+      }
     }
   }
 
@@ -83,6 +92,34 @@
     return html;
   }
 
+  // Image search results as numbered thumbnails; clicking one asks Claude
+  // to put that image on the card.
+  function imageGrid(results) {
+    const grid = document.createElement("div");
+    grid.className = "chat-images";
+    if (!results.length) return grid;
+    results.forEach((r, i) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "chat-image";
+      btn.title = `${r.title.replace(/^File:/, "")}\n${r.license}${r.artist ? " · " + r.artist : ""}`;
+      const img = document.createElement("img");
+      img.src = r.thumb;
+      img.alt = r.description || r.title;
+      img.loading = "lazy";
+      const num = document.createElement("span");
+      num.className = "chat-image-num";
+      num.textContent = String(i + 1);
+      const lic = document.createElement("span");
+      lic.className = "chat-image-license";
+      lic.textContent = r.license;
+      btn.append(img, num, lic);
+      btn.addEventListener("click", () => send(`Use image ${i + 1}: ${r.title}`));
+      grid.appendChild(btn);
+    });
+    return grid;
+  }
+
   function messageEl(msg) {
     const div = document.createElement("div");
     div.className = `chat-msg ${msg.role}`;
@@ -94,6 +131,7 @@
         tool.textContent = t;
         div.prepend(tool);
       }
+      for (const results of msg.images || []) div.appendChild(imageGrid(results));
       if (msg.error) {
         const err = document.createElement("p");
         err.className = "chat-error";
@@ -115,7 +153,7 @@
       empty.innerHTML =
         "<p><strong>Ask about a word, or about the card on screen.</strong></p>" +
         "<p>Try “what does начинка mean?”, “add it” or “this clue is leaky”. " +
-        "Claude can add and fix cards. It won't give away a card's answer before you've seen it.</p>";
+        "Claude can add and fix cards, and find pictures for them (“add an image to this card”). It won't give away a card's answer before you've seen it.</p>";
       log.appendChild(empty);
       return;
     }
@@ -170,6 +208,8 @@
           } else if (ev.type === "tool") {
             reply.tools.push(ev.label);
             $("chat-status").textContent = ev.label + "…";
+          } else if (ev.type === "images") {
+            (reply.images = reply.images || []).push(ev.results);
           } else if (ev.type === "error") {
             reply.error = ev.message;
           } else if (ev.type === "done") {

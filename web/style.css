@@ -579,3 +579,58 @@ body.chat-open .chat-toggle { display: none; }
 
 #chat-send { padding: 10px 16px; }
 #chat-send:disabled { opacity: 0.5; cursor: default; }
+
+/* Image search results in the chat: numbered thumbnails to pick from. */
+.chat-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.chat-image {
+  position: relative;
+  padding: 0;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.chat-image:hover { opacity: 1; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+
+.chat-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.chat-image-num {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(34, 32, 29, 0.75);
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+.chat-image-license {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2px 6px;
+  background: rgba(34, 32, 29, 0.6);
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

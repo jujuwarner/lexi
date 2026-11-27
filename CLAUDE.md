@@ -52,7 +52,7 @@ For a common verb with a common aspect partner, add `"aspect_pair": {"imperfecti
 ### Other optional fields
 
 - `variants`: a list of real alternate wordings of the same idiom (e.g. faire le dos rond / faire le gros dos). Only when Julia asks for it.
-- `image`, `image_credit`, `image_in_prompt`: only on request, for hard-to-picture objects. Adding an image needs the terminal session (download, resize, README credit).
+- `image`, `image_credit`, `image_in_prompt`: only on request, for hard-to-picture objects. Images come from Wikimedia Commons, public domain or CC BY / CC BY-SA only. They're 500px max, saved as `web/assets/vocab/<transliteration>_<id>.jpg`, with `image_in_prompt: true` and a README credit. The credit shows in the prompt, so it must not name the word or its English clue: describe what's shown ("a man wearing this kind of coat"), then the artist, "via Wikimedia Commons" and the license. In the Ask Claude panel, the `search_commons` and `add_vocab_image` tools (images.py) do all of this.
 
 ## Fixing a card
 

@@ -298,8 +298,14 @@ asking what a word means, adding it, or fixing a leaky clue.
   leak check, two-aspect cards, propose first and add on a yes.
 - **It can only edit `vocab.json`.** It can read the project and run
   `python3`. Every other action that would need approval is denied, since
-  there's no one at a terminal to approve it. Images, code changes and
-  commits still go through the terminal.
+  there's no one at a terminal to approve it. Code changes and commits
+  still go through the terminal.
+- **It can add images.** Ask for a picture and it searches Wikimedia
+  Commons (`images.py`). The results appear as numbered thumbnails, and
+  clicking one puts it on the card. Only reusable licenses show up, and
+  the license is checked again before download. The image is resized,
+  saved and credited in this README automatically, and a credit that would
+  give away the answer is rejected.
 - **Conversations continue** across messages and page reloads. "New chat"
   starts over.
 - After an edit, the card on screen picks up the change right away.
@@ -483,7 +489,7 @@ were upgraded from reveal-only to image_in_prompt on 2026-11-16.
   CC0 (public domain). `image_in_prompt: true`. Also fixed a cognate
   leak here -- translation_en said "gaitered" outright.
 
-All twenty-seven resized locally (longest side capped at 500px) to keep file
+All of these are resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
 same deliberate, one-at-a-time way described in IDEAS.md — never
 auto-generated for every concrete noun.
