@@ -16,9 +16,11 @@ from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
+import chat
 import review
 
 WEB_DIR = Path(__file__).parent / "web"
@@ -240,6 +242,37 @@ def toggle_priority(req: TogglePriorityRequest):
 
     review.save_vocab(entries)
     return {"ok": True, "priority": now_priority}
+
+
+@app.get("/api/entry/{entry_id}")
+def get_entry(entry_id: int):
+    """One card's current data, so the frontend can pick up an edit made
+    through the chat panel without reloading the whole session."""
+    entry = _find_entry(review.load_vocab(), entry_id)
+    if entry is None:
+        raise HTTPException(status_code=404, detail="Word not found")
+    return _entry_payload(entry)
+
+
+class ChatRequest(BaseModel):
+    message: str
+    session_id: Optional[str] = None
+    # The card on screen, if any, so Claude knows what "this clue" means.
+    card_id: Optional[int] = None
+    mode: Optional[str] = None
+    answer_shown: bool = False
+
+
+@app.post("/api/chat")
+async def post_chat(req: ChatRequest):
+    """The Ask Claude panel. Streams newline-delimited JSON events (see
+    chat.stream_chat) as Claude replies."""
+    if not req.message.strip():
+        raise HTTPException(status_code=400, detail="message is empty")
+    return StreamingResponse(
+        chat.stream_chat(req.message, req.session_id, req.card_id, req.mode, req.answer_shown),
+        media_type="application/x-ndjson",
+    )
 
 
 # Serve the frontend last, so it doesn't shadow the /api/* routes above.

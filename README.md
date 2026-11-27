@@ -282,6 +282,32 @@ would talk to this same API rather than needing its own copy of the review
 logic. Nothing about that is built yet — this is browser-only, at your own
 desk, for now — but the separation means it wouldn't require a rebuild.
 
+### Ask Claude panel
+
+The **Ask Claude** button in the corner opens a chat with Claude Code,
+running inside Lexi through the [Claude Agent
+SDK](https://code.claude.com/docs/en/agent-sdk/overview) (`chat.py`, `web/chat.js`).
+It's for the things that used to mean switching to a terminal mid-review:
+asking what a word means, adding it, or fixing a leaky clue.
+
+- **It knows the card on screen.** Each message carries the card's id and
+  whether its answer has been revealed. Before the reveal, Claude refers to
+  it as "this card" and doesn't name the word.
+- **It follows the same workflow as the terminal**, because the rules live
+  in `CLAUDE.md`, which Claude Code loads in both places: duplicate check,
+  leak check, two-aspect cards, propose first and add on a yes.
+- **It can only edit `vocab.json`.** It can read the project and run
+  `python3`. Every other action that would need approval is denied, since
+  there's no one at a terminal to approve it. Images, code changes and
+  commits still go through the terminal.
+- **Conversations continue** across messages and page reloads. "New chat"
+  starts over.
+- After an edit, the card on screen picks up the change right away.
+
+It uses whatever the local Claude Code is signed in with, or
+`ANTHROPIC_API_KEY` if that's set. Needs `pip install claude-agent-sdk` and
+Claude Code installed.
+
 ## Image credits
 
 - **Rose** (bottom right) — *Rosa centifolia foliacea*, a hand-colored
