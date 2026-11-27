@@ -25,39 +25,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Real Redouté rose engravings (1817-24, public domain), anchored to
-   opposite corners behind everything else. Subtle on purpose -- these are
-   decorative flourishes, not the main content. Plain elements rather than
-   ::before/::after so a third illustration can be added later without
-   running out of pseudo-elements. */
-.decoration {
-  position: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-  z-index: 0;
-}
-
-#deco-bottom-right {
-  bottom: -51px;
-  left: -61px;
-  width: 475px;
-  height: 646px;
-  background-image: url("assets/rosa_centifolia.png");
-  background-position: center bottom;
-  opacity: 0.5;
-}
-
-#deco-top-left {
-  top: -20px;
-  left: -18px;
-  width: 210px;
-  height: 262px;
-  background-image: url("assets/seguy_butterfly.png");
-  background-position: center top;
-  opacity: 0.38;
-}
-
 #app {
   width: 100%;
   max-width: 760px;

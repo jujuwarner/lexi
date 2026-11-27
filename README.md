@@ -316,20 +316,6 @@ Claude Code installed.
 
 ## Image credits
 
-- **Rose** (bottom right) — *Rosa centifolia foliacea*, a hand-colored
-  engraving by Pierre-Joseph Redouté from *Les Roses* (1817-1824), via
-  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Redoute_-_Rosa_centifolia_foliacea.jpg).
-  Public domain (Redouté died 1840).
-- **Butterfly** (top left) — one specimen cropped from Plate 12 of
-  *Papillons* (1925) by Émile-Allain Séguy, via
-  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Papillons_(Pl._12)_BHL48852969.jpg)
-  (digitized by Smithsonian Libraries via BHL). Public domain (published
-  1925, author died 1951).
-
-No attribution legally required for either, but credited here anyway
-since it's good practice. Backgrounds removed and images cropped/isolated
-locally; original files untouched.
-
 ### Vocab-card images
 
 A handful of vocab entries (specific, unfamiliar physical objects where
@@ -488,6 +474,7 @@ were upgraded from reveal-only to image_in_prompt on 2026-11-16.
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gaiters_(clothing).jpg).
   CC0 (public domain). `image_in_prompt: true`. Also fixed a cognate
   leak here -- translation_en said "gaitered" outright.
+- **крапива** (id 875) — Caterpillars feeding on this plant, Ruggeller Riet, Liechtenstein. Photo by Charles J. Sharp, via Wikimedia Commons, CC BY-SA 4.0. Source: [File:Peacock (Aglais io) caterpillars on stinging nettle (Urtica dioica) Ruggeller Riet.jpg](https://commons.wikimedia.org/wiki/File:Peacock_(Aglais_io)_caterpillars_on_stinging_nettle_(Urtica_dioica)_Ruggeller_Riet.jpg). Added from the Ask Claude panel. `image_in_prompt: true`.
 
 All of these are resized locally (longest side capped at 500px) to keep file
 sizes reasonable; originals untouched elsewhere. More may be added the
