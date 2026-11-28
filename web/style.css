@@ -36,6 +36,9 @@ body {
 header {
   text-align: center;
   margin-bottom: 24px;
+  /* Side padding keeps the progress line clear of the Home button,
+     which sits in the top-left corner on the same row. */
+  padding: 8px 90px 0;
 }
 
 .home-btn {
@@ -50,15 +53,6 @@ header {
 }
 
 .home-btn:hover { opacity: 1; color: var(--text); }
-
-h1 {
-  font-family: "Snell Roundhand", "Apple Chancery", "Brush Script MT", cursive;
-  font-size: 2.8em;
-  font-weight: 400;
-  margin: 0 0 4px;
-  letter-spacing: 0.02em;
-  color: #4f6142;
-}
 
 #progress {
   color: var(--muted);
@@ -113,6 +107,85 @@ h2 {
   line-height: 1.6;
   font-size: 1.15em;
 }
+
+/* Home and language pages: big tiles that wrap as more get added. */
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.tile-grid button {
+  padding: 36px 24px;
+  line-height: 1.5;
+  font-size: 1.3em;
+}
+
+.tile-grid span {
+  display: block;
+  font-size: 0.62em;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+
+/* Picture tiles: the photo fills the top, the name and status sit below. */
+.tile-grid button.has-image {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tile-grid button.has-image img {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.tile-grid button.has-image:hover { opacity: 1; }
+.tile-grid button.has-image:hover img { transform: scale(1.05); }
+
+.tile-grid .tile-text { padding: 18px 20px 22px; }
+
+/* Each language's tile color comes from its photo: raspberry from the
+   French tarts, tea-and-wood brown from the Russian table. */
+.tile-grid button[data-lang="fr"] { background: #a8475f; border-color: #a8475f; }
+.tile-grid button[data-lang="ru"] { background: #8a5a32; border-color: #8a5a32; }
+/* Jade, for the Mandarin tile's bamboo steamer and porcelain. */
+.tile-grid button[data-lang="zh"] { background: #2e6b64; border-color: #2e6b64; }
+
+/* Mandarin character practice (zh.js) */
+.zh-prompt { text-align: center; margin-bottom: 20px; }
+.zh-hanzi {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Noto Sans SC", sans-serif;
+  font-size: 4.5em;
+  line-height: 1.2;
+  margin: 0;
+  text-align: center;
+}
+.zh-hanzi-small { font-size: 2.8em; }
+.zh-pinyin { font-size: 1.35em; text-align: center; margin: 4px 0; color: var(--muted); }
+.zh-meaning { font-size: 1.15em; text-align: center; font-weight: 600; margin: 6px 0 4px; }
+.zh-note { color: var(--muted); font-size: 0.85em; }
+.zh-sound-btn {
+  font-size: 1.1em;
+  padding: 18px 28px;
+  border-radius: 999px;
+}
+.zh-pinyin .zh-sound-btn { font-size: 0.7em; padding: 4px 10px; vertical-align: middle; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tile-grid button.has-image img { transition: none; }
+  .tile-grid button.has-image:hover img { transform: none; }
+}
+
+/* The tiles already say what's done or waiting for each language. */
+body.at-home .completed-note,
+body.at-home .backlog-note { display: none; }
 
 .mode-buttons span {
   display: block;

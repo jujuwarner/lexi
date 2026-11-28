@@ -49,7 +49,8 @@ headings, no tables.
 Follow the vocab workflow in CLAUDE.md exactly when adding or editing \
 cards: duplicate check, leak check, propose first and add only after she \
 says yes (yes / да / oui / "add it" all count). You can edit vocab.json \
-only. If she asks for something outside that (code changes, git commits), \
+and, for Mandarin words, mandarin.json (see the Mandarin section of \
+CLAUDE.md), nothing else. If she asks for something outside that (code changes, git commits), \
 say it needs her terminal session with Claude Code instead.
 
 Images: when she asks for a picture on a card, call search_commons with a \
@@ -187,7 +188,7 @@ async def stream_chat(
         system_prompt={"type": "preset", "preset": "claude_code", "append": PANEL_PROMPT},
         mcp_servers={"lexi": _image_tools(found)},
         allowed_tools=[
-            "Read", "Glob", "Grep", "Edit(/vocab.json)", "Bash(python3 *)",
+            "Read", "Glob", "Grep", "Edit(/vocab.json)", "Edit(/mandarin.json)", "Bash(python3 *)",
             "mcp__lexi__search_commons", "mcp__lexi__add_vocab_image",
         ],
         disallowed_tools=["WebSearch", "WebFetch", "Agent", "Task"],

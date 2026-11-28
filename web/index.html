@@ -11,16 +11,21 @@
 <div id="app">
   <button id="home-btn" class="home-btn" title="Back to start">← Home</button>
   <header>
-    <h1>Learn with Lexi</h1>
     <p id="progress"></p>
     <p id="completed-note" class="completed-note hidden"></p>
     <p id="backlog-note" class="backlog-note hidden"></p>
   </header>
 
-  <!-- Language picker: only shown when more than one language is due -->
+  <!-- Home: one tile per language in the deck -->
   <section id="language-picker" class="card hidden">
-    <h2>Which language do you want to review?</h2>
-    <div id="language-buttons" class="mode-buttons"></div>
+    <h2>Choose a language</h2>
+    <div id="language-buttons" class="tile-grid"></div>
+  </section>
+
+  <!-- One language's page: a tile per kind of practice (vocab for now) -->
+  <section id="language-home" class="card hidden">
+    <h2 id="language-home-title"></h2>
+    <div id="activity-buttons" class="tile-grid"></div>
   </section>
 
   <!-- Mode picker: shown once at the start of a session -->
@@ -85,6 +90,24 @@
     <div id="recognize-quality" class="quality-buttons hidden"></div>
   </section>
 
+  <!-- Mandarin character practice (zh.js): one edge of a word's
+       character / sound / meaning triangle per prompt -->
+  <section id="zh-card" class="card hidden">
+    <span id="zh-badge" class="retry-badge hidden"></span>
+    <p id="zh-ask" class="prompt-label"></p>
+    <div id="zh-prompt" class="zh-prompt"></div>
+    <form id="zh-form" class="hidden">
+      <div class="write-input-row">
+        <input id="zh-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <button type="submit" class="primary">Check</button>
+      </div>
+    </form>
+    <button id="zh-reveal-btn" class="primary hidden" type="button">Reveal</button>
+    <div id="zh-result" class="result hidden"></div>
+    <div id="zh-reveal" class="reveal hidden"></div>
+    <div id="zh-actions" class="quality-buttons hidden"></div>
+  </section>
+
   <!-- Session done -->
   <section id="done-state" class="card hidden">
     <p id="done-message"></p>
@@ -110,6 +133,7 @@
 </aside>
 
 <script src="app.js"></script>
+<script src="zh.js"></script>
 <script src="chat.js"></script>
 </body>
 </html>

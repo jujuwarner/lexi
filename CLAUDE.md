@@ -54,6 +54,28 @@ For a common verb with a common aspect partner, add `"aspect_pair": {"imperfecti
 - `variants`: a list of real alternate wordings of the same idiom (e.g. faire le dos rond / faire le gros dos). Only when Julia asks for it.
 - `image`, `image_credit`, `image_in_prompt`: only on request, for hard-to-picture objects. Images come from Wikimedia Commons, public domain or CC BY / CC BY-SA only. They're 500px max, saved as `web/assets/vocab/<transliteration>_<id>.jpg`, with `image_in_prompt: true` and a README credit. The credit shows in the prompt, so it must not name the word or its English clue: describe what's shown ("a man wearing this kind of coat"), then the artist, "via Wikimedia Commons" and the license. In the Ask Claude panel, the `search_commons` and `add_vocab_image` tools (images.py) do all of this.
 
+## Mandarin words
+
+Mandarin is separate from French and Russian. Words live in `mandarin.json` (logic in `mandarin.py`), not `vocab.json`. Julia is learning through Duolingo and sends words as she meets them. The same steps apply: duplicate check (search `mandarin.json` for the characters), explain, propose, add on her yes.
+
+Each word is a triangle: characters, sound and meaning. Lexi practices all six directions as separate schedules, one direction per word per day, with 3 new words a day. Audio comes from the Mac's Mandarin voice in the browser, so there are no files to add.
+
+```json
+{
+  "id": <max existing id in mandarin.json + 1, starting at 1>,
+  "hanzi": "谢谢",
+  "pinyin": "xièxie",
+  "meaning": "thank you",
+  "note": "Optional: shown after she answers (tone notes, the characters' parts, related words)",
+  "source": "Duolingo",
+  "date_added": "YYYY-MM-DD"
+}
+```
+
+- Simplified characters. Pinyin with tone marks, syllables written the way dictionaries do (xièxie with its neutral second syllable, nǐ hǎo with a space). Lexi accepts either tone marks or tone numbers when she types.
+- `meaning` is shown as a prompt for the meaning → characters and meaning → pinyin directions, so it must not give away the answer. Keep it to the English meaning. Put pinyin, characters or a literal breakdown in `note`.
+- Don't add an `edges` or `introduced_on` field. Lexi creates those when she first practices the word.
+
 ## Fixing a card
 
 When Julia says a clue is "leaky," it gives away the answer. Rewrite `translation_en` (or the definition) so it doesn't. Move any useful information it held into `cultural_note`, unless the note already covers it.

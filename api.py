@@ -21,6 +21,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 import chat
+import mandarin
 import review
 
 WEB_DIR = Path(__file__).parent / "web"
@@ -151,9 +152,18 @@ def get_status():
     any language with new words still waiting beyond today's new-card
     allowance, so a growing pile of unintroduced words stays visible."""
     entries = review.load_vocab()
+    languages = {}
+    for e in entries:
+        languages[e["language"]] = languages.get(e["language"], 0) + 1
+    # Mandarin words live in mandarin.json (see mandarin.py). Its tile shows
+    # even before the first word is added.
+    languages["zh"] = len(mandarin.load())
     return {
         "completed_languages": review.completed_languages_today(entries),
         "backlog": review.backlog_by_language(entries),
+        # Every language in the deck with its card count, so the home
+        # screen can show a tile for each one, even when nothing's due.
+        "languages": languages,
     }
 
 
@@ -273,6 +283,52 @@ async def post_chat(req: ChatRequest):
         chat.stream_chat(req.message, req.session_id, req.card_id, req.mode, req.answer_shown),
         media_type="application/x-ndjson",
     )
+
+
+# ---- Mandarin character practice (mandarin.py, web/zh.js) ---------------
+
+class ZhCheckRequest(BaseModel):
+    word_id: int
+    edge: str
+    typed: str
+
+
+class ZhReviewRequest(BaseModel):
+    word_id: int
+    edge: str
+    correct: bool
+
+
+@app.get("/api/zh/status")
+def zh_status():
+    return mandarin.status(mandarin.load())
+
+
+@app.get("/api/zh/due")
+def zh_due():
+    return mandarin.due_prompts(mandarin.load())
+
+
+@app.post("/api/zh/check")
+def zh_check(req: ZhCheckRequest):
+    """Check a typed pinyin or character answer. Doesn't touch the schedule;
+    /api/zh/review does that."""
+    word = mandarin.find(mandarin.load(), req.word_id)
+    if word is None:
+        raise HTTPException(status_code=404, detail="Word not found")
+    result = mandarin.check(word, req.edge, req.typed)
+    if result is None:
+        raise HTTPException(status_code=400, detail="That prompt is graded by you, not checked")
+    return {"result": result}
+
+
+@app.post("/api/zh/review")
+def zh_review(req: ZhReviewRequest):
+    words = mandarin.load()
+    if mandarin.record(words, req.word_id, req.edge, req.correct) is None:
+        raise HTTPException(status_code=404, detail="Word or prompt not found")
+    mandarin.save(words)
+    return {"ok": True}
 
 
 # Serve the frontend last, so it doesn't shadow the /api/* routes above.

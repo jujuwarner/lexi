@@ -314,7 +314,26 @@ It uses whatever the local Claude Code is signed in with, or
 `ANTHROPIC_API_KEY` if that's set. Needs `pip install claude-agent-sdk` and
 Claude Code installed.
 
+## Mandarin characters
+
+Mandarin has its own practice, separate from the French and Russian vocab cards. Words live in `mandarin.json`, the scheduling and answer checking in `mandarin.py`, and the screen in `web/zh.js`.
+
+Each word is a triangle of characters, sound and meaning, and Lexi practices all six directions (characters → meaning, sound → characters, and so on), each on its own SM-2 schedule. Two rules keep it manageable:
+
+- **One direction per word per day.** Seeing 谢谢 → "thank you" would give away "thank you" → 谢谢 later in the same session.
+- **3 new words a day** (`NEW_WORDS_PER_DAY`). A new word starts with characters → meaning, and its other directions come in one at a time on days when none of its directions are due.
+
+Pinyin answers can be typed with tone marks (nǐ hǎo) or tone numbers (ni3 hao3). Right syllables with the wrong tones count as a miss, with a "check the tones" message. Characters are typed with macOS's Pinyin keyboard. The sound comes from the Mac's built-in Mandarin voice through the browser's speech synthesis, so there are no audio files. For a better voice, download a Premium or Enhanced Mandarin voice in System Settings → Accessibility → Spoken Content, and Lexi will use it.
+
 ## Image credits
+
+### Home-screen language tiles
+
+From Wikimedia Commons, resized to 800px wide, in `web/assets/tiles/`.
+
+- `fr_patisserie.jpg`: pastries in the window of the L. Bourbon pâtisserie, Brive-la-Gaillarde, by Le grand Cricri, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ([source](https://commons.wikimedia.org/wiki/File:Pastry_assortment_from_Vitrine_de_la_p%C3%A2tisserie_L._Bourbon_%C3%A0_Brive-la-Gaillarde,_France.JPG))
+- `ru_blini.jpg`: blini with tea, by Ninaras, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ([source](https://commons.wikimedia.org/wiki/File:Russian_blini.jpg))
+- `zh_xiaolongbao.jpg`: crab xiaolongbao at Nanxiang, Shanghai, by Matt's Life, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) ([source](https://commons.wikimedia.org/wiki/File:Crab_xiaolongbao_in_shanghai.jpg))
 
 ### Vocab-card images
 

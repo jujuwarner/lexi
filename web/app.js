@@ -82,9 +82,10 @@ function updateProgress() {
 }
 
 function showSection(id) {
-  for (const s of ["language-picker", "mode-picker", "empty-state", "write-card", "recognize-card", "done-state"]) {
+  for (const s of ["language-picker", "language-home", "mode-picker", "empty-state", "write-card", "recognize-card", "zh-card", "done-state"]) {
     el(s).classList.toggle("hidden", s !== id);
   }
+  document.body.classList.toggle("at-home", id === "language-picker" || id === "language-home");
 }
 
 function renderRevealHtml(data) {
@@ -731,26 +732,102 @@ function renderBacklogNote(backlog) {
   note.classList.remove("hidden");
 }
 
-// Renders the language-picker buttons for a mix of normal active-today
-// options and "continue backlog" options (languages already done for
-// today that still have more backlog waiting) -- the two are visually
-// distinguished, but both lead into chooseLanguage() the same way.
-function renderLanguageOptions(options) {
-  const container = el("language-buttons");
-  container.innerHTML = "";
-  for (const opt of options) {
-    const name = LANGUAGE_NAMES[opt.lang] || opt.lang;
-    const btn = document.createElement("button");
-    btn.className = "primary";
-    const label = opt.kind === "backlog" ? `Continue ${name} backlog` : name;
-    const sub =
-      opt.kind === "backlog"
-        ? `${opt.count} card${opt.count === 1 ? "" : "s"} in backlog`
-        : `${opt.count} word${opt.count === 1 ? "" : "s"}`;
-    btn.innerHTML = `${label}<br /><span>${sub}</span>`;
-    btn.addEventListener("click", () => chooseLanguage(opt.lang, opt.kind));
-    container.appendChild(btn);
+// ---- Home screen: language tiles, then each language's page ----------
+// Set once in init() from /api/status.
+let bootStatus = { completed_languages: [], backlog: {}, languages: {} };
+
+// Where a language's vocab stands right now:
+//   active  -- cards due today (the normal session)
+//   backlog -- done for today, but more new words are waiting if you want them
+//   done    -- reviewed today and nothing left
+//   none    -- nothing due and nothing reviewed today
+function vocabSummary(lang) {
+  const due = allDueCards.filter((c) => c.language === lang).length;
+  if (due > 0) return { kind: "active", text: `${due} word${due === 1 ? "" : "s"} due today` };
+  const done = bootStatus.completed_languages.includes(lang);
+  const backlog = bootStatus.backlog[lang];
+  if (done && backlog) return { kind: "backlog", text: `Done for today · ${backlog.due} more waiting` };
+  if (done) return { kind: "done", text: "Done for today" };
+  return { kind: "none", text: "All caught up" };
+}
+
+// A picture for each language's home tile (credits in README.md).
+const LANGUAGE_TILE_IMAGES = {
+  fr: "assets/tiles/fr_patisserie.jpg",
+  ru: "assets/tiles/ru_blini.jpg",
+  zh: "assets/tiles/zh_xiaolongbao.jpg",
+};
+
+function tile(label, sub, onClick, image) {
+  const btn = document.createElement("button");
+  btn.className = "primary" + (image ? " has-image" : "");
+  if (image) {
+    const img = document.createElement("img");
+    img.src = image;
+    img.alt = "";
+    btn.appendChild(img);
   }
+  const text = document.createElement("div");
+  text.className = "tile-text";
+  text.append(label);
+  if (sub) {
+    const span = document.createElement("span");
+    span.textContent = sub;
+    text.appendChild(span);
+  }
+  btn.appendChild(text);
+  btn.addEventListener("click", onClick);
+  return btn;
+}
+
+function showHome() {
+  const order = Object.keys(LANGUAGE_NAMES);
+  const langs = Object.keys(bootStatus.languages).sort((a, b) => {
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+  });
+  const container = el("language-buttons");
+  container.replaceChildren(...langs.map((lang) => {
+    // Just the language name: what's due belongs to each kind of practice,
+    // so it shows on the tiles inside (e.g. Vocabulary), not here.
+    const t = tile(LANGUAGE_NAMES[lang] || lang, "", () => openLanguage(lang), LANGUAGE_TILE_IMAGES[lang]);
+    t.dataset.lang = lang; // style.css gives each language its own tile color
+    return t;
+  }));
+  el("progress").textContent = "";
+  showSection("language-picker");
+}
+
+// A language's own page. Vocabulary is the only practice so far; new kinds
+// of practice for a language get their own tile here.
+async function openLanguage(lang) {
+  const name = LANGUAGE_NAMES[lang] || lang;
+  el("language-home-title").textContent = name;
+  let practiceTile;
+  if (lang === "zh") {
+    // Mandarin's practice is the character/sound/meaning triangle (zh.js).
+    practiceTile = tile("Characters", await window.lexiZh.summary(), () => window.lexiZh.start());
+  } else {
+    practiceTile = tile("Vocabulary", vocabSummary(lang).text, () => startVocab(lang));
+  }
+  practiceTile.dataset.lang = lang; // same color as the language's home tile
+  el("activity-buttons").replaceChildren(practiceTile);
+  el("progress").textContent = "";
+  showSection("language-home");
+}
+
+async function startVocab(lang) {
+  const summary = vocabSummary(lang);
+  if (summary.kind === "active" || summary.kind === "backlog") {
+    await chooseLanguage(lang, summary.kind); // shows the Write/Recognize picker
+    return;
+  }
+  const name = LANGUAGE_NAMES[lang] || lang;
+  el("empty-state-message").textContent =
+    summary.kind === "done"
+      ? `You're all done with ${name} for today. Nice work! 🎉`
+      : `No ${name} words due right now. Nice work staying caught up!`;
+  showSection("empty-state");
 }
 
 async function init() {
@@ -764,8 +841,8 @@ async function init() {
   const [due, status] = await Promise.all([api("/api/due"), api("/api/status")]);
   allDueCards = due;
   cards = allDueCards;
-  const completedLanguages = status.completed_languages;
-  renderCompletedNote(completedLanguages);
+  bootStatus = { languages: {}, ...status };
+  renderCompletedNote(status.completed_languages);
   renderBacklogNote(status.backlog);
 
   el("mode-write").addEventListener("click", () => startSession("write"));
@@ -775,50 +852,8 @@ async function init() {
   el("write-priority-btn").addEventListener("click", () => togglePriority("write-priority-btn"));
   el("recognize-priority-btn").addEventListener("click", () => togglePriority("recognize-priority-btn"));
 
-  // What you could start right now: any language with an active batch
-  // still due today, plus any language that's done for today but still
-  // has backlog you could deliberately keep going on -- e.g. you've hit
-  // French's cap for the day, but want to come back this evening and do
-  // another chunk rather than wait for tomorrow.
-  const activeLangs = [...new Set(cards.map((c) => c.language))];
-  const continuableBacklogLangs = completedLanguages.filter((lang) => lang in status.backlog);
-
-  const options = [
-    ...activeLangs.map((lang) => ({
-      lang,
-      kind: "active",
-      count: cards.filter((c) => c.language === lang).length,
-    })),
-    ...continuableBacklogLangs.map((lang) => ({
-      lang,
-      kind: "backlog",
-      count: status.backlog[lang].due,
-    })),
-  ];
-
-  if (options.length === 0) {
-    // Nothing active and nothing continuable, but tell apart "you
-    // finished everything that was due" from "there was never anything
-    // due in the first place" -- only the former actually happened today.
-    el("empty-state-message").textContent =
-      completedLanguages.length > 0
-        ? "You're all done for today. Nice work! 🎉"
-        : "Nothing recommended right now. Nice work staying caught up!";
-    showSection("empty-state");
-    el("progress").textContent = "";
-    return;
-  }
-
-  // Only ask which language/option when there's actually a choice to
-  // make -- a single option (the common case) skips straight past this.
-  if (options.length > 1) {
-    renderLanguageOptions(options);
-    el("progress").textContent = `${options.length} option${options.length === 1 ? "" : "s"} available right now`;
-    showSection("language-picker");
-    return;
-  }
-
-  await chooseLanguage(options[0].lang, options[0].kind); // calls showModePicker() itself
+  // Always start on the language tiles; each tile says what's due.
+  showHome();
 }
 
 init();

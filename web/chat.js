@@ -206,8 +206,10 @@
             reply.text += ev.text;
             $("chat-status").textContent = "";
           } else if (ev.type === "tool") {
+            // The step already shows in the reply (green), so the status
+            // line stays generic instead of repeating it.
             reply.tools.push(ev.label);
-            $("chat-status").textContent = ev.label + "…";
+            $("chat-status").textContent = "Claude is working…";
           } else if (ev.type === "images") {
             (reply.images = reply.images || []).push(ev.results);
           } else if (ev.type === "error") {
